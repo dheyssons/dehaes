@@ -31,7 +31,7 @@ const Carousel = ({ children }) => {
         {children[index]}
       </motion.div>
     </AnimatePresence>
-      <button
+      <button title='left button'
         onClick={prevSlide}
         className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#073c68] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#2255a6]"
       >
@@ -43,6 +43,7 @@ const Carousel = ({ children }) => {
       
 
       <button
+      title='right button'
         onClick={nextSlide}
         className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#073c68] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#2255a6]"
       >

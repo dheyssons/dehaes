@@ -118,7 +118,7 @@ export default function ContactForm() {
                     </motion.div> 
                 </div>
         
-                <iframe src={config.mapsLinkExtended}  className="border-0 lg:mt-20 w-[1440px] h-[300px] lg:h-[600px]" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src={config.mapsLinkExtended} title="google location" className="border-0 lg:mt-20 w-[1440px] h-[300px] lg:h-[600px]" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         
                 <div className='line'></div>
             </section>

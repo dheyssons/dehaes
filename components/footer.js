@@ -68,14 +68,14 @@ export default function Footer() {
 				<div className='self-center'>
 					<p className={`${archivo.className} p small self-center text-center m-[1rem]`}>© 2025 - {config.companyName}</p>
 
-					<div className='space-x-4'>
-						<a className='text-sm text-[--primary-color] underline underline-offset-2' href='/dataprotection'>Gegevensbescherming</a>
-						<a className='text-sm text-[--primary-color] underline underline-offset-2' href='/generalconditions'>Algemene Voorwaarden</a>
-						<a className='text-sm text-[--primary-color] underline underline-offset-2' href='/legalnotices'>Juridische Mededelingen</a>
-						<a className='text-sm text-[--primary-color] underline underline-offset-2' href='/privacypolicy'>Privacybeleid</a>
+					<div className=' grid grid-cols-2 gap-5 lg:flex'>
+						<a className='text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70' href='/dataprotection'>Gegevensbescherming</a>
+						<a className='text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70' href='/generalconditions'>Algemene Voorwaarden</a>
+						<a className='text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70' href='/legalnotices'>Juridische Mededelingen</a>
+						<a className='text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70' href='/privacypolicy'>Privacybeleid</a>
 					</div>
 
-					<p className={`${archivo.className} p small self-center text-center m-[1rem]`}>Ontwikkeld door <a className='text-[--primary-color]' href='https://br.fiverr.com/s/99XLarK' target='_blank'>DheyssonS</a></p>
+					<p className={`${archivo.className} p small self-center text-center m-[1rem]`}>Ontwikkeld door <a className='text-[--primary-color] hover:opacity-70 underline underline-offset-2' href='https://br.fiverr.com/s/99XLarK' target='_blank'>DheyssonS</a></p>
 				</div>		
 			</div>
 		</footer>

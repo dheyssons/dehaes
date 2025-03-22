@@ -54,12 +54,12 @@ export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-      <header id='parallax-header' className="z-10 fixed w-full bg-white pt-10 lg:pt-0">
+      <header id='parallax-header' className="z-10 fixed w-full bg-white pt-10 lg:pt-10">
         <nav aria-label="Global" className="flex flex-row items-center justify-around">
           <motion.div variants={dropdown} initial="variantInit" whileInView="variantAnim" viewport={{once:true}} transition={transition1_s} className="max-w-max lg:flex-1 flex flex-row items-center gap-x-4 pt-3">
             {/* LOGO */}
             <motion.a variants={dropdown} href="/" className="">
-              <img alt="home" src={config.companyIconPath} className="h-16 w-auto"/>
+              <img alt="home" src={config.companyIconPath} className="w-28"/>
             </motion.a>
             {/* INFO */}
             <motion.div variants={dropdown} className='flex flex-col'>
@@ -88,84 +88,89 @@ export default function Header() {
               <motion.div>
                 <div className='flex flex-row gap-x-2'>
                   <PhoneIcon className='size-7' />
-                  <h5 className='h5'>{config.phoneNumber}</h5>
+                  <span className='h5'>{config.phoneNumber}</span>
                 </div>
               </motion.div>
 
-              {/* ACCUEIL */}
-              <li>
-                <a href="/" title='Accueil' className="text-md/6 font-semibold text-gray-900">
-                  HOME
-                </a>
-              </li>
-              
+              <menu className='hidden lg:flex lg:gap-x-12 items-center'>
+                {/* ACCUEIL */}
+                <li>
+                  <a href="/" title='Accueil' className="text-sm font-semibold text-gray-900">
+                    HOME
+                  </a>
+                </li>
+                
 
-              {/* ABOUT US */}
-              <li>
-                <a href="/about" title='Wie zijn we' className="text-md/6 font-semibold text-gray-900">
-                  WIE ZIJN WE
-                </a>
-              </li>
+                {/* ABOUT US */}
+                <li>
+                  <a href="/about" title='Wie zijn we' className="text-sm font-semibold text-gray-900">
+                    WIE ZIJN WE
+                  </a>
+                </li>
 
-              <Popover className="relative">
-                <motion.div>
-                  <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-gray-900">
-                  ONZE DIENSTEN
-                    <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
-                  </PopoverButton>
-                </motion.div>
+                <div>
+                  <Popover className="relative">
+                    <motion.div>
+                      <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold text-gray-900">
+                      ONZE DIENSTEN
+                        <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
+                      </PopoverButton>
+                    </motion.div>
 
-                <PopoverPanel
-                  transition
-                  className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
-                >
-                  <div className="p-4">
-                    {services.map((item) => (
-                      <div
-                        key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6"
-                      >
-                        {/* <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50">
-                          <item.icon aria-hidden="true" className="size-6 text-gray-600 group-hover:text-[--primary-color]" />
-                        </div> */}
-                        <div className="flex-auto">
-                          <a className="block font-semibold text-gray-900 hover:text-[--primary-color]" href={item.href}>
-                            {item.name}
-                            <span className="absolute inset-0" />
-                          </a>
-                          <p className="mt-1 text-gray-600">{item.description}</p>
-                        </div>
+                    <PopoverPanel
+                      transition
+                      className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                    >
+                      <div className="p-4">
+                        {services.map((item) => (
+                          <div
+                            key={item.name}
+                            className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6"
+                          >
+                            {/* <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50">
+                              <item.icon aria-hidden="true" className="size-6 text-gray-600 group-hover:text-[--primary-color]" />
+                            </div> */}
+                            <div className="flex-auto">
+                              <a className="block font-semibold text-gray-900 hover:text-[--primary-color]" href={item.href}>
+                                {item.name}
+                                <span className="absolute inset-0" />
+                              </a>
+                              <p className="mt-1 text-gray-600">{item.description}</p>
+                            </div>
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
-                  <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                    {callsToAction.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        target='_blank'
-                        className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
-                      >
-                        <item.icon aria-hidden="true" className="size-5 flex-none text-gray-400" />
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
-                </PopoverPanel>
-              </Popover>
+                      <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                        {callsToAction.map((item) => (
+                          <a
+                            key={item.name}
+                            href={item.href}
+                            target='_blank'
+                            className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
+                          >
+                            <item.icon aria-hidden="true" className="size-5 flex-none text-gray-400" />
+                            {item.name}
+                          </a>
+                        ))}
+                      </div>
+                    </PopoverPanel>
+                  </Popover>
+                </div>
 
-              {/* NOTRE TRAVAIL */}
-              <li>
-                <a title='Projecten' href="/portfolio" className="text-md/6 font-semibold text-gray-900">
-                  PROJECTEN
-                </a>
-              </li>
-              {/* CONTACT */}
-              <li>
-                <a title='Contact' href="/contact" className="text-md/6 font-semibold text-gray-900">
-                  CONTACT
-                </a>
-              </li>
+                {/* NOTRE TRAVAIL */}
+                <li>
+                  <a title='Projecten' href="/portfolio" className="text-sm font-semibold text-gray-900">
+                    PROJECTEN
+                  </a>
+                </li>
+
+                {/* CONTACT */}
+                <li>
+                  <a title='Contact' href="/contact" className="text-sm font-semibold text-gray-900">
+                    CONTACT
+                  </a>
+                </li>
+              </menu>
             </PopoverGroup>
           </motion.div>
         </nav>

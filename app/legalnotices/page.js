@@ -1,7 +1,7 @@
 export default function LegalNotices() {
     return (
-      <section className="container mx-auto max-w-screen-xl py-12 px-4">
-        <h1 className="text-3xl font-bold text-[--primary-color] mb-8">Juridische Mededelingen</h1>
+      <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">
+        <h1 className="h2 font-bold text-[--primary-color] mb-8">Juridische Mededelingen</h1>
 
         <div className="space-y-6">
           <p className="text-gray-700">

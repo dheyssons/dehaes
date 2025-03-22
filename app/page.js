@@ -72,7 +72,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}
             <div className='overflow-hidden max-w-max h-56'>
-              <h4 className='h4'>Daktimmers</h4>
+              <h5 className='h4'>Daktimmers</h5>
               <p className='p small'>Daktimmers vormen de ruggengraat van een stevig en goed gebouwd dak. Met meer dan een eeuw ervaring werken wij met hoogwaardige houtsoorten en verfijnde technieken om duurzaamheid, veiligheid en een onberispelijke afwerking te garanderen, zowel bij nieuwbouw als renovaties.</p>
             </div>
         </div>
@@ -85,7 +85,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}
           <div className='overflow-hidden max-w-max h-56'>
-            <h4 className='h4'>Groendaken</h4>
+            <h5 className='h4'>Groendaken</h5>
             <p className='p small'>Groendaken zijn een innovatieve en duurzame oplossing voor zowel residentiële als commerciële gebouwen. Ze verbeteren de energie-efficiëntie, verlengen de levensduur van het dak en dragen bij aan een beter milieu door waterretentie en luchtzuivering.</p>
           </div>  
       </div>
@@ -98,7 +98,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}       
             <div className='overflow-hidden max-w-max h-56'>
-              <h4 className='h4'>Gevelbekleding</h4>
+              <h5 className='h4'>Gevelbekleding</h5>
               <p className='p small'>Gevelbekleding zorgt voor de esthetische uitstraling en bescherming van uw gebouw. Wij bieden een breed scala aan gevelbekledingdiensten, van installatie tot renovatie, met materialen die zowel visueel aantrekkelijk als functioneel zijn.</p>
             </div> 
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}
             <div className='overflow-hidden max-w-max h-56'>
-              <h4 className='h4'>Platte daken</h4>
+              <h5 className='h4'>Platte daken</h5>
               <p className='p small'>Platte daken bieden efficiëntie en functionaliteit voor verschillende projecten, en zijn bovendien zeer effectief in waterdichting en isolatie. Met op maat gemaakte oplossingen garanderen we de duurzaamheid en prestaties van uw dak, waarbij we de structuur beschermen tegen klimaatschommelingen en problemen met de afwatering.</p>   
             </div>
         </div>
@@ -121,14 +121,14 @@ export default function Home() {
       </div>
       {/* renovatie */}
       <div className='card-services'>
-      <img className='image-services' alt='renovatie' src='images/services/renovation.webp'></img>
-      <div className='flex flex-col gap-y-3 justify-around h-60'>
-          <div className='overflow-hidden max-w-max h-56'>
-            <h4 className='h4'>Renovatie</h4>
-            <p className='p small'>Renovatie is een cruciale stap om uw gebouwen en ruimtes te verbeteren, moderniseren of restaureren. Of het nu gaat om het repareren van schade, het moderniseren van een structuur of het verhogen van de energie-efficiëntie, onze renovatiediensten zijn ontworpen om aan uw behoeften te voldoen, terwijl we uw verwachtingen respecteren.</p>      
-          </div>
-      </div>
-            <a className='btn uppercase' href='/services/renovatie'>meer informatie <LuArrowUpRight className='mx-1' /> </a>
+        <img className='image-services' alt='renovatie' src='images/services/renovation.webp'></img>
+        <div className='flex flex-col gap-y-3 justify-around h-60'>
+            <div className='overflow-hidden max-w-max h-56'>
+              <h5 className='h4'>Renovatie</h5>
+              <p className='p small'>Renovatie is een cruciale stap om uw gebouwen en ruimtes te verbeteren, moderniseren of restaureren. Of het nu gaat om het repareren van schade, het moderniseren van een structuur of het verhogen van de energie-efficiëntie, onze renovatiediensten zijn ontworpen om aan uw behoeften te voldoen, terwijl we uw verwachtingen respecteren.</p>      
+            </div>
+        </div>
+        <a className='btn uppercase' href='/services/renovatie'>meer informatie <LuArrowUpRight className='mx-1' /> </a>
       </div>
       {/* isolatie */}
       <div className='card-services'>
@@ -136,7 +136,7 @@ export default function Home() {
         {/* text */}
         <div className='flex flex-col gap-y-3 justify-around h-60'>
             <div className='overflow-hidden max-w-max h-56'>
-              <h4 className='h4'>Isolatie</h4>
+              <h5 className='h4'>Isolatie</h5>
               <p className='p small'>Wij bieden thermische isolatie-oplossingen voor daken die zorgen voor meer comfort en een aanzienlijke vermindering van energiekosten. Onze diensten worden volledig gepersonaliseerd om te voldoen aan de specifieke behoeften van schuine of platte daken.</p>
             </div>
         </div>
@@ -154,7 +154,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}
             <div className='overflow-hidden max-w-max lg:h-56'>
-              <h4 className='h4'>Daktimmers</h4>
+              <h5 className='h4'>Daktimmers</h5>
               <p className='p small'>Daktimmers vormen de ruggengraat van een stevig en goed gebouwd dak. Met meer dan een eeuw ervaring werken wij met hoogwaardige houtsoorten en verfijnde technieken om duurzaamheid, veiligheid en een onberispelijke afwerking te garanderen, zowel bij nieuwbouw als renovaties.</p>
             </div>
         </div>
@@ -169,7 +169,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}
             <div className='overflow-hidden max-w-max lg:h-56'>
-              <h4 className='h4'>Platte daken</h4>
+              <h5 className='h4'>Platte daken</h5>
               <p className='p small'>Platte daken bieden efficiëntie en functionaliteit voor verschillende projecten, en zijn bovendien zeer effectief in waterdichting en isolatie. Met op maat gemaakte oplossingen garanderen we de duurzaamheid en prestaties van uw dak, waarbij we de structuur beschermen tegen klimaatschommelingen en problemen met de afwatering.</p>   
             </div>
         </div>
@@ -184,7 +184,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}
           <div className='overflow-hidden max-w-max lg:h-56'>
-            <h4 className='h4'>Groendaken</h4>
+            <h5 className='h4'>Groendaken</h5>
             <p className='p small'>Groendaken zijn een innovatieve en duurzame oplossing voor zowel residentiële als commerciële gebouwen. Ze verbeteren de energie-efficiëntie, verlengen de levensduur van het dak en dragen bij aan een beter milieu door waterretentie en luchtzuivering.</p>
           </div>  
       </div>
@@ -199,7 +199,7 @@ export default function Home() {
         <div className='flex flex-col gap-y-3 justify-around h-60'>
           {/* title */}       
             <div className='overflow-hidden max-w-max lg:h-56'>
-              <h4 className='h4'>Gevelbekleding</h4>
+              <h5 className='h4'>Gevelbekleding</h5>
               <p className='p small'>Gevelbekleding zorgt voor de esthetische uitstraling en bescherming van uw gebouw. Wij bieden een breed scala aan gevelbekledingdiensten, van installatie tot renovatie, met materialen die zowel visueel aantrekkelijk als functioneel zijn.</p>
             </div> 
         </div>
@@ -213,7 +213,7 @@ export default function Home() {
         {/* text */}
         <div className='flex flex-col gap-y-3 justify-around h-60'>
             <div className='overflow-hidden max-w-max lg:h-56'>
-              <h4 className='h4'>Isolatie</h4>
+              <h5 className='h4'>Isolatie</h5>
               <p className='p small'>Wij bieden thermische isolatie-oplossingen voor daken die zorgen voor meer comfort en een aanzienlijke vermindering van energiekosten. Onze diensten worden volledig gepersonaliseerd om te voldoen aan de specifieke behoeften van schuine of platte daken.</p>
             </div>
         </div>
@@ -226,7 +226,7 @@ export default function Home() {
       <img className='image-services' alt='renovatie' src='images/services/renovation.webp'></img>
       <div className='flex flex-col gap-y-3 justify-around h-60'>
           <div className='overflow-hidden max-w-max lg:h-56'>
-            <h4 className='h4'>Renovatie</h4>
+            <h5 className='h4'>Renovatie</h5>
             <p className='p small'>Renovatie is een cruciale stap om uw gebouwen en ruimtes te verbeteren, moderniseren of restaureren. Of het nu gaat om het repareren van schade, het moderniseren van een structuur of het verhogen van de energie-efficiëntie, onze renovatiediensten zijn ontworpen om aan uw behoeften te voldoen, terwijl we uw verwachtingen respecteren.</p>      
           </div>
       </div>
@@ -375,7 +375,7 @@ export default function Home() {
           <div className='overflow-hidden max-w-max mx-20'>
             <div className='flex flex-row items-center'>
               <div className='accent'></div>
-              <h5 className='h5 !text-[--primary-color]'>Diensten</h5>
+              <h4 className='h5 !text-[--primary-color]'>Diensten</h4>
             </div>
             <motion.h2 variants={lefttoright} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='h2'>Belangrijkste diensten</motion.h2>
           </div>

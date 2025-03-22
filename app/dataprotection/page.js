@@ -1,31 +1,31 @@
 export default function DataProtection() {
     return (
-        <section className="container mx-auto max-w-screen-xl py-12 px-4">
-            <h1 className="text-3xl font-bold text-[--primary-color] mb-8">Algemene Voorwaarden</h1>
+        <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">
+            <h1 className="h2 font-bold text-[--primary-color] mb-8">Gegevensbescherming</h1>
 
             <div className="space-y-6">
                 <p className="text-gray-700">
-                Deze algemene voorwaarden zijn van toepassing op alle diensten en overeenkomsten tussen <strong>Schrijnwerkerij De Haes</strong> en haar klanten.
+                <strong>Schrijnwerkerij De Haes</strong> neemt de bescherming van uw persoonsgegevens zeer serieus. Wij voldoen aan de Algemene Verordening Gegevensbescherming (AVG) en andere toepasselijke wetgeving.
                 </p>
 
-                <h2 className="text-xl font-semibold text-[--primary-color]">Offertes en Betalingen</h2>
+                <h2 className="text-xl font-semibold text-[--primary-color]">Verwerking van Gegevens</h2>
                 <p className="text-gray-700">
-                Offertes zijn geldig voor 30 dagen. Betalingen dienen te worden voldaan binnen 14 dagen na factuurdatum, tenzij anders overeengekomen.
+                Wij verwerken uw gegevens alleen voor specifieke doeleinden, zoals het verstrekken van offertes, het uitvoeren van projecten en het verbeteren van onze diensten.
                 </p>
 
-                <h2 className="text-xl font-semibold text-[--primary-color]">Levering en Uitvoering</h2>
+                <h2 className="text-xl font-semibold text-[--primary-color]">Rechten van Betrokkenen</h2>
                 <p className="text-gray-700">
-                Wij streven ernaar projecten binnen de overeengekomen termijn af te ronden. Vertragingen als gevolg van onvoorziene omstandigheden zijn mogelijk.
+                U heeft het recht om uw gegevens in te zien, te corrigeren, te verwijderen of de verwerking te beperken. U kunt ook bezwaar maken tegen de verwerking van uw gegevens.
                 </p>
 
-                <h2 className="text-xl font-semibold text-[--primary-color]">Aansprakelijkheid</h2>
+                <h2 className="text-xl font-semibold text-[--primary-color]">Beveiligingsmaatregelen</h2>
                 <p className="text-gray-700">
-                Onze aansprakelijkheid is beperkt tot de waarde van de overeenkomst. Wij zijn niet aansprakelijk voor indirecte schade, zoals bedrijfsverlies.
+                Wij hebben technische en organisatorische maatregelen getroffen om uw gegevens te beschermen tegen ongeoorloofde toegang, verlies of wijziging.
                 </p>
 
-                <h2 className="text-xl font-semibold text-[--primary-color]">Geschillen</h2>
+                <h2 className="text-xl font-semibold text-[--primary-color]">Contact</h2>
                 <p className="text-gray-700">
-                Geschillen worden in eerste instantie in onderling overleg opgelost. Indien nodig is de Belgische wetgeving van toepassing.
+                Voor vragen over gegevensbescherming kunt u contact met ons opnemen via het opgegeven contactformulier of e-mailadres.
                 </p>
             </div>
         </section>
