@@ -16,7 +16,7 @@ import Duffel1 from "@/public/images/portfolio/duffel/image1.webp"
 import Duffel2 from "@/public/images/portfolio/duffel/image2.webp"
 import Duffel3 from "@/public/images/portfolio/duffel/image3.webp"
 
-import Onzelieve1 from "@/public/images/portfolio/onzelieve/image1.jpg"
+import Onzelieve1 from "@/public/images/portfolio/onzelieve/image1.webp"
 import Onzelieve2 from "@/public/images/portfolio/onzelieve/image2.webp"
 import Onzelieve3 from "@/public/images/portfolio/onzelieve/image3.webp"
 import Onzelieve4 from "@/public/images/portfolio/onzelieve/image4.webp"
