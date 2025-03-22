@@ -1,7 +1,7 @@
 const config = {
     companyName: "Schrijnwerkerij De Haes",
     companySlogan: "Traditie en kwaliteit die generaties overstijgen.",
-    companyIconPath: "/logo.jpg",
+    companyIconPath: "/logo.webp",
     ivaNumber: "BTW BE 417.710.407",
     whatsappNumber: "015551935",
     phoneNumber: "015 55 19 35",
