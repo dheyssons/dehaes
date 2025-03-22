@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="keywords" content="schrijnwerkerij, de haes, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"></meta>
       </head>
-      <meta name="google-site-verification" content="HNdQz7w1myir7wQlHPbwgyzpYuO7DXgFVninTdBpG0M" />
+      <meta name="google-site-verification" content="iJG9g6Q9U-v746a0tzQHDktkoMmmpHSIrWBU9EAjGus" />
       <body className={`${archivo.variable} antialiased`}>
         <Header></Header>
         {children}
