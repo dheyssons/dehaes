@@ -11,7 +11,7 @@ export function EmblaCarousel() {
     <div className="embla max-w-[36rem]" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide">
-          <img alt='' className='max-w-[36rem] rounded-md hidden md:flex' src='images/home1.jpg'></img>
+          <img alt='' className='max-w-[36rem] rounded-md hidden md:flex' src='images/home1.webp'></img>
         </div>
         <div className="embla__slide">
           <img alt='' className='max-w-[36rem] rounded-md hidden md:flex' src='images/home2.webp'></img>

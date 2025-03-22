@@ -121,7 +121,7 @@ export default function Home() {
       </div>
       {/* renovatie */}
       <div className='card-services'>
-      <img className='image-services' alt='renovatie' src='images/services/renovation.png'></img>
+      <img className='image-services' alt='renovatie' src='images/services/renovation.webp'></img>
       <div className='flex flex-col gap-y-3 justify-around h-60'>
           <div className='overflow-hidden max-w-max h-56'>
             <h4 className='h4'>Renovatie</h4>
@@ -223,7 +223,7 @@ export default function Home() {
     <div key="slide6" className='flex flex-row gap-x-10'>
       {/* renovatie */}
       <div className='card-services'>
-      <img className='image-services' alt='renovatie' src='images/services/renovation.png'></img>
+      <img className='image-services' alt='renovatie' src='images/services/renovation.webp'></img>
       <div className='flex flex-col gap-y-3 justify-around h-60'>
           <div className='overflow-hidden max-w-max lg:h-56'>
             <h4 className='h4'>Renovatie</h4>

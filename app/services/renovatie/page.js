@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RenovatieImage from "@/public/images/services/renovation.png"
+import RenovatieImage from "@/public/images/services/renovation.webp"
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";

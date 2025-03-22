@@ -82,7 +82,7 @@ export default function OurServices() {
                   </div>
                   {/* renovation */}
                   <div>
-                        <img className='image-services' alt='renovatie' src='images/services/renovation.png'></img>
+                        <img className='image-services' alt='renovatie' src='images/services/renovation.webp'></img>
                         <div className='flex flex-col gap-y-3 justify-around'>
                             <div className=' max-w-max'>
                                 <h4 className='h4'>Renovatie</h4>
