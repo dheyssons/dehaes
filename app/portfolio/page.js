@@ -53,7 +53,7 @@ import ContactForm from '@/components/contactform';
 
 const images = [
     '/images/portfolio/duffel/image1.webp',
-    '/images/portfolio/onzelieve/image1.jpg',
+    '/images/portfolio/onzelieve/image1.wenp',
     '/images/portfolio/putte/image1.webp',
     '/images/portfolio/waarloos/image (6).webp',
     '/images/portfolio/tremelo/image4.webp',
