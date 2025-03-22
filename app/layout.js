@@ -19,17 +19,15 @@ const archivo = localFont({
 })
 
 export const metadata = {
-  title: "GMW Construct BE - Brabant wallon & région bruxelloise",
-  description: "Construction et rénovations de toitures. - Isolation, Couverture, Zinguerie, Charpente, Bardage et Plate-forme",
+  title: "Schrijnwerkerij de haes",
+  description: "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" className="scroll-smooth">
+    <html lang="nl" className="scroll-smooth">
       <head>
-        <link rel="icon" href="logo.png"></link>
-        <meta name="description" content="Construction et rénovations de toitures. - Isolation, Couverture, Zinguerie, Charpente, Bardage et Plate-forme"></meta>
-        <meta name="keywords" content="GMW, Construct, Construction, Roofing, Toiture, Belgique"></meta>
+        <meta name="keywords" content="schrijnwerkerij, de haes, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"></meta>
       </head>
       <meta name="google-site-verification" content="HNdQz7w1myir7wQlHPbwgyzpYuO7DXgFVninTdBpG0M" />
       <body className={`${archivo.variable} antialiased`}>
@@ -37,8 +35,6 @@ export default function RootLayout({ children }) {
         {children}
         <Analytics/>
         <Footer></Footer>
-
-        
       </body>
     </html>
   );

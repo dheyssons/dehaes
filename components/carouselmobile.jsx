@@ -34,14 +34,14 @@ const CarouselMobile = ({ children }) => {
  
       <button
         onClick={prevSlide}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-[#921818] bg-gradient-to-r from-[#c12c2c] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#d52f2f]"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#073c68] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#2255a6]"
       >
         <BiChevronLeft size={24} />
       </button>
 
       <button
         onClick={nextSlide}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#921818] bg-gradient-to-r from-[#c12c2c] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#d52f2f]"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#073c68] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#2255a6]"
       >
         <BiChevronRight size={24} />
       </button>
