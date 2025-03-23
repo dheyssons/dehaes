@@ -5,11 +5,14 @@ import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
 
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
+
 export default function Daktimmer() {
     return (
         <div className="">
             {/* main */}
-            <section className="container mx-auto max-w-screen-xl pt-28">
+            <section className="container mx-auto max-w-xl lg:max-w-screen-xl pt-28">
                 <div className="bg-white py-12">
                     <div className="container mx-auto px-4">
                         {/* Título */}
@@ -18,7 +21,7 @@ export default function Daktimmer() {
                         </h2>
 
                         {/* Conteúdo com Grid */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mt-8">
                             {/* Texto */}
                             <div className="space-y-6">
                                 <p className="text-gray-700 p small leading-relaxed">
@@ -62,57 +65,51 @@ export default function Daktimmer() {
                     Veelgestelde Vragen over Daktimmers
                     </h2>
 
-                    {/* Lista de Perguntas e Respostas */}
-                    <div className="space-y-4 max-w-2xl mx-auto">
-                    {/* Pergunta 1 */}
-                    <div className="bg-white p-6 rounded-lg shadow-sm">
-                        <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                        Wat is daktimmerwerk?
-                        </h4>
-                        <p className="text-gray-700">
-                        Daktimmerwerk verwijst naar het vakmanschap van het ontwerpen en bouwen van dakconstructies. Het omvat het plaatsen van spanten, gordingen en kepers om een robuuste en duurzame dakstructuur te creëren.
-                        </p>
-                    </div>
+                    <div className="flex flex-col gap-y-10 items-center max-w-2xl mx-auto">
+                        <Disclosure>
+                            <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">Wat is daktimmerwerk?
+                                <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
+                            </DisclosureButton>
+                            <DisclosurePanel className="text-gray-500">
+                            Daktimmerwerk verwijst naar het vakmanschap van het ontwerpen en bouwen van dakconstructies. Het omvat het plaatsen van spanten, gordingen en kepers om een robuuste en duurzame dakstructuur te creëren.
+                            </DisclosurePanel>
+                        </Disclosure>
 
-                    {/* Pergunta 2 */}
-                    <div className="bg-white p-6 rounded-lg shadow-sm">
-                        <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                        Waarom is een goede dakconstructie belangrijk?
-                        </h4>
-                        <p className="text-gray-700">
-                        Een goede dakconstructie zorgt voor maximale stabiliteit, draagkracht en bescherming tegen weersinvloeden. Het is essentieel voor de veiligheid en duurzaamheid van uw woning of gebouw.
-                        </p>
-                    </div>
+                        <Disclosure>
+                            <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">Waarom is een goede dakconstructie belangrijk?
+                                <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
+                            </DisclosureButton>
+                            <DisclosurePanel className="text-gray-500">
+                            Een goede dakconstructie zorgt voor maximale stabiliteit, draagkracht en bescherming tegen weersinvloeden. Het is essentieel voor de veiligheid en duurzaamheid van uw woning of gebouw.
+                            </DisclosurePanel>
+                        </Disclosure>
 
-                    {/* Pergunta 3 */}
-                    <div className="bg-white p-6 rounded-lg shadow-sm">
-                        <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                        Welke materialen worden gebruikt bij daktimmerwerk?
-                        </h4>
-                        <p className="text-gray-700">
-                        Wij werken met duurzame houtsoorten en moderne bouwtechnieken om ervoor te zorgen dat uw dakconstructie van hoge kwaliteit is en bestand is tegen de elementen.
-                        </p>
-                    </div>
+                        <Disclosure>
+                            <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">Welke materialen worden gebruikt bij daktimmerwerk?
+                                <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
+                            </DisclosureButton>
+                            <DisclosurePanel className="text-gray-500">
+                            Wij werken met duurzame houtsoorten en moderne bouwtechnieken om ervoor te zorgen dat uw dakconstructie van hoge kwaliteit is en bestand is tegen de elementen.
+                            </DisclosurePanel>
+                        </Disclosure>
 
-                    {/* Pergunta 4 */}
-                    <div className="bg-white p-6 rounded-lg shadow-sm">
-                        <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                        Kan daktimmerwerk worden toegepast bij renovatieprojecten?
-                        </h4>
-                        <p className="text-gray-700">
-                        Ja, wij bieden maatwerkoplossingen voor zowel nieuwbouw als renovatieprojecten. Ons team zorgt ervoor dat de bestaande structuur wordt versterkt en verbeterd.
-                        </p>
-                    </div>
+                        <Disclosure>
+                            <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">Kan daktimmerwerk worden toegepast bij renovatieprojecten?
+                                <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
+                            </DisclosureButton>
+                            <DisclosurePanel className="text-gray-500">
+                            Ja, wij bieden maatwerkoplossingen voor zowel nieuwbouw als renovatieprojecten. Ons team zorgt ervoor dat de bestaande structuur wordt versterkt en verbeterd.
+                            </DisclosurePanel>
+                        </Disclosure>
 
-                    {/* Pergunta 5 */}
-                    <div className="bg-white p-6 rounded-lg shadow-sm">
-                        <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                        Hoe lang duurt het om een dakconstructie te bouwen?
-                        </h4>
-                        <p className="text-gray-700">
-                        De duur hangt af van de omvang en complexiteit van het project. Wij zorgen altijd voor een efficiënte planning en uitvoering om uw project op tijd af te ronden.
-                        </p>
-                    </div>
+                        <Disclosure>
+                            <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">Hoe lang duurt het om een dakconstructie te bouwen?
+                                <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
+                            </DisclosureButton>
+                            <DisclosurePanel className="text-gray-500">
+                            De duur hangt af van de omvang en complexiteit van het project. Wij zorgen altijd voor een efficiënte planning en uitvoering om uw project op tijd af te ronden.
+                            </DisclosurePanel>
+                        </Disclosure>
                     </div>
                 </div>
             </section>

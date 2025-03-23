@@ -6,7 +6,7 @@ export default function Whyus() {
     return (
         <div className="flex flex-col items-center bg-gray-50 py-12">
                 <div className="container mx-auto max-w-screen-xl px-4">
-                    <h3 className="text-3xl font-bold text-[--primary-color] text-center mb-8">
+                    <h3 className="text-3xl font-bold  text-center mb-8">
                     Waarom Kiezen voor Ons?
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

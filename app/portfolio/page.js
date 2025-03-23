@@ -242,7 +242,7 @@ export default function Portfolio() {
 
     return (
         <section>
-            <div className="container mx-auto flex flex-col max-w-sm lg:max-w-screen-xl gap-y-20 pt-40">
+            <div className="container mx-auto flex flex-col max-w-sm md:max-w-xl lg:max-w-screen-xl gap-y-20 pt-40">
                 {/* TEXTS */}
                 <div className="flex flex-col gap-y-4 overflow-hidden">
                     <div className="flex flex-row items-center">

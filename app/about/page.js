@@ -41,10 +41,10 @@ export default function About() {
 
 
     return (
-        <main className="flex flex-col gap-y-10 lg:gap-y-20">
-            <section className="container mx-auto flex flex-col lg:flex-row max-w-sm lg:max-w-screen-lg pt-40 pb-14 gap-x-20">
+        <main className="flex flex-col gap-y-20 lg:gap-y-20">
+            <section className="container mx-auto flex flex-col items-center justify-center md:flex-row max-w-sm md:max-w-screen-lg pt-40 pb-10 gap-x-20">
                 {/* IMAGES */}
-                <div className="hidden lg:flex flex-col items-center">
+                <div className="hidden md:flex flex-col items-center">
                     <Image className="w-32 rounded-sm" src={Frans} alt=""/>
                     <div className="accentV"></div>
                     <Image className="w-32 rounded-sm" src={Jos} alt=""/>
@@ -71,7 +71,7 @@ export default function About() {
                     </div>
                 </div>
                 {/* IMAGE SLIDER */}
-                <div className="lg:hidden relative overflow-hidden w-full py-4">
+                <div className="md:hidden relative overflow-hidden w-full py-4">
                     <div className="absolute top-0 left-0 w-30 h-full bg-gradient-to-r from-white to-transparent pointer-events-none z-50" />
                     <div className="absolute top-0 right-0 w-30 h-full bg-gradient-to-l from-white to-transparent pointer-events-none z-50" />
                     
@@ -99,7 +99,7 @@ export default function About() {
                 </div>
             </section>
 
-            <section className="container mx-auto flex flex-col gap-y-6 max-w-sm lg:max-w-screen-2xl items-center">
+            <section className="container mx-auto flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl items-center">
                 <h3 className="h3">Schrijnwerkerijn De Haes</h3>
 
                 <div className="flex flex-col gap-y-4 items-center">

@@ -254,12 +254,12 @@ export default function Home() {
         {/* HERO */}
         <section className="banner flex flex-col w-full h-screen items-start relative">
           {/* title */}
-          <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_s} className="mt-44 lg:mt-52 mx-12 lg:mx-0 flex flex-col">
+          <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_s} className="mt-44 lg:mt-52 mx-10 md:mx-12 lg:mx-0 flex flex-col">
             <div className='flex flex-col gap-y-20 lg:gap-y-20 lg:ml-20'>
                 {/* TITLE */}
                 <div>
-                  <motion.h1 variants={item} className="h1 drop-shadow-2xl text-white lg:text-[#ffffff] !leading-10 pb-5">Schrijnwerkerij De Haes</motion.h1>
-                  <motion.p variants={item} className="text-[1.3rem] drop-shadow-2xl text-[#ffffffed] lg:text-[#ffffff] leading-6">Traditie en kwaliteit die generaties overstijgen.</motion.p>
+                  <motion.h1 variants={item} className="h1 drop-shadow-2xl text-white lg:text-[#ffffff] pb-5">Schrijnwerkerij De Haes</motion.h1>
+                  <motion.p variants={item} className="p large drop-shadow-2xl text-[#ffffffed] lg:text-[#ffffff] leading-6">Traditie en kwaliteit die generaties overstijgen.</motion.p>
                   <JsonLd data={jsonLdData}/>
                 </div>
                 {/* CALL TO ACTION  */}
@@ -271,7 +271,7 @@ export default function Home() {
         </section>
 
         {/* ABOUT US */}
-        <section className='container mx-auto flex flex-col items-center gap-y-10 lg:gap-y-28 py-20'>
+        <section className='container mx-auto flex flex-col items-center gap-y-24 lg:gap-y-28 py-20'>
           {/* about */}
           <div className='flex flex-col lg:flex-row items-center gap-10 lg:gap-y-20'>
             {/* texts */}
@@ -284,8 +284,8 @@ export default function Home() {
                     className='h2'>Over <span className='text-[--primary-color] font-bold'>De Haes</span></motion.h3>
                   </div>
                 </div>
-                  <p className='p md:large w-[20rem] md:w-[20rem] lg:w-[32rem] leading-8'>Schrijnwerkerij De Haes is een familiebedrijf dat kan terugblikken op een eeuw vakmanschap. Met Rudy De Haes, de huidige zaakvoerder, is het bedrijf al aan de vierde generatie schrijnwerkers toe. De rode draad door deze familiekroniek is een grote passie voor 'de stiel', een degelijke vakkennis en de wil om klanten een optimale kwaliteit en service te bieden, zoals alleen een familiebedrijf dat kan.</p>
-                  <p className='p md:large w-[20rem] md:w-[20rem] lg:w-[32rem] leading-8'>Zaakvoerder Rudy volgt het technische aspect van ieder project volledig op. De werknemers zijn hooggekwalificeerd en hebben elk hun eigen specialiteit. Het resultaat? Een dak dat tot in de puntjes afgewerkt is.</p>
+                  <p className='p md:large w-[20rem] md:w-[32rem] leading-8'>Schrijnwerkerij De Haes is een familiebedrijf dat kan terugblikken op een eeuw vakmanschap. Met Rudy De Haes, de huidige zaakvoerder, is het bedrijf al aan de vierde generatie schrijnwerkers toe. De rode draad door deze familiekroniek is een grote passie voor 'de stiel', een degelijke vakkennis en de wil om klanten een optimale kwaliteit en service te bieden, zoals alleen een familiebedrijf dat kan.</p>
+                  <p className='p md:large w-[20rem] md:w-[32rem] leading-8'>Zaakvoerder Rudy volgt het technische aspect van ieder project volledig op. De werknemers zijn hooggekwalificeerd en hebben elk hun eigen specialiteit. Het resultaat? Een dak dat tot in de puntjes afgewerkt is.</p>
               </div>
               <a className="btn max-w-max lg:self-start uppercase" href="/about">Meer weten</a>
             </div>
@@ -300,10 +300,10 @@ export default function Home() {
             <Image className='rounded-md hidden lg:block' src={AboutImage} alt=""/>
             {/* text */}
             <div className='flex flex-col gap-y-10'>
-              <h2 className='h3'>Uw dak,<span className='text-[--primary-color]'> onze toewijding!</span></h2>
+              <h2 className='h2'>Uw dak,<span className='text-[--primary-color]'> onze toewijding!</span></h2>
 
               <div>
-                <div className={`flex flex-col gap-y-6 max-w-sm lg:max-w-lg ${ExtendedText ? "" : "!max-h-72 overflow-hidden"}`}>
+                <div className={`flex flex-col gap-y-6 max-w-sm md:max-w-lg ${ExtendedText ? "" : "!max-h-72 overflow-hidden"}`}>
                   <p className='p small'>Uw dak verdient het beste op het gebied van kwaliteit, <strong>isolatie</strong> en <strong>gafwerking</strong>. Ons gespecialiseerde team werkt met toewijding om uw projecten tot leven te brengen, waarbij we functionaliteit en esthetiek combineren voor het perfecte resultaat. Wat ons onderscheidt? Onze <strong>passie</strong> voor het vak en onze inzet om uw verwachtingen te overtreffen, ongeacht de complexiteit van de opdracht.</p>
                   <p className='p small'>Wij zijn actief in Brussel, Waals-Brabant en omliggende regio’s en bieden complete dakoplossingen, van klein onderhoud tot grootschalige renovaties. Met uitgebreide ervaring in de sector garanderen wij hoogwaardige service, met oog voor detail en vakmanschap, zowel voor platte als hellende daken.</p>
                   <p className='p small'>Onze expertise, van generatie op generatie doorgegeven, stelt ons in staat om alle aspecten van uw dak aan te pakken, van constructie tot de installatie van afwerkingen en accessoires. We werken met verschillende soorten <strong> dakbedekking, zoals dakpannen, leisteen, zink en aluminium</strong>, en bieden daarnaast isolatie- en dakraaminstallaties.</p>
@@ -321,7 +321,7 @@ export default function Home() {
           </div>
 
           {/* bottom text */}
-          <div className='flex flex-col gap-y-6 max-w-sm lg:max-w-screen-2xl'>
+          <div className='flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl'>
             <h3 className='h4'>Specialisten in <span className='text-[--primary-color]'>Daktimmers</span></h3>
             <p className='p small !max-w-screen-lg'>Een goed ontworpen <strong>daktimmer</strong> is de ruggengraat van een stevig en duurzaam dak. Het zorgt voor een gelijkmatige gewichtsverdeling en beschermt het gebouw tegen alle weersomstandigheden. Wij werken uitsluitend met hoogwaardige, behandelde houtsoorten die bestand zijn tegen vocht en ongedierte, waardoor een langdurige stabiliteit wordt gegarandeerd. Onze expertise omvat zowel traditionele dakconstructies als moderne spanten, altijd met oog voor precisie en maatwerk.</p>
             <p className='p small !max-w-screen-lg'>Naast een solide structuur is een goed ontwerp essentieel voor optimale ventilatie, thermische isolatie en efficiënte regenwaterafvoer. Door nauwkeurige plaatsing en de juiste materiaalkeuze voorkomen we toekomstige problemen zoals lekkage of verzakking. Of het nu gaat om nieuwbouw of renovatie, wij leveren daktimmers op maat die functionaliteit, duurzaamheid en vakmanschap combineren.</p>

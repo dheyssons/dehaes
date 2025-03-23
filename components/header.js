@@ -55,7 +55,7 @@ export default function Header() {
 
     return (
       <header id='parallax-header' className="z-10 fixed w-full bg-white pt-10 lg:pt-10">
-        <nav aria-label="Global" className="flex flex-row items-center justify-around">
+        <nav aria-label="Global" className="flex flex-row items-center justify-between lg:justify-around mx-8 lg:mx-0">
           <motion.div variants={dropdown} initial="variantInit" whileInView="variantAnim" viewport={{once:true}} transition={transition1_s} className="max-w-max lg:flex-1 flex flex-row items-center gap-x-4 pt-3">
             {/* LOGO */}
             <motion.a variants={dropdown} href="/" className="">
@@ -79,10 +79,11 @@ export default function Header() {
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             >
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon aria-hidden="true" color='#000000' className="size-6" />
+              <Bars3Icon aria-hidden="true" color='#000000' className="size-10" />
             </button>
           </div>
-          <motion.div variants={dropdown} whileInView="variantAnim" viewport={{once:true}} transition={transition1_s}>
+
+          <motion.div variants={dropdown} whileInView="variantAnim" viewport={{once:true}} transition={transition1_s} className='hidden lg:flex'>
             <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
               {/* PHONE NUMBER */}
               <motion.div>
@@ -173,7 +174,9 @@ export default function Header() {
               </menu>
             </PopoverGroup>
           </motion.div>
+
         </nav>
+
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
           <div className="fixed inset-0 z-10" />
           <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -249,6 +252,7 @@ export default function Header() {
             </div>
           </DialogPanel>
         </Dialog>
+        
     </header>
     )
 }

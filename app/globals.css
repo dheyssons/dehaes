@@ -19,10 +19,10 @@
   }
 
   .h1 {
-    @apply lg:text-[#141414] text-[2.8rem] md:text-[5rem] font-bold leading-[120%];
+    @apply lg:text-[#141414] text-[2.8rem] sm:text-[3.4rem] md:text-[5rem] font-bold leading-[100%];
   }
   .h2 {
-    @apply text-[#141414] text-[2rem] md:text-[4rem] font-bold leading-[120%];
+    @apply text-[#141414] text-[2rem] md:text-[3rem] font-bold leading-[120%];
   }
   .h3 {
     @apply text-[#141414] text-[2rem] lg:text-[3rem] font-bold leading-[110%];
