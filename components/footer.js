@@ -75,7 +75,7 @@ export default function Footer() {
 						<a className='text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70' href='/privacypolicy'>Privacybeleid</a>
 					</div>
 
-					<p className={`${archivo.className} p small self-center text-center m-[1rem]`}>Ontwikkeld door <a className='text-[--primary-color] hover:opacity-70 underline underline-offset-2' href='https://br.fiverr.com/s/99XLarK' target='_blank'>DheyssonS</a></p>
+					<p className={`${archivo.className} p small self-center text-center m-[1rem]`}>Ontwikkeld door <a className='text-[--primary-color] hover:opacity-70 underline underline-offset-2' href='https://linktr.ee/dheysson' target='_blank'>DheyssonS</a></p>
 				</div>		
 			</div>
 		</footer>
