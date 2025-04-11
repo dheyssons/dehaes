@@ -1,3 +1,3 @@
 Visitez le site:
 
-https://www.dehaes.vercel.app/
+https://dehaes.vercel.app/
