@@ -1,9 +1,16 @@
 import Image from "next/image";
 import GevelbekledingImage from "@/public/images/services/gevelbekleding/image1.webp"
+import { Metadata } from 'next';
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
+
+export const metadata = {
+  title: 'Gevelbekleding | Schrijnwerkerij De Haes',
+  description: 'Professionele gevelbekleding voor woningen en bedrijven. Duurzame materialen, perfecte afwerking en isolatie.',
+  keywords: 'gevelbekleding, schrijnwerkerij, de haes, gevel, isolatie, afwerking, renovatie',
+};
 
 export default function Gevelbekleding() {
     return (
@@ -13,9 +20,9 @@ export default function Gevelbekleding() {
                 <div className="bg-white py-12">
                     <div className="container mx-auto px-4">
                         {/* Título */}
-                        <h2 className="h2 font-bold !text-[--primary-color]">
+                        <h1 className="h2 font-bold !text-[--primary-color]">
                         Gevelbekleding
-                        </h2>
+                        </h1>
 
                         {/* Conteúdo com Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
@@ -44,8 +51,8 @@ export default function Gevelbekleding() {
                             {/* Imagem */}
                             <div className="rounded-md max-w-lg overflow-hidden shadow-md">
                             <Image
-                                src={GevelbekledingImage} // Substitua pela imagem correta
-                                alt="Daktimmers"
+                                src={GevelbekledingImage}
+                                alt="Voorbeeld van gevelbekleding - Schrijnwerkerij De Haes"
                                 className=""
                             />
                             </div>

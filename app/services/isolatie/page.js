@@ -1,9 +1,16 @@
 import Image from "next/image";
 import IsolatieImage from "@/public/images/services/isolatie.webp"
+import { Metadata } from 'next';
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
+
+export const metadata = {
+  title: 'Isolatie | Schrijnwerkerij De Haes',
+  description: 'Dakisolatie voor optimaal comfort en energiebesparing. Kwaliteit en efficiëntie door Schrijnwerkerij De Haes.',
+  keywords: 'isolatie, dakisolatie, schrijnwerkerij, de haes, energie, comfort, renovatie',
+};
 
 export default function Isolatie() {
     return (
@@ -13,9 +20,9 @@ export default function Isolatie() {
                 <div className="bg-white py-12">
                     <div className="container mx-auto px-4">
                         {/* Título */}
-                        <h2 className="h2 font-bold !text-[--primary-color]">
+                        <h1 className="h2 font-bold !text-[--primary-color]">
                             Isolatie
-                        </h2>
+                        </h1>
 
                         {/* Conteúdo com Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-6">
@@ -44,8 +51,8 @@ export default function Isolatie() {
                             {/* Imagem */}
                             <div className="rounded-md max-w-lg overflow-hidden shadow-md">
                             <Image
-                                src={IsolatieImage} // Substitua pela imagem correta
-                                alt="Isolatie"
+                                src={IsolatieImage}
+                                alt="Voorbeeld van dakisolatie - Schrijnwerkerij De Haes"
                                 className=""
                             />
                             </div>

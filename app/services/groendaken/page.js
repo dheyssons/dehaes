@@ -1,9 +1,16 @@
 import Image from "next/image";
 import GroendakenImage from "@/public/images/services/groendaken/image1.webp"
+import { Metadata } from 'next';
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
+
+export const metadata = {
+  title: 'Groendaken | Schrijnwerkerij De Haes',
+  description: 'Groendaken voor een duurzaam en energiezuinig gebouw. Professionele installatie en advies door Schrijnwerkerij De Haes.',
+  keywords: 'groendaken, schrijnwerkerij, de haes, dak, duurzaamheid, energiezuinig, installatie',
+};
 
 export default function Groendaken() {
     return (
@@ -13,9 +20,9 @@ export default function Groendaken() {
                 <div className="bg-white py-12">
                     <div className="container mx-auto px-4">
                         {/* Título */}
-                        <h2 className="h2 font-bold !text-[--primary-color]">
+                        <h1 className="h2 font-bold !text-[--primary-color]">
                         Groendaken
-                        </h2>
+                        </h1>
 
                         {/* Conteúdo com Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
@@ -40,7 +47,7 @@ export default function Groendaken() {
                         <div className="rounded-md max-w-md overflow-hidden shadow-md">
                             <Image
                             src={GroendakenImage}
-                            alt="Groendaken"
+                            alt="Groendak op woning - Schrijnwerkerij De Haes"
                             className=""
                             />
                         </div>

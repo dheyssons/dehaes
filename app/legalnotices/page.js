@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'Juridische mededelingen | Schrijnwerkerij De Haes',
+  description: 'Juridische informatie, auteursrechten en aansprakelijkheid van de website van Schrijnwerkerij De Haes.',
+  keywords: 'juridische mededelingen, aansprakelijkheid, auteursrechten, schrijnwerkerij, de haes',
+};
+
 export default function LegalNotices() {
     return (
       <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">

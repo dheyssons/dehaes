@@ -14,6 +14,13 @@ import ContactForm from "@/components/contactform"
 
 import { motion } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
+import { Metadata } from 'next'
+
+export const metadata = {
+  title: 'Over ons | Schrijnwerkerij De Haes',
+  description: 'Ontdek de geschiedenis en traditie van vier generaties Schrijnwerkerij De Haes, specialist in schrijnwerk, dakwerken en renovatie in België.',
+  keywords: 'over ons, geschiedenis, schrijnwerkerij, de haes, schrijnwerk, traditie, generaties, België',
+};
 
 export default function About() {
     const images = [
@@ -45,13 +52,13 @@ export default function About() {
             <section className="container mx-auto flex flex-col items-center justify-center md:flex-row max-w-sm md:max-w-screen-lg pt-40 pb-10 gap-x-20">
                 {/* IMAGES */}
                 <div className="hidden md:flex flex-col items-center">
-                    <Image className="w-32 rounded-sm" src={Frans} alt=""/>
+                    <Image className="w-32 rounded-sm" src={Frans} alt="Frans De Haes, oprichter van het bedrijf"/>
                     <div className="accentV"></div>
-                    <Image className="w-32 rounded-sm" src={Jos} alt=""/>
+                    <Image className="w-32 rounded-sm" src={Jos} alt="Jos De Haes, tweede generatie"/>
                     <div className="accentV"></div>
-                    <Image className="w-32 rounded-sm" src={Marcel} alt=""/>
+                    <Image className="w-32 rounded-sm" src={Marcel} alt="Marcel De Haes, derde generatie"/>
                     <div className="accentV"></div>
-                    <Image className="w-32 rounded-sm" src={Rudy} alt=""/>
+                    <Image className="w-32 rounded-sm" src={Rudy} alt="Rudy De Haes, vierde generatie"/>
                 </div>
                 {/* TEXTS */}
                 <div className="flex flex-col gap-y-8">
@@ -113,10 +120,10 @@ export default function About() {
                 <h3 className='h4 text-center'><span className='text-[--primary-color]'>deskundigen</span> in dakwerken, gevelbekleding, groendaken en isolatie</h3>
                 <p className='p small text-center !max-w-screen-lg'>Wij werken met de beste merken op de markt, van kwaliteitsleveranciers met alle nodige certificeringen:<i> Resitrix, Velux, Iko enertherm, </i>enz.</p> 
                 <div className='hidden lg:flex flex-row gap-x-20'>
-                    <Image className='w-36' src={Velux} alt=''/>
-                    <Image className='w-36' src={Iko} alt=''/>
-                    <Image className='w-36' src={Resitrix} alt=''/>
-                    <Image className='w-36 object-scale-down' src={Bosscover} alt=''/>
+                    <Image className='w-36' src={Velux} alt='Merk Velux'/>
+                    <Image className='w-36' src={Iko} alt='Merk Iko'/>
+                    <Image className='w-36' src={Resitrix} alt='Merk Resitrix'/>
+                    <Image className='w-36 object-scale-down' src={Bosscover} alt='Merk Bosscover'/>
                 </div>
                 
                 {/* IMAGE SLIDER */}

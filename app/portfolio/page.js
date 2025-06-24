@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from 'react';
+import { Metadata } from 'next';
 
 import { LuArrowUpRight } from 'react-icons/lu';
 import { FaRegCheckCircle } from 'react-icons/fa';
@@ -232,6 +233,12 @@ const images = [
       </div>
     ];
 
+export const metadata = {
+  title: 'Portfolio | Schrijnwerkerij De Haes',
+  description: 'Bekijk voorbeelden van projecten uitgevoerd door Schrijnwerkerij De Haes: dakwerken, renovatie, schrijnwerk en meer.',
+  keywords: 'portfolio, projecten, schrijnwerkerij, de haes, dakwerken, renovatie, schrijnwerk',
+};
+
 export default function Portfolio() {
     const carouselRef = useRef(null);
     const [width, setWidth] = useState(0);
@@ -251,7 +258,7 @@ export default function Portfolio() {
                     </div>
                     <motion.h1 variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className="h2">Een greep uit onze projecten</motion.h1>
                     <div className="flex flex-col gap-y-4">
-                        <p className="p small !max-w-screen-md">Het dak is ‘de kroon’ op uw huis. Een stevige dakconstructie, in degelijke materialen en met vakmanschap geplaatst, is dus van groot belang. De Haes heeft een uitzonderlijke ervaring en know-how opgebouwd inzake daktimmers, zowel traditioneel als met spanten. Alle timmerwerken gebeuren in de stevigste houtsoorten met drenkingsattest – uw garantie tegen houtrot en eventuele verzakkingen.</p>
+                        <p className="p small !max-w-screen-md">Het dak is 'de kroon' op uw huis. Een stevige dakconstructie, in degelijke materialen en met vakmanschap geplaatst, is dus van groot belang. De Haes heeft een uitzonderlijke ervaring en know-how opgebouwd inzake daktimmers, zowel traditioneel als met spanten. Alle timmerwerken gebeuren in de stevigste houtsoorten met drenkingsattest – uw garantie tegen houtrot en eventuele verzakkingen.</p>
                         <p className="p small !max-w-screen-md">De moderne architectuur stelt daktimmerlui vaak voor grote uitdagingen. Ingewikkelde dakconstructies gebeuren dan ook steeds in nauw overleg met de architect. Ook voor renovatieprojecten mag u rekenen op een perfecte uitvoering in stevige materialen die de tijd doorstaan. U hebt steeds de keuze tussen een afwerking met of zonder onderdak. Ook veluxramen worden vakkundig geplaatst voor een prijs/kwaliteitsverhouding die elke vergelijking met concurrenten kan doorstaan.</p>
                     </div>
                 </div>

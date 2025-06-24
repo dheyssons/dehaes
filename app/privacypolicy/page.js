@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'Privacybeleid | Schrijnwerkerij De Haes',
+  description: 'Lees het privacybeleid van Schrijnwerkerij De Haes: hoe wij uw persoonsgegevens verzamelen, gebruiken en beschermen.',
+  keywords: 'privacybeleid, privacy, gegevens, schrijnwerkerij, de haes',
+};
+
 export default function PrivacyPolicy() {
   return (
     <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">

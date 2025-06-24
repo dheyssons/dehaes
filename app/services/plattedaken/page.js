@@ -1,9 +1,16 @@
 import Image from "next/image";
 import PlattedakenImage from "@/public/images/services/plateforme.webp"
+import { Metadata } from 'next';
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
+
+export const metadata = {
+  title: 'Platte daken | Schrijnwerkerij De Haes',
+  description: 'Platte daken met hoogwaardige dakbedekking en perfecte afwatering. Specialist in EPDM en bitumen.',
+  keywords: 'platte daken, dakbedekking, schrijnwerkerij, de haes, EPDM, bitumen, afwatering',
+};
 
 export default function Plattedaken() {
     return (
@@ -13,9 +20,9 @@ export default function Plattedaken() {
                 <div className="bg-white py-12">
                     <div className="container mx-auto px-4">
                         {/* Título */}
-                        <h2 className="h2 font-bold !text-[--primary-color]">
+                        <h1 className="h2 font-bold !text-[--primary-color]">
                         Platte daken
-                        </h2>
+                        </h1>
 
                         {/* Conteúdo com Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
@@ -44,8 +51,8 @@ export default function Plattedaken() {
                             {/* Imagem */}
                             <div className="rounded-md max-w-lg overflow-hidden shadow-md">
                             <Image
-                                src={PlattedakenImage} // Substitua pela imagem correta
-                                alt="Platte daken"
+                                src={PlattedakenImage}
+                                alt="Plat dak met EPDM - Schrijnwerkerij De Haes"
                                 className=""
                             />
                             </div>

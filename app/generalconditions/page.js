@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'Algemene voorwaarden | Schrijnwerkerij De Haes',
+  description: 'Bekijk de algemene voorwaarden voor diensten en overeenkomsten van Schrijnwerkerij De Haes.',
+  keywords: 'algemene voorwaarden, voorwaarden, schrijnwerkerij, de haes, overeenkomst',
+};
+
 export default function GeneralConditions() {
     return (
         <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">

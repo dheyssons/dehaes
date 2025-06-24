@@ -1,5 +1,6 @@
 import Image from "next/image";
 import DaktimmerImage from "@/public/images/services/charpenter.webp"
+import { Metadata } from 'next';
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
@@ -7,6 +8,12 @@ import Whyus from "@/components/whyus";
 
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
+
+export const metadata = {
+  title: 'Daktimmers | Schrijnwerkerij De Haes',
+  description: 'Gespecialiseerd in daktimmerwerk voor nieuwbouw en renovatie. Kwaliteit, vakmanschap en maatwerk door Schrijnwerkerij De Haes.',
+  keywords: 'daktimmers, daktimmerwerk, schrijnwerkerij, de haes, dakconstructie, vakmanschap, renovatie',
+};
 
 export default function Daktimmer() {
     return (
@@ -16,9 +23,9 @@ export default function Daktimmer() {
                 <div className="bg-white py-12">
                     <div className="container mx-auto px-4">
                         {/* Título */}
-                        <h2 className="h2 font-bold !text-[--primary-color]">
+                        <h1 className="h2 font-bold !text-[--primary-color]">
                             Daktimmers
-                        </h2>
+                        </h1>
 
                         {/* Conteúdo com Grid */}
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mt-8">
@@ -47,8 +54,8 @@ export default function Daktimmer() {
                             {/* Imagem */}
                             <div className="rounded-md max-w-lg overflow-hidden shadow-md">
                             <Image
-                                src={DaktimmerImage} // Substitua pela imagem correta
-                                alt="Daktimmer"
+                                src={DaktimmerImage}
+                                alt="Daktimmer aan het werk - Schrijnwerkerij De Haes"
                                 className=""
                             />
                             </div>

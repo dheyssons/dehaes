@@ -1,6 +1,15 @@
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'Onze diensten | Schrijnwerkerij De Haes',
+  description: 'Ontdek alle diensten van Schrijnwerkerij De Haes: daktimmers, groendaken, gevelbekleding, platte daken, renovatie en isolatie.',
+  keywords: 'diensten, schrijnwerkerij, de haes, daktimmers, groendaken, gevelbekleding, platte daken, renovatie, isolatie',
+};
+
 export default function OurServices() {
     return (
         <section>
+            <h1 className='h2 font-bold text-center mb-10 text-[--primary-color]'>Onze diensten</h1>
             <div className='container mx-auto grid grid-cols-2 gap-10 max-w-screen-xl'>
                   {/* daktimmers */}
                   <div >

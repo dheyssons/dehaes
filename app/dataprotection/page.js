@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'Gegevensbescherming | Schrijnwerkerij De Haes',
+  description: 'Lees hoe Schrijnwerkerij De Haes uw persoonsgegevens beschermt volgens de Europese wetgeving (GDPR/AVG).',
+  keywords: 'gegevensbescherming, GDPR, AVG, privacy, schrijnwerkerij, de haes',
+};
+
 export default function DataProtection() {
     return (
         <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">

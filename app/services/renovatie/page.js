@@ -1,9 +1,16 @@
 import Image from "next/image";
 import RenovatieImage from "@/public/images/services/renovation.webp"
+import { Metadata } from 'next';
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
+
+export const metadata = {
+  title: 'Renovatie | Schrijnwerkerij De Haes',
+  description: 'Renovatie van daken, gevels en interieurs. Traditioneel vakmanschap en moderne technieken door Schrijnwerkerij De Haes.',
+  keywords: 'renovatie, schrijnwerkerij, de haes, dakrenovatie, gevel, interieur, vakmanschap',
+};
 
 export default function Renovatie() {
     return (
@@ -13,9 +20,9 @@ export default function Renovatie() {
                 <div className="bg-white py-12">
                     <div className="container mx-auto px-4">
                         {/* Título */}
-                        <h2 className="h2 font-bold !text-[--primary-color]">
+                        <h1 className="h2 font-bold !text-[--primary-color]">
                             Renovatie
-                        </h2>
+                        </h1>
 
                         {/* Conteúdo com Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
@@ -48,8 +55,8 @@ export default function Renovatie() {
                             {/* Imagem */}
                             <div className="rounded-md max-w-lg overflow-hidden shadow-md">
                             <Image
-                                src={RenovatieImage} // Substitua pela imagem correta
-                                alt="Renovatie"
+                                src={RenovatieImage}
+                                alt="Renovatieproject - Schrijnwerkerij De Haes"
                                 className=""
                             />
                             </div>
