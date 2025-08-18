@@ -29,6 +29,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="nl" className="scroll-smooth">
       <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6QQ0LFS4H4"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-6QQ0LFS4H4');
+        </script>
         <meta
           name="google-site-verification"
           content="BjIFUYGdtB0SCZnPm292PJEtnbnf9ndl3D-zqgsm0BA"
@@ -38,6 +47,7 @@ export default function RootLayout({ children }) {
           content="schrijnwerkerij, de haes, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
         ></meta>
       </head>
+
       <meta
         name="google-site-verification"
         content="iJG9g6Q9U-v746a0tzQHDktkoMmmpHSIrWBU9EAjGus"
