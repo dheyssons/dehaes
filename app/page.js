@@ -21,7 +21,7 @@ import { transition1_s } from "@/public/transitions/transition1_s";
 import { lefttoright } from "@/public/variants/lefttoright";
 
 // COMPONENTS
-import Carousel from "@/components/carousel";
+import Carousel from "../components/carousel";
 import CarouselMobile from "@/components/carouselmobile";
 import { EmblaCarousel } from "@/components/emblacarousel";
 
