@@ -1,4 +1,3 @@
-import "./globals.css";
 import CookieConsent from "../components/CookieConsent";
 
 //IMPORT HEADER
@@ -26,6 +25,8 @@ export const metadata = {
   description:
     "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
 };
+
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
