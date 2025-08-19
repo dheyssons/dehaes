@@ -45,7 +45,7 @@ export default function CookieConsent() {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-[#f5f5f5] p-8 flex justify-between items-center z-50 text-sm">
+    <div className="fixed bottom-0 left-0 w-full bg-[#f5f5f5] p-8 flex flex-col md:flex-row gap-4 justify-between items-center z-50 text-sm">
       <span className="max-w-5xl">
         We gebruiken cookies en soortgelijke technologieën om je een betere
         ervaring te bieden, het websiteverkeer te analyseren en inhoud en
@@ -61,13 +61,13 @@ export default function CookieConsent() {
           onClick={acceptAll}
           className="bg-[--primary-color] text-white px-6 py-3 rounded"
         >
-          Aceitar tudo
+          Alles accepteren
         </button>
         <button
           onClick={rejectAll}
           className="bg-white text-black px-6 py-3 rounded"
         >
-          Recusar tudo
+          Alles weigeren
         </button>
       </div>
     </div>

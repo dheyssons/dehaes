@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
                 'ad_personalization': 'denied'
               });
               gtag('js', new Date());
-              gtag('config', 'G-6QQ0LFS4H4'); // seu ID do GA4
+              gtag('config', 'G-6QQ0LFS4H4');
             `,
           }}
         />
