@@ -408,7 +408,7 @@ export default function Home() {
       {/* HERO and ABOUT */}
       <div className="bg-white">
         {/* HERO */}
-        <section className="banner flex flex-col w-full h-screen items-start relative">
+        <section className="bg-[url('../public/home.webp')] lg:bg-[url('../public/home.webp')] bg-cover bg-no-repeat flex flex-col w-full h-screen items-start relative">
           {/* title */}
           <motion.div
             variants={upward}
