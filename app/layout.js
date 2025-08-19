@@ -32,10 +32,6 @@ export default function RootLayout({ children }) {
     <html lang="nl" className="scroll-smooth">
       <head>
         <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-6QQ0LFS4H4"
-        ></script>
-        <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -47,10 +43,14 @@ export default function RootLayout({ children }) {
                 'ad_personalization': 'denied'
               });
               gtag('js', new Date());
-              gtag('config', 'G-6QQ0LFS4H4');
+              gtag('config', 'G-6QQ0LFS4H4'); // seu ID do GA4
             `,
           }}
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6QQ0LFS4H4"
+        ></script>
         <meta
           name="google-site-verification"
           content="BjIFUYGdtB0SCZnPm292PJEtnbnf9ndl3D-zqgsm0BA"
