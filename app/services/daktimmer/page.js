@@ -90,13 +90,13 @@ export default function Daktimmer() {
       <section className="bg-gray-50 py-12">
         <div className="container mx-auto px-4">
           {/* Título */}
-          <h2 className="text-3xl font-bold text-black text-center mb-8">
+          <h2 className="text-4xl font-bold text-black text-center mb-8">
             Veelgestelde Vragen over Daktimmers
           </h2>
 
-          <div className="flex flex-col gap-y-10 items-center max-w-2xl mx-auto">
+          <div className="flex flex-col gap-y-4 md:gap-y-10 items-center max-w-2xl mx-auto">
             <Disclosure>
-              <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">
+              <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
                 Wat is daktimmerwerk?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
@@ -109,7 +109,7 @@ export default function Daktimmer() {
             </Disclosure>
 
             <Disclosure>
-              <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">
+              <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
                 Waarom is een goede dakconstructie belangrijk?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
@@ -122,7 +122,7 @@ export default function Daktimmer() {
             </Disclosure>
 
             <Disclosure>
-              <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">
+              <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
                 Welke materialen worden gebruikt bij daktimmerwerk?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
@@ -134,7 +134,7 @@ export default function Daktimmer() {
             </Disclosure>
 
             <Disclosure>
-              <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">
+              <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
                 Kan daktimmerwerk worden toegepast bij renovatieprojecten?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
@@ -146,7 +146,7 @@ export default function Daktimmer() {
             </Disclosure>
 
             <Disclosure>
-              <DisclosureButton className="group flex items-center gap-2 text-xl font-semibold text-[--primary-color]">
+              <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
                 Hoe lang duurt het om een dakconstructie te bouwen?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>

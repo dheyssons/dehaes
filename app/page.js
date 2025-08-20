@@ -446,11 +446,11 @@ export default function Home() {
         </section>
 
         {/* ABOUT US */}
-        <section className="container mx-auto flex flex-col items-center gap-y-24 lg:gap-y-28 py-20">
+        <section className="container px-5 mx-auto flex flex-col items-center gap-y-24 lg:gap-y-28 py-20">
           {/* about */}
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-y-20">
             {/* texts */}
-            <div className="flex flex-col gap-y-16 items-center">
+            <div className="flex flex-col gap-y-8 md:gap-y-14 items-center">
               <div className="flex flex-col gap-y-8 items-center ">
                 <div className="flex flex-col gap-y-2 items-center lg:items-start">
                   <div>
@@ -505,7 +505,7 @@ export default function Home() {
               alt=""
             />
             {/* text */}
-            <div className="flex flex-col gap-y-10">
+            <div className="flex flex-col items-center md:items-start gap-y-10">
               <h2 className="h2">
                 Uw dak,
                 <span className="text-[--primary-color]">
@@ -515,8 +515,9 @@ export default function Home() {
               </h2>
 
               <div>
+                {/* DESKTOP */}
                 <div
-                  className={`flex flex-col gap-y-6 max-w-sm md:max-w-lg ${
+                  className={`hidden lg:flex flex-col gap-y-6 max-w-sm md:max-w-lg ${
                     ExtendedText ? "" : "!max-h-72 overflow-hidden"
                   }`}
                 >
@@ -555,6 +556,41 @@ export default function Home() {
                     team voor een duurzaam, veilig en perfect afgewerkt dak!
                   </p>
                 </div>
+                {/* MOBILE */}
+                <div
+                  className={`lg:hidden flex flex-col gap-y-6 max-w-sm md:max-w-lg ${
+                    ExtendedText ? "" : "!max-h-72 overflow-hidden"
+                  }`}
+                >
+                  <p className="p small">
+                    Uw dak verdient het beste in <strong>kwaliteit</strong>,{" "}
+                    <strong>isolatie</strong> en <strong>afwerking</strong>. Ons
+                    team werkt met toewijding om functionaliteit en esthetiek te
+                    combineren voor het perfecte resultaat. Wat ons
+                    onderscheidt? Onze <strong>passie</strong> en inzet om
+                    altijd uw verwachtingen te overtreffen.
+                  </p>
+
+                  <p className="p small">
+                    Wij zijn actief in Brussel, Waals-Brabant en omgeving. Van
+                    klein onderhoud tot renovaties, wij garanderen service van
+                    hoge kwaliteit met oog voor detail en vakmanschap, zowel bij
+                    platte als hellende daken.
+                  </p>
+
+                  <p className="p small">
+                    Met ervaring van generatie op generatie pakken wij alles
+                    aan: constructie, afwerking en accessoires. We werken met{" "}
+                    <strong>dakpannen, leisteen, zink en aluminium</strong>, en
+                    verzorgen ook isolatie- en dakraaminstallaties.
+                  </p>
+
+                  <p className="p small">
+                    Voor elk project leveren wij een oplossing op maat. Vertrouw
+                    op ons team voor een duurzaam, veilig en perfect afgewerkt
+                    dak!
+                  </p>
+                </div>
 
                 <button
                   className="lg:hidden text-lg !text-[--primary-color]"
@@ -570,8 +606,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* bottom text */}
-          <div className="flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
+          {/* bottom text  DESKTOP*/}
+          <div className="hidden lg:flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
             <h3 className="h4">
               Specialisten in{" "}
               <span className="text-[--primary-color]">Daktimmers</span>
@@ -596,12 +632,36 @@ export default function Home() {
               vakmanschap combineren.
             </p>
           </div>
+          {/* bottom text MOBILE */}
+          <div className="lg:hidden flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
+            <h3 className="h4 text-center">
+              Specialisten in{" "}
+              <span className="text-[--primary-color]">Daktimmers</span>
+            </h3>
+
+            <p className="p small !max-w-screen-lg">
+              Een goed ontworpen <strong>daktimmer</strong> vormt de basis van
+              een sterk en duurzaam dak. Het verdeelt het gewicht gelijkmatig en
+              beschermt tegen alle weersomstandigheden. Wij gebruiken alleen
+              behandeld hout van hoge kwaliteit, bestand tegen vocht en
+              ongedierte. Onze expertise reikt van traditionele dakconstructies
+              tot moderne spanten, altijd met oog voor maatwerk en precisie.
+            </p>
+
+            <p className="p small !max-w-screen-lg">
+              Een slim ontwerp zorgt ook voor ventilatie, isolatie en efficiënte
+              waterafvoer. Met de juiste materialen en plaatsing voorkomen we
+              problemen zoals lekkage of verzakking. Of het nu nieuwbouw of
+              renovatie is, wij leveren daktimmers die functionaliteit,
+              duurzaamheid en vakmanschap combineren.
+            </p>
+          </div>
         </section>
       </div>
 
       {/* BRANDs and certifications */}
-      <section className="container mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
-        <h3 className="h4 text-center">
+      <section className="container px-5 mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
+        <h3 className="h4 !text-2xl text-center">
           Schrijnwerkerij De Haes,{" "}
           <span className="text-[--primary-color]">deskundigen</span> in
           dakwerken, gevelbekleding, groendaken en isolatie
