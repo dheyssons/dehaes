@@ -245,12 +245,12 @@ export default function Home() {
             transition={transition1_s}
             className="mt-44 lg:mt-52 mx-10 md:mx-12 lg:mx-0 flex flex-col"
           >
-            <div className="flex flex-col gap-y-20 lg:gap-y-20 lg:ml-20">
+            <div className="flex flex-col gap-y-20 lg:gap-y-16 lg:ml-20">
               {/* TITLE */}
               <div>
                 <motion.h1
                   variants={item}
-                  className="h1 text-white lg:text-[#ffffff] pb-5"
+                  className="h1 !text-8xl text-white lg:text-[#ffffff] pb-3"
                 >
                   WD Toitures
                 </motion.h1>
@@ -265,7 +265,8 @@ export default function Home() {
               {/* CALL TO ACTION  */}
               <div className="flex flex-col gap-y-2">
                 <a className="btn max-w-max uppercase" href="#contactus">
-                  Contactez‑nous
+                  DEMANDEZ UN DEVIS GRATUIT
+                  <LuArrowUpRight className="ml-1" />
                 </a>
               </div>
             </div>
@@ -349,6 +350,62 @@ export default function Home() {
             {/* CAROUSEL */}
             <EmblaCarousel></EmblaCarousel>
           </div>
+
+          {/* BRANDs and certifications */}
+          <section className="container px-5 mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
+            <h3 className="h3 !text-3xl text-center">
+              WD Toitures,{" "}
+              <span className="text-[--primary-color]">experts</span> en
+              toitures, démmoussage et isolation
+            </h3>
+            <p className="p small text-center !max-w-screen-lg">
+              Nous travaillons avec les meilleures marques du marché, auprès de
+              fournisseurs certifiés : <i>Resitrix, Velux, Iko enertherm</i>,
+              etc.
+            </p>
+
+            <div className="hidden lg:flex flex-row gap-x-20">
+              <Image className="w-36" src={Velux} alt="" />
+              <Image className="w-36" src={Iko} alt="" />
+              <Image className="w-36" src={Resitrix} alt="" />
+              <Image
+                className="w-36 object-scale-down"
+                src={Bosscover}
+                alt=""
+              />
+            </div>
+
+            {/* IMAGE SLIDER */}
+            <div className=" lg:hidden relative overflow-hidden w-full py-4">
+              <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-white to-transparent pointer-events-none z-50" />
+              <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-white to-transparent pointer-events-none z-50" />
+
+              <motion.div
+                ref={carouselRef}
+                className="flex space-x-6 cursor-grab"
+                drag="x"
+                dragConstraints={{ right: 0, left: -width }}
+                initial={{ x: 0 }}
+                animate={{ x: [0, -width] }}
+                transition={{ ease: "linear", duration: 40, repeat: Infinity }}
+              >
+                {images.concat(images).map((src, index) => (
+                  <div
+                    key={index}
+                    className="flex flex-row items-center min-w-[144px]"
+                  >
+                    <Image
+                      src={src}
+                      alt={`Slide ${index}`}
+                      width={300}
+                      height={200}
+                      className="rounded-md object-scale-down px-4"
+                    />
+                  </div>
+                ))}
+              </motion.div>
+            </div>
+          </section>
 
           {/* About Image section */}
           <div className="flex flex-col lg:flex-row gap-x-12">
@@ -512,56 +569,6 @@ export default function Home() {
           </div> */}
         </section>
       </div>
-
-      {/* BRANDs and certifications */}
-      <section className="container px-5 mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
-        <h3 className="h3 !text-3xl text-center">
-          WD Toitures, <span className="text-[--primary-color]">experts</span>{" "}
-          en toitures, démmoussage et isolation
-        </h3>
-        <p className="p small text-center !max-w-screen-lg">
-          Nous travaillons avec les meilleures marques du marché, auprès de
-          fournisseurs certifiés : <i>Resitrix, Velux, Iko enertherm</i>, etc.
-        </p>
-
-        <div className="hidden lg:flex flex-row gap-x-20">
-          <Image className="w-36" src={Velux} alt="" />
-          <Image className="w-36" src={Iko} alt="" />
-          <Image className="w-36" src={Resitrix} alt="" />
-          <Image className="w-36 object-scale-down" src={Bosscover} alt="" />
-        </div>
-
-        {/* IMAGE SLIDER */}
-        <div className=" lg:hidden relative overflow-hidden w-full py-4">
-          <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-white to-transparent pointer-events-none z-50" />
-          <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-white to-transparent pointer-events-none z-50" />
-
-          <motion.div
-            ref={carouselRef}
-            className="flex space-x-6 cursor-grab"
-            drag="x"
-            dragConstraints={{ right: 0, left: -width }}
-            initial={{ x: 0 }}
-            animate={{ x: [0, -width] }}
-            transition={{ ease: "linear", duration: 40, repeat: Infinity }}
-          >
-            {images.concat(images).map((src, index) => (
-              <div
-                key={index}
-                className="flex flex-row items-center min-w-[144px]"
-              >
-                <Image
-                  src={src}
-                  alt={`Slide ${index}`}
-                  width={300}
-                  height={200}
-                  className="rounded-md object-scale-down px-4"
-                />
-              </div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
 
       {/* OUR SERVICES */}
       <section
