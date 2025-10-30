@@ -18,7 +18,7 @@ export async function POST(req: Request) {
     // 🔹 Envia o e-mail com o anexo
     const data = await resend.emails.send({
       from: "support@wdtoitures.be", // pode trocar depois pelo seu domínio verificado
-      to,
+      to: "wdtoitures@gmail.com",
       subject: subject,
       text: message,
       attachments: [
