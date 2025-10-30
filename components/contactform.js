@@ -1,8 +1,7 @@
 "use client";
 import config from "@/utils/config";
 
-import emailJS from "@emailjs/browser";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { motion } from "framer-motion";
 import { transition1 } from "@/public/transitions/transition1";
@@ -16,59 +15,26 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 import Notification from "./notification";
+import UploadFile from "./uploadfile";
 
 export default function ContactForm() {
   const [showNotification, setShowNotification] = useState(false);
 
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
   const [validEmail, setValidEmail] = useState(false);
   const [emptyValue, setEmptyValue] = useState(false);
 
-  const PUBLICKEY = process.env.PUBLICKEY;
-  const SERVICEID = process.env.SERVICEID;
-  const TEMPLATEID = process.env.TEMPLATEID;
-
-  const handleChange = (e) => {
-    let newProp = form;
-    setValidEmail(true);
-    newProp[e.target.name] = e.target.value;
-    setForm({ ...newProp });
-  };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    let emptyValues = Object.values(form).some((obj) => obj == "");
-    setEmptyValue(emptyValues);
+    const formData = new FormData(e.currentTarget);
 
-    let validEmail = form["email"]
-      .toLocaleLowerCase()
-      .match(/[a-z]+@[a-z]+\.com(\.br)*/);
-    setValidEmail(validEmail);
+    const res = await fetch("/api/send", {
+      method: "POST",
+      body: formData, // envia multipart/form-data
+    });
 
-    const templateParams = {
-      from_name: form["name"],
-      message: form["message"],
-      subject: form["subject"],
-      email: form["email"],
-    };
-
-    document
-      .querySelectorAll("input")
-      .forEach((element) => (element.value = ""));
-    if (!emptyValues && validEmail) {
-      emailJS
-        .send(SERVICEID, TEMPLATEID, templateParams, PUBLICKEY)
-        .then((res) => {
-          setShowNotification(true);
-        });
-    }
+    const data = await res.json();
+    alert(data.success ? "✅ Enviado!" : "❌ Erro: " + data.error);
   };
 
   return (
@@ -98,13 +64,14 @@ export default function ContactForm() {
             <div className="flex flex-row gap-x-12 w-full justify-evenly">
               {/* FORM */}
               <motion.form
+                encType="multipart/form-data"
                 variants={upward}
                 initial="variantInit"
                 whileInView="variantAnim"
                 viewport={{ once: true }}
                 transition={transition1_s}
                 onSubmit={handleSubmit}
-                className="w-80 md:w-full md:max-w-md flex flex-col items-center"
+                className="emailForm w-80 md:w-full md:max-w-md flex flex-col items-center"
               >
                 <motion.div
                   variants={item}
@@ -112,7 +79,6 @@ export default function ContactForm() {
                 >
                   <input
                     type="text"
-                    onBlur={(e) => handleChange(e)}
                     name="name"
                     id="name"
                     className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
@@ -132,7 +98,6 @@ export default function ContactForm() {
                 >
                   <input
                     type="email"
-                    onBlur={(e) => handleChange(e)}
                     name="email"
                     id="email"
                     className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
@@ -152,7 +117,6 @@ export default function ContactForm() {
                 >
                   <input
                     type="text"
-                    onBlur={(e) => handleChange(e)}
                     name="subject"
                     id="subject"
                     className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
@@ -170,8 +134,7 @@ export default function ContactForm() {
                   <div className="relative z-0 w-full mb-5 group">
                     <textarea
                       type="message"
-                      onBlur={(e) => handleChange(e)}
-                      rows="8"
+                      rows="4"
                       name="message"
                       id="message"
                       className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
@@ -184,6 +147,7 @@ export default function ContactForm() {
                     >
                       Décrivez votre demande
                     </label>
+                    <UploadFile />
                   </div>
                 </motion.div>
                 <button type="submit" className="btn self-start uppercase">
@@ -200,13 +164,13 @@ export default function ContactForm() {
             whileInView="variantAnim"
             viewport={{ once: true }}
             transition={transition1}
-            className="text-white flex flex-col gap-y-16 p-12 lg:p-20 bg-[#151515] lg:rounded-md"
+            className="flex flex-col gap-y-16 p-12 lg:p-20 border-2 border-black lg:rounded-md"
           >
             <div className="flex flex-col justify-center gap-y-2">
               <div className="flex flex-row overflow-hidden">
-                <h2 className="h2 !text-white">Contact</h2>
+                <h2 className="h2">Contact</h2>
               </div>
-              <p className="p !text-white">
+              <p className="p">
                 Nous sommes là pour répondre à vos questions et vous apporter
                 notre assistance.
               </p>
