@@ -211,7 +211,7 @@ export default function Footer() {
             Ontwikkeld door{" "}
             <a
               className="text-[--primary-color] hover:opacity-70 underline underline-offset-2"
-              href="https://hdeveloper.vercel.app/"
+              href="https://hdeveloper.vercel.app/fr"
               target="_blank"
             >
               HDeveloper
