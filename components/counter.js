@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect, useState } from "react";
 
@@ -22,7 +22,7 @@ const Counter = ({ target, duration }) => {
     return () => clearInterval(timer);
   }, [target, duration]);
 
-  return <span className="text-4xl font-bold text-[--primary-color]">{count}+</span>;
+  return <span className="h4 !font-bold !text-[#075985]">{count}+</span>;
 };
 
 export default Counter;

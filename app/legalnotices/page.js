@@ -1,29 +1,90 @@
 export default function LegalNotices() {
-    return (
-      <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">
-        <h1 className="h2 font-bold text-[--primary-color] mb-8">Juridische Mededelingen</h1>
+  return (
+    <section className="container mx-auto max-w-screen-xl py-12 px-4 pt-40">
+      <h1 className="h1 text-[--primary-color] mb-8">
+        Juridische Mededelingen
+      </h1>
 
-        <div className="space-y-6">
-          <p className="text-gray-700">
-            Deze website is eigendom van en wordt beheerd door <strong>Schrijnwerkerij De Haes</strong>. Door deze website te gebruiken, gaat u akkoord met de volgende voorwaarden.
-          </p>
+      <div className="space-y-10">
+        <p className="p max-w-[100ch]">
+          Deze website is eigendom van en wordt beheerd door{" "}
+          <strong>Schrijnwerkerij De Haes</strong>. Door deze website te
+          bezoeken of te gebruiken, verklaart u zich akkoord met onderstaande
+          juridische mededelingen.
+        </p>
 
-          <h2 className="text-xl font-semibold text-[--primary-color]">Intellectuele Eigendom</h2>
-          <p className="text-gray-700">
-            Alle inhoud op deze website, inclusief teksten, afbeeldingen, logo's en ontwerpen, is beschermd door auteursrechten en andere intellectuele eigendomsrechten. Ongeoorloofde reproductie of distributie is strikt verboden.
-          </p>
+        <h2 className="h2 text-[--primary-color]">
+          1. Identiteit van de onderneming
+        </h2>
+        <p className="p max-w-[100ch]">
+          <strong>Bedrijfsnaam:</strong> Schrijnwerkerij De Haes
+          <br />
+          <strong>E-mail:</strong> info@schrijnwerkerij-dehaes.be
+          <br />
+          <strong>Activiteit:</strong> Schrijnwerkerij en maatwerk
+          houtconstructies
+        </p>
 
-          <h2 className="text-xl font-semibold text-[--primary-color]">Aansprakelijkheid</h2>
-          <p className="text-gray-700">
-            Hoewel wij ernaar streven de informatie op deze website nauwkeurig en actueel te houden, aanvaarden wij geen aansprakelijkheid voor eventuele fouten of weglatingen. Het gebruik van deze website is op eigen risico.
-          </p>
+        <h2 className="h2 text-[--primary-color]">2. Intellectuele eigendom</h2>
+        <p className="p max-w-[100ch]">
+          Alle inhoud op deze website, waaronder teksten, afbeeldingen, logo’s,
+          ontwerpen, code en grafische elementen, is beschermd door
+          auteursrechten en andere intellectuele eigendomsrechten. Zonder
+          voorafgaande schriftelijke toestemming van Schrijnwerkerij De Haes is
+          het niet toegestaan deze inhoud te kopiëren, verspreiden, wijzigen of
+          commercieel te gebruiken.
+        </p>
 
-          <h2 className="text-xl font-semibold text-[--primary-color]">Externe Links</h2>
-          <p className="text-gray-700">
-            Deze website kan links bevatten naar externe websites. Wij zijn niet verantwoordelijk voor de inhoud of het privacybeleid van deze externe sites.
-          </p>
-        </div>
-      </section>
-    );
-  }
-  
+        <h2 className="h2 text-[--primary-color]">3. Gebruik van de website</h2>
+        <p className="p max-w-[100ch]">
+          De informatie op deze website is uitsluitend bedoeld voor algemene
+          informatieve doeleinden en vormt geen professioneel, juridisch of
+          technisch advies. Schrijnwerkerij De Haes kan niet garanderen dat alle
+          informatie volledig, correct of actueel is.
+        </p>
+
+        <h2 className="h2 text-[--primary-color]">4. Aansprakelijkheid</h2>
+        <p className="p max-w-[100ch]">
+          Schrijnwerkerij De Haes kan niet aansprakelijk worden gesteld voor
+          directe of indirecte schade die voortvloeit uit het gebruik van deze
+          website, waaronder maar niet beperkt tot technische storingen,
+          virussen, foutieve informatie of tijdelijke onbeschikbaarheid van de
+          website. Het gebruik van de website gebeurt volledig op eigen risico.
+        </p>
+
+        <h2 className="h2 text-[--primary-color]">5. Externe links</h2>
+        <p className="p max-w-[100ch]">
+          Deze website kan links bevatten naar websites van derden.
+          Schrijnwerkerij De Haes heeft geen controle over de inhoud of het
+          beleid van deze externe websites en aanvaardt hiervoor geen enkele
+          verantwoordelijkheid.
+        </p>
+
+        <h2 className="h2 text-[--primary-color]">
+          6. Bescherming van persoonsgegevens
+        </h2>
+        <p className="p max-w-[100ch]">
+          De verwerking van persoonsgegevens via deze website valt onder ons
+          privacybeleid en beleid inzake gegevensbescherming. Raadpleeg deze
+          documenten voor meer informatie over hoe wij omgaan met uw gegevens.
+        </p>
+
+        <h2 className="h2 text-[--primary-color]">
+          7. Toepasselijk recht en bevoegde rechtbank
+        </h2>
+        <p className="p max-w-[100ch]">
+          Op deze website en deze juridische mededelingen is het Belgisch recht
+          van toepassing. In geval van geschil zijn uitsluitend de rechtbanken
+          van België bevoegd.
+        </p>
+
+        <h2 className="h2 text-[--primary-color]">8. Wijzigingen</h2>
+        <p className="p max-w-[100ch]">
+          Schrijnwerkerij De Haes behoudt zich het recht voor deze juridische
+          mededelingen op elk moment te wijzigen. De meest recente versie is
+          steeds beschikbaar op deze website.
+        </p>
+      </div>
+    </section>
+  );
+}

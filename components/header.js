@@ -89,21 +89,15 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header
-      id="parallax-header"
-      className="z-10 fixed w-full bg-white pt-10 lg:pt-10"
-    >
-      <nav
-        aria-label="Global"
-        className="flex flex-row items-center justify-between lg:justify-around mx-8 lg:mx-0"
-      >
+    <header className="z-10 fixed w-full bg-white">
+      <nav className="w-[80%] mx-auto flex flex-row items-center justify-between">
         <motion.div
           variants={dropdown}
           initial="variantInit"
           whileInView="variantAnim"
           viewport={{ once: true }}
           transition={transition1_s}
-          className="max-w-max lg:flex-1 flex flex-row items-center gap-x-4 pt-3"
+          className="max-w-max lg:flex-1 flex flex-row items-center gap-x-4 pt-5"
         >
           {/* LOGO */}
           <motion.a variants={dropdown} href="/" className="">
@@ -111,13 +105,13 @@ export default function Header() {
           </motion.a>
           {/* INFO */}
           <motion.div variants={dropdown} className="flex flex-col">
-            <p className="text-[#121212] p small">{config.ivaNumber}</p>
-            <p className="text-[#121212] p small hidden lg:flex">
+            <p className="text-[#121212] p">{config.ivaNumber}</p>
+            <p className="text-[#121212] p hidden lg:flex">
               {config.localAddress}
             </p>
             <div className="flex flex-row items-center gap-x-1 lg:hidden">
               <PhoneIcon className="size-4 text-[#000000]" />
-              <p className="text-[#121212] p small">{config.phoneNumber}</p>
+              <p className="text-[#121212] p">{config.phoneNumber}</p>
             </div>
           </motion.div>
         </motion.div>
@@ -141,33 +135,17 @@ export default function Header() {
           className="hidden lg:flex"
         >
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
-            {/* PHONE NUMBER */}
-            <motion.div>
-              <div className="flex flex-row gap-x-2">
-                <PhoneIcon className="size-7" />
-                <span className="h5">{config.phoneNumber}</span>
-              </div>
-            </motion.div>
-
             <menu className="hidden lg:flex lg:gap-x-12 items-center">
               {/* ACCUEIL */}
               <li>
-                <a
-                  href="/"
-                  title="Accueil"
-                  className="text-sm font-semibold text-gray-900"
-                >
+                <a href="/" title="Accueil" className="body">
                   HOME
                 </a>
               </li>
 
               {/* ABOUT US */}
               <li>
-                <a
-                  href="/about"
-                  title="Wie zijn we"
-                  className="text-sm font-semibold text-gray-900"
-                >
+                <a href="/about" title="Wie zijn we" className="body">
                   WIE ZIJN WE
                 </a>
               </li>
@@ -175,7 +153,7 @@ export default function Header() {
               <div>
                 <Popover className="relative">
                   <motion.div>
-                    <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold text-gray-900">
+                    <PopoverButton className="flex items-center gap-x-1 body">
                       ONZE DIENSTEN
                       <ChevronDownIcon
                         aria-hidden="true"
@@ -199,7 +177,7 @@ export default function Header() {
                             </div> */}
                           <div className="flex-auto">
                             <a
-                              className="block font-semibold text-gray-900 hover:text-[--primary-color]"
+                              className="block hover:text-[--primary-color]"
                               href={item.href}
                             >
                               {item.name}
@@ -218,7 +196,7 @@ export default function Header() {
                           key={item.name}
                           href={item.href}
                           target="_blank"
-                          className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
+                          className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 hover:bg-gray-100"
                         >
                           <item.icon
                             aria-hidden="true"
@@ -234,22 +212,14 @@ export default function Header() {
 
               {/* NOTRE TRAVAIL */}
               <li>
-                <a
-                  title="Projecten"
-                  href="/portfolio"
-                  className="text-sm font-semibold text-gray-900"
-                >
+                <a title="Projecten" href="/portfolio" className="body">
                   PROJECTEN
                 </a>
               </li>
 
               {/* CONTACT */}
               <li>
-                <a
-                  title="Contact"
-                  href="/contact"
-                  className="text-sm font-semibold text-gray-900"
-                >
+                <a title="Contact" href="/contact" className="body">
                   CONTACT
                 </a>
               </li>

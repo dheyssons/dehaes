@@ -16,6 +16,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 import Notification from "./notification";
+import { LuSend } from "react-icons/lu";
 
 export default function ContactForm() {
   const [showNotification, setShowNotification] = useState(false);
@@ -72,27 +73,27 @@ export default function ContactForm() {
   };
 
   return (
-    <main>
+    <section>
       {/* CONTACT US */}
-      <section
+      <div
         id="contactus"
-        className="container mx-auto flex flex-col items-center gap-y-8 overflow-hidden"
+        className="flex flex-col items-center gap-y-8 overflow-hidden"
       >
-        <div className="flex flex-col lg:flex-row gap-x-8 gap-y-8">
+        <div className="flex flex-col gap-14 lg:flex-row justify-between w-full">
           {/* FORMULAIRE */}
-          <div className="flex flex-col gap-y-14">
-            <div className="">
-              <motion.h3
+          <div className="flex flex-col gap-y-14 lg:pt-10 lg:w-[40%]">
+            <div>
+              <motion.h2
                 variants={upward}
                 initial="variantInit"
                 whileInView="variantAnim"
                 viewport={{ once: true }}
                 transition={transition1}
-                className="h3 text-center !text-[--primary-color]"
+                className="h3 !text-[--primary-color]"
               >
                 Contact opnemen
-              </motion.h3>
-              <h3 className="h3 text-center">zonder verplichtingen</h3>
+              </motion.h2>
+              <h2 className="h3">zonder verplichtingen</h2>
             </div>
 
             <div className="flex flex-row gap-x-12 w-full justify-evenly">
@@ -104,7 +105,7 @@ export default function ContactForm() {
                 viewport={{ once: true }}
                 transition={transition1_s}
                 onSubmit={handleSubmit}
-                className="w-80 md:w-full md:max-w-md flex flex-col items-center"
+                className="w-full flex flex-col"
               >
                 <motion.div
                   variants={item}
@@ -188,6 +189,7 @@ export default function ContactForm() {
                 </motion.div>
                 <button type="submit" className="btn self-start uppercase">
                   Verzenden
+                  <LuSend className="ml-2" />
                 </button>
               </motion.form>
             </div>
@@ -200,40 +202,39 @@ export default function ContactForm() {
             whileInView="variantAnim"
             viewport={{ once: true }}
             transition={transition1}
-            className="text-white flex flex-col gap-y-16 p-12 lg:p-20 bg-[#151515] lg:rounded-lg"
+            className="flex flex-col gap-y-16 lg:px-24 py-10 border-[1px] border-black/20 shadow-sm lg:rounded-md"
           >
-            <div className="flex flex-col justify-center gap-y-2">
-              <div className="flex flex-row overflow-hidden">
-                <h2 className="h2 !text-white">Contact</h2>
-              </div>
-              <p className="p !text-white">
+            <div className="flex flex-col justify-center items-start px-8">
+              <h2 className="h3">Contactgegevens</h2>
+              <p className="p !text-start">
                 Wij zijn er om u te helpen met al uw vragen en ondersteuning.
               </p>
             </div>
-            <div className="flex flex-col justify-center gap-y-3">
+            <div className="flex flex-col items-start justify-center gap-y-2 px-8">
               <a
                 target="_blank"
                 href={`mailto:${config.emailAddress}`}
-                className="p tracking-widest flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50 "
+                className="p flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50 "
               >
-                <MdOutlineMail /> {config.emailAddress}
+                <MdOutlineMail className="text-[--primary-color]" />{" "}
+                {config.emailAddress}
               </a>
               <a
                 target="_blank"
                 href={`https://api.whatsapp.com/send?phone=${config.whatsappNumber}`}
-                className="p  tracking-widest flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50"
+                className="p flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50"
               >
-                <ImWhatsapp />
+                <ImWhatsapp className="text-[--primary-color]" />
                 {config.phoneNumber}
               </a>
               <a
                 target="_blank"
                 href={config.mapsLink}
                 title="address"
-                className="p tracking-widest flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50 leading-10"
+                className="p !text-start flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50"
               >
-                <FaMapMarkerAlt />
-                {config.localAddress}
+                <FaMapMarkerAlt className="text-[--primary-color]" />
+                Dreefvelden 5, <br /> 2860 Sint-Katelijne-Waver
               </a>
             </div>
           </motion.div>
@@ -242,20 +243,18 @@ export default function ContactForm() {
         <iframe
           src={config.mapsLinkExtended}
           title="google location"
-          className="border-0 lg:mt-20 w-[1440px] h-[300px] lg:h-[600px]"
+          className="border-0 lg:mt-20 w-[1440px] h-[300px] lg:h-[600px] -z-10"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-
-        <div className="line"></div>
-      </section>
+      </div>
       {showNotification && (
         <Notification
           message="Formulier succesvol verzonden"
           onClose={() => setShowNotification(false)}
         />
       )}
-    </main>
+    </section>
   );
 }

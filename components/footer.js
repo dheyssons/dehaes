@@ -10,114 +10,96 @@ import config from "@/utils/config";
 
 export default function Footer() {
   return (
-    <footer className=" bg-white">
-      <div className="container mx-auto flex flex-col w-full max-w-[75rem] gap-y-[2rem] p-4 lg:p-8">
-        <div className="grid grid-cols-2  lg:flex lg:flex-row justify-between">
+    <footer>
+      <div className="container w-[80%] mx-auto flex flex-col gap-y-[2rem] py-10">
+        <div className="grid grid-cols-2 lg:flex lg:flex-row justify-between">
           {/* menu  */}
-          <div className="flex flex-col gap-y-3 px-4">
-            <p
-              className={`${archivo.className} p medium !opacity-100 !text-[#000000] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block`}
-            >
+          <div className="flex flex-col items-start gap-y-3">
+            <p className="body after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block">
               Menu
             </p>
-            <a
-              href="/"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
-            >
-              {" "}
-              Home{" "}
+            <a href="/" className="p hover:text-[#000000a1] transition-all">
+              Home
             </a>
             <a
               href="/about"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className="p hover:text-[#000000a1] transition-all"
             >
-              {" "}
-              Wie zijn we{" "}
+              Wie zijn we
             </a>
             <a
               href="/#services"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className="p hover:text-[#000000a1] transition-all"
             >
-              {" "}
-              Onze Diensten{" "}
+              Onze Diensten
             </a>
             <a
               href="/portfolio"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className="p hover:text-[#000000a1] transition-all"
             >
-              {" "}
-              Projecten{" "}
+              Projecten
             </a>
             <a
               href="/contact"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className="p hover:text-[#000000a1] transition-all"
             >
-              {" "}
-              Contact{" "}
+              Contact
             </a>
           </div>
           {/* services  */}
-          <div className="flex flex-col gap-y-3 px-4">
+          <div className="flex flex-col items-start gap-y-3">
             <p
-              className={`${archivo.className} p medium !opacity-100 !text-[#000000] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block`}
+              className={`p !opacity-100 !text-[#000000] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block`}
             >
               Diensten
             </p>
             <a
               href="/services/groendaken"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className={`p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Groendaken{" "}
+              Groendaken
             </a>
             <a
               href="/services/gaktimmers"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className="p hover:text-[#000000a1] transition-all"
             >
-              {" "}
-              Daktimmers{" "}
+              Daktimmers
             </a>
             <a
               href="/services/gevelbekleding"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className="p hover:text-[#000000a1] transition-all"
             >
-              {" "}
-              Gevelbekleding{" "}
+              Gevelbekleding
             </a>
             <a
               href="/services/plattedaken"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className="p hover:text-[#000000a1] transition-all"
             >
-              {" "}
-              Platte daken{" "}
+              Platte daken
             </a>
             <a
               href="/services/renovatie"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className={`p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Renovatie{" "}
+              Renovatie
             </a>
             <a
               href="/services/isolatie"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className={`p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Isolatie{" "}
+              Isolatie
             </a>
           </div>
 
-          <div className="flex flex-row lg:flex-col gap-x-8 lg:gap-y-0 items-center lg:px-6 mt-10 lg:mt-0">
+          <div className="flex flex-row md:flex-col gap-x-8 lg:gap-y-0 items-start lg:px-6 mt-14 lg:mt-0">
             {/* icon & text  */}
-            <div className="flex flex-col items-center w-full max-w-[30rem]">
+            <div className="flex flex-col items-start w-full max-w-[30rem]">
               <img
                 src={config.companyIconPath}
                 className="w-full max-w-[128px] h-full max-h-[128px] mb-3"
                 alt=""
               />
-              <p
-                className={`${archivo.className} p small mb-10 w-[8rem] md:w-full text-center`}
-              >
+              <p className={`p small mb-10 w-[8rem] md:w-full text-center`}>
                 {config.companySlogan}
               </p>
             </div>
@@ -171,14 +153,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="self-center">
-          <p
-            className={`${archivo.className} p small self-center text-center m-[1rem]`}
-          >
+        <div className="flex flex-col items-center gap-y-4">
+          <p className={`p self-center text-center m-[1rem]`}>
             © 2025 - {config.companyName}
           </p>
 
-          <div className=" grid grid-cols-2 gap-5 lg:flex">
+          <div className="grid grid-cols-2 gap-5 md:flex">
             <a
               className="text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70"
               href="/dataprotection"
@@ -204,20 +184,20 @@ export default function Footer() {
               Privacybeleid
             </a>
           </div>
-
-          <p
-            className={`${archivo.className} p small self-center text-center m-[1rem]`}
-          >
-            Ontwikkeld door{" "}
-            <a
-              className="text-[--primary-color] hover:opacity-70 underline underline-offset-2"
-              href="https://hdeveloper.vercel.app/fr"
-              target="_blank"
-            >
-              HDeveloper
-            </a>
-          </p>
         </div>
+      </div>
+
+      <div className="bg-[#151515]">
+        <p className="w-[80%] mx-auto body !text-center text-white py-4">
+          Ontwikkeld door
+          <a
+            className="text-white hover:opacity-70 underline underline-offset-2 mx-1"
+            href="https://hdeveloper.vercel.app/fr"
+            target="_blank"
+          >
+            HDeveloper
+          </a>
+        </p>
       </div>
     </footer>
   );
