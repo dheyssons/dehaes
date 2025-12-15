@@ -42,28 +42,13 @@ export default function About() {
       <section className="flex flex-col md:flex-row items-center justify-center pt-40 gap-x-20">
         {/* IMAGES */}
         <div className="hidden md:flex flex-col items-center">
-          <Image
-            loading="eager"
-            className="w-32 rounded-sm"
-            src={Frans}
-            alt=""
-          />
+          <Image className="w-32 rounded-sm" src={Frans} alt="" />
           <div className="accentV"></div>
-          <Image loading="eager" className="w-32 rounded-sm" src={Jos} alt="" />
+          <Image className="w-32 rounded-sm" src={Jos} alt="" />
           <div className="accentV"></div>
-          <Image
-            loading="eager"
-            className="w-32 rounded-sm"
-            src={Marcel}
-            alt=""
-          />
+          <Image className="w-32 rounded-sm" src={Marcel} alt="" />
           <div className="accentV"></div>
-          <Image
-            loading="eager"
-            className="w-32 rounded-sm"
-            src={Rudy}
-            alt=""
-          />
+          <Image className="w-32 rounded-sm" src={Rudy} alt="" />
         </div>
         {/* TEXTS */}
         <div className="flex flex-col gap-y-8">
