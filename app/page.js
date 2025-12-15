@@ -153,14 +153,15 @@ export default function Home() {
                   <div className="space-y-4">
                     {/* PARAGRAPH */}
                     <p className="p ">
-                      Schrijnwerkerij De Haes is een familiebedrijf dat kan
-                      terugblikken op een eeuw vakmanschap. Met Rudy De Haes, de
-                      huidige zaakvoerder, is het bedrijf al aan de vierde
-                      generatie schrijnwerkers toe. De rode draad door deze
-                      familiekroniek is een grote passie voor 'de stiel', een
-                      degelijke vakkennis en de wil om klanten een optimale
-                      kwaliteit en service te bieden, zoals alleen een
-                      familiebedrijf dat kan.
+                      Schrijnwerkerij De Haes is een familiebedrijf actief in de
+                      regio Sint-Katelijne-Waver, dat kan terugblikken op een
+                      eeuw vakmanschap. Met Rudy De Haes, de huidige
+                      zaakvoerder, is het bedrijf al aan de vierde generatie
+                      schrijnwerkers toe. De rode draad door deze familiekroniek
+                      is een grote passie voor 'de stiel', een degelijke
+                      vakkennis en de wil om klanten een optimale kwaliteit en
+                      service te bieden, zoals alleen een familiebedrijf dat
+                      kan.
                     </p>
                     <p className="p">
                       Zaakvoerder Rudy volgt het technische aspect van ieder
@@ -171,12 +172,20 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <a
-                className="btn max-w-max lg:self-start uppercase"
-                href="/about"
-              >
-                Meer weten
-              </a>
+              <div className="flex flex-col lg:flex-row gap-2">
+                <a
+                  className="btn max-w-max lg:self-start uppercase"
+                  href="/about"
+                >
+                  Meer weten
+                </a>
+                <a
+                  className="btn-ghost !outline-[--primary-color] !text-[--primary-color] hover:!text-white max-w-max lg:self-start uppercase"
+                  href="/portfolio"
+                >
+                  projecten <LuArrowUpRight className="ml-2" />
+                </a>
+              </div>
             </div>
             {/* CAROUSEL */}
             <EmblaCarousel></EmblaCarousel>

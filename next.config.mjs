@@ -8,6 +8,9 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
   },
+  turbopack: {
+    root: "/home/dheysson/dehaes",
+  },
 };
 
 export default nextConfig;

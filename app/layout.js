@@ -21,7 +21,7 @@ const archivo = localFont({
 });
 
 export const metadata = {
-  title: "Schrijnwerkerij de haes",
+  title: "Schrijnwerkerij De Haes | Dakwerken in Sint-Katelijne-Waver",
   description:
     "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
 };
@@ -59,7 +59,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="keywords"
-          content="schrijnwerkerij, de haes, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
+          content="schrijnwerkerij, de haes, dakwerken, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
         ></meta>
         <script
           dangerouslySetInnerHTML={{
