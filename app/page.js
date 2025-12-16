@@ -129,162 +129,148 @@ export default function Home() {
         </section>
 
         {/* ABOUT US */}
-        <section className="flex flex-col ">
-          {/* about */}
-          <div className="flex flex-col lg:flex-row gap-y-8 items-center justify-between">
-            {/* texts */}
-            <div className="flex flex-col gap-y-8 md:gap-y-14">
+        <section className="flex flex-col lg:flex-row gap-8 items-start justify-between">
+          {/* texts */}
+          <div className="flex flex-col gap-y-8 md:gap-y-10 justify-between">
+            <div className="flex flex-col">
               <div className="flex flex-col">
-                <div className="flex flex-col">
-                  {/* H2 */}
-                  <div>
-                    <motion.h2
-                      variants={upward}
-                      initial="variantInit"
-                      whileInView="variantAnim"
-                      viewport={{ once: true }}
-                      transition={transition1}
-                      className="h2"
-                    >
-                      Over{" "}
-                      <span className="text-[--primary-color]">De Haes</span>
-                    </motion.h2>
-                  </div>
-                  <div className="space-y-4">
-                    {/* PARAGRAPH */}
-                    <p className="p ">
-                      Schrijnwerkerij De Haes is een familiebedrijf actief in de
-                      regio Sint-Katelijne-Waver, dat kan terugblikken op een
-                      eeuw vakmanschap. Met Rudy De Haes, de huidige
-                      zaakvoerder, is het bedrijf al aan de vierde generatie
-                      schrijnwerkers toe. De rode draad door deze familiekroniek
-                      is een grote passie voor 'de stiel', een degelijke
-                      vakkennis en de wil om klanten een optimale kwaliteit en
-                      service te bieden, zoals alleen een familiebedrijf dat
-                      kan.
-                    </p>
-                    <p className="p">
-                      Zaakvoerder Rudy volgt het technische aspect van ieder
-                      project volledig op. De werknemers zijn hooggekwalificeerd
-                      en hebben elk hun eigen specialiteit. Het resultaat? Een
-                      dak dat tot in de puntjes afgewerkt is.
-                    </p>
-                  </div>
+                {/* H2 */}
+                <div>
+                  <motion.h2
+                    variants={upward}
+                    initial="variantInit"
+                    whileInView="variantAnim"
+                    viewport={{ once: true }}
+                    transition={transition1}
+                    className="h2"
+                  >
+                    Over <span className="text-[--primary-color]">De Haes</span>
+                  </motion.h2>
+                </div>
+                <div className="space-y-4">
+                  {/* PARAGRAPH */}
+                  <p className="p ">
+                    Schrijnwerkerij De Haes is een familiebedrijf actief in de
+                    regio Sint-Katelijne-Waver, dat kan terugblikken op een eeuw
+                    vakmanschap. Met Rudy De Haes, de huidige zaakvoerder, is
+                    het bedrijf al aan de vierde generatie schrijnwerkers toe.
+                    De rode draad door deze familiekroniek is een grote passie
+                    voor 'de stiel', een degelijke vakkennis en de wil om
+                    klanten een optimale kwaliteit en service te bieden, zoals
+                    alleen een familiebedrijf dat kan.
+                  </p>
+                  <p className="p">
+                    Zaakvoerder Rudy volgt het technische aspect van ieder
+                    project volledig op. De werknemers zijn hooggekwalificeerd
+                    en hebben elk hun eigen specialiteit. Het resultaat? Een dak
+                    dat tot in de puntjes afgewerkt is.
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col lg:flex-row gap-2">
-                <a
-                  className="btn max-w-max lg:self-start uppercase"
-                  href="/about"
-                >
-                  Meer weten
-                </a>
-                <a
-                  className="btn-ghost !outline-[--primary-color] !text-[--primary-color] hover:!text-white max-w-max lg:self-start uppercase"
-                  href="/portfolio"
-                >
-                  projecten <LuArrowUpRight className="ml-2" />
-                </a>
-              </div>
             </div>
-            {/* CAROUSEL */}
-            <EmblaCarousel></EmblaCarousel>
+            <div className="flex flex-col justify-between md:flex-row gap-2">
+              <a className="btn !w-full lg:self-start uppercase" href="/about">
+                Meer weten
+              </a>
+              <a
+                className="btn-ghost !w-full !outline-[--primary-color] !text-[--primary-color] hover:!text-white lg:self-start uppercase"
+                href="/portfolio"
+              >
+                projecten <LuArrowUpRight className="ml-2" />
+              </a>
+            </div>
           </div>
+          {/* CAROUSEL */}
+          <EmblaCarousel></EmblaCarousel>
         </section>
 
         {/* About Image section */}
-        <section className="flex flex-col lg:flex-row justify-evenly">
+        <section className="flex flex-col lg:flex-row gap-8 justify-evenly">
           {/* image */}
           <Image
-            className="rounded-md hidden md:block md:w-[27rem]"
+            className="order-2 lg:order-none rounded-md hidden md:flex lg:w-[50%] object-cover"
             src={AboutImage}
             alt=""
           />
           {/* text */}
-          <div className="flex flex-col justify-between items-center lg:items-start gap-y-6">
-            <div className="flex flex-col gap-4 justify-between h-full items-start">
-              <h2 className="h2">
-                Uw dak,
-                <span className="text-[--primary-color]">
-                  {" "}
-                  Onze toewijding!
-                </span>
-              </h2>
-
-              {/* DESKTOP */}
-              <div
-                className={`hidden lg:flex flex-col gap-y-4 ${
-                  ExtendedText ? "" : "!max-h-72 overflow-hidden"
-                }`}
-              >
-                <p className="p">
-                  Uw dak verdient het beste op het gebied van kwaliteit,{" "}
-                  <strong>isolatie</strong> en <strong>gafwerking</strong>. Ons
-                  gespecialiseerde team werkt met toewijding om uw projecten tot
-                  leven te brengen, waarbij we functionaliteit en esthetiek
-                  combineren voor het perfecte resultaat. Wat ons onderscheidt?
-                  Onze <strong>passie</strong> voor het vak en onze inzet om uw
-                  verwachtingen te overtreffen, ongeacht de complexiteit van de
-                  opdracht.
-                </p>
-                <p className="p">
-                  Wij zijn actief in Brussel, Waals-Brabant en omliggende
-                  regio’s en bieden complete dakoplossingen, van klein onderhoud
-                  tot grootschalige renovaties. Met uitgebreide ervaring in de
-                  sector garanderen wij hoogwaardige service, met oog voor
-                  detail en vakmanschap, zowel voor platte als hellende daken.
-                </p>
-                <p className="p">
-                  Onze expertise, van generatie op generatie doorgegeven, stelt
-                  ons in staat om alle aspecten van uw dak aan te pakken, van
-                  constructie tot de installatie van afwerkingen en accessoires.
-                  We werken met verschillende soorten{" "}
-                  <strong>
+          <div className="order-1 lg:order-none flex flex-col justify-between items-center lg:items-start gap-y-6">
+            <div className="flex flex-col gap-10 justify-between h-full items-start">
+              <div>
+                <h2 className="h2">
+                  Uw dak,
+                  <span className="text-[--primary-color]">
                     {" "}
-                    dakbedekking, zoals dakpannen, leisteen, zink en aluminium
-                  </strong>
-                  , en bieden daarnaast isolatie- en dakraaminstallaties.
-                </p>
-                <p className="p">
-                  Wat uw project ook is, wij leveren een op maat gemaakte
-                  service die perfect aansluit bij uw wensen. Vertrouw op ons
-                  team voor een duurzaam, veilig en perfect afgewerkt dak!
-                </p>
-              </div>
-              {/* MOBILE */}
-              <div
-                className={`lg:hidden flex flex-col gap-y-6 ${
-                  ExtendedText ? "" : "!max-h-72 overflow-hidden"
-                }`}
-              >
-                <p className="p small">
-                  Uw dak verdient het beste in <strong>kwaliteit</strong>,{" "}
-                  <strong>isolatie</strong> en <strong>afwerking</strong>. Ons
-                  team werkt met toewijding om functionaliteit en esthetiek te
-                  combineren voor het perfecte resultaat. Wat ons onderscheidt?
-                  Onze <strong>passie</strong> en inzet om altijd uw
-                  verwachtingen te overtreffen.
-                </p>
+                    Onze toewijding!
+                  </span>
+                </h2>
 
-                <p className="p small">
-                  Wij zijn actief in Brussel, Waals-Brabant en omgeving. Van
-                  klein onderhoud tot renovaties, wij garanderen service van
-                  hoge kwaliteit met oog voor detail en vakmanschap, zowel bij
-                  platte als hellende daken.
-                </p>
+                {/* DESKTOP */}
+                <div
+                  className={`hidden lg:flex flex-col gap-y-4 ${
+                    ExtendedText ? "" : "!max-h-72 overflow-hidden"
+                  }`}
+                >
+                  <p className="p">
+                    Uw dak verdient topkwaliteit in <strong>isolatie</strong> en{" "}
+                    <strong>afwerking</strong>. Ons team combineert
+                    functionaliteit en esthetiek om elk project perfect uit te
+                    voeren. Onze <strong>passie</strong> voor het vak en focus
+                    op kwaliteit maken het verschil.
+                  </p>
 
-                <p className="p small">
-                  Met ervaring van generatie op generatie pakken wij alles aan:
-                  constructie, afwerking en accessoires. We werken met{" "}
-                  <strong>dakpannen, leisteen, zink en aluminium</strong>, en
-                  verzorgen ook isolatie- en dakraaminstallaties.
-                </p>
+                  <p className="p">
+                    Actief in Brussel, Waals-Brabant en omliggende regio’s
+                    bieden wij complete dakoplossingen, van onderhoud tot
+                    volledige renovaties, voor zowel platte als hellende daken.
+                  </p>
 
-                <p className="p small">
-                  Voor elk project leveren wij een oplossing op maat. Vertrouw
-                  op ons team voor een duurzaam, veilig en perfect afgewerkt
-                  dak!
-                </p>
+                  <p className="p">
+                    Met generaties aan ervaring verzorgen wij alles van
+                    dakconstructie tot afwerking. Wij werken met{" "}
+                    <strong>dakpannen, leisteen, zink en aluminium</strong> en
+                    plaatsen ook isolatie en dakramen.
+                  </p>
+
+                  <p className="p">
+                    Elk project krijgt een persoonlijke aanpak voor een
+                    duurzaam, veilig en perfect afgewerkt dak.
+                  </p>
+                </div>
+                {/* MOBILE */}
+                <div
+                  className={`lg:hidden flex flex-col gap-y-6 ${
+                    ExtendedText ? "" : "!max-h-72 overflow-hidden"
+                  }`}
+                >
+                  <p className="p small">
+                    Uw dak verdient het beste in <strong>kwaliteit</strong>,{" "}
+                    <strong>isolatie</strong> en <strong>afwerking</strong>. Ons
+                    team werkt met toewijding om functionaliteit en esthetiek te
+                    combineren voor het perfecte resultaat. Wat ons
+                    onderscheidt? Onze <strong>passie</strong> en inzet om
+                    altijd uw verwachtingen te overtreffen.
+                  </p>
+
+                  <p className="p small">
+                    Wij zijn actief in Brussel, Waals-Brabant en omgeving. Van
+                    klein onderhoud tot renovaties, wij garanderen service van
+                    hoge kwaliteit met oog voor detail en vakmanschap, zowel bij
+                    platte als hellende daken.
+                  </p>
+
+                  <p className="p small">
+                    Met ervaring van generatie op generatie pakken wij alles
+                    aan: constructie, afwerking en accessoires. We werken met{" "}
+                    <strong>dakpannen, leisteen, zink en aluminium</strong>, en
+                    verzorgen ook isolatie- en dakraaminstallaties.
+                  </p>
+
+                  <p className="p small">
+                    Voor elk project leveren wij een oplossing op maat. Vertrouw
+                    op ons team voor een duurzaam, veilig en perfect afgewerkt
+                    dak!
+                  </p>
+                </div>
               </div>
 
               <button
@@ -405,7 +391,7 @@ export default function Home() {
                 {/* title */}
                 <div className="h-56">
                   <h3 className="h3 card-services_title">Daktimmers</h3>
-                  <p className="p line-clamp-6 lg:line-clamp-none">
+                  <p className="p line-clamp-6 xl:line-clamp-none">
                     Daktimmers vormen de ruggengraat van een stevig en goed
                     gebouwd dak. Met meer dan een eeuw ervaring werken wij met
                     hoogwaardige houtsoorten en verfijnde technieken om
@@ -415,7 +401,7 @@ export default function Home() {
                 </div>
               </div>
               <a
-                className="btn self-start uppercase"
+                className="btn w-full self-start uppercase"
                 href="/services/daktimmer"
               >
                 meer informatie <LuArrowUpRight className="ml-2" />
@@ -434,7 +420,7 @@ export default function Home() {
                 {/* title */}
                 <div className="h-56">
                   <h3 className="h3 card-services_title">Groendaken</h3>
-                  <p className="p line-clamp-6 lg:line-clamp-none">
+                  <p className="p line-clamp-6 xl:line-clamp-none">
                     Groendaken zijn een innovatieve en duurzame oplossing voor
                     zowel residentiële als commerciële gebouwen. Ze verbeteren
                     de energie-efficiëntie, verlengen de levensduur van het dak
@@ -444,7 +430,7 @@ export default function Home() {
                 </div>
               </div>
               <a
-                className="btn self-start uppercase"
+                className="btn w-full self-start uppercase"
                 href="/services/groendaken"
               >
                 meer informatie <LuArrowUpRight className="ml-2" />
@@ -463,7 +449,7 @@ export default function Home() {
                 {/* title */}
                 <div className="h-56">
                   <h3 className="h3 card-services_title">Gevelbekleding</h3>
-                  <p className="p line-clamp-6 lg:line-clamp-none">
+                  <p className="p line-clamp-6 xl:line-clamp-none">
                     Gevelbekleding zorgt voor de esthetische uitstraling en
                     bescherming van uw gebouw. Wij bieden een breed scala aan
                     gevelbekledingdiensten, van installatie tot renovatie, met
@@ -473,7 +459,7 @@ export default function Home() {
                 </div>
               </div>
               <a
-                className="btn self-start uppercase"
+                className="btn w-full self-start uppercase"
                 href="/services/gevelbekleding"
               >
                 meer informatie <LuArrowUpRight className="ml-2" />
@@ -492,7 +478,7 @@ export default function Home() {
                 {/* title */}
                 <div className="h-56">
                   <h3 className="h3 card-services_title">Platte daken</h3>
-                  <p className="p line-clamp-6 lg:line-clamp-none">
+                  <p className="p line-clamp-6 xl:line-clamp-none">
                     Platte daken bieden efficiëntie en functionaliteit voor
                     diverse projecten en excelleren in waterdichting en
                     isolatie. Met onze maatwerkoplossingen garanderen we
@@ -502,7 +488,7 @@ export default function Home() {
                 </div>
               </div>
               <a
-                className="btn self-start uppercase"
+                className="btn w-full self-start uppercase"
                 href="/services/plattedaken"
               >
                 meer informatie <LuArrowUpRight className="ml-2" />
@@ -519,7 +505,7 @@ export default function Home() {
               <div className="flex flex-col gap-y-3 justify-around h-56">
                 <div className="h-56">
                   <h3 className="h3 card-services_title">Renovatie</h3>
-                  <p className="p line-clamp-6 lg:line-clamp-none">
+                  <p className="p line-clamp-6 xl:line-clamp-none">
                     Renovatie is een essentiële stap om uw gebouwen en ruimtes
                     te verbeteren, moderniseren of herstellen. Of het nu gaat om
                     schadeherstel, structurele vernieuwing of het verhogen van
@@ -530,7 +516,7 @@ export default function Home() {
                 </div>
               </div>
               <a
-                className="btn self-start uppercase"
+                className="btn w-full self-start uppercase"
                 href="/services/renovatie"
               >
                 meer informatie <LuArrowUpRight className="ml-2" />
@@ -548,7 +534,7 @@ export default function Home() {
               <div className="flex flex-col gap-y-3 justify-around h-56">
                 <div className="h-56">
                   <h3 className="h3 card-services_title">Isolatie</h3>
-                  <p className="p line-clamp-6 lg:line-clamp-none">
+                  <p className="p line-clamp-6 xl:line-clamp-none">
                     Wij bieden thermische isolatie-oplossingen voor daken die
                     zorgen voor meer comfort en een aanzienlijke vermindering
                     van energiekosten. Onze diensten worden volledig
@@ -557,7 +543,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <a className="btn self-start" href="/services/isolatie">
+              <a className="btn w-full self-start" href="/services/isolatie">
                 MEER INFORMATIE <LuArrowUpRight className="ml-2" />
               </a>
             </div>

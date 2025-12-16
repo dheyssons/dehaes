@@ -234,7 +234,8 @@ export default function ContactForm() {
                 className="p !text-start flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50"
               >
                 <FaMapMarkerAlt className="text-[--primary-color]" />
-                Dreefvelden 5, <br /> 2860 Sint-Katelijne-Waver
+                Dreefvelden 5, <br className="md:hidden" /> 2860
+                Sint-Katelijne-Waver
               </a>
             </div>
           </motion.div>

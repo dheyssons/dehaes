@@ -9,7 +9,7 @@ const nextConfig = {
     optimizeCss: true,
   },
   turbopack: {
-    root: "/home/dheysson/dehaes",
+    root: "/home/dheysson/projects/dehaes",
   },
 };
 

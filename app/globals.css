@@ -41,11 +41,11 @@ section {
 }
 
 .p {
-  @apply font-normal text-balance text-[0.875rem] leading-[160%] opacity-75 tracking-[0.04em] max-w-[68ch] text-start;
+  @apply font-normal text-pretty text-[0.875rem] leading-[160%] opacity-75 tracking-[0.04em] max-w-[70ch] text-start;
 }
 
 .body {
-  @apply text-[0.875rem] font-normal leading-[160%] tracking-[0.04em] text-balance max-w-[68ch];
+  @apply text-[0.875rem] font-normal leading-[160%] tracking-[0.04em] text-pretty max-w-[70ch];
 }
 
 a {
@@ -67,14 +67,14 @@ a {
 }
 
 .btn {
-  @apply py-[0.75rem] px-[2rem] flex items-center justify-center text-[0.875rem] text-white rounded-md transition-all duration-500 bg-[--primary-color];
+  @apply py-[0.75rem] px-[2rem] min-w-56 flex items-center justify-center text-[0.875rem] text-white rounded-md transition-all duration-500 bg-[--primary-color];
 }
 .btn:hover {
   @apply bg-[#064b6d] text-white;
 }
 
 .btn-ghost {
-  @apply py-[0.75rem] px-[2rem] flex items-center justify-center outline-1 outline-white outline text-[0.875rem] text-white rounded-md transition-all duration-500;
+  @apply py-[0.75rem] px-[2rem] min-w-56 flex items-center justify-center outline-1 outline-white outline text-[0.875rem] text-white rounded-md transition-all duration-500;
 }
 .btn-ghost:hover {
   @apply bg-[#064b6d] outline-[#064b6d] text-white;
