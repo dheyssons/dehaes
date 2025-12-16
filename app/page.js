@@ -129,7 +129,7 @@ export default function Home() {
         </section>
 
         {/* ABOUT US */}
-        <section className="flex flex-col lg:flex-row gap-8 items-start justify-between">
+        <section className="flex flex-col lg:flex-row justify-between gap-y-8">
           {/* texts */}
           <div className="flex flex-col gap-y-8 md:gap-y-10 justify-between">
             <div className="flex flex-col">
@@ -185,10 +185,10 @@ export default function Home() {
         </section>
 
         {/* About Image section */}
-        <section className="flex flex-col lg:flex-row gap-8 justify-evenly">
+        <section className="flex flex-col lg:flex-row gap-20">
           {/* image */}
           <Image
-            className="order-2 lg:order-none rounded-md hidden md:flex lg:w-[50%] object-cover"
+            className="order-2 lg:order-none rounded-md hidden md:flex lg:w-[40rem] object-cover"
             src={AboutImage}
             alt=""
           />

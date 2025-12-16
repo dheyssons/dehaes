@@ -1,11 +1,7 @@
 "use client";
 
-import { Archivo } from "next/font/google";
-const archivo = Archivo({ subsets: ["latin"], weight: ["400", "600"] });
+import { ImWhatsapp, ImMail2, ImFacebook } from "react-icons/im";
 
-import { ImWhatsapp, ImInstagram, ImMail2, ImFacebook } from "react-icons/im";
-
-import Link from "next/link";
 import config from "@/utils/config";
 
 export default function Footer() {

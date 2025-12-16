@@ -244,7 +244,7 @@ export default function ContactForm() {
         <iframe
           src={config.mapsLinkExtended}
           title="google location"
-          className="border-0 lg:mt-20 w-[1440px] h-[300px] lg:h-[600px] -z-10"
+          className="border-0 lg:mt-20 w-full h-[300px] lg:h-[600px] -z-10"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

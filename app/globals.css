@@ -41,11 +41,11 @@ section {
 }
 
 .p {
-  @apply font-normal text-pretty text-[0.875rem] leading-[160%] opacity-75 tracking-[0.04em] max-w-[70ch] text-start;
+  @apply font-normal text-pretty text-[0.875rem] leading-[160%] opacity-75 tracking-[0.04em] max-w-[68ch] text-start;
 }
 
 .body {
-  @apply text-[0.875rem] font-normal leading-[160%] tracking-[0.04em] text-pretty max-w-[70ch];
+  @apply text-[0.875rem] font-normal leading-[160%] tracking-[0.04em] text-pretty max-w-[68ch];
 }
 
 a {

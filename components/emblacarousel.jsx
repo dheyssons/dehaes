@@ -8,7 +8,7 @@ export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   return (
-    <div className="embla lg:w-[45%]" ref={emblaRef}>
+    <div className="embla lg:w-[40rem]" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide">
           <img
