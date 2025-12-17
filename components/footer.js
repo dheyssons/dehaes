@@ -106,7 +106,7 @@ export default function Footer() {
               Groendaken
             </a>
             <a
-              href="/services/gaktimmers"
+              href="/services/daktimmers"
               className="p hover:text-[#000000a1] transition-all"
             >
               Daktimmers
