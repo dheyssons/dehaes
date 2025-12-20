@@ -67,14 +67,14 @@ a {
 }
 
 .btn {
-  @apply py-[0.75rem] px-[2rem] min-w-56 flex items-center justify-center text-[0.875rem] text-white rounded-md transition-all duration-500 bg-[--primary-color];
+  @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center text-[0.875rem] text-white rounded-md transition-all duration-500 bg-[--primary-color];
 }
 .btn:hover {
   @apply bg-[#064b6d] text-white;
 }
 
 .btn-ghost {
-  @apply py-[0.75rem] px-[2rem] min-w-56 flex items-center justify-center outline-1 outline-white outline text-[0.875rem] text-white rounded-md transition-all duration-500;
+  @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center outline-1 outline-white outline text-[0.875rem] text-white rounded-md transition-all duration-500;
 }
 .btn-ghost:hover {
   @apply bg-[#064b6d] outline-[#064b6d] text-white;

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="container w-[80%] mx-auto flex flex-col gap-y-10 py-10">
-        <div className="flex flex-row items-center justify-between">
+        <div className="flex flex-row items-center gap-2 justify-between">
           {/* icon & text  */}
           <div className="flex flex-col items-center md:items-start gap-y-2">
             <img src={config.companyIconPath} className="w-36" alt="" />

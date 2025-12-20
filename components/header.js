@@ -137,11 +137,11 @@ export default function Header() {
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
             <menu className="hidden lg:flex lg:gap-x-12 items-center">
               {/* ACCUEIL */}
-              <li>
+              {/* <li>
                 <a href="/" title="Accueil" className="body">
                   HOME
                 </a>
-              </li>
+              </li> */}
 
               {/* ABOUT US */}
               <li>

@@ -1,11 +1,17 @@
 import Image from "next/image";
-import PlattedakenImage from "@/public/images/services/plateforme.webp";
+import PlattedakenImage from "@/public/images/services/epdm.webp";
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
 
 import QuestionMark from "@/public/icons/questionmark.svg";
+
+export const metadata = {
+  title: "Platte daken",
+  description:
+    "Platte daken combineren een strak design met hoge functionaliteit. Met correcte isolatie, doordachte waterafvoer en duurzame dakbedekking zoals EPDM of bitumen zorgen wij voor een betrouwbaar, waterdicht en langdurig plat dak.",
+};
 
 export default function Plattedaken() {
   return (

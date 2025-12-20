@@ -8,15 +8,12 @@ import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/react";
 
 //FONT IMPORT
-import localFont from "next/font/local";
+import { Archivo } from "next/font/google";
 import React from "react";
-const archivo = localFont({
-  src: [
-    {
-      path: "../public/fonts/Archivo-Regular.ttf",
-      weight: "400",
-    },
-  ],
+
+const archivo = Archivo({
+  weight: ["400", "500", "600", "700", "800"],
+  subsets: ["latin"],
   variable: "--font-archivo",
 });
 

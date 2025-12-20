@@ -10,6 +10,16 @@ import Resitrix from "@/public/images/brands/resitrix.webp";
 import Iko from "@/public/images/brands/iko.webp";
 import Bosscover from "@/public/images/brands/bosscover.webp";
 
+// SERVICES
+import RenovatieImage from "@/public/images/services/renovation.webp";
+import DaktimmerImage from "@/public/images/services/daktimmer.webp";
+import GevelbekledingImage from "@/public/images/services/cladding.webp";
+import PlattedakenImage from "@/public/images/services/epdm.webp";
+import Groendaken from "@/public/images/services/greenroof.webp";
+import IsolatieImage from "@/public/images/services/insulation.webp";
+
+import Maps from "@/public/images/maps.png";
+
 // ICONS
 import { LuArrowUpRight } from "react-icons/lu";
 
@@ -85,7 +95,7 @@ export default function Home() {
 
       <div className="section_gap relative">
         {/* HERO */}
-        <section className="flex flex-col justify-center h-screen">
+        <section className="flex flex-col justify-center h-screen relative">
           {/* title */}
           <motion.div
             variants={upward}
@@ -97,23 +107,33 @@ export default function Home() {
           >
             <div className="flex flex-col gap-y-20 lg:gap-y-20">
               {/* TITLE */}
-              <div>
-                <motion.h1
-                  variants={item}
-                  className="display-large text-white lg:text-[#ffffff]"
-                >
-                  Schrijnwerkerij De Haes
-                </motion.h1>
+              <div className="space-y-6">
+                <div>
+                  <div className="flex flex-row items-center">
+                    <div className="accent !bg-white"></div>
+                    <p className="body !text-white">algemene dakwerken</p>
+                  </div>
+
+                  <motion.h1
+                    variants={item}
+                    className="display-large !text-white"
+                  >
+                    Schrijnwerkerij De Haes
+                  </motion.h1>
+                </div>
+
                 <motion.p
                   variants={item}
-                  className="h6 !text-[#ffffffed] lg:!text-[#f2f2f2] leading-6"
+                  className="p !text-[#ffffffed] lg:!text-[#f2f2f2ed]"
                 >
-                  Traditie en kwaliteit die generaties overstijgen.
+                  Traditie en kwaliteit die generaties overstijgen, met
+                  vakkundige dakwerken in Sint-Katelijne-Waver en omgeving zoals
+                  Mechelen, Lier en Bornem.
                 </motion.p>
                 <JsonLd data={jsonLdData} />
               </div>
               {/* CALL TO ACTION  */}
-              <div className="flex flex-col gap-x-2 lg:flex-row gap-y-2">
+              <div className="flex flex-col gap-x-3 md:flex-row gap-y-2">
                 <a className="btn self-start uppercase" href="/contact">
                   Contact opnemen
                 </a>
@@ -126,10 +146,33 @@ export default function Home() {
               </div>
             </div>
           </motion.div>
+
+          {/* SCROLL INDICATOR - chevron indiquant du contenu dessous */}
+          <a
+            href="#about"
+            aria-label="Descendre vers la section À propos"
+            className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 text-white opacity-90 hover:opacity-100"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white animate-bounce"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </a>
         </section>
 
         {/* ABOUT US */}
-        <section className="flex flex-col lg:flex-row justify-between gap-y-8">
+        <section className="flex flex-col lg:flex-row justify-between gap-8">
           {/* texts */}
           <div className="flex flex-col gap-y-8 md:gap-y-10 justify-between">
             <div className="flex flex-col">
@@ -184,17 +227,357 @@ export default function Home() {
           <EmblaCarousel></EmblaCarousel>
         </section>
 
+        {/* BRANDs and certifications */}
+        <section className="flex flex-col items-center gap-y-6">
+          <h3 className="h4 !text-center text-balance">
+            Schrijnwerkerij De Haes,{" "}
+            <span className="text-[--primary-color]">deskundigen</span> in
+            dakwerken, gevelbekleding, groendaken en isolatie
+          </h3>
+          <p className="p !text-center !max-w-screen-lg">
+            Wij werken met de beste merken op de markt, van
+            kwaliteitsleveranciers met alle nodige certificeringen:
+            <i> Resitrix, Velux, Iko enertherm, </i>enz.
+          </p>
+
+          <motion.div
+            variants={upward}
+            initial="variantInit"
+            whileInView="variantAnim"
+            viewport={{ once: true }}
+            transition={transition1_s}
+            className="hidden lg:flex flex-row gap-x-20"
+          >
+            <motion.div variants={item}>
+              <Image className="w-36" src={Velux} alt="" />
+            </motion.div>
+            <motion.div variants={item}>
+              <Image className="w-36" src={Iko} alt="" />
+            </motion.div>
+            <motion.div variants={item}>
+              <Image className="w-36" src={Resitrix} alt="" />
+            </motion.div>
+            <motion.div variants={item}>
+              <Image
+                className="w-36 h-36 object-scale-down"
+                src={Bosscover}
+                alt=""
+              />
+            </motion.div>
+          </motion.div>
+
+          {/* IMAGE SLIDER */}
+          <div className=" lg:hidden relative overflow-hidden w-full py-4">
+            <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-white to-transparent pointer-events-none z-50" />
+            <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-white to-transparent pointer-events-none z-50" />
+
+            <motion.div
+              ref={carouselRef}
+              className="flex space-x-6 cursor-grab"
+              drag="x"
+              dragConstraints={{ right: 0, left: -width }}
+              initial={{ x: 0 }}
+              animate={{ x: [0, -width] }}
+              transition={{ ease: "linear", duration: 40, repeat: Infinity }}
+            >
+              {images.concat(images).map((src, index) => (
+                <div
+                  key={index}
+                  className="flex flex-row items-center min-w-[144px]"
+                >
+                  <Image
+                    src={src}
+                    alt={`Slide ${index}`}
+                    width={300}
+                    height={200}
+                    className="rounded-lg object-scale-down px-4"
+                  />
+                </div>
+              ))}
+            </motion.div>
+          </div>
+        </section>
+
+        {/* OUR SERVICES */}
+        <section id="services" className="flex flex-col gap-y-2 py-4">
+          <div className="overflow-hidden space-y-10 md:space-y-20">
+            {/* title */}
+            <div>
+              <div className="flex flex-row items-center">
+                <div className="accent"></div>
+                <span className="body">Découvrez nos services</span>
+              </div>
+
+              <motion.h2
+                variants={lefttoright}
+                initial="variantInit"
+                whileInView="variantAnim"
+                viewport={{ once: true }}
+                transition={transition1}
+                className="h1"
+              >
+                Services principaux
+              </motion.h2>
+            </div>
+
+            {/* services */}
+            <div className="flex flex-col gap-y-32">
+              {/* Daktimmer > */}
+              <a
+                href="/services/daktimmer"
+                className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
+              >
+                <div>
+                  <Image
+                    src={DaktimmerImage}
+                    className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+                    alt=""
+                  />
+                </div>
+                <div className="lg:absolute mt-4 lg:mt-14 bottom-0 right-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
+                  <div className="flex flex-col justify-between h-full">
+                    {/* texts */}
+                    <div className="flex flex-col h-full gap-y-3 justify-evenly">
+                      <h2 className="h3 group-hover:lg:text-white duration-500">
+                        Daktimmer
+                      </h2>
+                      <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
+                        Daktimmers vormen de ruggengraat van een stevig en goed
+                        gebouwd dak. Met meer dan een eeuw ervaring werken wij
+                        met hoogwaardige houtsoorten en verfijnde technieken om
+                        duurzaamheid, veiligheid en een onberispelijke afwerking
+                        te garanderen, zowel bij nieuwbouw als renovaties.
+                      </p>
+                      {/* button */}
+                      <div className="flex flex-row gap-x-2 items-center">
+                        <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
+                          <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
+                        </div>
+                        <span className="group-hover:lg:text-white duration-500 uppercase">
+                          Meer weten
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              {/* Gevelbekleding < */}
+              <a
+                href="/services/gevelbekleding"
+                className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
+              >
+                <div>
+                  <Image
+                    src={GevelbekledingImage}
+                    className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+                    alt=""
+                  />
+                </div>
+                <div className="lg:absolute mt-4 lg:mt-14 bottom-0 left-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
+                  <div className="flex flex-col justify-between h-full">
+                    {/* texts */}
+                    <div className="flex flex-col h-full gap-y-3 justify-evenly">
+                      <h2 className="h3 group-hover:lg:text-white duration-500">
+                        Gevelbekleding
+                      </h2>
+                      <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
+                        Gevelbekleding zorgt voor de esthetische uitstraling en
+                        bescherming van uw gebouw. Wij bieden een breed scala
+                        aan gevelbekledingdiensten, van installatie tot
+                        renovatie, met materialen die zowel visueel
+                        aantrekkelijk als functioneel zijn.
+                      </p>
+                      {/* button */}
+                      <div className="flex flex-row gap-x-2 items-center">
+                        <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
+                          <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
+                        </div>
+                        <span className="group-hover:lg:text-white duration-500 uppercase">
+                          Meer weten
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              {/* Plattedaken > */}
+              <a
+                href="/services/plattedaken"
+                className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
+              >
+                <div>
+                  <Image
+                    src={PlattedakenImage}
+                    className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+                    alt=""
+                  />
+                </div>
+                <div className="lg:absolute mt-4 lg:mt-14 bottom-0 right-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
+                  <div className="flex flex-col justify-between h-full">
+                    {/* texts */}
+                    <div className="flex flex-col h-full gap-y-3 justify-evenly">
+                      <h2 className="h3 group-hover:lg:text-white duration-500">
+                        Platte daken
+                      </h2>
+                      <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
+                        Platte daken bieden efficiëntie en functionaliteit voor
+                        diverse projecten en excelleren in waterdichting en
+                        isolatie. Met onze maatwerkoplossingen garanderen we
+                        duurzaamheid en optimale prestaties, zodat uw dak
+                        beschermd blijft tegen weersinvloeden en
+                        afwateringsproblemen.
+                      </p>
+                      {/* button */}
+                      <div className="flex flex-row gap-x-2 items-center">
+                        <div className="bg-[--primary-color] p-2 group-hover:bg-white duration-500">
+                          <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
+                        </div>
+                        <span className="group-hover:lg:text-white duration-500 uppercase">
+                          Meer weten
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              {/* Isolatie < */}
+              <a
+                href="/services/isolatie"
+                className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
+              >
+                <div>
+                  <Image
+                    src={IsolatieImage}
+                    className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+                    alt=""
+                  />
+                </div>
+                <div className="lg:absolute mt-4 lg:mt-14 bottom-0 left-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
+                  <div className="flex flex-col justify-between h-full">
+                    {/* texts */}
+                    <div className="flex flex-col h-full gap-y-3 justify-evenly">
+                      <h2 className="h3 group-hover:lg:text-white duration-500">
+                        Isolatie
+                      </h2>
+                      <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
+                        Wij bieden thermische isolatie-oplossingen voor daken
+                        die zorgen voor meer comfort en een aanzienlijke
+                        vermindering van energiekosten. Onze diensten worden
+                        volledig gepersonaliseerd om te voldoen aan de
+                        specifieke behoeften van schuine of platte daken.
+                      </p>
+                      {/* button */}
+                      <div className="flex flex-row gap-x-2 items-center">
+                        <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
+                          <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
+                        </div>
+                        <span className="group-hover:lg:text-white duration-500 uppercase">
+                          Meer weten
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              {/* Renovatie > */}
+              <a
+                href="/services/renovatie"
+                className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
+              >
+                <div>
+                  <Image
+                    src={RenovatieImage}
+                    className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+                    alt=""
+                  />
+                </div>
+                <div className="lg:absolute mt-4 lg:mt-14 bottom-0 right-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
+                  <div className="flex flex-col justify-between h-full">
+                    {/* texts */}
+                    <div className="flex flex-col h-full gap-y-3 justify-evenly">
+                      <h2 className="h3 group-hover:lg:text-white duration-500">
+                        Renovatie
+                      </h2>
+                      <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
+                        Renovatie is een essentiële stap om uw gebouwen en
+                        ruimtes te verbeteren, moderniseren of herstellen. Of
+                        het nu gaat om schadeherstel, structurele vernieuwing of
+                        het verhogen van energie-efficiëntie, onze
+                        renovatiediensten zijn ontworpen om aan uw behoeften te
+                        voldoen en uw verwachtingen te overtreffen.
+                      </p>
+                      {/* button */}
+                      <div className="flex flex-row gap-x-2 items-center">
+                        <div className="bg-[--primary-color] p-2 group-hover:bg-white duration-500">
+                          <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
+                        </div>
+                        <span className="group-hover:lg:text-white duration-500 uppercase">
+                          Meer weten
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              {/* Groendaken < */}
+              <a
+                href="/services/groendaken"
+                className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
+              >
+                <div>
+                  <Image
+                    src={Groendaken}
+                    className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+                    alt=""
+                  />
+                </div>
+                <div className="lg:absolute mt-4 lg:mt-14 bottom-0 left-0 bg-white lg:p-14 h-[70%] w-[90%] lg:w-[50%] group-hover:lg:bg-[--primary-color] duration-500">
+                  <div className="flex flex-col justify-between h-full">
+                    {/* texts */}
+                    <div className="flex flex-col h-full gap-y-3 justify-evenly">
+                      <h2 className="h3 group-hover:lg:text-white duration-500">
+                        Groendaken
+                      </h2>
+                      <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
+                        Groendaken zijn een innovatieve en duurzame oplossing
+                        voor zowel residentiële als commerciële gebouwen. Ze
+                        verbeteren de energie-efficiëntie, verlengen de
+                        levensduur van het dak en dragen bij aan een beter
+                        milieu door waterretentie en luchtzuivering.
+                      </p>
+                      {/* button */}
+                      <div className="flex flex-row gap-x-2 items-center">
+                        <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
+                          <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
+                        </div>
+                        <span className="group-hover:lg:text-white duration-500 uppercase">
+                          Meer weten
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* About Image section */}
-        <section className="flex flex-col lg:flex-row gap-20">
+        <section className="flex flex-col lg:flex-row gap-12 xl:gap-16">
           {/* image */}
           <Image
-            className="order-2 lg:order-none rounded-md hidden md:flex lg:w-[40rem] object-cover"
+            className="order-2 lg:order-none rounded-md hidden md:flex lg:w-[32rem] xl:w-[40rem] object-cover"
             src={AboutImage}
             alt=""
           />
           {/* text */}
           <div className="order-1 lg:order-none flex flex-col justify-between items-center lg:items-start gap-y-6">
-            <div className="flex flex-col gap-10 justify-between h-full items-start">
+            <div className="flex flex-col gap-10 justify-between h-full items-start w-full">
               <div>
                 <h2 className="h2">
                   Uw dak,
@@ -282,269 +665,6 @@ export default function Home() {
 
               <a className="btn max-w-max uppercase" href="/contact">
                 Contact opnemen
-              </a>
-            </div>
-          </div>
-        </section>
-
-        {/* BRANDs and certifications */}
-        <section className="flex flex-col items-center gap-y-6">
-          <h3 className="h4 !text-center text-balance">
-            Schrijnwerkerij De Haes,{" "}
-            <span className="text-[--primary-color]">deskundigen</span> in
-            dakwerken, gevelbekleding, groendaken en isolatie
-          </h3>
-          <p className="p !text-center !max-w-screen-lg">
-            Wij werken met de beste merken op de markt, van
-            kwaliteitsleveranciers met alle nodige certificeringen:
-            <i> Resitrix, Velux, Iko enertherm, </i>enz.
-          </p>
-
-          <motion.div
-            variants={upward}
-            initial="variantInit"
-            whileInView="variantAnim"
-            viewport={{ once: true }}
-            transition={transition1_s}
-            className="hidden lg:flex flex-row gap-x-20"
-          >
-            <motion.div variants={item}>
-              <Image className="w-36" src={Velux} alt="" />
-            </motion.div>
-            <motion.div variants={item}>
-              <Image className="w-36" src={Iko} alt="" />
-            </motion.div>
-            <motion.div variants={item}>
-              <Image className="w-36" src={Resitrix} alt="" />
-            </motion.div>
-            <motion.div variants={item}>
-              <Image
-                className="w-36 h-36 object-scale-down"
-                src={Bosscover}
-                alt=""
-              />
-            </motion.div>
-          </motion.div>
-
-          {/* IMAGE SLIDER */}
-          <div className=" lg:hidden relative overflow-hidden w-full py-4">
-            <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-white to-transparent pointer-events-none z-50" />
-            <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-white to-transparent pointer-events-none z-50" />
-
-            <motion.div
-              ref={carouselRef}
-              className="flex space-x-6 cursor-grab"
-              drag="x"
-              dragConstraints={{ right: 0, left: -width }}
-              initial={{ x: 0 }}
-              animate={{ x: [0, -width] }}
-              transition={{ ease: "linear", duration: 40, repeat: Infinity }}
-            >
-              {images.concat(images).map((src, index) => (
-                <div
-                  key={index}
-                  className="flex flex-row items-center min-w-[144px]"
-                >
-                  <Image
-                    src={src}
-                    alt={`Slide ${index}`}
-                    width={300}
-                    height={200}
-                    className="rounded-lg object-scale-down px-4"
-                  />
-                </div>
-              ))}
-            </motion.div>
-          </div>
-        </section>
-
-        {/* OUR SERVICES */}
-        <section id="services" className="space-y-14">
-          <div className="overflow-hidden flex flex-col">
-            <div className="flex flex-row items-center">
-              <div className="accent"></div>
-              <span className="h6 !text-[--primary-color]">Diensten</span>
-            </div>
-            <motion.h2
-              variants={lefttoright}
-              initial="variantInit"
-              whileInView="variantAnim"
-              viewport={{ once: true }}
-              transition={transition1}
-              className="h2"
-            >
-              Belangrijkste diensten
-            </motion.h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20">
-            {/* daktimmer */}
-            <div className="card-services">
-              <img
-                className="image-services"
-                alt="bardage"
-                src="images/services/charpenter.webp"
-                loading="lazy"
-              ></img>
-              {/* text */}
-              <div className="flex flex-col gap-y-3 justify-around h-56">
-                {/* title */}
-                <div className="h-56">
-                  <h3 className="h3 card-services_title">Daktimmers</h3>
-                  <p className="p line-clamp-6 xl:line-clamp-none">
-                    Daktimmers vormen de ruggengraat van een stevig en goed
-                    gebouwd dak. Met meer dan een eeuw ervaring werken wij met
-                    hoogwaardige houtsoorten en verfijnde technieken om
-                    duurzaamheid, veiligheid en een onberispelijke afwerking te
-                    garanderen, zowel bij nieuwbouw als renovaties.
-                  </p>
-                </div>
-              </div>
-              <a
-                className="btn w-full self-start uppercase"
-                href="/services/daktimmer"
-              >
-                meer informatie <LuArrowUpRight className="ml-2" />
-              </a>
-            </div>
-            {/* groendaken */}
-            <div className="card-services">
-              <img
-                className="image-services"
-                alt="groendaken"
-                src="images/services/groendaken/image1.webp"
-                loading="lazy"
-              ></img>
-              {/* text */}
-              <div className="flex flex-col gap-y-3 justify-around h-56">
-                {/* title */}
-                <div className="h-56">
-                  <h3 className="h3 card-services_title">Groendaken</h3>
-                  <p className="p line-clamp-6 xl:line-clamp-none">
-                    Groendaken zijn een innovatieve en duurzame oplossing voor
-                    zowel residentiële als commerciële gebouwen. Ze verbeteren
-                    de energie-efficiëntie, verlengen de levensduur van het dak
-                    en dragen bij aan een beter milieu door waterretentie en
-                    luchtzuivering.
-                  </p>
-                </div>
-              </div>
-              <a
-                className="btn w-full self-start uppercase"
-                href="/services/groendaken"
-              >
-                meer informatie <LuArrowUpRight className="ml-2" />
-              </a>
-            </div>
-            {/* gevelbekleding */}
-            <div className="card-services">
-              <img
-                className="image-services"
-                alt="gevelbekleding"
-                src="images/services/gevelbekleding/image1.webp"
-                loading="lazy"
-              ></img>
-              {/* text */}
-              <div className="flex flex-col gap-y-3 justify-around">
-                {/* title */}
-                <div className="h-56">
-                  <h3 className="h3 card-services_title">Gevelbekleding</h3>
-                  <p className="p line-clamp-6 xl:line-clamp-none">
-                    Gevelbekleding zorgt voor de esthetische uitstraling en
-                    bescherming van uw gebouw. Wij bieden een breed scala aan
-                    gevelbekledingdiensten, van installatie tot renovatie, met
-                    materialen die zowel visueel aantrekkelijk als functioneel
-                    zijn.
-                  </p>
-                </div>
-              </div>
-              <a
-                className="btn w-full self-start uppercase"
-                href="/services/gevelbekleding"
-              >
-                meer informatie <LuArrowUpRight className="ml-2" />
-              </a>
-            </div>
-            {/* plattedaken */}
-            <div className="card-services">
-              <img
-                className="image-services"
-                alt="plateforme"
-                src="images/services/plateforme.webp"
-                loading="lazy"
-              ></img>
-              {/* text */}
-              <div className="flex flex-col gap-y-3 justify-around">
-                {/* title */}
-                <div className="h-56">
-                  <h3 className="h3 card-services_title">Platte daken</h3>
-                  <p className="p line-clamp-6 xl:line-clamp-none">
-                    Platte daken bieden efficiëntie en functionaliteit voor
-                    diverse projecten en excelleren in waterdichting en
-                    isolatie. Met onze maatwerkoplossingen garanderen we
-                    duurzaamheid en optimale prestaties, zodat uw dak beschermd
-                    blijft tegen weersinvloeden en afwateringsproblemen.
-                  </p>
-                </div>
-              </div>
-              <a
-                className="btn w-full self-start uppercase"
-                href="/services/plattedaken"
-              >
-                meer informatie <LuArrowUpRight className="ml-2" />
-              </a>
-            </div>
-            {/* renovatie */}
-            <div className="card-services">
-              <img
-                className="image-services"
-                alt="renovatie"
-                src="images/services/renovation.webp"
-                loading="lazy"
-              ></img>
-              <div className="flex flex-col gap-y-3 justify-around h-56">
-                <div className="h-56">
-                  <h3 className="h3 card-services_title">Renovatie</h3>
-                  <p className="p line-clamp-6 xl:line-clamp-none">
-                    Renovatie is een essentiële stap om uw gebouwen en ruimtes
-                    te verbeteren, moderniseren of herstellen. Of het nu gaat om
-                    schadeherstel, structurele vernieuwing of het verhogen van
-                    energie-efficiëntie, onze renovatiediensten zijn ontworpen
-                    om aan uw behoeften te voldoen en uw verwachtingen te
-                    overtreffen.
-                  </p>
-                </div>
-              </div>
-              <a
-                className="btn w-full self-start uppercase"
-                href="/services/renovatie"
-              >
-                meer informatie <LuArrowUpRight className="ml-2" />
-              </a>
-            </div>
-            {/* isolatie */}
-            <div className="card-services">
-              <img
-                className="image-services"
-                alt="isolatie"
-                src="images/services/isolatie.webp"
-                loading="lazy"
-              ></img>
-              {/* text */}
-              <div className="flex flex-col gap-y-3 justify-around h-56">
-                <div className="h-56">
-                  <h3 className="h3 card-services_title">Isolatie</h3>
-                  <p className="p line-clamp-6 xl:line-clamp-none">
-                    Wij bieden thermische isolatie-oplossingen voor daken die
-                    zorgen voor meer comfort en een aanzienlijke vermindering
-                    van energiekosten. Onze diensten worden volledig
-                    gepersonaliseerd om te voldoen aan de specifieke behoeften
-                    van schuine of platte daken.
-                  </p>
-                </div>
-              </div>
-              <a className="btn w-full self-start" href="/services/isolatie">
-                MEER INFORMATIE <LuArrowUpRight className="ml-2" />
               </a>
             </div>
           </div>

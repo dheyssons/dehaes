@@ -13,7 +13,7 @@ export default function Whyus() {
         </a>
       </div>
 
-      <div className="flex flex-col gap-y-6 lg:flex-row gap-x-6 justify-between">
+      <div className="flex flex-col gap-y-6 lg:flex-row gap-x-6 justify-between w-full">
         {/* Benefício 1 */}
         <div className="flex flex-col items-center border border-[--primary-color] gap-y-2 rounded-md p-8 lg:p-14 shadow-sm bg-white">
           <svg

@@ -7,6 +7,12 @@ import Whyus from "@/components/whyus";
 
 import QuestionMark from "@/public/icons/questionmark.svg";
 
+export const metadata = {
+  title: "Gevelbekleding",
+  description:
+    "Professionele gevelbekleding die esthetiek en bescherming combineert. Met duurzame materialen zoals hout, composiet en metaal zorgen wij voor een perfecte afwerking, uitstekende isolatie en een gevel die bestand is tegen alle weersomstandigheden.",
+};
+
 export default function Gevelbekleding() {
   return (
     <div className="section_gap">

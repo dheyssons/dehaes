@@ -1,11 +1,17 @@
 import Image from "next/image";
-import IsolatieImage from "@/public/images/services/isolatie.webp";
+import IsolatieImage from "@/public/images/services/insulation.webp";
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
 
 import QuestionMark from "@/public/icons/questionmark.svg";
+
+export const metadata = {
+  title: "Isolatie",
+  description:
+    "Hoogwaardige dakisolatie verbetert de energie-efficiëntie en het wooncomfort het hele jaar door. Met kwaliteitsmaterialen zorgen wij voor minder warmteverlies, lagere energiekosten en een duurzame oplossing voor zowel nieuwbouw als renovatie.",
+};
 
 export default function Isolatie() {
   return (

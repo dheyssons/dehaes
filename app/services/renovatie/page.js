@@ -7,6 +7,12 @@ import Whyus from "@/components/whyus";
 
 import QuestionMark from "@/public/icons/questionmark.svg";
 
+export const metadata = {
+  title: "Renovatie",
+  description:
+    "Professionele renovaties die waarde, energie-efficiëntie en uitstraling verbeteren. Met vakmanschap, duurzame materialen en maatwerkoplossingen geven wij woningen en bedrijfspanden een kwalitatieve en toekomstgerichte vernieuwing.",
+};
+
 export default function Renovatie() {
   return (
     <div className="section_gap">

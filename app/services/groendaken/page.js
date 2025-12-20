@@ -7,6 +7,12 @@ import Whyus from "@/components/whyus";
 
 import QuestionMark from "@/public/icons/questionmark.svg";
 
+export const metadata = {
+  title: "Groendaken",
+  description:
+    "Een groendak biedt esthetische meerwaarde, verbetert de isolatie en reguleert de binnentemperatuur, wat zorgt voor lagere energiekosten en meer comfort. Daarnaast absorbeert het regenwater, zuivert het de lucht en bevordert het de biodiversiteit. Met een professionele plaatsing kiest u voor een duurzame en energiezuinige oplossing.",
+};
+
 export default function Groendaken() {
   return (
     <div className="section_gap">

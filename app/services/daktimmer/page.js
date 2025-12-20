@@ -1,11 +1,17 @@
 import Image from "next/image";
-import DaktimmerImage from "@/public/images/services/charpenter.webp";
+import DaktimmerImage from "@/public/images/services/daktimmer.webp";
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
 import Whyus from "@/components/whyus";
 
 import QuestionMark from "@/public/icons/questionmark.svg";
+
+export const metadata = {
+  title: "Daktimmerwerk",
+  description:
+    "Vakkundig daktimmerwerk op maat voor nieuwbouw en renovatie. Met vier generaties ervaring realiseren wij sterke, duurzame dakconstructies die stabiliteit, veiligheid en een perfecte afwerking garanderen.",
+};
 
 export default function Daktimmer() {
   return (
@@ -15,7 +21,7 @@ export default function Daktimmer() {
         <div>
           <div>
             {/* Título */}
-            <h1 className="h1">Daktimmers</h1>
+            <h1 className="h1">Daktimmer</h1>
 
             {/* Conteúdo com Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mt-8">
