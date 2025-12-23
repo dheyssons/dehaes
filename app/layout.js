@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
           name="keywords"
           content="schrijnwerkerij, de haes, dakwerken, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
         ></meta>
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
             !function(f,b,e,v,n,t,s)
@@ -73,13 +73,13 @@ export default function RootLayout({ children }) {
             fbq('track', 'PageView');
             `,
           }}
-        ></script>
-        <noscript>
+        ></script> */}
+        {/* <noscript>
           <img
             style={{ height: 1, width: 1, display: "none" }}
             src="https://www.facebook.com/tr?id=1406701764156938&ev=PageView&noscript=1"
           />
-        </noscript>
+        </noscript> */}
       </head>
 
       <meta
@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
         {children}
         <CookieConsent />
 
-        <MetaPixel />
+        {/* <MetaPixel /> */}
         <Analytics />
         <Footer></Footer>
       </body>

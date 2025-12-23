@@ -18,7 +18,7 @@ section {
 }
 
 .display-large {
-  @apply font-extrabold text-[clamp(2.55rem,1.5vw,4rem)] leading-[150%] tracking-[0.008em];
+  @apply font-bold text-[clamp(2.55rem,1.5vw,4rem)] leading-[150%] tracking-[0.008em];
 }
 
 .h1 {
