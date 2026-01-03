@@ -182,10 +182,10 @@ export default function Footer() {
           Ontwikkeld door
           <a
             className="text-white hover:opacity-70 underline underline-offset-2 mx-1"
-            href="https://hdeveloper.vercel.app/fr"
+            href="https://doon.digital/fr"
             target="_blank"
           >
-            HDeveloper
+            Doon Digital
           </a>
         </p>
       </div>
