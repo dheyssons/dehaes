@@ -9,7 +9,7 @@ const nextConfig = {
     optimizeCss: true,
   },
   turbopack: {
-    root: "/home/dheysson/projects/dehaes",
+    root: process.cwd(),
   },
 };
 

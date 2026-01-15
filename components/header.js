@@ -97,7 +97,7 @@ export default function Header() {
           whileInView="variantAnim"
           viewport={{ once: true }}
           transition={transition1_s}
-          className="max-w-max lg:flex-1 flex flex-row items-center gap-x-8 py-4"
+          className="max-w-max lg:flex-1 flex flex-row items-center justify-center gap-x-8 py-4"
         >
           {/* LOGO */}
           <motion.a variants={dropdown} href="/" className="">

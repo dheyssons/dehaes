@@ -7,7 +7,6 @@ import Whyus from "@/components/whyus";
 import Testimonials from "@/components/testimonials";
 
 import Hero from "@/components/hero";
-import Brands from "@/components/brands";
 import ExtendedAbout from "@/components/ExtendedAbout";
 import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
@@ -28,8 +27,6 @@ export default function Home() {
         <Hero />
 
         <AboutUs />
-
-        <Brands />
 
         <Services />
 
