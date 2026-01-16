@@ -31,7 +31,7 @@ export default function Gevelbekleding() {
                   van een gebouw speelt een cruciale rol in zowel het uiterlijk
                   als de bescherming tegen externe factoren. Bij{" "}
                   <strong className="text-[--primary-color]">
-                    Schrijnwerkerij De Haes
+                    Dakwerken De Haes
                   </strong>{" "}
                   specialiseren wij ons in het aanbrengen van gevelbekleding die
                   niet alleen de esthetiek van uw woning of bedrijfspand

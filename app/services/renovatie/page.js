@@ -36,7 +36,7 @@ export default function Renovatie() {
                   </strong>{" "}
                   en functionaliteit van een gebouw aanzienlijk verbeteren. Bij{" "}
                   <strong className="text-[--primary-color]">
-                    Schrijnwerkerij De Haes
+                    Dakwerken De Haes
                   </strong>{" "}
                   combineren we traditioneel vakmanschap met moderne technieken
                   om uw woning of bedrijfspand nieuw leven in te blazen.
@@ -162,7 +162,7 @@ export default function Renovatie() {
               {/* Pergunta 5 */}
               <div>
                 <h3 className="h4 !text-[--primary-color]">
-                  Waarom kiezen voor Schrijnwerkerij De Haes?
+                  Waarom kiezen voor Dakwerken De Haes?
                 </h3>
                 <p className="p">
                   Met onze expertise en toewijding aan{" "}

@@ -22,7 +22,7 @@ const Counter = ({ target, duration }) => {
     return () => clearInterval(timer);
   }, [target, duration]);
 
-  return <span className="h4 !font-bold !text-[#075985]">{count}+</span>;
+  return <span className="h4 !font-bold !text-[#0000009e]">{count}+</span>;
 };
 
 export default Counter;

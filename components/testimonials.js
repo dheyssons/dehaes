@@ -1,10 +1,16 @@
+import { MdStars } from "react-icons/md";
+
 export default function Testimonials() {
   return (
-    <section className="flex flex-col">
-      {/* Título */}
-      <h2 className="h2 !text-center lg:!text-start mb-12">
-        Wat Onze Klanten Zeggen
-      </h2>
+    <section className="flex flex-col gap-y-10 items-center">
+      <div className="flex flex-col lg:flex-row items-start lg:items-start lg:justify-between w-full pt-10">
+        <div className="flex flex-row items-center gap-x-2 p-2 border border-[--primary-color] rounded-full">
+          <MdStars className="size-6 text-[--primary-color]" />
+          <h2 className="body !text-center lg:text-start">
+            Wat onze klanten zeggen
+          </h2>
+        </div>
+      </div>
 
       {/* Grid dos cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

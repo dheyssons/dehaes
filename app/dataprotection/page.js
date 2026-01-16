@@ -5,7 +5,7 @@ export default function DataProtection() {
 
       <div className="space-y-10">
         <p className="p">
-          <strong>Schrijnwerkerij De Haes</strong> hecht groot belang aan de
+          <strong>Dakwerken De Haes</strong> hecht groot belang aan de
           bescherming van uw persoonsgegevens. Wij verwerken uw gegevens in
           overeenstemming met de Algemene Verordening Gegevensbescherming (AVG /
           GDPR) en andere toepasselijke wetgeving inzake gegevensbescherming.
@@ -15,8 +15,8 @@ export default function DataProtection() {
           1. Verwerkingsverantwoordelijke
         </h2>
         <p className="p">
-          Schrijnwerkerij De Haes treedt op als verwerkingsverantwoordelijke
-          voor de verwerking van persoonsgegevens.
+          Dakwerken De Haes treedt op als verwerkingsverantwoordelijke voor de
+          verwerking van persoonsgegevens.
           <br />
           <strong>E-mail:</strong> info@schrijnwerkerij-dehaes.be
         </p>
@@ -58,7 +58,7 @@ export default function DataProtection() {
           De verwerking van uw persoonsgegevens gebeurt op basis van één of
           meerdere van de volgende rechtsgronden: uw toestemming, de uitvoering
           van een overeenkomst, een wettelijke verplichting of het
-          gerechtvaardigd belang van Schrijnwerkerij De Haes.
+          gerechtvaardigd belang van Dakwerken De Haes.
         </p>
 
         <h2 className="h2 text-[--primary-color]">
@@ -123,9 +123,9 @@ export default function DataProtection() {
 
         <h2 className="h2 text-[--primary-color]">11. Wijzigingen</h2>
         <p className="p">
-          Schrijnwerkerij De Haes behoudt zich het recht voor deze informatie
-          over gegevensbescherming te wijzigen. De meest recente versie is
-          steeds beschikbaar op onze website.
+          Dakwerken De Haes behoudt zich het recht voor deze informatie over
+          gegevensbescherming te wijzigen. De meest recente versie is steeds
+          beschikbaar op onze website.
         </p>
       </div>
     </section>

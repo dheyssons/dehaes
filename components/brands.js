@@ -14,7 +14,7 @@ export default function Brands() {
   return (
     <section className="flex flex-col items-center gap-y-6">
       <h3 className="h4 !text-center text-balance">
-        Schrijnwerkerij De Haes,{" "}
+        Dakwerken De Haes,{" "}
         <span className="text-[--primary-color]">deskundigen</span> in
         dakwerken, gevelbekleding, groendaken en isolatie
       </h3>

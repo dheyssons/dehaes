@@ -35,7 +35,7 @@ export default function AboutUs() {
             <div className="space-y-4">
               {/* PARAGRAPH */}
               <p className="p">
-                Schrijnwerkerij De Haes is een familiebedrijf actief in de regio
+                Dakwerken De Haes is een familiebedrijf actief in de regio
                 Sint-Katelijne-Waver, dat kan terugblikken op een eeuw
                 vakmanschap. Met Rudy De Haes, de huidige zaakvoerder, is het
                 bedrijf al aan de vierde generatie schrijnwerkers toe. De rode

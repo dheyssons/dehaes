@@ -18,7 +18,7 @@ const archivo = Archivo({
 });
 
 export const metadata = {
-  title: "Schrijnwerkerij De Haes | Dakwerken in Sint-Katelijne-Waver",
+  title: "Dakwerken De Haes | Dakwerken in Sint-Katelijne-Waver",
   description:
     "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
 };
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="keywords"
-          content="schrijnwerkerij, de haes, dakwerken, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
+          content="Dakwerken, de haes, dakwerken, sd Dakwerken, Dakwerken mb, sbk Dakwerken, Belgique, carpentry"
         ></meta>
         {/* <script
           dangerouslySetInnerHTML={{

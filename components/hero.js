@@ -23,7 +23,7 @@ export default function Hero() {
   const jsonLdData = {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
-    name: "schrijnwerkerij de haes",
+    name: "Dakwerken de haes",
     telephone: "015 55 19 35",
     email: "info@schrijnwerkerij-dehaes.be",
     address: {
@@ -65,7 +65,7 @@ export default function Hero() {
               </div>
 
               <motion.h1 variants={item} className="display-large !text-white">
-                Schrijnwerkerij De Haes
+                Dakwerken De Haes
               </motion.h1>
 
               <motion.p

@@ -34,7 +34,7 @@ export default function Daktimmer() {
                   </strong>
                   . Bij{" "}
                   <strong className="text-[--primary-color]">
-                    Schrijnwerkerij De Haes
+                    Dakwerken De Haes
                   </strong>{" "}
                   hebben we vier generaties ervaring in het ontwerpen en
                   realiseren van robuuste dakstructuren die bestand zijn tegen

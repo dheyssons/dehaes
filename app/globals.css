@@ -22,19 +22,19 @@ section {
 }
 
 .h1 {
-  @apply text-[2.83rem] font-bold leading-[155%] tracking-[0.015em];
+  @apply text-[2.83rem] font-bold leading-[155%] tracking-[0.015em] uppercase;
 }
 .h2 {
-  @apply text-[#141414] font-semibold text-[clamp(2rem,4vw,2rem)] leading-[155%] tracking-[0.0325em] pb-2 text-start;
+  @apply text-[#141414] font-semibold text-[clamp(2rem,4vw,2rem)] leading-[155%] tracking-[0.0325em] pb-2 text-start uppercase;
 }
 .h3 {
-  @apply text-[#141414] text-[1.68rem] font-semibold leading-[155%] tracking-[0.02em] pb-2;
+  @apply text-[#141414] text-[1.68rem] font-semibold leading-[155%] tracking-[0.02em] pb-2 uppercase;
 }
 .h4 {
-  @apply text-[#141414] text-[1.41rem] font-medium leading-[160%] tracking-[0.025em];
+  @apply text-[#141414] text-[1.41rem] font-medium leading-[160%] tracking-[0.025em] uppercase;
 }
 .h5 {
-  @apply text-[#141414] text-[1.3rem] font-medium leading-[160%] tracking-[0.025em];
+  @apply text-[#141414] text-[1.3rem] font-medium leading-[160%] tracking-[0.025em] uppercase;
 }
 .h6 {
   @apply text-[#141414] text-[1.19rem] font-medium leading-[160%] tracking-[0.03em];

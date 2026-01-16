@@ -30,9 +30,9 @@ export default function Home() {
 
         <Services />
 
-        <ExtendedAbout />
-
         <Whyus />
+
+        <ExtendedAbout />
 
         <Testimonials />
 

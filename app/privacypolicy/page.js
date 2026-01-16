@@ -16,10 +16,10 @@ export default function PrivacyPolicy() {
           1. Verwerkingsverantwoordelijke
         </h2>
         <p className="p !max-w-[100ch]">
-          Schrijnwerkerij De Haes is de verwerkingsverantwoordelijke voor de
+          Dakwerken De Haes is de verwerkingsverantwoordelijke voor de
           verwerking van uw persoonsgegevens.
           <br />
-          <strong>Bedrijfsnaam:</strong> Schrijnwerkerij De Haes
+          <strong>Bedrijfsnaam:</strong> Dakwerken De Haes
           <br />
           <strong>E-mail:</strong> info@schrijnwerkerij-dehaes.be
         </p>

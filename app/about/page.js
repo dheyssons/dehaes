@@ -142,7 +142,7 @@ export default function About() {
       {/* BRANDs and certifications */}
       <section className="space-y-14">
         <div className="flex flex-col gap-y-6 items-center">
-          <h3 className="h3">Schrijnwerkerijn De Haes</h3>
+          <h3 className="h3">Dakwerken De Haes</h3>
 
           <div className="flex flex-col gap-y-4 items-center">
             <p className="p !text-center !max-w-[100ch]">
