@@ -1,5 +1,4 @@
 import { MdStars } from "react-icons/md";
-import { ReviewsRow } from "./reviewsrow";
 
 export default function Testimonials() {
   return (
