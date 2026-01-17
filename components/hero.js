@@ -15,6 +15,8 @@ import { upward } from "@/public/variants/upward";
 import { item } from "@/public/variants/item";
 import { transition1_s } from "@/public/transitions/transition1_s";
 
+import RequestEvaluationForm from "@/components/RequestEvaluationForm";
+
 // OTHERS
 import JsonLd from "@/components/jsonld";
 import Brands from "./marquee";
@@ -48,7 +50,7 @@ export default function Hero() {
         </div>
 
         {/* CONTENT */}
-        <div className="section_gap flex flex-col justify-center h-full">
+        <div className="w-full flex flex-row items-center justify-between h-full lg:h-auto">
           <motion.div
             variants={upward}
             initial="variantInit"
@@ -95,6 +97,10 @@ export default function Hero() {
               </a>
             </div>
           </motion.div>
+
+          <div className="hidden lg:block">
+            <RequestEvaluationForm />
+          </div>
         </div>
 
         {/* SCROLL INDICATOR */}
@@ -119,6 +125,10 @@ export default function Hero() {
           </svg>
         </a>
       </section>
+
+      <div className="flex flex-col items-center justify-center lg:hidden">
+        <RequestEvaluationForm />
+      </div>
 
       <Brands />
     </div>

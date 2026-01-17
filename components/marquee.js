@@ -9,7 +9,7 @@ import Derbigum from "@/public/images/brands/derbigum.webp";
 
 export default function Brands() {
   return (
-    <Marquee className="my-4 w-full">
+    <Marquee className="my-44 w-full">
       <Image className="w-28 mx-10 md:mx-24" src={Velux} alt="velux" />
       <Image className="w-28 mx-10 md:mx-24" src={Bosscover} alt="bosscover" />
       <Image className="w-28 mx-10 md:mx-24" src={Resitrix} alt="resitrix" />
