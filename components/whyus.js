@@ -21,7 +21,7 @@ export default function Whyus() {
         {/* Benefício 1 */}
         <div className="flex flex-col items-start border border-black/40 gap-y-2 rounded-md p-6 lg:p-14 shadow-sm bg-[#f0f0f43e]">
           <svg
-            fill="#0000009e"
+            fill="#075985"
             className="w-8 h-8"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"
@@ -46,7 +46,7 @@ export default function Whyus() {
         {/* Benefício 3 */}
         <div className="flex flex-col items-start border border-black/40 gap-y-2 rounded-md p-6 lg:p-14 shadow-sm bg-[#f0f0f43e]">
           <svg
-            fill="#0000009e"
+            fill="#075985"
             className="w-8 h-8"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"
