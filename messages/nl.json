@@ -1,0 +1,496 @@
+{
+  "header": {
+    "header_open_menu": "Open main menu",
+    "header_close_menu": "Close menu",
+    "header_home": "HOME",
+    "header_about": "WIE ZIJN WE",
+    "header_services": "ONZE DIENSTEN",
+    "header_services_plattedaken": "Plattedaken",
+    "header_services_daktimmer": "Daktimmer",
+    "header_services_groendaken": "Groendaken",
+    "header_services_gevelbekleding": "Gevelbekleding",
+    "header_services_isolatie": "Isolatie",
+    "header_services_renovatie": "Renovatie",
+    "header_portfolio": "PROJECTEN",
+    "header_contact": "CONTACT",
+    "header_facebook": "Bezoek onze Facebook",
+    "header_quote": "Vraag een offerte aan"
+  },
+  "hero": {
+    "eyebrow": "algemene dakwerken",
+    "title": "Dakwerken De Haes",
+    "description": "Traditie en kwaliteit die generaties overstijgen, met vakkundige dakwerken in Sint-Katelijne-Waver en omgeving zoals Mechelen, Lier en Bornem.",
+    "cta": {
+      "contact": "Contact opnemen",
+      "services": "Onze diensten"
+    },
+    "scroll": {
+      "label": "Scroll naar beneden"
+    }
+  },
+  "requestForm": {
+    "title": "Vraag een offerte aan",
+    "intro": "Vul onderstaande gegevens in. Ons team zal uw aanvraag analyseren en contact met u opnemen.",
+
+    "fields": {
+      "serviceType": {
+        "label": "Type dienst",
+        "placeholder": "Selecteer",
+        "options": {
+          "newRoof": "Nieuw dak",
+          "renovation": "Renovatie",
+          "isolation": "Isolatie",
+          "flatRoof": "Plat dak",
+          "facade": "Gevel"
+        },
+        "error": "Verplicht veld"
+      },
+
+      "description": {
+        "label": "Projectbeschrijving",
+        "placeholder": "Bijv.: daklekkage, verouderde isolatie, geschatte oppervlakte in m²…"
+      },
+
+      "location": {
+        "label": "Stad / Regio"
+      },
+
+      "dimension": {
+        "label": "Geschatte afmeting (m²)"
+      },
+
+      "urgency": {
+        "label": "Urgentie",
+        "options": {
+          "none": "Geen urgentie",
+          "oneMonth": "Binnen 1 maand",
+          "twoWeeks": "Binnen 2 weken",
+          "urgent": "Dringend"
+        }
+      },
+
+      "contact": {
+        "title": "Contactgegevens",
+        "name": "Naam",
+        "email": "E-mail",
+        "phone": "Telefoon"
+      }
+    },
+
+    "cta": {
+      "submit": "Aanvraag indienen",
+      "submitting": "Verzenden…",
+      "next": "Volgende: Contactgegevens",
+      "back": "Gegevens bewerken"
+    },
+
+    "feedback": {
+      "success": "Uw aanvraag is verzonden. Ons team neemt binnenkort contact met u op.",
+      "error": "Er is een fout opgetreden bij het verzenden. Probeer opnieuw."
+    }
+  },
+  "about": {
+    "title": {
+      "prefix": "Over",
+      "highlight": "De Haes"
+    },
+    "content": {
+      "paragraph1": "Dakwerken De Haes is een familiebedrijf actief in de regio Sint-Katelijne-Waver, dat kan terugblikken op een eeuw vakmanschap. Met Rudy De Haes, de huidige zaakvoerder, is het bedrijf al aan de vierde generatie schrijnwerkers toe. De rode draad door deze familiekroniek is een grote passie voor 'de stiel', een degelijke vakkennis en de wil om klanten een optimale kwaliteit en service te bieden, zoals alleen een familiebedrijf dat kan.",
+      "paragraph2": "Zaakvoerder Rudy volgt het technische aspect van ieder project volledig op. De werknemers zijn hooggekwalificeerd en hebben elk hun eigen specialiteit. Het resultaat? Een dak dat tot in de puntjes afgewerkt is."
+    },
+    "cta": {
+      "about": "Meer weten",
+      "portfolio": "Projecten"
+    }
+  },
+  "services": {
+    "sectionLabel": "Découvrez nos services",
+    "mainTitle": "Services principaux",
+
+    "cta": "Meer weten",
+
+    "daktimmer": {
+      "title": "Daktimmer",
+      "description": "Daktimmers vormen de ruggengraat van een stevig en goed gebouwd dak. Met meer dan een eeuw ervaring werken wij met hoogwaardige houtsoorten en verfijnde technieken om duurzaamheid, veiligheid en een onberispelijke afwerking te garanderen, zowel bij nieuwbouw als renovaties."
+    },
+
+    "gevelbekleding": {
+      "title": "Gevelbekleding",
+      "description": "Gevelbekleding zorgt voor de esthetische uitstraling en bescherming van uw gebouw. Wij bieden een breed scala aan gevelbekledingdiensten, van installatie tot renovatie, met materialen die zowel visueel aantrekkelijk als functioneel zijn."
+    },
+
+    "plattedaken": {
+      "title": "Platte daken",
+      "description": "Platte daken bieden efficiëntie en functionaliteit voor diverse projecten en excelleren in waterdichting en isolatie."
+    },
+
+    "isolatie": {
+      "title": "Isolatie",
+      "description": "Wij bieden thermische isolatie-oplossingen voor daken die zorgen voor meer comfort en een aanzienlijke vermindering van energiekosten."
+    },
+
+    "renovatie": {
+      "title": "Renovatie",
+      "description": "Renovatie is een essentiële stap om uw gebouwen en ruimtes te verbeteren, moderniseren of herstellen."
+    },
+
+    "groendaken": {
+      "title": "Groendaken",
+      "description": "Groendaken zijn een innovatieve en duurzame oplossing voor zowel residentiële als commerciële gebouwen."
+    }
+  },
+  "whyUs": {
+    "badge": "Waarom kiezen voor ons?",
+    "cta": "offerte aanvragen",
+
+    "benefits": {
+      "durability": {
+        "title": "Duurzaamheid",
+        "description": "Wij gebruiken alleen duurzame materialen en milieuvriendelijke technieken."
+      },
+      "experience": {
+        "title": "Ervaring",
+        "description": "Vier generaties ervaring in het ontwerpen en bouwen van dakstructuren."
+      },
+      "quality": {
+        "title": "Kwaliteit",
+        "description": "Projecten ontworpen om lang mee te gaan, met een combinatie van kwaliteit, precisie en bewezen vakmanschap."
+      },
+      "speed": {
+        "title": "Snel ter plaatse",
+        "description": "Snelle reactie op uw aanvraag met gegarandeerde doorlooptijden en efficiënte planning."
+      }
+    }
+  },
+  "extendedabout": {
+    "about_title_part1": "Uw dak,",
+    "about_title_part2": " Onze toewijding!",
+    "about_desktop_p1": "Uw dak verdient topkwaliteit in isolatie en afwerking. Ons team combineert functionaliteit en esthetiek om elk project perfect uit te voeren.",
+    "about_desktop_p2": "Actief in Brussel, Waals-Brabant en omliggende regio's bieden wij complete dakoplossingen.",
+    "about_desktop_p3": "Met generaties aan ervaring verzorgen wij alles van dakconstructie tot afwerking.",
+    "about_desktop_p4": "Elk project krijgt een persoonlijke aanpak voor een duurzaam, veilig en perfect afgewerkt dak.",
+    "about_mobile_p1": "Uw dak verdient het beste in kwaliteit, isolatie en afwerking. Ons team werkt met toewijding om functionaliteit en esthetiek te combineren.",
+    "about_mobile_p2": "Wij zijn actief in Brussel, Waals-Brabant en omgeving.",
+    "about_mobile_p3": "Met ervaring van generatie op generatie pakken wij alles aan: constructie, afwerking en accessoires.",
+    "about_mobile_p4": "Voor elk project leveren wij een oplossing op maat.",
+    "about_cta": "Contact opnemen"
+  },
+  "contactform": {
+    "contact_title1": "Contact opnemen",
+    "contact_title2": "zonder verplichtingen",
+    "form_name_label": "Uw naam",
+    "form_email_label": "Uw e-mail",
+    "form_subject_label": "Onderwerp",
+    "form_message_label": "Vertel ons uw problemen",
+    "form_submit_button": "Verzenden",
+    "contact_info_title": "Contactgegevens",
+    "contact_info_description": "Wij zijn er om u te helpen met al uw vragen en ondersteuning.",
+    "form_submit_notification": "Formulier succesvol verzonden"
+  },
+  "brands": {
+    "brands_title_part1": "Dakwerken De Haes,",
+    "brands_title_part2": "deskundigen",
+    "brands_title_part3": " in dakwerken, gevelbekleding, groendaken en isolatie",
+    "brands_description": "Wij werken met de beste merken op de markt, van kwaliteitsleveranciers met alle nodige certificeringen: ",
+    "brands_certifications": "Resitrix, Velux, Iko Enertherm, "
+  },
+  "testimonials": {
+    "title": "Wat onze klanten zeggen"
+  },
+  "aboutuspage": {
+    "aboutus_generations_title": "Vier Generaties van Uitmuntendheid in Schrijnwerk",
+    "aboutus_history_title": "Onze Geschiedenis",
+    "aboutus_paragraph1": "In het hart van traditioneel vakmanschap begon onze reis meer dan een eeuw geleden, met een onwrikbare toewijding aan kwaliteit en oog voor detail in elk project. Alles begon in 1906, toen Frans De Haes de oude wagenmakerij overnam en een benijdenswaardige reputatie opbouwde. Zijn creaties, van kruiwagens tot transportwagens, stonden synoniem voor duurzaamheid en precisie. Zijn geheim? Droog hout en een scherp oog voor de perfecte afwerking.",
+    "aboutus_paragraph2": "Het nalatenschap van Frans werd voortgezet door zijn zonen, Michiel en Jos, die in 1946 het bedrijf uitbreidden. Onder leiding van Jos evolueerde de werkplaats en paste zich aan de nieuwe marktvraag aan. De focus verschoof naar residentieel schrijnwerk, met specialisaties in daken, ramen, deuren en houten structuren, zonder ooit de kern van traditioneel vakmanschap te verliezen.",
+    "aboutus_paragraph3": "De groei zette door met Marcel De Haes, die de processen moderniseerde en de productiecapaciteit verhoogde, waardoor het bedrijf van één woning per maand naar meerdere constructies per week ging. Innovatie werd een essentieel onderdeel van onze identiteit, zodat elk project met maximale efficiëntie en precisie werd uitgevoerd. Met de tijd nam zijn zoon, Rudy De Haes, het roer over en verstevigde de positie van het bedrijf als marktleider in de sector.",
+    "aboutus_paragraph4": "Vandaag houdt de vierde generatie de pioniersgeest van de familie De Haes levend. Wij combineren traditie en technologie om schrijnwerkoplossingen te bieden die generaties overstijgen, altijd met een sterke focus op kwaliteit en klanttevredenheid. Elk dak dat we bouwen, elke deur die we plaatsen en elk detail dat we verfijnen, draagt meer dan 100 jaar ervaring en passie voor het vak in zich.",
+    "aboutus_quote": "Wij bouwen aan de toekomst zonder onze roots te vergeten.",
+    "aboutus_specialization_title": "Dakwerken De Haes",
+    "aboutus_specialization_desc1": "Wij zijn gespecialiseerd in dakwerken, waaronder onderhoud, renovaties, waterdichting, isolatie en dakreparaties. Ongeacht de dienst die u nodig heeft, zorgt ons hooggekwalificeerd team voor kwaliteitsvol werk en een professionele en efficiënte aanpak van uw dak. Uw tevredenheid is onze prioriteit.",
+    "aboutus_specialization_desc2": "Wij hechten veel belang aan een directe en duidelijke communicatie. U krijgt altijd een vast aanspreekpunt om uw project van dichtbij op te volgen en volledige transparantie over de kosten, zodat u precies weet wat u kunt verwachten voordat de werkzaamheden beginnen.",
+    "aboutus_experts_title_part1": "deskundigen",
+    "aboutus_experts_title_part2": " in dakwerken, gevelbekleding, groendaken en isolatie",
+    "aboutus_experts_desc": "Wij werken met de beste merken op de markt, van kwaliteitsleveranciers met alle nodige certificeringen: "
+  },
+  "portfolio": {
+    "portfolio_projects_label": "Projecten",
+    "portfolio_title": "Een greep uit onze projecten",
+    "portfolio_paragraph1": "Het dak is 'de kroon' op uw huis. Een stevige dakconstructie, in degelijke materialen en met vakmanschap geplaatst, is dus van groot belang. De Haes heeft een uitzonderlijke ervaring en know-how opgebouwd inzake daktimmers, zowel traditioneel als met spanten. Alle timmerwerken gebeuren in de stevigste houtsoorten met drenkingsattest – uw garantie tegen houtrot en eventuele verzakkingen.",
+    "portfolio_paragraph2": "De moderne architectuur stelt daktimmerlui vaak voor grote uitdagingen. Ingewikkelde dakconstructies gebeuren dan ook steeds in nauw overleg met de architect. Ook voor renovatieprojecten mag u rekenen op een perfecte uitvoering in stevige materialen die de tijd doorstaan. U hebt steeds de keuze tussen een afwerking met of zonder onderdak. Ook veluxramen worden vakkundig geplaatst voor een prijs/kwaliteitsverhouding die elke vergelijking met concurrenten kan doorstaan.",
+    "portfolio_project1_location": "Onze-Lieve-Vrouw-Waver, Heiken",
+    "portfolio_project1_title": "Renovatie",
+    "portfolio_project2_location": "Waarloos, Kerkelei",
+    "portfolio_project2_title": "Daktimmer, dakkapel en gevelbekleding",
+    "portfolio_project3_location": "Putte, Alice Nahonstraat",
+    "portfolio_project3_title": "Gevelbekleding",
+    "portfolio_project4_location": "Tremelo, Pharma Finance",
+    "portfolio_project4_title": "Timmerwerk en gevelbekleding",
+    "portfolio_project5_location": "Sint-Katelijne-Waver, Dorp",
+    "portfolio_project5_title": "Gevelbekleding",
+    "portfolio_project6_location": "Onze-Lieve-Vrouw-Waver, Heiken",
+    "portfolio_project6_title": "Renovatie"
+  },
+  "daktimmerservice": {
+    "daktimmer_title": "Daktimmer",
+    "daktimmer_paragraph1": "Een goed geconstrueerd dak begint met vakkundig daktimmerwerk. Bij Dakwerken De Haes hebben we vier generaties ervaring in het ontwerpen en realiseren van robuuste dakstructuren die bestand zijn tegen weer en wind.",
+    "daktimmer_paragraph2": "Wij bieden maatwerkoplossingen voor zowel nieuwbouw als renovatieprojecten, waarbij we werken met duurzame houtsoorten en moderne bouwtechnieken. Onze constructies zijn ontworpen voor maximale stabiliteit en draagkracht, wat essentieel is voor een veilig en langdurig dak.",
+    "daktimmer_paragraph3": "Onze diensten omvatten de volledige opbouw van dakconstructies, inclusief het plaatsen van spanten, gordingen en kepers. Daarnaast zorgen wij voor de perfecte aansluiting op dakisolatie en dakbedekking, waardoor uw woning of gebouw optimaal beschermd blijft tegen weersinvloeden.",
+    "daktimmer_paragraph4": "Wij werken nauw samen met onze klanten om een resultaat te leveren dat niet alleen technisch perfect is, maar ook esthetisch aansluit bij de stijl van het gebouw. Met precisie en vakmanschap garanderen wij een dakstructuur die generaties lang meegaat.",
+    "daktimmer_cta": "offerte aanvragen",
+    "daktimmer_faq_title": "Veelgestelde Vragen over Daktimmers",
+    "daktimmer_faq_question1": "Wat is daktimmerwerk?",
+    "daktimmer_faq_answer1": "Daktimmerwerk verwijst naar het vakmanschap van het ontwerpen en bouwen van dakconstructies. Het omvat het plaatsen van spanten, gordingen en kepers om een robuuste en duurzame dakstructuur te creëren.",
+    "daktimmer_faq_question2": "Waarom is een goede dakconstructie belangrijk?",
+    "daktimmer_faq_answer2": "Een goede dakconstructie zorgt voor maximale stabiliteit, draagkracht en bescherming tegen weersinvloeden. Het is essentieel voor de veiligheid en duurzaamheid van uw woning of gebouw.",
+    "daktimmer_faq_question3": "Welke materialen worden gebruikt bij daktimmerwerk?",
+    "daktimmer_faq_answer3": "Wij werken met duurzame houtsoorten en moderne bouwtechnieken om ervoor te zorgen dat uw dakconstructie van hoge kwaliteit is en bestand is tegen de elementen.",
+    "daktimmer_faq_question4": "Kan daktimmerwerk worden toegepast bij renovatieprojecten?",
+    "daktimmer_faq_answer4": "Ja, wij bieden maatwerkoplossingen voor zowel nieuwbouw als renovatieprojecten. Ons team zorgt ervoor dat de bestaande structuur wordt versterkt en verbeterd.",
+    "daktimmer_faq_question5": "Hoe lang duurt het om een dakconstructie te bouwen?",
+    "daktimmer_faq_answer5": "De duur hangt af van de omvang en complexiteit van het project. Wij zorgen altijd voor een efficiënte planning en uitvoering om uw project op tijd af te ronden."
+  },
+  "gevelbekledingservice": {
+    "gevelbekleding_title": "Gevelbekleding",
+    "gevelbekleding_paragraph1": "De gevel van een gebouw speelt een cruciale rol in zowel het uiterlijk als de bescherming tegen externe factoren. Bij Dakwerken De Haes specialiseren wij ons in het aanbrengen van gevelbekleding die niet alleen de esthetiek van uw woning of bedrijfspand verbetert, maar ook een sterke barrière biedt tegen de elementen.",
+    "gevelbekleding_paragraph2": "We bieden een uitgebreide keuze aan materialen voor gevelbekleding, zoals hout, composiet en metalen panelen, afhankelijk van uw voorkeur en de vereisten van het gebouw. Of het nu gaat om het creëren van een moderne uitstraling of het behouden van een traditioneel karakter, wij zorgen voor een perfecte afwerking die bij de stijl van uw pand past.",
+    "gevelbekleding_paragraph3": "Onze gevelbekleding zorgt voor uitstekende isolatie, bescherming tegen regen, wind en zon, en biedt een lange levensduur. We werken nauw samen met u om te zorgen dat uw gevel niet alleen functioneel is, maar ook visueel aantrekkelijk en duurzaam blijft, ongeacht de weersomstandigheden.",
+    "gevelbekleding_paragraph4": "Met oog voor detail en vakmanschap zorgen wij ervoor dat de gevel van uw gebouw niet alleen mooi, maar ook optimaal beschermd is.",
+    "gevelbekleding_cta": "offerte aanvragen",
+    "gevelbekleding_faq_title": "Veelgestelde Vragen over Gevelbekleding",
+    "gevelbekleding_faq_question1": "Welke materialen kunnen worden gebruikt voor gevelbekleding?",
+    "gevelbekleding_faq_answer1": "Wij bieden een uitgebreide keuze aan materialen, waaronder hout, composiet en metalen panelen. Elk materiaal heeft zijn eigen voordelen en wordt gekozen op basis van uw voorkeur en de vereisten van het gebouw.",
+    "gevelbekleding_faq_question2": "Hoe onderhoud ik gevelbekleding?",
+    "gevelbekleding_faq_answer2": "Het onderhoud hangt af van het gebruikte materiaal. Houten gevelbekleding vereist bijvoorbeeld regelmatig onderhoud zoals schilderen, terwijl composiet en metalen panelen onderhoudsarm zijn. Wij adviseren u graag over het juiste onderhoud.",
+    "gevelbekleding_faq_question3": "Is gevelbekleding geschikt voor alle gebouwen?",
+    "gevelbekleding_faq_answer3": "Ja, gevelbekleding kan worden toegepast op zowel nieuwe als bestaande gebouwen. Wij zorgen voor een oplossing die perfect aansluit bij de stijl en structuur van uw pand.",
+    "gevelbekleding_faq_question4": "Wat zijn de voordelen van gevelbekleding?",
+    "gevelbekleding_faq_answer4": "Gevelbekleding biedt uitstekende isolatie, bescherming tegen weersinvloeden, en een lange levensduur. Bovendien verbetert het de esthetiek van uw gebouw."
+  },
+  "groendakenservice": {
+    "groendaken_title": "Groendaken",
+    "groendaken_paragraph1": "Een groendak biedt niet alleen een esthetische meerwaarde maar ook tal van functionele voordelen. Dankzij de natuurlijke isolatiecapaciteiten van planten helpt het de binnentemperatuur te reguleren, waardoor de behoefte aan verwarming en koeling wordt verminderd. Dit kan leiden tot lagere energiekosten en een verhoogd thermisch comfort gedurende het hele jaar.",
+    "groendaken_paragraph2": "Bovendien absorberen groendaken regenwater, waardoor ze bijdragen aan een betere waterhuishouding en de druk op het rioolstelsel verminderen. Ze filteren ook vervuilende stoffen uit de lucht en bevorderen de biodiversiteit door een leefomgeving te creëren voor vogels en insecten.",
+    "groendaken_paragraph3": "Of het nu gaat om een nieuwbouwproject of de renovatie van een bestaand dak, wij zorgen voor een professionele installatie met hoogwaardige materialen. Met een groendak investeert u in een duurzamer, energiezuiniger en gezonder leefklimaat.",
+    "groendaken_cta": "offerte aanvragen",
+    "groendaken_faq_title": "Veelgestelde Vragen",
+    "groendaken_faq_question1": "Hoe onderhoud ik een groendak?",
+    "groendaken_faq_answer1": "Een groendak vereist minimaal onderhoud. Af en toe onkruid verwijderen en controleren op verstoppingen van de afvoer is voldoende.",
+    "groendaken_faq_question2": "Is een groendak geschikt voor elk dak?",
+    "groendaken_faq_answer2": "Bijna elk dak is geschikt, maar het is belangrijk om de draagkracht te controleren. Ons team kan u hierover adviseren.",
+    "groendaken_faq_question3": "Wat zijn de kosten van een groendak?",
+    "groendaken_faq_answer3": "De kosten variëren afhankelijk van de grootte en complexiteit van het project. Neem contact op voor een vrijblijvende offerte."
+  },
+  "isolatieservice": {
+    "isolatie_title": "Isolatie",
+    "isolatie_paragraph1": "De juiste isolatie van uw dak is essentieel om de energie-efficiëntie te optimaliseren en het hele jaar door een comfortabele omgeving te garanderen. We gebruiken alleen materialen van hoge kwaliteit, zoals minerale wol en ecologische opties, om de beste bescherming tegen klimaatveranderingen te bieden, waardoor warmteverlies in de winter wordt voorkomen en de ruimte in de zomer koel blijft.",
+    "isolatie_paragraph2": "Naast het comfort kan de installatie van een goede isolatie aanzienlijke besparingen opleveren op uw energiekosten, waardoor het een investering is die zichzelf in de loop van de tijd terugbetaalt. Deze service is ideaal voor zowel nieuwbouwprojecten als renovaties, en ons gespecialiseerde team zorgt voor een snelle, efficiënte installatie met uitstekende afwerking.",
+    "isolatie_paragraph3": "Met onze toewijding aan kwaliteit en efficiëntie, zorgt u voor een dak dat de ideale temperatuur behoudt in elk seizoen, wat resulteert in een duurzamer en economischer huis.",
+    "isolatie_cta": "offerte aanvragen",
+    "isolatie_faq_title": "Veelgestelde Vragen over Isolatie",
+    "isolatie_faq_question1": "Waarom is dakisolatie belangrijk?",
+    "isolatie_faq_answer1": "Dakisolatie is essentieel om de energie-efficiëntie te verbeteren en een comfortabele omgeving te garanderen. Het voorkomt warmteverlies in de winter en houdt de ruimte koel in de zomer.",
+    "isolatie_faq_question2": "Welke materialen worden gebruikt voor dakisolatie?",
+    "isolatie_faq_answer2": "Wij gebruiken hoogwaardige materialen zoals minerale wol en ecologische opties om de beste bescherming tegen klimaatveranderingen te bieden.",
+    "isolatie_faq_question3": "Hoeveel kan ik besparen met dakisolatie?",
+    "isolatie_faq_answer3": "De installatie van goede isolatie kan aanzienlijke besparingen opleveren op uw energiekosten, waardoor het een investering is die zichzelf in de loop van de tijd terugbetaalt.",
+    "isolatie_faq_question4": "Is isolatie geschikt voor zowel nieuwbouw als renovaties?",
+    "isolatie_faq_answer4": "Ja, onze isolatiediensten zijn ideaal voor zowel nieuwbouwprojecten als renovaties. Ons team zorgt voor een snelle en efficiënte installatie.",
+    "isolatie_faq_question5": "Wat zijn de voordelen van professionele dakisolatie?",
+    "isolatie_faq_answer5": "Professionele dakisolatie zorgt voor een comfortabele omgeving, bespaart op energiekosten en draagt bij aan een duurzamer en economischer huis."
+  },
+  "plattedakenservice": {
+    "plattedaken_title": "Platte daken",
+    "plattedaken_paragraph1": "Platte daken zijn ideaal voor wie op zoek is naar een eenvoudig en functioneel ontwerp. Bij dit type dak wordt de isolatie direct op de ondergrond aangebracht en bedekt met een waterdicht membraan, wat zorgt voor een hoge weerstand tegen water en extreme temperaturen.",
+    "plattedaken_paragraph2": "Een belangrijk aandachtspunt is de afwatering van regenwater. Om lekkage te voorkomen, zorgen wij voor een subtiele helling die met het blote oog niet zichtbaar is en installeren we geschikte waterafvoeren om het snel naar de afvoer en goten te leiden.",
+    "plattedaken_paragraph3": "Wij bieden twee dakbedekkingsopties: EPDM, een synthetisch rubber dat bestand is tegen UV-straling, en bitumen dakbedekking, met een levensduur van meer dan 30 jaar. Beide zijn ideaal om een duurzaam dak te garanderen dat goed beschermd is tegen de weersomstandigheden.",
+    "plattedaken_paragraph4": "Met onze ervaring kunt u rekenen op de zekerheid van een goed gebouwd en hoogwaardig plat dak.",
+    "plattedaken_cta": "offerte aanvragen",
+    "plattedaken_faq_title": "Veelgestelde Vragen over Platte Daken",
+    "plattedaken_faq_question1": "Wat zijn de voordelen van een plat dak?",
+    "plattedaken_faq_answer1": "Platte daken zijn ideaal voor een eenvoudig en functioneel ontwerp. Ze bieden een hoge weerstand tegen water en extreme temperaturen, en zijn gemakkelijk te onderhouden.",
+    "plattedaken_faq_question2": "Hoe wordt de afwatering van regenwater geregeld bij een plat dak?",
+    "plattedaken_faq_answer2": "Om lekkage te voorkomen, zorgen wij voor een subtiele helling die met het blote oog niet zichtbaar is en installeren we geschikte waterafvoeren om het regenwater snel naar de afvoer en goten te leiden.",
+    "plattedaken_faq_question3": "Welke materialen worden gebruikt voor dakbedekking van platte daken?",
+    "plattedaken_faq_answer3": "Wij bieden twee opties: EPDM, een synthetisch rubber dat bestand is tegen UV-straling, en bitumen dakbedekking, met een levensduur van meer dan 30 jaar.",
+    "plattedaken_faq_question4": "Is een plat dak geschikt voor alle gebouwen?",
+    "plattedaken_faq_answer4": "Ja, platte daken kunnen worden toegepast op zowel nieuwe als bestaande gebouwen. Wij zorgen voor een oplossing die perfect aansluit bij de stijl en structuur van uw pand.",
+    "plattedaken_faq_question5": "Wat zijn de belangrijkste aandachtspunten bij een plat dak?",
+    "plattedaken_faq_answer5": "Belangrijke aandachtspunten zijn een goede afwatering, hoogwaardige dakbedekking en regelmatig onderhoud om de levensduur van het dak te garanderen."
+  },
+  "renovatieservice": {
+    "renovatie_title": "Renovatie",
+    "renovatie_paragraph1": "Een goed uitgevoerde renovatie kan de waarde, energie-efficiëntie en functionaliteit van een gebouw aanzienlijk verbeteren. Bij Dakwerken De Haes combineren we traditioneel vakmanschap met moderne technieken om uw woning of bedrijfspand nieuw leven in te blazen.",
+    "renovatie_paragraph2": "Onze renovatiediensten omvatten zowel structurele aanpassingen als esthetische vernieuwingen. We verzorgen alles, van dakrenovaties en gevelherstel tot interieurverbeteringen en houtwerkrestauratie. Of het nu gaat om het behoud van een historisch pand of het moderniseren van een bestaande constructie, wij zorgen voor een resultaat dat zowel functioneel als visueel aantrekkelijk is.",
+    "renovatie_paragraph3": "Door het gebruik van duurzame materialen en energie-efficiënte oplossingen garanderen we een renovatie die niet alleen de levensduur van het gebouw verlengt, maar ook bijdraagt aan comfort en besparingen op energiekosten. We werken nauw samen met onze klanten om op maat gemaakte oplossingen te bieden die aansluiten bij hun wensen en budget.",
+    "renovatie_paragraph4": "Met onze expertise en toewijding aan kwaliteit bent u verzekerd van een renovatie die zowel esthetisch als structureel uitmuntend is.",
+    "renovatie_cta": "offerte aanvragen",
+    "renovatie_faq_title": "Veelgestelde Vragen over Renovatie",
+    "renovatie_faq_question1": "Wat zijn de voordelen van een renovatie?",
+    "renovatie_faq_answer1": "Een renovatie kan de waarde, energie-efficiëntie en functionaliteit van een gebouw aanzienlijk verbeteren. Het brengt nieuw leven in uw woning of bedrijfspand.",
+    "renovatie_faq_question2": "Welke diensten biedt u aan bij een renovatie?",
+    "renovatie_faq_answer2": "Onze renovatiediensten omvatten structurele aanpassingen, esthetische vernieuwingen, dakrenovaties, gevelherstel, interieurverbeteringen en houtwerkrestauratie.",
+    "renovatie_faq_question3": "Kunt u ook historische panden renoveren?",
+    "renovatie_faq_answer3": "Ja, wij hebben ervaring met het behoud en de renovatie van historische panden, waarbij we traditioneel vakmanschap combineren met moderne technieken.",
+    "renovatie_faq_question4": "Hoe draagt een renovatie bij aan energie-efficiëntie?",
+    "renovatie_faq_answer4": "Door het gebruik van duurzame materialen en energie-efficiënte oplossingen verbeteren we de isolatie en verminderen we de energiekosten.",
+    "renovatie_faq_question5": "Waarom kiezen voor Dakwerken De Haes?",
+    "renovatie_faq_answer5": "Met onze expertise en toewijding aan kwaliteit bent u verzekerd van een renovatie die zowel esthetisch als structureel uitmuntend is."
+  },
+  "dataprotection": {
+    "dataprotection_title": "Gegevensbescherming",
+    "dataprotection_intro": "Dakwerken De Haes hecht groot belang aan de bescherming van uw persoonsgegevens. Wij verwerken uw gegevens in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG / GDPR) en andere toepasselijke wetgeving inzake gegevensbescherming.",
+    "dataprotection_section1_title": "1. Verwerkingsverantwoordelijke",
+    "dataprotection_section1_content": "Dakwerken De Haes treedt op als verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens.\\nE-mail: info@schrijnwerkerij-dehaes.be",
+    "dataprotection_section2_title": "2. Welke gegevens verwerken wij?",
+    "dataprotection_section2_intro": "Afhankelijk van het contact of de samenwerking kunnen wij de volgende gegevens verwerken:",
+    "dataprotection_section2_list1": "Identificatiegegevens (naam, voornaam)",
+    "dataprotection_section2_list2": "Contactgegevens (e-mailadres, telefoonnummer)",
+    "dataprotection_section2_list3": "Offerte- en projectinformatie",
+    "dataprotection_section2_list4": "Communicatie via e-mail of contactformulieren",
+    "dataprotection_section2_list5": "Technische gegevens zoals IP-adres (indien van toepassing)",
+    "dataprotection_section3_title": "3. Doeleinden van de verwerking",
+    "dataprotection_section3_intro": "Uw persoonsgegevens worden uitsluitend verwerkt voor de volgende doeleinden:",
+    "dataprotection_section3_list1": "Het beantwoorden van vragen en aanvragen",
+    "dataprotection_section3_list2": "Het opstellen en opvolgen van offertes",
+    "dataprotection_section3_list3": "De uitvoering van projecten en overeenkomsten",
+    "dataprotection_section3_list4": "Administratieve en boekhoudkundige doeleinden",
+    "dataprotection_section3_list5": "Het verbeteren van onze dienstverlening",
+    "dataprotection_section4_title": "4. Rechtsgrond van de verwerking",
+    "dataprotection_section4_content": "De verwerking van uw persoonsgegevens gebeurt op basis van één of meerdere van de volgende rechtsgronden: uw toestemming, de uitvoering van een overeenkomst, een wettelijke verplichting of het gerechtvaardigd belang van Dakwerken De Haes.",
+    "dataprotection_section5_title": "5. Ontvangers en verwerkers",
+    "dataprotection_section5_content": "Uw persoonsgegevens worden niet verkocht aan derden. Zij kunnen enkel worden gedeeld met zorgvuldig geselecteerde verwerkers (zoals IT- of hostingdienstverleners) wanneer dit noodzakelijk is voor onze dienstverlening. Met deze partijen zijn verwerkersovereenkomsten afgesloten.",
+    "dataprotection_section6_title": "6. Bewaartermijn",
+    "dataprotection_section6_content": "Uw persoonsgegevens worden niet langer bewaard dan noodzakelijk is voor het doel waarvoor zij zijn verzameld, tenzij een langere bewaartermijn wettelijk verplicht is.",
+    "dataprotection_section7_title": "7. Rechten van betrokkenen",
+    "dataprotection_section7_intro": "U beschikt over de volgende rechten:",
+    "dataprotection_section7_list1": "Recht op inzage",
+    "dataprotection_section7_list2": "Recht op correctie of verwijdering",
+    "dataprotection_section7_list3": "Recht op beperking van de verwerking",
+    "dataprotection_section7_list4": "Recht van bezwaar tegen verwerking",
+    "dataprotection_section7_list5": "Recht op overdraagbaarheid van gegevens",
+    "dataprotection_section7_list6": "Recht om uw toestemming op elk moment in te trekken",
+    "dataprotection_section7_outro": "U kunt deze rechten uitoefenen door contact met ons op te nemen via info@schrijnwerkerij-dehaes.be. Wij reageren uiterlijk binnen 30 dagen.",
+    "dataprotection_section8_title": "8. Beveiligingsmaatregelen",
+    "dataprotection_section8_content": "Wij nemen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen ongeoorloofde toegang, verlies, misbruik of wijziging.",
+    "dataprotection_section9_title": "9. Klachten",
+    "dataprotection_section9_content": "Indien u van mening bent dat uw persoonsgegevens onrechtmatig worden verwerkt, heeft u het recht een klacht in te dienen bij de Belgische Gegevensbeschermingsautoriteit (GBA).",
+    "dataprotection_section10_title": "10. Samenhang met privacybeleid",
+    "dataprotection_section10_content": "Deze pagina vormt een aanvulling op ons privacybeleid en moet in samenhang daarmee worden gelezen.",
+    "dataprotection_section11_title": "11. Wijzigingen",
+    "dataprotection_section11_content": "Dakwerken De Haes behoudt zich het recht voor deze informatie over gegevensbescherming te wijzigen. De meest recente versie is steeds beschikbaar op onze website."
+  },
+  "generalconditions": {
+    "generalconditions_title": "Algemene Voorwaarden",
+    "generalconditions_intro": "Deze algemene voorwaarden zijn van toepassing op alle offertes, overeenkomsten en diensten van Dakwerken De Haes, tenzij schriftelijk anders is overeengekomen. Door een offerte te aanvaarden of een overeenkomst aan te gaan, verklaart de klant zich akkoord met deze voorwaarden.",
+    "generalconditions_section1_title": "1. Definities",
+    "generalconditions_section1_content": "In deze algemene voorwaarden wordt verstaan onder: “Opdrachtnemer”: Dakwerken De Haes; “Klant”: iedere natuurlijke of rechtspersoon die een overeenkomst aangaat met de opdrachtnemer; “Overeenkomst”: elke afspraak betreffende de levering van diensten of werken.",
+    "generalconditions_section2_title": "2. Offertes",
+    "generalconditions_section2_content": "Alle offertes zijn vrijblijvend en geldig gedurende 30 dagen, tenzij anders vermeld. Dakwerken De Haes behoudt zich het recht voor offertes te weigeren of aan te passen.",
+    "generalconditions_section3_title": "3. Totstandkoming van de overeenkomst",
+    "generalconditions_section3_content": "Een overeenkomst komt tot stand zodra de klant een offerte schriftelijk of digitaal aanvaardt, of zodra Dakwerken De Haes aanvangt met de uitvoering van de werken.",
+    "generalconditions_section4_title": "4. Prijzen en betalingen",
+    "generalconditions_section4_content": "Tenzij anders overeengekomen, dienen facturen te worden betaald binnen 14 dagen na factuurdatum. Bij niet-tijdige betaling behoudt Dakwerken De Haes zich het recht voor verdere prestaties op te schorten.",
+    "generalconditions_section5_title": "5. Uitvoering en levering",
+    "generalconditions_section5_content": "Dakwerken De Haes zal de werkzaamheden naar beste inzicht en vermogen uitvoeren. Opgegeven leveringstermijnen zijn indicatief en kunnen worden beïnvloed door onvoorziene omstandigheden.",
+    "generalconditions_section6_title": "6. Wijzigingen en meerwerken",
+    "generalconditions_section6_content": "Wijzigingen aan de oorspronkelijke overeenkomst of bijkomende werken worden afzonderlijk gefactureerd indien deze niet expliciet in de offerte zijn opgenomen.",
+    "generalconditions_section7_title": "7. Annulering",
+    "generalconditions_section7_content": "Bij annulering van de overeenkomst door de klant heeft Dakwerken De Haes recht op vergoeding van reeds uitgevoerde werken en gemaakte kosten.",
+    "generalconditions_section8_title": "8. Aansprakelijkheid",
+    "generalconditions_section8_content": "De aansprakelijkheid van Dakwerken De Haes is beperkt tot het bedrag van de overeenkomst. Dakwerken De Haes is niet aansprakelijk voor indirecte schade, gevolgschade of verlies van inkomsten.",
+    "generalconditions_section9_title": "9. Overmacht",
+    "generalconditions_section9_content": "In geval van overmacht (zoals weersomstandigheden, materiaaltekorten of externe factoren) kan Dakwerken De Haes niet aansprakelijk worden gesteld voor vertragingen of niet-nakoming.",
+    "generalconditions_section10_title": "10. Geschillen en toepasselijk recht",
+    "generalconditions_section10_content": "Op alle overeenkomsten is het Belgisch recht van toepassing. Geschillen worden bij voorkeur in onderling overleg opgelost. Indien dit niet mogelijk is, zijn uitsluitend de bevoegde rechtbanken van België bevoegd."
+  },
+  "legalnotices": {
+    "legalnotices_title": "Juridische Mededelingen",
+    "legalnotices_intro": "Deze website is eigendom van en wordt beheerd door Dakwerken De Haes. Door deze website te bezoeken of te gebruiken, verklaart u zich akkoord met onderstaande juridische mededelingen.",
+    "legalnotices_section1_title": "1. Identiteit van de onderneming",
+    "legalnotices_section1_content": "Bedrijfsnaam: Dakwerken De Haes\\nE-mail: info@schrijnwerkerij-dehaes.be\\nActiviteit: Dakwerken en maatwerk houtconstructies",
+    "legalnotices_section2_title": "2. Intellectuele eigendom",
+    "legalnotices_section2_content": "Alle inhoud op deze website, waaronder teksten, afbeeldingen, logo's, ontwerpen, code en grafische elementen, is beschermd door auteursrechten en andere intellectuele eigendomsrechten. Zonder voorafgaande schriftelijke toestemming van Dakwerken De Haes is het niet toegestaan deze inhoud te kopiëren, verspreiden, wijzigen of commercieel te gebruiken.",
+    "legalnotices_section3_title": "3. Gebruik van de website",
+    "legalnotices_section3_content": "De informatie op deze website is uitsluitend bedoeld voor algemene informatieve doeleinden en vormt geen professioneel, juridisch of technisch advies. Dakwerken De Haes kan niet garanderen dat alle informatie volledig, correct of actueel is.",
+    "legalnotices_section4_title": "4. Aansprakelijkheid",
+    "legalnotices_section4_content": "Dakwerken De Haes kan niet aansprakelijk worden gesteld voor directe of indirecte schade die voortvloeit uit het gebruik van deze website, waaronder maar niet beperkt tot technische storingen, virussen, foutieve informatie of tijdelijke onbeschikbaarheid van de website. Het gebruik van de website gebeurt volledig op eigen risico.",
+    "legalnotices_section5_title": "5. Externe links",
+    "legalnotices_section5_content": "Deze website kan links bevatten naar websites van derden. Dakwerken De Haes heeft geen controle over de inhoud of het beleid van deze externe websites en aanvaardt hiervoor geen enkele verantwoordelijkheid.",
+    "legalnotices_section6_title": "6. Bescherming van persoonsgegevens",
+    "legalnotices_section6_content": "De verwerking van persoonsgegevens via deze website valt onder ons privacybeleid en beleid inzake gegevensbescherming. Raadpleeg deze documenten voor meer informatie over hoe wij omgaan met uw gegevens.",
+    "legalnotices_section7_title": "7. Toepasselijk recht en bevoegde rechtbank",
+    "legalnotices_section7_content": "Op deze website en deze juridische mededelingen is het Belgisch recht van toepassing. In geval van geschil zijn uitsluitend de rechtbanken van België bevoegd.",
+    "legalnotices_section8_title": "8. Wijzigingen",
+    "legalnotices_section8_content": "Dakwerken De Haes behoudt zich het recht voor deze juridische mededelingen op elk moment te wijzigen. De meest recente versie is steeds beschikbaar op deze website."
+  },
+  "privacypolicy": {
+    "privacypolicy_title": "Privacybeleid",
+    "privacypolicy_intro": "Bij Schrijnwerkerij De Haes hechten wij veel waarde aan uw privacy. In dit privacybeleid leggen wij uit hoe wij uw persoonsgegevens verzamelen, gebruiken, bewaren en beschermen in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG / GDPR).",
+    "privacypolicy_section1_title": "1. Verwerkingsverantwoordelijke",
+    "privacypolicy_section1_content": "Dakwerken De Haes is de verwerkingsverantwoordelijke voor de verwerking van uw persoonsgegevens.\\nBedrijfsnaam: Dakwerken De Haes\\nE-mail: info@schrijnwerkerij-dehaes.be",
+    "privacypolicy_section2_title": "2. Welke gegevens verzamelen wij?",
+    "privacypolicy_section2_intro": "Wij kunnen de volgende persoonsgegevens verwerken:",
+    "privacypolicy_section2_list1": "Naam en voornaam",
+    "privacypolicy_section2_list2": "E-mailadres",
+    "privacypolicy_section2_list3": "Inhoud van uw bericht of offerteaanvraag",
+    "privacypolicy_section2_list4": "Technische gegevens zoals IP-adres en browserinformatie (via cookies, indien van toepassing)",
+    "privacypolicy_section3_title": "3. Doeleinden en rechtsgrond",
+    "privacypolicy_section3_intro": "Uw persoonsgegevens worden verwerkt voor de volgende doeleinden:",
+    "privacypolicy_section3_list1": "Het beantwoorden van vragen en contactaanvragen",
+    "privacypolicy_section3_list2": "Het opstellen en opvolgen van offertes",
+    "privacypolicy_section3_list3": "De uitvoering van een overeenkomst",
+    "privacypolicy_section3_list4": "Het verbeteren van onze dienstverlening en website",
+    "privacypolicy_section3_outro": "De verwerking gebeurt op basis van uw toestemming, de uitvoering van een overeenkomst, of ons gerechtvaardigd belang.",
+    "privacypolicy_section4_title": "4. Delen van gegevens met derden",
+    "privacypolicy_section4_content": "Uw gegevens worden niet verkocht of verhuurd aan derden. Zij kunnen enkel worden gedeeld met betrouwbare partners die ons ondersteunen bij onze dienstverlening (zoals hostingproviders), en enkel indien dit noodzakelijk is. Met deze partijen zijn passende verwerkersovereenkomsten afgesloten.",
+    "privacypolicy_section5_title": "5. Bewaartermijn",
+    "privacypolicy_section5_content": "Wij bewaren uw persoonsgegevens niet langer dan noodzakelijk is voor de doeleinden waarvoor ze zijn verzameld, tenzij een langere bewaartermijn wettelijk verplicht is (bijvoorbeeld voor boekhoudkundige verplichtingen).",
+    "privacypolicy_section6_title": "6. Beveiliging van gegevens",
+    "privacypolicy_section6_content": "Wij nemen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen verlies, ongeoorloofde toegang of misbruik.",
+    "privacypolicy_section7_title": "7. Uw rechten",
+    "privacypolicy_section7_intro": "U heeft het recht om:",
+    "privacypolicy_section7_list1": "Inzage te krijgen in uw persoonsgegevens",
+    "privacypolicy_section7_list2": "Uw gegevens te laten corrigeren of verwijderen",
+    "privacypolicy_section7_list3": "De verwerking te beperken of hiertegen bezwaar te maken",
+    "privacypolicy_section7_list4": "Uw toestemming in te trekken",
+    "privacypolicy_section7_list5": "Uw gegevens over te dragen (recht op dataportabiliteit)",
+    "privacypolicy_section7_outro": "U kunt deze rechten uitoefenen door contact met ons op te nemen via info@schrijnwerkerij-dehaes.be. Wij reageren uiterlijk binnen 30 dagen.",
+    "privacypolicy_section8_title": "8. Cookies",
+    "privacypolicy_section8_content": "Onze website kan gebruikmaken van functionele en analytische cookies om de gebruikerservaring te verbeteren. Meer informatie hierover vindt u in ons cookiebeleid.",
+    "privacypolicy_section9_title": "9. Klachten",
+    "privacypolicy_section9_content": "Indien u van mening bent dat uw gegevens onrechtmatig worden verwerkt, heeft u het recht een klacht in te dienen bij de Gegevensbeschermingsautoriteit (GBA).",
+    "privacypolicy_section10_title": "10. Wijzigingen",
+    "privacypolicy_section10_content": "Wij behouden ons het recht voor dit privacybeleid te wijzigen. De meest recente versie is altijd beschikbaar op onze website."
+  },
+  "footer": {
+    "footer_menu_title": "Menu",
+    "footer_menu_home": "Home",
+    "footer_menu_about": "Wie zijn we",
+    "footer_menu_services": "Onze Diensten",
+    "footer_menu_portfolio": "Projecten",
+    "footer_menu_contact": "Contact",
+    "footer_services_title": "Diensten",
+    "footer_services_groendaken": "Groendaken",
+    "footer_services_daktimmers": "Daktimmers",
+    "footer_services_gevelbekleding": "Gevelbekleding",
+    "footer_services_plattedaken": "Platte daken",
+    "footer_services_renovatie": "Renovatie",
+    "footer_services_isolatie": "Isolatie",
+    "footer_policy_title": "Beleid",
+    "footer_policy_dataprotection": "Gegevensbescherming",
+    "footer_policy_conditions": "Algemene Voorwaarden",
+    "footer_policy_legal": "Juridische Mededelingen",
+    "footer_policy_privacy": "Privacybeleid",
+    "footer_copyright": "© 2025 - ",
+    "footer_developed": "Ontwikkeld door",
+    "footer_email": "Email",
+    "footer_facebook": "Facebook",
+    "footer_whatsapp": "Whatsapp"
+  },
+  "cookieconsent": {
+    "cookieconsent_message": "We gebruiken cookies en soortgelijke technologieën om je een betere ervaring te bieden, het websiteverkeer te analyseren en inhoud en advertenties te personaliseren. Je kunt alle cookies accepteren of niet-essentiële cookies weigeren. Voor meer details, raadpleeg ons ",
+    "cookieconsent_learnmore": "Meer weten",
+    "cookieconsent_accept": "Alles accepteren",
+    "cookieconsent_reject": "Alles weigeren"
+  }
+}

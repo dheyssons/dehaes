@@ -14,7 +14,10 @@ import IsolatieImage from "@/public/images/services/insulation.webp";
 import { transition1 } from "@/public/transitions/transition1";
 import { lefttoright } from "@/public/variants/lefttoright";
 
+import { useTranslations } from "next-intl";
+
 export default function ServicesMotion() {
+  const t = useTranslations("services");
   return (
     <section id="services" className="flex flex-col gap-y-2 py-4">
       <div className="overflow-hidden space-y-10 md:space-y-20">
@@ -22,7 +25,7 @@ export default function ServicesMotion() {
         <div>
           <div className="flex flex-row items-center">
             <div className="accent"></div>
-            <span className="body">Découvrez nos services</span>
+            <span className="body">{t("sectionLabel")}</span>
           </div>
 
           <motion.h2
@@ -33,43 +36,37 @@ export default function ServicesMotion() {
             transition={transition1}
             className="h1"
           >
-            Services principaux
+            {t("mainTitle")}
           </motion.h2>
         </div>
 
         {/* services */}
         <div className="flex flex-col gap-y-32">
-          {/* Daktimmer > */}
+          {/* Daktimmer */}
           <a
             href="/services/daktimmer"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
-            <div>
-              <Image
-                src={DaktimmerImage}
-                className="w-full group-hover:lg:scale-105 transition-transform duration-500"
-                alt=""
-              />
-            </div>
+            <Image
+              src={DaktimmerImage}
+              className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+              alt=""
+            />
             <div className="lg:absolute mt-4 lg:mt-14 bottom-0 right-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    Daktimmer
+                    {t("daktimmer.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
-                    Daktimmers vormen de ruggengraat van een stevig en goed
-                    gebouwd dak. Met meer dan een eeuw ervaring werken wij met
-                    hoogwaardige houtsoorten en verfijnde technieken om
-                    duurzaamheid, veiligheid en een onberispelijke afwerking te
-                    garanderen, zowel bij nieuwbouw als renovaties.
+                    {t("daktimmer.description")}
                   </p>
                   <div className="flex flex-row gap-x-2 items-center">
                     <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
                       <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
                     </div>
                     <span className="group-hover:lg:text-white duration-500 uppercase">
-                      Meer weten
+                      {t("cta")}
                     </span>
                   </div>
                 </div>
@@ -77,37 +74,31 @@ export default function ServicesMotion() {
             </div>
           </a>
 
-          {/* Gevelbekleding < */}
+          {/* Gevelbekleding */}
           <a
             href="/services/gevelbekleding"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
-            <div>
-              <Image
-                src={GevelbekledingImage}
-                className="w-full group-hover:lg:scale-105 transition-transform duration-500"
-                alt=""
-              />
-            </div>
+            <Image
+              src={GevelbekledingImage}
+              className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+              alt=""
+            />
             <div className="lg:absolute mt-4 lg:mt-14 bottom-0 left-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    Gevelbekleding
+                    {t("gevelbekleding.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
-                    Gevelbekleding zorgt voor de esthetische uitstraling en
-                    bescherming van uw gebouw. Wij bieden een breed scala aan
-                    gevelbekledingdiensten, van installatie tot renovatie, met
-                    materialen die zowel visueel aantrekkelijk als functioneel
-                    zijn.
+                    {t("gevelbekleding.description")}
                   </p>
                   <div className="flex flex-row gap-x-2 items-center">
                     <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
                       <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
                     </div>
                     <span className="group-hover:lg:text-white duration-500 uppercase">
-                      Meer weten
+                      {t("cta")}
                     </span>
                   </div>
                 </div>
@@ -115,35 +106,31 @@ export default function ServicesMotion() {
             </div>
           </a>
 
-          {/* Plattedaken > */}
+          {/* Plattedaken */}
           <a
             href="/services/plattedaken"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
-            <div>
-              <Image
-                src={PlattedakenImage}
-                className="w-full group-hover:lg:scale-105 transition-transform duration-500"
-                alt=""
-              />
-            </div>
+            <Image
+              src={PlattedakenImage}
+              className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+              alt=""
+            />
             <div className="lg:absolute mt-4 lg:mt-14 bottom-0 right-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    Platte daken
+                    {t("plattedaken.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
-                    Platte daken bieden efficiëntie en functionaliteit voor
-                    diverse projecten en excelleren in waterdichting en
-                    isolatie.
+                    {t("plattedaken.description")}
                   </p>
                   <div className="flex flex-row gap-x-2 items-center">
                     <div className="bg-[--primary-color] p-2 group-hover:bg-white duration-500">
                       <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
                     </div>
                     <span className="group-hover:lg:text-white duration-500 uppercase">
-                      Meer weten
+                      {t("cta")}
                     </span>
                   </div>
                 </div>
@@ -151,35 +138,31 @@ export default function ServicesMotion() {
             </div>
           </a>
 
-          {/* Isolatie < */}
+          {/* Isolatie */}
           <a
             href="/services/isolatie"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
-            <div>
-              <Image
-                src={IsolatieImage}
-                className="w-full group-hover:lg:scale-105 transition-transform duration-500"
-                alt=""
-              />
-            </div>
+            <Image
+              src={IsolatieImage}
+              className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+              alt=""
+            />
             <div className="lg:absolute mt-4 lg:mt-14 bottom-0 left-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    Isolatie
+                    {t("isolatie.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
-                    Wij bieden thermische isolatie-oplossingen voor daken die
-                    zorgen voor meer comfort en een aanzienlijke vermindering
-                    van energiekosten.
+                    {t("isolatie.description")}
                   </p>
                   <div className="flex flex-row gap-x-2 items-center">
                     <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
                       <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
                     </div>
                     <span className="group-hover:lg:text-white duration-500 uppercase">
-                      Meer weten
+                      {t("cta")}
                     </span>
                   </div>
                 </div>
@@ -187,34 +170,31 @@ export default function ServicesMotion() {
             </div>
           </a>
 
-          {/* Renovatie > */}
+          {/* Renovatie */}
           <a
             href="/services/renovatie"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
-            <div>
-              <Image
-                src={RenovatieImage}
-                className="w-full group-hover:lg:scale-105 transition-transform duration-500"
-                alt=""
-              />
-            </div>
+            <Image
+              src={RenovatieImage}
+              className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+              alt=""
+            />
             <div className="lg:absolute mt-4 lg:mt-14 bottom-0 right-0 bg-white lg:p-10 h-[70%] w-[90%] lg:w-[40%] group-hover:lg:bg-[--primary-color] duration-500">
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    Renovatie
+                    {t("renovatie.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
-                    Renovatie is een essentiële stap om uw gebouwen en ruimtes
-                    te verbeteren, moderniseren of herstellen.
+                    {t("renovatie.description")}
                   </p>
                   <div className="flex flex-row gap-x-2 items-center">
                     <div className="bg-[--primary-color] p-2 group-hover:bg-white duration-500">
                       <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
                     </div>
                     <span className="group-hover:lg:text-white duration-500 uppercase">
-                      Meer weten
+                      {t("cta")}
                     </span>
                   </div>
                 </div>
@@ -222,34 +202,31 @@ export default function ServicesMotion() {
             </div>
           </a>
 
-          {/* Groendaken < */}
+          {/* Groendaken */}
           <a
             href="/services/groendaken"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
-            <div>
-              <Image
-                src={Groendaken}
-                className="w-full group-hover:lg:scale-105 transition-transform duration-500"
-                alt=""
-              />
-            </div>
+            <Image
+              src={Groendaken}
+              className="w-full group-hover:lg:scale-105 transition-transform duration-500"
+              alt=""
+            />
             <div className="lg:absolute mt-4 lg:mt-14 bottom-0 left-0 bg-white lg:p-14 h-[70%] w-[90%] lg:w-[50%] group-hover:lg:bg-[--primary-color] duration-500">
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    Groendaken
+                    {t("groendaken.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
-                    Groendaken zijn een innovatieve en duurzame oplossing voor
-                    zowel residentiële als commerciële gebouwen.
+                    {t("groendaken.description")}
                   </p>
                   <div className="flex flex-row gap-x-2 items-center">
                     <div className="bg-[--primary-color] p-2 group-hover:lg:bg-white duration-500">
                       <LuArrowUpRight className="text-white group-hover:lg:text-black duration-500" />
                     </div>
                     <span className="group-hover:lg:text-white duration-500 uppercase">
-                      Meer weten
+                      {t("cta")}
                     </span>
                   </div>
                 </div>

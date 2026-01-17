@@ -1,0 +1,496 @@
+{
+  "header": {
+    "header_open_menu": "Open main menu",
+    "header_close_menu": "Close menu",
+    "header_home": "HOME",
+    "header_about": "ABOUT US",
+    "header_services": "OUR SERVICES",
+    "header_services_plattedaken": "Flat Roofs",
+    "header_services_daktimmer": "Roof Carpentry",
+    "header_services_groendaken": "Green Roofs",
+    "header_services_gevelbekleding": "Facade Cladding",
+    "header_services_isolatie": "Insulation",
+    "header_services_renovatie": "Renovation",
+    "header_portfolio": "PROJECTS",
+    "header_contact": "CONTACT",
+    "header_facebook": "Visit our Facebook",
+    "header_quote": "Request a quote"
+  },
+  "hero": {
+    "eyebrow": "General Roofing",
+    "title": "Dakwerken De Haes",
+    "description": "Tradition and quality across generations, with expert roofing in Sint-Katelijne-Waver and surrounding areas like Mechelen, Lier and Bornem.",
+    "cta": {
+      "contact": "Contact us",
+      "services": "Our services"
+    },
+    "scroll": {
+      "label": "Scroll down"
+    }
+  },
+  "requestForm": {
+    "title": "Request a quote",
+    "intro": "Fill in the details below. Our team will analyze your request and contact you.",
+
+    "fields": {
+      "serviceType": {
+        "label": "Service type",
+        "placeholder": "Select",
+        "options": {
+          "newRoof": "New roof",
+          "renovation": "Renovation",
+          "isolation": "Insulation",
+          "flatRoof": "Flat roof",
+          "facade": "Facade"
+        },
+        "error": "Required field"
+      },
+
+      "description": {
+        "label": "Project description",
+        "placeholder": "E.g.: roof leak, outdated insulation, estimated area in m²…"
+      },
+
+      "location": {
+        "label": "City / Region"
+      },
+
+      "dimension": {
+        "label": "Estimated size (m²)"
+      },
+
+      "urgency": {
+        "label": "Urgency",
+        "options": {
+          "none": "No urgency",
+          "oneMonth": "Within 1 month",
+          "twoWeeks": "Within 2 weeks",
+          "urgent": "Urgent"
+        }
+      },
+
+      "contact": {
+        "title": "Contact details",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone"
+      }
+    },
+
+    "cta": {
+      "submit": "Submit request",
+      "submitting": "Sending…",
+      "next": "Next: Contact details",
+      "back": "Edit project details"
+    },
+
+    "feedback": {
+      "success": "Your request has been sent. Our team will contact you soon.",
+      "error": "An error occurred while sending. Please try again."
+    }
+  },
+  "about": {
+    "title": {
+      "prefix": "About",
+      "highlight": "De Haes"
+    },
+    "content": {
+      "paragraph1": "De Haes Roofing is a family business active in the Sint-Katelijne-Waver region, with a century of craftsmanship. With Rudy De Haes, the current manager, the company is now in its fourth generation of joiners. The common thread through this family history is a great passion for the trade, solid expertise and the desire to offer customers optimal quality and service, as only a family business can.",
+      "paragraph2": "Manager Rudy closely monitors the technical aspect of every project. The employees are highly qualified and each have their own specialty. The result? A roof finished to perfection."
+    },
+    "cta": {
+      "about": "Learn more",
+      "portfolio": "Projects"
+    }
+  },
+  "services": {
+    "sectionLabel": "Our services",
+    "mainTitle": "Main services",
+
+    "cta": "Learn more",
+
+    "daktimmer": {
+      "title": "Roof Carpentry",
+      "description": "Roof carpentry forms the backbone of a solid, well-built roof. With over a century of experience, we use high-quality wood and refined techniques to ensure durability, safety and impeccable finish for both new construction and renovations."
+    },
+
+    "gevelbekleding": {
+      "title": "Facade Cladding",
+      "description": "Facade cladding provides aesthetic appeal and protection for your building. We offer a wide range of facade cladding services, from installation to renovation, with materials that are both visually appealing and functional."
+    },
+
+    "plattedaken": {
+      "title": "Flat Roofs",
+      "description": "Flat roofs offer efficiency and functionality for various projects, excelling in waterproofing and insulation."
+    },
+
+    "isolatie": {
+      "title": "Insulation",
+      "description": "We provide thermal insulation solutions for roofs that ensure greater comfort and significant reduction in energy costs."
+    },
+
+    "renovatie": {
+      "title": "Renovation",
+      "description": "Renovation is an essential step to improve, modernize or restore your buildings and spaces."
+    },
+
+    "groendaken": {
+      "title": "Green Roofs",
+      "description": "Green roofs are an innovative and sustainable solution for both residential and commercial buildings."
+    }
+  },
+  "whyUs": {
+    "badge": "Why choose us?",
+    "cta": "Request quote",
+
+    "benefits": {
+      "durability": {
+        "title": "Durability",
+        "description": "We use only sustainable materials and eco-friendly techniques."
+      },
+      "experience": {
+        "title": "Experience",
+        "description": "Four generations of experience designing and building roof structures."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "Projects designed to last, combining quality, precision, and proven craftsmanship."
+      },
+      "speed": {
+        "title": "Quick response",
+        "description": "Fast response to your request with guaranteed lead times and efficient scheduling."
+      }
+    }
+  },
+  "extendedabout": {
+    "about_title_part1": "Your roof,",
+    "about_title_part2": " Our commitment!",
+    "about_desktop_p1": "Your roof deserves top-quality insulation and finishing. Our team combines functionality and aesthetics to perfectly execute every project.",
+    "about_desktop_p2": "Active in Brussels, Walloon Brabant and surrounding regions, we offer complete roofing solutions.",
+    "about_desktop_p3": "With generations of experience, we handle everything from roof construction to finishing.",
+    "about_desktop_p4": "Each project receives a personalized approach for a durable, safe and perfectly finished roof.",
+    "about_mobile_p1": "Your roof deserves the best in quality, insulation and finishing. Our team works diligently to combine functionality and aesthetics.",
+    "about_mobile_p2": "We are active in Brussels, Walloon Brabant and the surrounding area.",
+    "about_mobile_p3": "With experience passed down through generations, we tackle everything: construction, finishing and accessories.",
+    "about_mobile_p4": "For each project, we deliver a customized solution.",
+    "about_cta": "Contact us"
+  },
+  "contactform": {
+    "contact_title1": "Contact us",
+    "contact_title2": "without obligation",
+    "form_name_label": "Your name",
+    "form_email_label": "Your email",
+    "form_subject_label": "Subject",
+    "form_message_label": "Tell us your issues",
+    "form_submit_button": "Send",
+    "contact_info_title": "Contact details",
+    "contact_info_description": "We are here to help you with all your questions and support.",
+    "form_submit_notification": "Form successfully submitted"
+  },
+  "brands": {
+    "brands_title_part1": "De Haes Roofing,",
+    "brands_title_part2": "experts",
+    "brands_title_part3": " in roofing, facade cladding, green roofs and insulation",
+    "brands_description": "We work with the best brands on the market, from quality suppliers with all necessary certifications: ",
+    "brands_certifications": "Resitrix, Velux, Iko Enertherm, "
+  },
+  "testimonials": {
+    "title": "What our customers say"
+  },
+  "aboutuspage": {
+    "aboutus_generations_title": "Four Generations of Excellence in Joinery",
+    "aboutus_history_title": "Our History",
+    "aboutus_paragraph1": "At the heart of traditional craftsmanship, our journey began over a century ago, with an unwavering commitment to quality and attention to detail in every project. Everything started in 1906, when Frans De Haes took over the old wagon workshop and built an enviable reputation. His creations, from wheelbarrows to transport wagons, were synonymous with durability and precision. His secret? Dry wood and a sharp eye for perfect finishing.",
+    "aboutus_paragraph2": "Frans' legacy was continued by his sons, Michiel and Jos, who expanded the business in 1946. Under Jos' leadership, the workshop evolved and adapted to new market demands. The focus shifted to residential joinery, with specializations in roofs, windows, doors and wooden structures, never losing the core of traditional craftsmanship.",
+    "aboutus_paragraph3": "Growth continued with Marcel De Haes, who modernized processes and increased production capacity, moving the company from one house per month to multiple constructions per week. Innovation became an essential part of our identity, ensuring each project is executed with maximum efficiency and precision. Over time, his son, Rudy De Haes, took over and strengthened the company's position as a market leader in the sector.",
+    "aboutus_paragraph4": "Today, the fourth generation keeps the pioneering spirit of the De Haes family alive. We combine tradition and technology to provide joinery solutions that span generations, always with a strong focus on quality and customer satisfaction. Every roof we build, every door we install, and every detail we refine carries over 100 years of experience and passion for the craft.",
+    "aboutus_quote": "We build for the future without forgetting our roots.",
+    "aboutus_specialization_title": "De Haes Roofing",
+    "aboutus_specialization_desc1": "We specialize in roofing, including maintenance, renovations, waterproofing, insulation and roof repairs. Regardless of the service you need, our highly qualified team ensures quality work and a professional, efficient approach to your roof. Your satisfaction is our priority.",
+    "aboutus_specialization_desc2": "We place great importance on direct and clear communication. You will always have a dedicated contact person to closely monitor your project and full transparency on costs, so you know exactly what to expect before work begins.",
+    "aboutus_experts_title_part1": "experts",
+    "aboutus_experts_title_part2": " in roofing, facade cladding, green roofs and insulation",
+    "aboutus_experts_desc": "We work with the best brands on the market, from quality suppliers with all necessary certifications: "
+  },
+  "portfolio": {
+    "portfolio_projects_label": "Projects",
+    "portfolio_title": "A selection of our projects",
+    "portfolio_paragraph1": "The roof is 'the crown' of your house. A sturdy roof structure, installed with quality materials and craftsmanship, is therefore crucial. De Haes has built exceptional experience and know-how in roof carpentry, both traditional and with trusses. All woodwork is done in the strongest wood types with impregnation certificate – your guarantee against wood rot and any settlement.",
+    "portfolio_paragraph2": "Modern architecture often presents major challenges to roof carpenters. Complex roof structures are therefore always carried out in close consultation with the architect. For renovation projects too, you can count on perfect execution in sturdy materials that stand the test of time. You always have the choice between finishing with or without underlay. Velux windows are also professionally installed with a price/quality ratio that stands up to any comparison with competitors.",
+    "portfolio_project1_location": "Onze-Lieve-Vrouw-Waver, Heiken",
+    "portfolio_project1_title": "Renovation",
+    "portfolio_project2_location": "Waarloos, Kerkelei",
+    "portfolio_project2_title": "Roof carpentry, dormer and facade cladding",
+    "portfolio_project3_location": "Putte, Alice Nahonstraat",
+    "portfolio_project3_title": "Facade cladding",
+    "portfolio_project4_location": "Tremelo, Pharma Finance",
+    "portfolio_project4_title": "Woodwork and facade cladding",
+    "portfolio_project5_location": "Sint-Katelijne-Waver, Dorp",
+    "portfolio_project5_title": "Facade cladding",
+    "portfolio_project6_location": "Onze-Lieve-Vrouw-Waver, Heiken",
+    "portfolio_project6_title": "Renovation"
+  },
+  "daktimmerservice": {
+    "daktimmer_title": "Roof Carpentry",
+    "daktimmer_paragraph1": "A well-constructed roof begins with expert roof carpentry. At De Haes Roofing, we have four generations of experience designing and building robust roof structures that withstand weather and wind.",
+    "daktimmer_paragraph2": "We provide custom solutions for both new construction and renovation projects, working with sustainable wood types and modern construction techniques. Our structures are designed for maximum stability and load-bearing capacity, essential for a safe and long-lasting roof.",
+    "daktimmer_paragraph3": "Our services include the complete construction of roof structures, including placement of trusses, purlins and rafters. We also ensure perfect connection to roof insulation and roofing, keeping your home or building optimally protected against weather influences.",
+    "daktimmer_paragraph4": "We work closely with our customers to deliver results that are not only technically perfect, but also aesthetically match the building style. With precision and craftsmanship, we guarantee a roof structure that lasts generations.",
+    "daktimmer_cta": "Request quote",
+    "daktimmer_faq_title": "Frequently Asked Questions about Roof Carpentry",
+    "daktimmer_faq_question1": "What is roof carpentry?",
+    "daktimmer_faq_answer1": "Roof carpentry refers to the craftsmanship of designing and building roof structures. It includes placing trusses, purlins and rafters to create a robust and durable roof structure.",
+    "daktimmer_faq_question2": "Why is good roof construction important?",
+    "daktimmer_faq_answer2": "Good roof construction ensures maximum stability, load-bearing capacity and protection against weather influences. It is essential for the safety and durability of your home or building.",
+    "daktimmer_faq_question3": "What materials are used in roof carpentry?",
+    "daktimmer_faq_answer3": "We work with sustainable wood types and modern construction techniques to ensure your roof structure is high-quality and resistant to the elements.",
+    "daktimmer_faq_question4": "Can roof carpentry be applied to renovation projects?",
+    "daktimmer_faq_answer4": "Yes, we provide custom solutions for both new construction and renovation projects. Our team ensures the existing structure is strengthened and improved.",
+    "daktimmer_faq_question5": "How long does it take to build a roof structure?",
+    "daktimmer_faq_answer5": "The duration depends on the scope and complexity of the project. We always ensure efficient planning and execution to complete your project on time."
+  },
+  "gevelbekledingservice": {
+    "gevelbekleding_title": "Facade Cladding",
+    "gevelbekleding_paragraph1": "The facade of a building plays a crucial role in both appearance and protection against external factors. At De Haes Roofing, we specialize in installing facade cladding that not only enhances the aesthetics of your home or business premises, but also provides a strong barrier against the elements.",
+    "gevelbekleding_paragraph2": "We offer a wide choice of materials for facade cladding, such as wood, composite and metal panels, depending on your preference and the building requirements. Whether creating a modern look or preserving traditional character, we ensure perfect finishing that matches your building style.",
+    "gevelbekleding_paragraph3": "Our facade cladding provides excellent insulation, protection against rain, wind and sun, and offers a long lifespan. We work closely with you to ensure your facade is not only functional, but also visually attractive and durable, regardless of weather conditions.",
+    "gevelbekleding_paragraph4": "With attention to detail and craftsmanship, we ensure your building's facade is not only beautiful, but optimally protected.",
+    "gevelbekleding_cta": "Request quote",
+    "gevelbekleding_faq_title": "Frequently Asked Questions about Facade Cladding",
+    "gevelbekleding_faq_question1": "Which materials can be used for facade cladding?",
+    "gevelbekleding_faq_answer1": "We offer a wide choice of materials, including wood, composite and metal panels. Each material has its own advantages and is chosen based on your preference and building requirements.",
+    "gevelbekleding_faq_question2": "How do I maintain facade cladding?",
+    "gevelbekleding_faq_answer2": "Maintenance depends on the material used. Wooden facade cladding requires regular maintenance like painting, while composite and metal panels are low-maintenance. We'll gladly advise on proper maintenance.",
+    "gevelbekleding_faq_question3": "Is facade cladding suitable for all buildings?",
+    "gevelbekleding_faq_answer3": "Yes, facade cladding can be applied to both new and existing buildings. We ensure a solution that perfectly matches your building's style and structure.",
+    "gevelbekleding_faq_question4": "What are the benefits of facade cladding?",
+    "gevelbekleding_faq_answer4": "Facade cladding provides excellent insulation, protection against weather influences, and a long lifespan. Additionally, it improves the aesthetics of your building."
+  },
+  "groendakenservice": {
+    "groendaken_title": "Green Roofs",
+    "groendaken_paragraph1": "A green roof offers not only aesthetic added value but also numerous functional benefits. Thanks to the natural insulation capacity of plants, it helps regulate indoor temperature, reducing the need for heating and cooling. This can lead to lower energy costs and increased thermal comfort throughout the year.",
+    "groendaken_paragraph2": "Additionally, green roofs absorb rainwater, contributing to better water management and reducing pressure on the sewer system. They also filter pollutants from the air and promote biodiversity by creating a habitat for birds and insects.",
+    "groendaken_paragraph3": "Whether it's a new construction project or renovation of an existing roof, we ensure professional installation with high-quality materials. With a green roof, you invest in a more sustainable, energy-efficient and healthier living environment.",
+    "groendaken_cta": "Request quote",
+    "groendaken_faq_title": "Frequently Asked Questions",
+    "groendaken_faq_question1": "How do I maintain a green roof?",
+    "groendaken_faq_answer1": "A green roof requires minimal maintenance. Occasionally removing weeds and checking for drain blockages is sufficient.",
+    "groendaken_faq_question2": "Is a green roof suitable for every roof?",
+    "groendaken_faq_answer2": "Almost any roof is suitable, but it's important to check load-bearing capacity. Our team can advise you on this.",
+    "groendaken_faq_question3": "What are the costs of a green roof?",
+    "groendaken_faq_answer3": "Costs vary depending on the size and complexity of the project. Contact us for a no-obligation quote."
+  },
+  "isolatieservice": {
+    "isolatie_title": "Insulation",
+    "isolatie_paragraph1": "Proper roof insulation is essential to optimize energy efficiency and ensure a comfortable environment year-round. We use only high-quality materials, such as mineral wool and ecological options, to provide the best protection against climate changes, preventing heat loss in winter and keeping spaces cool in summer.",
+    "isolatie_paragraph2": "Besides comfort, installing good insulation can yield significant savings on your energy costs, making it an investment that pays for itself over time. This service is ideal for both new construction projects and renovations, and our specialized team ensures fast, efficient installation with excellent finishing.",
+    "isolatie_paragraph3": "With our commitment to quality and efficiency, you ensure a roof that maintains ideal temperature in every season, resulting in a more sustainable and economical home.",
+    "isolatie_cta": "Request quote",
+    "isolatie_faq_title": "Frequently Asked Questions about Insulation",
+    "isolatie_faq_question1": "Why is roof insulation important?",
+    "isolatie_faq_answer1": "Roof insulation is essential to improve energy efficiency and ensure a comfortable environment. It prevents heat loss in winter and keeps spaces cool in summer.",
+    "isolatie_faq_question2": "What materials are used for roof insulation?",
+    "isolatie_faq_answer2": "We use high-quality materials such as mineral wool and ecological options to provide the best protection against climate changes.",
+    "isolatie_faq_question3": "How much can I save with roof insulation?",
+    "isolatie_faq_answer3": "Installing good insulation can yield significant savings on your energy costs, making it an investment that pays for itself over time.",
+    "isolatie_faq_question4": "Is insulation suitable for both new construction and renovations?",
+    "isolatie_faq_answer4": "Yes, our insulation services are ideal for both new construction projects and renovations. Our team ensures quick and efficient installation.",
+    "isolatie_faq_question5": "What are the benefits of professional roof insulation?",
+    "isolatie_faq_answer5": "Professional roof insulation ensures a comfortable environment, saves on energy costs, and contributes to a more sustainable and economical home."
+  },
+  "plattedakenservice": {
+    "plattedaken_title": "Flat Roofs",
+    "plattedaken_paragraph1": "Flat roofs are ideal for those seeking a simple and functional design. With this roof type, insulation is applied directly to the substrate and covered with a waterproof membrane, providing high resistance to water and extreme temperatures.",
+    "plattedaken_paragraph2": "An important consideration is rainwater drainage. To prevent leaks, we create a subtle slope not visible to the naked eye and install suitable water drains to quickly direct water to gutters and downpipes.",
+    "plattedaken_paragraph3": "We offer two roofing options: EPDM, a synthetic rubber resistant to UV radiation, and bitumen roofing, with a lifespan of over 30 years. Both are ideal to ensure a durable roof well protected against weather conditions.",
+    "plattedaken_paragraph4": "With our experience, you can count on the assurance of a well-built, high-quality flat roof.",
+    "plattedaken_cta": "Request quote",
+    "plattedaken_faq_title": "Frequently Asked Questions about Flat Roofs",
+    "plattedaken_faq_question1": "What are the benefits of a flat roof?",
+    "plattedaken_faq_answer1": "Flat roofs are ideal for a simple and functional design. They offer high resistance to water and extreme temperatures, and are easy to maintain.",
+    "plattedaken_faq_question2": "How is rainwater drainage managed on a flat roof?",
+    "plattedaken_faq_answer2": "To prevent leaks, we create a subtle slope not visible to the naked eye and install suitable water drains to quickly direct rainwater to gutters and downpipes.",
+    "plattedaken_faq_question3": "What materials are used for flat roof covering?",
+    "plattedaken_faq_answer3": "We offer two options: EPDM, a synthetic rubber resistant to UV radiation, and bitumen roofing, with a lifespan of over 30 years.",
+    "plattedaken_faq_question4": "Is a flat roof suitable for all buildings?",
+    "plattedaken_faq_answer4": "Yes, flat roofs can be applied to both new and existing buildings. We ensure a solution that perfectly matches your building's style and structure.",
+    "plattedaken_faq_question5": "What are the main considerations for a flat roof?",
+    "plattedaken_faq_answer5": "Important considerations include proper drainage, high-quality roofing and regular maintenance to ensure the roof's lifespan."
+  },
+  "renovatieservice": {
+    "renovatie_title": "Renovation",
+    "renovatie_paragraph1": "A well-executed renovation can significantly improve the value, energy efficiency and functionality of a building. At De Haes Roofing, we combine traditional craftsmanship with modern techniques to breathe new life into your home or business premises.",
+    "renovatie_paragraph2": "Our renovation services include both structural adjustments and aesthetic renewals. We handle everything from roof renovations and facade restoration to interior improvements and woodwork restoration. Whether preserving a historical building or modernizing an existing structure, we ensure results that are both functional and visually appealing.",
+    "renovatie_paragraph3": "Through the use of sustainable materials and energy-efficient solutions, we guarantee a renovation that not only extends the building's lifespan but also contributes to comfort and energy cost savings. We work closely with our customers to provide customized solutions that match their wishes and budget.",
+    "renovatie_paragraph4": "With our expertise and commitment to quality, you are assured of a renovation that is both aesthetically and structurally excellent.",
+    "renovatie_cta": "Request quote",
+    "renovatie_faq_title": "Frequently Asked Questions about Renovation",
+    "renovatie_faq_question1": "What are the benefits of renovation?",
+    "renovatie_faq_answer1": "Renovation can significantly improve a building's value, energy efficiency and functionality. It brings new life to your home or business premises.",
+    "renovatie_faq_question2": "What services do you offer for renovation?",
+    "renovatie_faq_answer2": "Our renovation services include structural adjustments, aesthetic renewals, roof renovations, facade restoration, interior improvements and woodwork restoration.",
+    "renovatie_faq_question3": "Can you also renovate historical buildings?",
+    "renovatie_faq_answer3": "Yes, we have experience preserving and renovating historical buildings, combining traditional craftsmanship with modern techniques.",
+    "renovatie_faq_question4": "How does renovation contribute to energy efficiency?",
+    "renovatie_faq_answer4": "Through the use of sustainable materials and energy-efficient solutions, we improve insulation and reduce energy costs.",
+    "renovatie_faq_question5": "Why choose De Haes Roofing?",
+    "renovatie_faq_answer5": "With our expertise and commitment to quality, you are assured of a renovation that is both aesthetically and structurally excellent."
+  },
+  "dataprotection": {
+    "dataprotection_title": "Data Protection",
+    "dataprotection_intro": "De Haes Roofing attaches great importance to protecting your personal data. We process your data in accordance with the General Data Protection Regulation (GDPR) and other applicable data protection legislation.",
+    "dataprotection_section1_title": "1. Data Controller",
+    "dataprotection_section1_content": "De Haes Roofing acts as the data controller for the processing of personal data.\\nEmail: info@schrijnwerkerij-dehaes.be",
+    "dataprotection_section2_title": "2. What data do we process?",
+    "dataprotection_section2_intro": "Depending on the contact or collaboration, we may process the following data:",
+    "dataprotection_section2_list1": "Identification data (name, surname)",
+    "dataprotection_section2_list2": "Contact details (email address, phone number)",
+    "dataprotection_section2_list3": "Quote and project information",
+    "dataprotection_section2_list4": "Communication via email or contact forms",
+    "dataprotection_section2_list5": "Technical data such as IP address (if applicable)",
+    "dataprotection_section3_title": "3. Purposes of processing",
+    "dataprotection_section3_intro": "Your personal data is processed exclusively for the following purposes:",
+    "dataprotection_section3_list1": "Answering questions and requests",
+    "dataprotection_section3_list2": "Preparing and following up on quotes",
+    "dataprotection_section3_list3": "Executing projects and agreements",
+    "dataprotection_section3_list4": "Administrative and accounting purposes",
+    "dataprotection_section3_list5": "Improving our services",
+    "dataprotection_section4_title": "4. Legal basis for processing",
+    "dataprotection_section4_content": "Processing of your personal data is based on one or more of the following legal grounds: your consent, execution of an agreement, a legal obligation, or the legitimate interest of De Haes Roofing.",
+    "dataprotection_section5_title": "5. Recipients and processors",
+    "dataprotection_section5_content": "Your personal data is not sold to third parties. It may only be shared with carefully selected processors (such as IT or hosting service providers) when necessary for our services. Processing agreements have been concluded with these parties.",
+    "dataprotection_section6_title": "6. Retention period",
+    "dataprotection_section6_content": "Your personal data is not retained longer than necessary for the purpose for which it was collected, unless a longer retention period is legally required.",
+    "dataprotection_section7_title": "7. Rights of data subjects",
+    "dataprotection_section7_intro": "You have the following rights:",
+    "dataprotection_section7_list1": "Right of access",
+    "dataprotection_section7_list2": "Right to correction or deletion",
+    "dataprotection_section7_list3": "Right to restriction of processing",
+    "dataprotection_section7_list4": "Right to object to processing",
+    "dataprotection_section7_list5": "Right to data portability",
+    "dataprotection_section7_list6": "Right to withdraw your consent at any time",
+    "dataprotection_section7_outro": "You can exercise these rights by contacting us at info@schrijnwerkerij-dehaes.be. We respond within 30 days at the latest.",
+    "dataprotection_section8_title": "8. Security measures",
+    "dataprotection_section8_content": "We take appropriate technical and organizational measures to protect your personal data against unauthorized access, loss, misuse or alteration.",
+    "dataprotection_section9_title": "9. Complaints",
+    "dataprotection_section9_content": "If you believe your personal data is being processed unlawfully, you have the right to file a complaint with the Belgian Data Protection Authority.",
+    "dataprotection_section10_title": "10. Relation to privacy policy",
+    "dataprotection_section10_content": "This page supplements our privacy policy and should be read in conjunction with it.",
+    "dataprotection_section11_title": "11. Changes",
+    "dataprotection_section11_content": "De Haes Roofing reserves the right to modify this data protection information. The latest version is always available on our website."
+  },
+  "generalconditions": {
+    "generalconditions_title": "General Terms and Conditions",
+    "generalconditions_intro": "These general terms and conditions apply to all quotes, agreements and services of De Haes Roofing, unless otherwise agreed in writing. By accepting a quote or entering into an agreement, the customer agrees to these terms.",
+    "generalconditions_section1_title": "1. Definitions",
+    "generalconditions_section1_content": "In these general terms and conditions, the following terms are understood to mean: \"Contractor\": De Haes Roofing; \"Customer\": any natural or legal person entering into an agreement with the contractor; \"Agreement\": any arrangement concerning the delivery of services or works.",
+    "generalconditions_section2_title": "2. Quotes",
+    "generalconditions_section2_content": "All quotes are non-binding and valid for 30 days, unless otherwise stated. De Haes Roofing reserves the right to refuse or adjust quotes.",
+    "generalconditions_section3_title": "3. Formation of agreement",
+    "generalconditions_section3_content": "An agreement is formed when the customer accepts a quote in writing or digitally, or when De Haes Roofing commences execution of the works.",
+    "generalconditions_section4_title": "4. Prices and payments",
+    "generalconditions_section4_content": "Unless otherwise agreed, invoices must be paid within 14 days of invoice date. In case of late payment, De Haes Roofing reserves the right to suspend further performance.",
+    "generalconditions_section5_title": "5. Execution and delivery",
+    "generalconditions_section5_content": "De Haes Roofing will execute the works to the best of its knowledge and ability. Specified delivery times are indicative and may be affected by unforeseen circumstances.",
+    "generalconditions_section6_title": "6. Changes and additional works",
+    "generalconditions_section6_content": "Changes to the original agreement or additional works are invoiced separately if not explicitly included in the quote.",
+    "generalconditions_section7_title": "7. Cancellation",
+    "generalconditions_section7_content": "In case of agreement cancellation by the customer, De Haes Roofing is entitled to compensation for works already executed and costs incurred.",
+    "generalconditions_section8_title": "8. Liability",
+    "generalconditions_section8_content": "The liability of De Haes Roofing is limited to the amount of the agreement. De Haes Roofing is not liable for indirect damage, consequential damage or loss of income.",
+    "generalconditions_section9_title": "9. Force majeure",
+    "generalconditions_section9_content": "In case of force majeure (such as weather conditions, material shortages or external factors), De Haes Roofing cannot be held liable for delays or non-performance.",
+    "generalconditions_section10_title": "10. Disputes and applicable law",
+    "generalconditions_section10_content": "Belgian law applies to all agreements. Disputes are preferably resolved through mutual consultation. If this is not possible, only the competent courts of Belgium have jurisdiction."
+  },
+  "legalnotices": {
+    "legalnotices_title": "Legal Notices",
+    "legalnotices_intro": "This website is owned and operated by De Haes Roofing. By visiting or using this website, you agree to the legal notices below.",
+    "legalnotices_section1_title": "1. Company identity",
+    "legalnotices_section1_content": "Company name: De Haes Roofing\\nEmail: info@schrijnwerkerij-dehaes.be\\nActivity: Roofing and custom woodwork constructions",
+    "legalnotices_section2_title": "2. Intellectual property",
+    "legalnotices_section2_content": "All content on this website, including texts, images, logos, designs, code and graphic elements, is protected by copyright and other intellectual property rights. Without prior written permission from De Haes Roofing, it is not permitted to copy, distribute, modify or commercially use this content.",
+    "legalnotices_section3_title": "3. Use of website",
+    "legalnotices_section3_content": "Information on this website is intended for general informational purposes only and does not constitute professional, legal or technical advice. De Haes Roofing cannot guarantee that all information is complete, correct or current.",
+    "legalnotices_section4_title": "4. Liability",
+    "legalnotices_section4_content": "De Haes Roofing cannot be held liable for direct or indirect damage resulting from the use of this website, including but not limited to technical failures, viruses, incorrect information or temporary unavailability of the website. Use of the website is entirely at your own risk.",
+    "legalnotices_section5_title": "5. External links",
+    "legalnotices_section5_content": "This website may contain links to third-party websites. De Haes Roofing has no control over the content or policies of these external websites and accepts no responsibility for them.",
+    "legalnotices_section6_title": "6. Personal data protection",
+    "legalnotices_section6_content": "Processing of personal data via this website falls under our privacy policy and data protection policy. Consult these documents for more information on how we handle your data.",
+    "legalnotices_section7_title": "7. Applicable law and competent court",
+    "legalnotices_section7_content": "Belgian law applies to this website and these legal notices. In case of dispute, only the courts of Belgium have jurisdiction.",
+    "legalnotices_section8_title": "8. Changes",
+    "legalnotices_section8_content": "De Haes Roofing reserves the right to modify these legal notices at any time. The latest version is always available on this website."
+  },
+  "privacypolicy": {
+    "privacypolicy_title": "Privacy Policy",
+    "privacypolicy_intro": "At De Haes Joinery, we value your privacy. In this privacy policy, we explain how we collect, use, store and protect your personal data in accordance with the General Data Protection Regulation (GDPR).",
+    "privacypolicy_section1_title": "1. Data Controller",
+    "privacypolicy_section1_content": "De Haes Roofing is the data controller for processing your personal data.\\nCompany name: De Haes Roofing\\nEmail: info@schrijnwerkerij-dehaes.be",
+    "privacypolicy_section2_title": "2. What data do we collect?",
+    "privacypolicy_section2_intro": "We may process the following personal data:",
+    "privacypolicy_section2_list1": "Name and surname",
+    "privacypolicy_section2_list2": "Email address",
+    "privacypolicy_section2_list3": "Content of your message or quote request",
+    "privacypolicy_section2_list4": "Technical data such as IP address and browser information (via cookies, if applicable)",
+    "privacypolicy_section3_title": "3. Purposes and legal basis",
+    "privacypolicy_section3_intro": "Your personal data is processed for the following purposes:",
+    "privacypolicy_section3_list1": "Answering questions and contact requests",
+    "privacypolicy_section3_list2": "Preparing and following up on quotes",
+    "privacypolicy_section3_list3": "Execution of an agreement",
+    "privacypolicy_section3_list4": "Improving our services and website",
+    "privacypolicy_section3_outro": "Processing is based on your consent, execution of an agreement, or our legitimate interest.",
+    "privacypolicy_section4_title": "4. Sharing data with third parties",
+    "privacypolicy_section4_content": "Your data is not sold or rented to third parties. It may only be shared with reliable partners who support our services (such as hosting providers), and only when necessary. Appropriate processing agreements have been concluded with these parties.",
+    "privacypolicy_section5_title": "5. Retention period",
+    "privacypolicy_section5_content": "We do not retain your personal data longer than necessary for the purposes for which it was collected, unless a longer retention period is legally required (e.g., for accounting obligations).",
+    "privacypolicy_section6_title": "6. Data security",
+    "privacypolicy_section6_content": "We take appropriate technical and organizational measures to protect your personal data against loss, unauthorized access or misuse.",
+    "privacypolicy_section7_title": "7. Your rights",
+    "privacypolicy_section7_intro": "You have the right to:",
+    "privacypolicy_section7_list1": "Access your personal data",
+    "privacypolicy_section7_list2": "Have your data corrected or deleted",
+    "privacypolicy_section7_list3": "Restrict processing or object to it",
+    "privacypolicy_section7_list4": "Withdraw your consent",
+    "privacypolicy_section7_list5": "Transfer your data (right to data portability)",
+    "privacypolicy_section7_outro": "You can exercise these rights by contacting us at info@schrijnwerkerij-dehaes.be. We respond within 30 days at the latest.",
+    "privacypolicy_section8_title": "8. Cookies",
+    "privacypolicy_section8_content": "Our website may use functional and analytical cookies to improve user experience. More information about this can be found in our cookie policy.",
+    "privacypolicy_section9_title": "9. Complaints",
+    "privacypolicy_section9_content": "If you believe your data is being processed unlawfully, you have the right to file a complaint with the Data Protection Authority.",
+    "privacypolicy_section10_title": "10. Changes",
+    "privacypolicy_section10_content": "We reserve the right to modify this privacy policy. The latest version is always available on our website."
+  },
+  "footer": {
+    "footer_menu_title": "Menu",
+    "footer_menu_home": "Home",
+    "footer_menu_about": "About Us",
+    "footer_menu_services": "Our Services",
+    "footer_menu_portfolio": "Projects",
+    "footer_menu_contact": "Contact",
+    "footer_services_title": "Services",
+    "footer_services_groendaken": "Green Roofs",
+    "footer_services_daktimmers": "Roof Carpentry",
+    "footer_services_gevelbekleding": "Facade Cladding",
+    "footer_services_plattedaken": "Flat Roofs",
+    "footer_services_renovatie": "Renovation",
+    "footer_services_isolatie": "Insulation",
+    "footer_policy_title": "Policy",
+    "footer_policy_dataprotection": "Data Protection",
+    "footer_policy_conditions": "General Terms",
+    "footer_policy_legal": "Legal Notices",
+    "footer_policy_privacy": "Privacy Policy",
+    "footer_copyright": "© 2025 - ",
+    "footer_developed": "Developed by",
+    "footer_email": "Email",
+    "footer_facebook": "Facebook",
+    "footer_whatsapp": "Whatsapp"
+  },
+  "cookieconsent": {
+    "cookieconsent_message": "We use cookies and similar technologies to provide you with a better experience, analyze website traffic and personalize content and advertisements. You can accept all cookies or reject non-essential cookies. For more details, consult our ",
+    "cookieconsent_learnmore": "Learn more",
+    "cookieconsent_accept": "Accept all",
+    "cookieconsent_reject": "Reject all"
+  }
+}

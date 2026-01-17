@@ -18,7 +18,11 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import Notification from "./notification";
 import { LuSend } from "react-icons/lu";
 
+import { useTranslations } from "next-intl";
+
 export default function ContactForm() {
+  const t = useTranslations("contactform");
+
   const [showNotification, setShowNotification] = useState(false);
 
   const [form, setForm] = useState({
@@ -91,9 +95,9 @@ export default function ContactForm() {
                 transition={transition1}
                 className="h3 !text-[--primary-color]"
               >
-                Contact opnemen
+                {t("contact_title1")}
               </motion.h2>
-              <h2 className="h3">zonder verplichtingen</h2>
+              <h2 className="h3">{t("contact_title2")}</h2>
             </div>
 
             <div className="flex flex-row gap-x-12 w-full justify-evenly">
@@ -124,7 +128,7 @@ export default function ContactForm() {
                     htmlFor="name"
                     className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                   >
-                    Uw naam
+                    {t("form_name_label")}
                   </label>
                 </motion.div>
                 <motion.div
@@ -144,7 +148,7 @@ export default function ContactForm() {
                     htmlFor="email"
                     className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                   >
-                    Uw e-mail
+                    {t("form_email_label")}
                   </label>
                 </motion.div>
                 <motion.div
@@ -164,7 +168,7 @@ export default function ContactForm() {
                     htmlFor="subject"
                     className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                   >
-                    Onderwerp
+                    {t("form_subject_label")}
                   </label>
                 </motion.div>
                 <motion.div variants={item} className="grid md:gap-6 w-full">
@@ -183,12 +187,12 @@ export default function ContactForm() {
                       htmlFor="message"
                       className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                     >
-                      Vertel ons uw problemen
+                      {t("form_message_label")}
                     </label>
                   </div>
                 </motion.div>
                 <button type="submit" className="btn self-start uppercase">
-                  Verzenden
+                  {t("form_submit_button")}
                   <LuSend className="ml-2" />
                 </button>
               </motion.form>
@@ -205,10 +209,8 @@ export default function ContactForm() {
             className="flex flex-col gap-y-16 lg:px-24 py-10 border-[1px] border-black/20 shadow-sm lg:rounded-md"
           >
             <div className="flex flex-col justify-center items-start px-8">
-              <h2 className="h3">Contactgegevens</h2>
-              <p className="p !text-start">
-                Wij zijn er om u te helpen met al uw vragen en ondersteuning.
-              </p>
+              <h2 className="h3">{t("contact_info_title")}</h2>
+              <p className="p !text-start">{t("contact_info_description")}</p>
             </div>
             <div className="flex flex-col items-start justify-center gap-y-2 px-8">
               <a
@@ -220,7 +222,15 @@ export default function ContactForm() {
                 {config.emailAddress}
               </a>
               <a
+                rel="noopener"
                 target="_blank"
+                onClick={() => {
+                  window.dataLayer = window.dataLayer || [];
+                  window.dataLayer.push({
+                    event: "click_phone",
+                    phone_location: "contactpage",
+                  });
+                }}
                 href={`https://api.whatsapp.com/send?phone=${config.whatsappNumber}`}
                 className="p flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50"
               >
@@ -252,7 +262,7 @@ export default function ContactForm() {
       </div>
       {showNotification && (
         <Notification
-          message="Formulier succesvol verzonden"
+          message={t("form_submit_notification")}
           onClose={() => setShowNotification(false)}
         />
       )}

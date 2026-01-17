@@ -3,8 +3,10 @@
 import { ImWhatsapp, ImMail2, ImFacebook } from "react-icons/im";
 
 import config from "@/utils/config";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer");
   return (
     <footer>
       <div className="container w-[80%] mx-auto flex flex-col gap-y-10 py-10">
@@ -29,7 +31,7 @@ export default function Footer() {
                       target="_blank"
                     >
                       <ImMail2 className="mr-2" />
-                      Email
+                      {t("footer_email")}
                     </a>
                   </li>
                   <li className="flex flex-row items-center">
@@ -39,7 +41,7 @@ export default function Footer() {
                       target="_blank"
                     >
                       <ImFacebook className="mr-2" />
-                      Facebook
+                      {t("footer_facebook")}
                     </a>
                   </li>
                   <li className="flex flex-row items-center">
@@ -49,7 +51,7 @@ export default function Footer() {
                       target="_blank"
                     >
                       <ImWhatsapp className="mr-2" />
-                      Whatsapp
+                      {t("footer_whatsapp")}
                     </a>
                   </li>
                 </ul>
@@ -62,34 +64,34 @@ export default function Footer() {
           {/* menu  */}
           <div className="flex flex-col items-start gap-y-3">
             <p className="body after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block">
-              Menu
+              {t("footer_menu_title")}
             </p>
             <a href="/" className="p hover:text-[#000000a1] transition-all">
-              Home
+              {t("footer_menu_home")}
             </a>
             <a
               href="/about"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Wie zijn we
+              {t("footer_menu_about")}
             </a>
             <a
               href="/#services"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Onze Diensten
+              {t("footer_menu_services")}
             </a>
             <a
               href="/portfolio"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Projecten
+              {t("footer_menu_portfolio")}
             </a>
             <a
               href="/contact"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Contact
+              {t("footer_menu_contact")}
             </a>
           </div>
           {/* services  */}
@@ -97,43 +99,43 @@ export default function Footer() {
             <p
               className={`p !opacity-100 !text-[#000000] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block`}
             >
-              Diensten
+              {t("footer_services_title")}
             </p>
             <a
               href="/services/groendaken"
               className={`p hover:text-[#000000a1] transition-all`}
             >
-              Groendaken
+              {t("footer_services_groendaken")}
             </a>
             <a
               href="/services/daktimmers"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Daktimmers
+              {t("footer_services_daktimmers")}
             </a>
             <a
               href="/services/gevelbekleding"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Gevelbekleding
+              {t("footer_services_gevelbekleding")}
             </a>
             <a
               href="/services/plattedaken"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Platte daken
+              {t("footer_services_plattedaken")}
             </a>
             <a
               href="/services/renovatie"
               className={`p hover:text-[#000000a1] transition-all`}
             >
-              Renovatie
+              {t("footer_services_renovatie")}
             </a>
             <a
               href="/services/isolatie"
               className={`p hover:text-[#000000a1] transition-all`}
             >
-              Isolatie
+              {t("footer_services_isolatie")}
             </a>
           </div>
           {/* policy  */}
@@ -141,45 +143,46 @@ export default function Footer() {
             <p
               className={`p !opacity-100 !text-[#000000] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block`}
             >
-              Beleid
+              {t("footer_policy_title")}
             </p>
             <a
               href="/dataprotection"
               className={`p hover:text-[#000000a1] transition-all`}
             >
-              Gegevensbescherming
+              {t("footer_policy_dataprotection")}
             </a>
             <a
               href="/generalconditions"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Algemene Voorwaarden
+              {t("footer_policy_conditions")}
             </a>
             <a
               href="/legalnotices"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Juridische Mededelingen
+              {t("footer_policy_legal")}
             </a>
             <a
               href="/privacypolicy"
               className="p hover:text-[#000000a1] transition-all"
             >
-              Privacybeleid
+              {t("footer_policy_privacy")}
             </a>
           </div>
         </div>
 
         <div className="flex flex-col items-center gap-y-4">
           <p className={`p self-center text-center mx-[1rem]`}>
-            © 2025 - {config.companyName}
+            {t("footer_copyright")}
+            {config.companyName}
           </p>
         </div>
       </div>
 
       <div className="bg-[#151515]">
         <p className="w-[80%] mx-auto body !text-center text-white py-4">
-          Ontwikkeld door
+          {t("footer_developed")}
           <a
             className="text-white hover:opacity-70 underline underline-offset-2 mx-1"
             href="https://doon.digital/fr"

@@ -1,0 +1,496 @@
+{
+  "header": {
+    "header_open_menu": "Ouvrir le menu principal",
+    "header_close_menu": "Fermer le menu",
+    "header_home": "ACCUEIL",
+    "header_about": "QUI SOMMES-NOUS",
+    "header_services": "NOS SERVICES",
+    "header_services_plattedaken": "Toits plats",
+    "header_services_daktimmer": "Charpente de toit",
+    "header_services_groendaken": "Toits verts",
+    "header_services_gevelbekleding": "Revêtement de façade",
+    "header_services_isolatie": "Isolation",
+    "header_services_renovatie": "Rénovation",
+    "header_portfolio": "PROJETS",
+    "header_contact": "CONTACT",
+    "header_facebook": "Visitez notre Facebook",
+    "header_quote": "Demander un devis"
+  },
+  "hero": {
+    "eyebrow": "travaux de toiture généraux",
+    "title": "Dakwerken De Haes",
+    "description": "Tradition et qualité qui traversent les générations, avec des travaux de toiture experts à Sint-Katelijne-Waver et environs comme Malines, Lierre et Bornem.",
+    "cta": {
+      "contact": "Nous contacter",
+      "services": "Nos services"
+    },
+    "scroll": {
+      "label": "Défiler vers le bas"
+    }
+  },
+  "requestForm": {
+    "title": "Demande de devis",
+    "intro": "Remplissez les détails ci-dessous. Notre équipe analysera votre demande et vous contactera.",
+
+    "fields": {
+      "serviceType": {
+        "label": "Type de service",
+        "placeholder": "Sélectionner",
+        "options": {
+          "newRoof": "Nouveau toit",
+          "renovation": "Rénovation",
+          "isolation": "Isolation",
+          "flatRoof": "Toit plat",
+          "facade": "Façade"
+        },
+        "error": "Champ obligatoire"
+      },
+
+      "description": {
+        "label": "Description du projet",
+        "placeholder": "Ex.: fuite de toit, isolation obsolète, superficie estimée en m²…"
+      },
+
+      "location": {
+        "label": "Ville / Région"
+      },
+
+      "dimension": {
+        "label": "Dimension estimée (m²)"
+      },
+
+      "urgency": {
+        "label": "Urgence",
+        "options": {
+          "none": "Aucune urgence",
+          "oneMonth": "Dans 1 mois",
+          "twoWeeks": "Dans 2 semaines",
+          "urgent": "Urgent"
+        }
+      },
+
+      "contact": {
+        "title": "Coordonnées",
+        "name": "Nom",
+        "email": "E-mail",
+        "phone": "Téléphone"
+      }
+    },
+
+    "cta": {
+      "submit": "Soumettre la demande",
+      "submitting": "Envoi en cours…",
+      "next": "Suivant: Coordonnées",
+      "back": "Modifier les détails"
+    },
+
+    "feedback": {
+      "success": "Votre demande a été envoyée. Notre équipe vous contactera prochainement.",
+      "error": "Une erreur s'est produite lors de l'envoi. Veuillez réessayer."
+    }
+  },
+  "about": {
+    "title": {
+      "prefix": "À propos de",
+      "highlight": "De Haes"
+    },
+    "content": {
+      "paragraph1": "Dakwerken De Haes est une entreprise familiale active dans la région de Sint-Katelijne-Waver, avec un siècle de savoir-faire. Avec Rudy De Haes, le dirigeant actuel, l'entreprise en est à sa quatrième génération de menuisiers. Le fil rouge de cette histoire familiale est une grande passion pour le métier, une solide expertise et la volonté d'offrir aux clients une qualité et un service optimaux, comme seule une entreprise familiale peut le faire.",
+      "paragraph2": "Le dirigeant Rudy suit de près l'aspect technique de chaque projet. Les employés sont hautement qualifiés et ont chacun leur spécialité. Le résultat ? Un toit fini à la perfection."
+    },
+    "cta": {
+      "about": "En savoir plus",
+      "portfolio": "Projets"
+    }
+  },
+  "services": {
+    "sectionLabel": "Nos services",
+    "mainTitle": "Services principaux",
+
+    "cta": "En savoir plus",
+
+    "daktimmer": {
+      "title": "Charpente de toit",
+      "description": "La charpente de toit forme l'épine dorsale d'un toit solide et bien construit. Avec plus d'un siècle d'expérience, nous utilisons des bois de qualité et des techniques raffinées pour garantir durabilité, sécurité et finition impeccable pour les constructions neuves comme les rénovations."
+    },
+
+    "gevelbekleding": {
+      "title": "Revêtement de façade",
+      "description": "Le revêtement de façade assure l'apparence esthétique et la protection de votre bâtiment. Nous proposons une large gamme de services de revêtement de façade, de l'installation à la rénovation, avec des matériaux à la fois attrayants et fonctionnels."
+    },
+
+    "plattedaken": {
+      "title": "Toits plats",
+      "description": "Les toits plats offrent efficacité et fonctionnalité pour divers projets et excellent en étanchéité et isolation."
+    },
+
+    "isolatie": {
+      "title": "Isolation",
+      "description": "Nous fournissons des solutions d'isolation thermique pour toits qui assurent plus de confort et une réduction significative des coûts énergétiques."
+    },
+
+    "renovatie": {
+      "title": "Rénovation",
+      "description": "La rénovation est une étape essentielle pour améliorer, moderniser ou restaurer vos bâtiments et espaces."
+    },
+
+    "groendaken": {
+      "title": "Toits verts",
+      "description": "Les toits verts sont une solution innovante et durable pour les bâtiments résidentiels et commerciaux."
+    }
+  },
+  "whyUs": {
+    "badge": "Pourquoi nous choisir ?",
+    "cta": "Demander un devis",
+
+    "benefits": {
+      "durability": {
+        "title": "Durabilité",
+        "description": "Nous utilisons uniquement des matériaux durables et des techniques écologiques."
+      },
+      "experience": {
+        "title": "Expérience",
+        "description": "Quatre générations d'expérience dans la conception et la construction de structures de toit."
+      },
+      "quality": {
+        "title": "Qualité",
+        "description": "Des projets conçus pour durer, alliant qualité, précision et savoir-faire éprouvé."
+      },
+      "speed": {
+        "title": "Intervention rapide",
+        "description": "Nous intervenons rapidement après votre demande, avec des délais respectés et une organisation efficace."
+      }
+    }
+  },
+  "extendedabout": {
+    "about_title_part1": "Votre toit,",
+    "about_title_part2": " Notre engagement !",
+    "about_desktop_p1": "Votre toit mérite une isolation et une finition de qualité supérieure. Notre équipe combine fonctionnalité et esthétique pour exécuter parfaitement chaque projet.",
+    "about_desktop_p2": "Actifs à Bruxelles, Brabant wallon et régions avoisinantes, nous offrons des solutions complètes de toiture.",
+    "about_desktop_p3": "Avec des générations d'expérience, nous prenons en charge tout, de la construction à la finition du toit.",
+    "about_desktop_p4": "Chaque projet bénéficie d'une approche personnalisée pour un toit durable, sûr et parfaitement fini.",
+    "about_mobile_p1": "Votre toit mérite le meilleur en matière de qualité, d'isolation et de finition. Notre équipe travaille avec dévouement pour combiner fonctionnalité et esthétique.",
+    "about_mobile_p2": "Nous sommes actifs à Bruxelles, Brabant wallon et environs.",
+    "about_mobile_p3": "Avec une expérience de génération en génération, nous traitons tout : construction, finition et accessoires.",
+    "about_mobile_p4": "Pour chaque projet, nous fournissons une solution sur mesure.",
+    "about_cta": "Nous contacter"
+  },
+  "contactform": {
+    "contact_title1": "Nous contacter",
+    "contact_title2": "sans engagement",
+    "form_name_label": "Votre nom",
+    "form_email_label": "Votre e-mail",
+    "form_subject_label": "Sujet",
+    "form_message_label": "Dites-nous vos problèmes",
+    "form_submit_button": "Envoyer",
+    "contact_info_title": "Coordonnées",
+    "contact_info_description": "Nous sommes là pour vous aider avec toutes vos questions et votre soutien.",
+    "form_submit_notification": "Formulaire soumis avec succès"
+  },
+  "brands": {
+    "brands_title_part1": "Dakwerken De Haes,",
+    "brands_title_part2": "experts",
+    "brands_title_part3": " en toiture, revêtement de façade, toits verts et isolation",
+    "brands_description": "Nous travaillons avec les meilleures marques du marché, des fournisseurs de qualité avec toutes les certifications nécessaires : ",
+    "brands_certifications": "Resitrix, Velux, Iko Enertherm, "
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients"
+  },
+  "aboutuspage": {
+    "aboutus_generations_title": "Quatre Générations d'Excellence en Menuiserie",
+    "aboutus_history_title": "Notre Histoire",
+    "aboutus_paragraph1": "Au cœur du savoir-faire traditionnel, notre voyage a commencé il y a plus d'un siècle, avec un engagement inébranlable envers la qualité et le souci du détail dans chaque projet. Tout a commencé en 1906, lorsque Frans De Haes a repris l'ancien atelier de charronnage et a bâti une réputation enviable. Ses créations, des brouettes aux chariots de transport, étaient synonymes de durabilité et de précision. Son secret ? Du bois sec et un œil aiguisé pour la finition parfaite.",
+    "aboutus_paragraph2": "L'héritage de Frans a été poursuivi par ses fils, Michiel et Jos, qui ont étendu l'entreprise en 1946. Sous la direction de Jos, l'atelier a évolué et s'est adapté aux nouvelles demandes du marché. L'accent s'est déplacé vers la menuiserie résidentielle, avec des spécialisations en toitures, fenêtres, portes et structures en bois, sans jamais perdre le cœur du savoir-faire traditionnel.",
+    "aboutus_paragraph3": "La croissance s'est poursuivie avec Marcel De Haes, qui a modernisé les processus et augmenté la capacité de production, faisant passer l'entreprise d'une maison par mois à plusieurs constructions par semaine. L'innovation est devenue une partie essentielle de notre identité, assurant que chaque projet soit exécuté avec une efficacité et une précision maximales. Avec le temps, son fils, Rudy De Haes, a pris les rênes et a renforcé la position de l'entreprise en tant que leader du marché dans le secteur.",
+    "aboutus_paragraph4": "Aujourd'hui, la quatrième génération maintient l'esprit pionnier de la famille De Haes. Nous combinons tradition et technologie pour fournir des solutions de menuiserie qui traversent les générations, toujours avec un fort accent sur la qualité et la satisfaction client. Chaque toit que nous construisons, chaque porte que nous installons et chaque détail que nous affinons porte en lui plus de 100 ans d'expérience et de passion pour le métier.",
+    "aboutus_quote": "Nous construisons l'avenir sans oublier nos racines.",
+    "aboutus_specialization_title": "Dakwerken De Haes",
+    "aboutus_specialization_desc1": "Nous sommes spécialisés dans les travaux de toiture, y compris l'entretien, les rénovations, l'étanchéité, l'isolation et les réparations de toit. Quel que soit le service dont vous avez besoin, notre équipe hautement qualifiée garantit un travail de qualité et une approche professionnelle et efficace de votre toit. Votre satisfaction est notre priorité.",
+    "aboutus_specialization_desc2": "Nous accordons une grande importance à une communication directe et claire. Vous aurez toujours un interlocuteur dédié pour suivre de près votre projet et une transparence totale sur les coûts, afin que vous sachiez exactement à quoi vous attendre avant le début des travaux.",
+    "aboutus_experts_title_part1": "experts",
+    "aboutus_experts_title_part2": " en toiture, revêtement de façade, toits verts et isolation",
+    "aboutus_experts_desc": "Nous travaillons avec les meilleures marques du marché, des fournisseurs de qualité avec toutes les certifications nécessaires : "
+  },
+  "portfolio": {
+    "portfolio_projects_label": "Projets",
+    "portfolio_title": "Un aperçu de nos projets",
+    "portfolio_paragraph1": "Le toit est 'la couronne' de votre maison. Une structure de toit solide, installée avec des matériaux de qualité et du savoir-faire, est donc cruciale. De Haes a acquis une expérience et un savoir-faire exceptionnels en charpente de toit, tant traditionnelle qu'avec fermettes. Tous les travaux de menuiserie sont réalisés dans les essences de bois les plus résistantes avec certificat d'imprégnation – votre garantie contre la pourriture du bois et tout tassement.",
+    "portfolio_paragraph2": "L'architecture moderne présente souvent de grands défis aux charpentiers. Les structures de toit complexes sont donc toujours réalisées en étroite consultation avec l'architecte. Pour les projets de rénovation également, vous pouvez compter sur une exécution parfaite dans des matériaux solides qui résistent à l'épreuve du temps. Vous avez toujours le choix entre une finition avec ou sans écran sous-toiture. Les fenêtres Velux sont également installées professionnellement avec un rapport qualité-prix qui résiste à toute comparaison avec les concurrents.",
+    "portfolio_project1_location": "Onze-Lieve-Vrouw-Waver, Heiken",
+    "portfolio_project1_title": "Rénovation",
+    "portfolio_project2_location": "Waarloos, Kerkelei",
+    "portfolio_project2_title": "Charpente de toit, lucarne et revêtement de façade",
+    "portfolio_project3_location": "Putte, Alice Nahonstraat",
+    "portfolio_project3_title": "Revêtement de façade",
+    "portfolio_project4_location": "Tremelo, Pharma Finance",
+    "portfolio_project4_title": "Menuiserie et revêtement de façade",
+    "portfolio_project5_location": "Sint-Katelijne-Waver, Dorp",
+    "portfolio_project5_title": "Revêtement de façade",
+    "portfolio_project6_location": "Onze-Lieve-Vrouw-Waver, Heiken",
+    "portfolio_project6_title": "Rénovation"
+  },
+  "daktimmerservice": {
+    "daktimmer_title": "Charpente de toit",
+    "daktimmer_paragraph1": "Un toit bien construit commence par une charpente de toit experte. Chez Dakwerken De Haes, nous avons quatre générations d'expérience dans la conception et la construction de structures de toit robustes qui résistent aux intempéries et au vent.",
+    "daktimmer_paragraph2": "Nous fournissons des solutions sur mesure pour les projets de construction neuve comme de rénovation, en travaillant avec des essences de bois durables et des techniques de construction modernes. Nos structures sont conçues pour une stabilité et une capacité portante maximales, essentielles pour un toit sûr et durable.",
+    "daktimmer_paragraph3": "Nos services incluent la construction complète des structures de toit, y compris la pose de fermes, de pannes et de chevrons. Nous assurons également une connexion parfaite avec l'isolation et la couverture du toit, gardant votre maison ou bâtiment optimalement protégé contre les influences climatiques.",
+    "daktimmer_paragraph4": "Nous travaillons en étroite collaboration avec nos clients pour fournir des résultats non seulement techniquement parfaits, mais aussi esthétiquement adaptés au style du bâtiment. Avec précision et savoir-faire, nous garantissons une structure de toit qui dure des générations.",
+    "daktimmer_cta": "Demander un devis",
+    "daktimmer_faq_title": "Questions Fréquemment Posées sur la Charpente de Toit",
+    "daktimmer_faq_question1": "Qu'est-ce que la charpente de toit ?",
+    "daktimmer_faq_answer1": "La charpente de toit désigne l'artisanat de conception et de construction des structures de toit. Elle comprend la pose de fermes, pannes et chevrons pour créer une structure de toit robuste et durable.",
+    "daktimmer_faq_question2": "Pourquoi une bonne construction de toit est-elle importante ?",
+    "daktimmer_faq_answer2": "Une bonne construction de toit assure une stabilité maximale, une capacité portante et une protection contre les intempéries. Elle est essentielle pour la sécurité et la durabilité de votre maison ou bâtiment.",
+    "daktimmer_faq_question3": "Quels matériaux sont utilisés en charpente de toit ?",
+    "daktimmer_faq_answer3": "Nous travaillons avec des essences de bois durables et des techniques de construction modernes pour garantir que votre structure de toit est de haute qualité et résistante aux éléments.",
+    "daktimmer_faq_question4": "La charpente de toit peut-elle être appliquée aux projets de rénovation ?",
+    "daktimmer_faq_answer4": "Oui, nous fournissons des solutions sur mesure pour les projets de construction neuve et de rénovation. Notre équipe veille à ce que la structure existante soit renforcée et améliorée.",
+    "daktimmer_faq_question5": "Combien de temps faut-il pour construire une structure de toit ?",
+    "daktimmer_faq_answer5": "La durée dépend de l'ampleur et de la complexité du projet. Nous assurons toujours une planification et une exécution efficaces pour terminer votre projet à temps."
+  },
+  "gevelbekledingservice": {
+    "gevelbekleding_title": "Revêtement de façade",
+    "gevelbekleding_paragraph1": "La façade d'un bâtiment joue un rôle crucial dans l'apparence et la protection contre les facteurs externes. Chez Dakwerken De Haes, nous nous spécialisons dans l'installation de revêtements de façade qui améliorent non seulement l'esthétique de votre maison ou local commercial, mais offrent également une barrière solide contre les éléments.",
+    "gevelbekleding_paragraph2": "Nous offrons un large choix de matériaux pour le revêtement de façade, tels que bois, composite et panneaux métalliques, selon votre préférence et les exigences du bâtiment. Que ce soit pour créer un look moderne ou préserver un caractère traditionnel, nous assurons une finition parfaite qui correspond au style de votre bâtiment.",
+    "gevelbekleding_paragraph3": "Notre revêtement de façade offre une excellente isolation, une protection contre la pluie, le vent et le soleil, et une longue durée de vie. Nous travaillons en étroite collaboration avec vous pour garantir que votre façade est non seulement fonctionnelle, mais aussi visuellement attrayante et durable, quelles que soient les conditions météorologiques.",
+    "gevelbekleding_paragraph4": "Avec attention aux détails et savoir-faire, nous veillons à ce que la façade de votre bâtiment soit non seulement belle, mais optimalement protégée.",
+    "gevelbekleding_cta": "Demander un devis",
+    "gevelbekleding_faq_title": "Questions Fréquemment Posées sur le Revêtement de Façade",
+    "gevelbekleding_faq_question1": "Quels matériaux peuvent être utilisés pour le revêtement de façade ?",
+    "gevelbekleding_faq_answer1": "Nous offrons un large choix de matériaux, y compris bois, composite et panneaux métalliques. Chaque matériau a ses propres avantages et est choisi en fonction de votre préférence et des exigences du bâtiment.",
+    "gevelbekleding_faq_question2": "Comment entretenir un revêtement de façade ?",
+    "gevelbekleding_faq_answer2": "L'entretien dépend du matériau utilisé. Le revêtement de façade en bois nécessite un entretien régulier comme la peinture, tandis que le composite et les panneaux métalliques sont à faible entretien. Nous vous conseillerons volontiers sur l'entretien approprié.",
+    "gevelbekleding_faq_question3": "Le revêtement de façade convient-il à tous les bâtiments ?",
+    "gevelbekleding_faq_answer3": "Oui, le revêtement de façade peut être appliqué aux bâtiments neufs et existants. Nous assurons une solution qui correspond parfaitement au style et à la structure de votre bâtiment.",
+    "gevelbekleding_faq_question4": "Quels sont les avantages du revêtement de façade ?",
+    "gevelbekleding_faq_answer4": "Le revêtement de façade offre une excellente isolation, une protection contre les intempéries et une longue durée de vie. De plus, il améliore l'esthétique de votre bâtiment."
+  },
+  "groendakenservice": {
+    "groendaken_title": "Toits verts",
+    "groendaken_paragraph1": "Un toit vert offre non seulement une plus-value esthétique mais aussi de nombreux avantages fonctionnels. Grâce à la capacité d'isolation naturelle des plantes, il aide à réguler la température intérieure, réduisant le besoin de chauffage et de refroidissement. Cela peut conduire à des coûts énergétiques plus bas et un confort thermique accru toute l'année.",
+    "groendaken_paragraph2": "De plus, les toits verts absorbent l'eau de pluie, contribuant à une meilleure gestion de l'eau et réduisant la pression sur le système d'égouts. Ils filtrent également les polluants de l'air et favorisent la biodiversité en créant un habitat pour les oiseaux et les insectes.",
+    "groendaken_paragraph3": "Que ce soit un projet de construction neuve ou la rénovation d'un toit existant, nous assurons une installation professionnelle avec des matériaux de haute qualité. Avec un toit vert, vous investissez dans un environnement de vie plus durable, économe en énergie et plus sain.",
+    "groendaken_cta": "Demander un devis",
+    "groendaken_faq_title": "Questions Fréquemment Posées",
+    "groendaken_faq_question1": "Comment entretenir un toit vert ?",
+    "groendaken_faq_answer1": "Un toit vert nécessite un entretien minimal. Retirer occasionnellement les mauvaises herbes et vérifier les obstications des drains est suffisant.",
+    "groendaken_faq_question2": "Un toit vert convient-il à tous les toits ?",
+    "groendaken_faq_answer2": "Presque tous les toits conviennent, mais il est important de vérifier la capacité portante. Notre équipe peut vous conseiller à ce sujet.",
+    "groendaken_faq_question3": "Quels sont les coûts d'un toit vert ?",
+    "groendaken_faq_answer3": "Les coûts varient selon la taille et la complexité du projet. Contactez-nous pour un devis sans engagement."
+  },
+  "isolatieservice": {
+    "isolatie_title": "Isolation",
+    "isolatie_paragraph1": "Une bonne isolation de toit est essentielle pour optimiser l'efficacité énergétique et assurer un environnement confortable toute l'année. Nous utilisons uniquement des matériaux de haute qualité, comme la laine minérale et des options écologiques, pour offrir la meilleure protection contre les changements climatiques, prévenant les pertes de chaleur en hiver et gardant les espaces frais en été.",
+    "isolatie_paragraph2": "Outre le confort, l'installation d'une bonne isolation peut générer des économies significatives sur vos coûts énergétiques, en faisant un investissement qui se rentabilise avec le temps. Ce service est idéal pour les projets de construction neuve et les rénovations, et notre équipe spécialisée assure une installation rapide, efficace avec une excellente finition.",
+    "isolatie_paragraph3": "Avec notre engagement envers la qualité et l'efficacité, vous assurez un toit qui maintient la température idéale en toute saison, résultant en une maison plus durable et économique.",
+    "isolatie_cta": "Demander un devis",
+    "isolatie_faq_title": "Questions Fréquemment Posées sur l'Isolation",
+    "isolatie_faq_question1": "Pourquoi l'isolation de toit est-elle importante ?",
+    "isolatie_faq_answer1": "L'isolation de toit est essentielle pour améliorer l'efficacité énergétique et assurer un environnement confortable. Elle prévient les pertes de chaleur en hiver et garde les espaces frais en été.",
+    "isolatie_faq_question2": "Quels matériaux sont utilisés pour l'isolation de toit ?",
+    "isolatie_faq_answer2": "Nous utilisons des matériaux de haute qualité comme la laine minérale et des options écologiques pour offrir la meilleure protection contre les changements climatiques.",
+    "isolatie_faq_question3": "Combien puis-je économiser avec l'isolation de toit ?",
+    "isolatie_faq_answer3": "L'installation d'une bonne isolation peut générer des économies significatives sur vos coûts énergétiques, en faisant un investissement qui se rentabilise avec le temps.",
+    "isolatie_faq_question4": "L'isolation convient-elle à la construction neuve et aux rénovations ?",
+    "isolatie_faq_answer4": "Oui, nos services d'isolation sont idéaux pour les projets de construction neuve et les rénovations. Notre équipe assure une installation rapide et efficace.",
+    "isolatie_faq_question5": "Quels sont les avantages d'une isolation de toit professionnelle ?",
+    "isolatie_faq_answer5": "Une isolation de toit professionnelle assure un environnement confortable, économise sur les coûts énergétiques et contribue à une maison plus durable et économique."
+  },
+  "plattedakenservice": {
+    "plattedaken_title": "Toits plats",
+    "plattedaken_paragraph1": "Les toits plats sont idéaux pour ceux qui cherchent un design simple et fonctionnel. Avec ce type de toit, l'isolation est appliquée directement sur le substrat et recouverte d'une membrane étanche, offrant une haute résistance à l'eau et aux températures extrêmes.",
+    "plattedaken_paragraph2": "Un point important est le drainage de l'eau de pluie. Pour prévenir les fuites, nous créons une pente subtile invisible à l'œil nu et installons des évacuations d'eau adaptées pour diriger rapidement l'eau vers les gouttières et descentes.",
+    "plattedaken_paragraph3": "Nous proposons deux options de couverture : EPDM, un caoutchouc synthétique résistant aux UV, et la couverture bitume, avec une durée de vie de plus de 30 ans. Les deux sont idéales pour assurer un toit durable bien protégé contre les conditions météorologiques.",
+    "plattedaken_paragraph4": "Avec notre expérience, vous pouvez compter sur la garantie d'un toit plat bien construit et de haute qualité.",
+    "plattedaken_cta": "Demander un devis",
+    "plattedaken_faq_title": "Questions Fréquemment Posées sur les Toits Plats",
+    "plattedaken_faq_question1": "Quels sont les avantages d'un toit plat ?",
+    "plattedaken_faq_answer1": "Les toits plats sont idéaux pour un design simple et fonctionnel. Ils offrent une haute résistance à l'eau et aux températures extrêmes, et sont faciles à entretenir.",
+    "plattedaken_faq_question2": "Comment le drainage de l'eau de pluie est-il géré sur un toit plat ?",
+    "plattedaken_faq_answer2": "Pour prévenir les fuites, nous créons une pente subtile invisible à l'œil nu et installons des évacuations d'eau adaptées pour diriger rapidement l'eau de pluie vers les gouttières et descentes.",
+    "plattedaken_faq_question3": "Quels matériaux sont utilisés pour la couverture des toits plats ?",
+    "plattedaken_faq_answer3": "Nous proposons deux options : EPDM, un caoutchouc synthétique résistant aux UV, et la couverture bitume, avec une durée de vie de plus de 30 ans.",
+    "plattedaken_faq_question4": "Un toit plat convient-il à tous les bâtiments ?",
+    "plattedaken_faq_answer4": "Oui, les toits plats peuvent être appliqués aux bâtiments neufs et existants. Nous assurons une solution qui correspond parfaitement au style et à la structure de votre bâtiment.",
+    "plattedaken_faq_question5": "Quels sont les principaux points d'attention pour un toit plat ?",
+    "plattedaken_faq_answer5": "Les points d'attention importants incluent un bon drainage, une couverture de toit de haute qualité et un entretien régulier pour garantir la durée de vie du toit."
+  },
+  "renovatieservice": {
+    "renovatie_title": "Rénovation",
+    "renovatie_paragraph1": "Une rénovation bien exécutée peut améliorer significativement la valeur, l'efficacité énergétique et la fonctionnalité d'un bâtiment. Chez Dakwerken De Haes, nous combinons savoir-faire traditionnel et techniques modernes pour redonner vie à votre maison ou local commercial.",
+    "renovatie_paragraph2": "Nos services de rénovation incluent à la fois des ajustements structurels et des rénovations esthétiques. Nous prenons en charge tout, des rénovations de toit et restauration de façade aux améliorations intérieures et restauration de menuiserie. Qu'il s'agisse de préserver un bâtiment historique ou de moderniser une structure existante, nous assurons des résultats à la fois fonctionnels et visuellement attrayants.",
+    "renovatie_paragraph3": "Grâce à l'utilisation de matériaux durables et de solutions écoénergétiques, nous garantissons une rénovation qui non seulement prolonge la durée de vie du bâtiment mais contribue aussi au confort et aux économies d'énergie. Nous travaillons en étroite collaboration avec nos clients pour fournir des solutions sur mesure correspondant à leurs souhaits et budget.",
+    "renovatie_paragraph4": "Avec notre expertise et engagement envers la qualité, vous êtes assuré d'une rénovation à la fois esthétiquement et structurellement excellente.",
+    "renovatie_cta": "Demander un devis",
+    "renovatie_faq_title": "Questions Fréquemment Posées sur la Rénovation",
+    "renovatie_faq_question1": "Quels sont les avantages d'une rénovation ?",
+    "renovatie_faq_answer1": "Une rénovation peut améliorer significativement la valeur, l'efficacité énergétique et la fonctionnalité d'un bâtiment. Elle redonne vie à votre maison ou local commercial.",
+    "renovatie_faq_question2": "Quels services proposez-vous pour la rénovation ?",
+    "renovatie_faq_answer2": "Nos services de rénovation incluent des ajustements structurels, des rénovations esthétiques, des rénovations de toit, restauration de façade, améliorations intérieures et restauration de menuiserie.",
+    "renovatie_faq_question3": "Pouvez-vous aussi rénover des bâtiments historiques ?",
+    "renovatie_faq_answer3": "Oui, nous avons de l'expérience dans la préservation et la rénovation de bâtiments historiques, combinant savoir-faire traditionnel et techniques modernes.",
+    "renovatie_faq_question4": "Comment la rénovation contribue-t-elle à l'efficacité énergétique ?",
+    "renovatie_faq_answer4": "Grâce à l'utilisation de matériaux durables et de solutions écoénergétiques, nous améliorons l'isolation et réduisons les coûts énergétiques.",
+    "renovatie_faq_question5": "Pourquoi choisir Dakwerken De Haes ?",
+    "renovatie_faq_answer5": "Avec notre expertise et engagement envers la qualité, vous êtes assuré d'une rénovation à la fois esthétiquement et structurellement excellente."
+  },
+  "dataprotection": {
+    "dataprotection_title": "Protection des Données",
+    "dataprotection_intro": "Dakwerken De Haes attache une grande importance à la protection de vos données personnelles. Nous traitons vos données conformément au Règlement Général sur la Protection des Données (RGPD) et à la législation applicable en matière de protection des données.",
+    "dataprotection_section1_title": "1. Responsable du traitement",
+    "dataprotection_section1_content": "Dakwerken De Haes agit en tant que responsable du traitement des données personnelles.\\nE-mail : info@schrijnwerkerij-dehaes.be",
+    "dataprotection_section2_title": "2. Quelles données traitons-nous ?",
+    "dataprotection_section2_intro": "Selon le contact ou la collaboration, nous pouvons traiter les données suivantes :",
+    "dataprotection_section2_list1": "Données d'identification (nom, prénom)",
+    "dataprotection_section2_list2": "Coordonnées (adresse e-mail, numéro de téléphone)",
+    "dataprotection_section2_list3": "Informations sur les devis et projets",
+    "dataprotection_section2_list4": "Communication via e-mail ou formulaires de contact",
+    "dataprotection_section2_list5": "Données techniques telles que l'adresse IP (le cas échéant)",
+    "dataprotection_section3_title": "3. Finalités du traitement",
+    "dataprotection_section3_intro": "Vos données personnelles sont traitées exclusivement aux fins suivantes :",
+    "dataprotection_section3_list1": "Répondre aux questions et demandes",
+    "dataprotection_section3_list2": "Établir et suivre les devis",
+    "dataprotection_section3_list3": "Exécuter les projets et accords",
+    "dataprotection_section3_list4": "Fins administratives et comptables",
+    "dataprotection_section3_list5": "Améliorer nos services",
+    "dataprotection_section4_title": "4. Base juridique du traitement",
+    "dataprotection_section4_content": "Le traitement de vos données personnelles est basé sur une ou plusieurs des bases juridiques suivantes : votre consentement, l'exécution d'un accord, une obligation légale ou l'intérêt légitime de Dakwerken De Haes.",
+    "dataprotection_section5_title": "5. Destinataires et sous-traitants",
+    "dataprotection_section5_content": "Vos données personnelles ne sont pas vendues à des tiers. Elles ne peuvent être partagées qu'avec des sous-traitants soigneusement sélectionnés (tels que des prestataires de services informatiques ou d'hébergement) lorsque cela est nécessaire pour nos services. Des accords de traitement ont été conclus avec ces parties.",
+    "dataprotection_section6_title": "6. Durée de conservation",
+    "dataprotection_section6_content": "Vos données personnelles ne sont pas conservées plus longtemps que nécessaire aux fins pour lesquelles elles ont été collectées, sauf si une durée de conservation plus longue est légalement requise.",
+    "dataprotection_section7_title": "7. Droits des personnes concernées",
+    "dataprotection_section7_intro": "Vous disposez des droits suivants :",
+    "dataprotection_section7_list1": "Droit d'accès",
+    "dataprotection_section7_list2": "Droit de rectification ou de suppression",
+    "dataprotection_section7_list3": "Droit à la limitation du traitement",
+    "dataprotection_section7_list4": "Droit d'opposition au traitement",
+    "dataprotection_section7_list5": "Droit à la portabilité des données",
+    "dataprotection_section7_list6": "Droit de retirer votre consentement à tout moment",
+    "dataprotection_section7_outro": "Vous pouvez exercer ces droits en nous contactant à info@schrijnwerkerij-dehaes.be. Nous répondons dans les 30 jours au plus tard.",
+    "dataprotection_section8_title": "8. Mesures de sécurité",
+    "dataprotection_section8_content": "Nous prenons des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre l'accès non autorisé, la perte, l'utilisation abusive ou la modification.",
+    "dataprotection_section9_title": "9. Plaintes",
+    "dataprotection_section9_content": "Si vous estimez que vos données personnelles sont traitées illégalement, vous avez le droit de déposer une plainte auprès de l'Autorité de protection des données belge.",
+    "dataprotection_section10_title": "10. Relation avec la politique de confidentialité",
+    "dataprotection_section10_content": "Cette page complète notre politique de confidentialité et doit être lue en conjonction avec celle-ci.",
+    "dataprotection_section11_title": "11. Modifications",
+    "dataprotection_section11_content": "Dakwerken De Haes se réserve le droit de modifier ces informations sur la protection des données. La dernière version est toujours disponible sur notre site web."
+  },
+  "generalconditions": {
+    "generalconditions_title": "Conditions Générales",
+    "generalconditions_intro": "Ces conditions générales s'appliquent à tous les devis, accords et services de Dakwerken De Haes, sauf convention écrite contraire. En acceptant un devis ou en concluant un accord, le client déclare accepter ces conditions.",
+    "generalconditions_section1_title": "1. Définitions",
+    "generalconditions_section1_content": "Dans ces conditions générales, on entend par : \"Prestataire\" : Dakwerken De Haes ; \"Client\" : toute personne physique ou morale concluant un accord avec le prestataire ; \"Accord\" : tout arrangement concernant la prestation de services ou travaux.",
+    "generalconditions_section2_title": "2. Devis",
+    "generalconditions_section2_content": "Tous les devis sont non engageants et valables pendant 30 jours, sauf indication contraire. Dakwerken De Haes se réserve le droit de refuser ou d'adapter les devis.",
+    "generalconditions_section3_title": "3. Formation de l'accord",
+    "generalconditions_section3_content": "Un accord est formé lorsque le client accepte un devis par écrit ou numériquement, ou lorsque Dakwerken De Haes commence l'exécution des travaux.",
+    "generalconditions_section4_title": "4. Prix et paiements",
+    "generalconditions_section4_content": "Sauf convention contraire, les factures doivent être payées dans les 14 jours suivant la date de facturation. En cas de non-paiement à temps, Dakwerken De Haes se réserve le droit de suspendre les prestations ultérieures.",
+    "generalconditions_section5_title": "5. Exécution et livraison",
+    "generalconditions_section5_content": "Dakwerken De Haes exécutera les travaux au mieux de ses connaissances et capacités. Les délais de livraison indiqués sont indicatifs et peuvent être affectés par des circonstances imprévues.",
+    "generalconditions_section6_title": "6. Modifications et travaux supplémentaires",
+    "generalconditions_section6_content": "Les modifications à l'accord initial ou les travaux supplémentaires sont facturés séparément s'ils ne sont pas explicitement inclus dans le devis.",
+    "generalconditions_section7_title": "7. Annulation",
+    "generalconditions_section7_content": "En cas d'annulation de l'accord par le client, Dakwerken De Haes a droit à une compensation pour les travaux déjà exécutés et les coûts encourus.",
+    "generalconditions_section8_title": "8. Responsabilité",
+    "generalconditions_section8_content": "La responsabilité de Dakwerken De Haes est limitée au montant de l'accord. Dakwerken De Haes n'est pas responsable des dommages indirects, consécutifs ou de la perte de revenus.",
+    "generalconditions_section9_title": "9. Force majeure",
+    "generalconditions_section9_content": "En cas de force majeure (telles que conditions météorologiques, pénuries de matériaux ou facteurs externes), Dakwerken De Haes ne peut être tenu responsable des retards ou de l'inexécution.",
+    "generalconditions_section10_title": "10. Litiges et droit applicable",
+    "generalconditions_section10_content": "Le droit belge s'applique à tous les accords. Les litiges sont de préférence résolus par consultation mutuelle. Si cela n'est pas possible, seuls les tribunaux compétents de Belgique sont compétents."
+  },
+  "legalnotices": {
+    "legalnotices_title": "Mentions Légales",
+    "legalnotices_intro": "Ce site web est la propriété de et est exploité par Dakwerken De Haes. En visitant ou utilisant ce site web, vous acceptez les mentions légales ci-dessous.",
+    "legalnotices_section1_title": "1. Identité de l'entreprise",
+    "legalnotices_section1_content": "Nom de l'entreprise : Dakwerken De Haes\\nE-mail : info@schrijnwerkerij-dehaes.be\\nActivit\\u00e9 : Travaux de toiture et constructions bois sur mesure",
+    "legalnotices_section2_title": "2. Propriété intellectuelle",
+    "legalnotices_section2_content": "Tout le contenu de ce site web, y compris les textes, images, logos, dessins, code et éléments graphiques, est protégé par le droit d'auteur et d'autres droits de propriété intellectuelle. Sans autorisation écrite préalable de Dakwerken De Haes, il n'est pas permis de copier, distribuer, modifier ou utiliser commercialement ce contenu.",
+    "legalnotices_section3_title": "3. Utilisation du site web",
+    "legalnotices_section3_content": "Les informations sur ce site web sont uniquement destinées à des fins d'information générale et ne constituent pas des conseils professionnels, juridiques ou techniques. Dakwerken De Haes ne peut garantir que toutes les informations sont complètes, correctes ou actuelles.",
+    "legalnotices_section4_title": "4. Responsabilité",
+    "legalnotices_section4_content": "Dakwerken De Haes ne peut être tenu responsable des dommages directs ou indirects résultant de l'utilisation de ce site web, y compris mais sans s'y limiter, des pannes techniques, virus, informations incorrectes ou indisponibilité temporaire du site web. L'utilisation du site web se fait entièrement à vos risques et périls.",
+    "legalnotices_section5_title": "5. Liens externes",
+    "legalnotices_section5_content": "Ce site web peut contenir des liens vers des sites web de tiers. Dakwerken De Haes n'a aucun contrôle sur le contenu ou les politiques de ces sites web externes et n'accepte aucune responsabilité à leur égard.",
+    "legalnotices_section6_title": "6. Protection des données personnelles",
+    "legalnotices_section6_content": "Le traitement des données personnelles via ce site web relève de notre politique de confidentialité et de protection des données. Consultez ces documents pour plus d'informations sur la façon dont nous traitons vos données.",
+    "legalnotices_section7_title": "7. Droit applicable et tribunal compétent",
+    "legalnotices_section7_content": "Le droit belge s'applique à ce site web et à ces mentions légales. En cas de litige, seuls les tribunaux de Belgique sont compétents.",
+    "legalnotices_section8_title": "8. Modifications",
+    "legalnotices_section8_content": "Dakwerken De Haes se réserve le droit de modifier ces mentions légales à tout moment. La dernière version est toujours disponible sur ce site web."
+  },
+  "privacypolicy": {
+    "privacypolicy_title": "Politique de Confidentialité",
+    "privacypolicy_intro": "Chez Schrijnwerkerij De Haes, nous attachons une grande importance à votre vie privée. Dans cette politique de confidentialité, nous expliquons comment nous collectons, utilisons, conservons et protégeons vos données personnelles conformément au Règlement Général sur la Protection des Données (RGPD).",
+    "privacypolicy_section1_title": "1. Responsable du traitement",
+    "privacypolicy_section1_content": "Dakwerken De Haes est le responsable du traitement de vos données personnelles.\\nNom de l'entreprise : Dakwerken De Haes\\nE-mail : info@schrijnwerkerij-dehaes.be",
+    "privacypolicy_section2_title": "2. Quelles données collectons-nous ?",
+    "privacypolicy_section2_intro": "Nous pouvons traiter les données personnelles suivantes :",
+    "privacypolicy_section2_list1": "Nom et prénom",
+    "privacypolicy_section2_list2": "Adresse e-mail",
+    "privacypolicy_section2_list3": "Contenu de votre message ou demande de devis",
+    "privacypolicy_section2_list4": "Données techniques telles que l'adresse IP et informations du navigateur (via cookies, le cas échéant)",
+    "privacypolicy_section3_title": "3. Finalités et base juridique",
+    "privacypolicy_section3_intro": "Vos données personnelles sont traitées aux fins suivantes :",
+    "privacypolicy_section3_list1": "Répondre aux questions et demandes de contact",
+    "privacypolicy_section3_list2": "Établir et suivre les devis",
+    "privacypolicy_section3_list3": "Exécution d'un accord",
+    "privacypolicy_section3_list4": "Améliorer nos services et site web",
+    "privacypolicy_section3_outro": "Le traitement est basé sur votre consentement, l'exécution d'un accord ou notre intérêt légitime.",
+    "privacypolicy_section4_title": "4. Partage de données avec des tiers",
+    "privacypolicy_section4_content": "Vos données ne sont pas vendues ou louées à des tiers. Elles ne peuvent être partagées qu'avec des partenaires fiables qui soutiennent nos services (tels que les fournisseurs d'hébergement), et uniquement lorsque cela est nécessaire. Des accords de traitement appropriés ont été conclus avec ces parties.",
+    "privacypolicy_section5_title": "5. Durée de conservation",
+    "privacypolicy_section5_content": "Nous ne conservons pas vos données personnelles plus longtemps que nécessaire aux fins pour lesquelles elles ont été collectées, sauf si une durée de conservation plus longue est légalement requise (par exemple, pour des obligations comptables).",
+    "privacypolicy_section6_title": "6. Sécurité des données",
+    "privacypolicy_section6_content": "Nous prenons des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre la perte, l'accès non autorisé ou l'utilisation abusive.",
+    "privacypolicy_section7_title": "7. Vos droits",
+    "privacypolicy_section7_intro": "Vous avez le droit de :",
+    "privacypolicy_section7_list1": "Accéder à vos données personnelles",
+    "privacypolicy_section7_list2": "Faire corriger ou supprimer vos données",
+    "privacypolicy_section7_list3": "Limiter le traitement ou vous y opposer",
+    "privacypolicy_section7_list4": "Retirer votre consentement",
+    "privacypolicy_section7_list5": "Transférer vos données (droit à la portabilité des données)",
+    "privacypolicy_section7_outro": "Vous pouvez exercer ces droits en nous contactant à info@schrijnwerkerij-dehaes.be. Nous répondons dans les 30 jours au plus tard.",
+    "privacypolicy_section8_title": "8. Cookies",
+    "privacypolicy_section8_content": "Notre site web peut utiliser des cookies fonctionnels et analytiques pour améliorer l'expérience utilisateur. Plus d'informations à ce sujet se trouvent dans notre politique en matière de cookies.",
+    "privacypolicy_section9_title": "9. Plaintes",
+    "privacypolicy_section9_content": "Si vous estimez que vos données sont traitées illégalement, vous avez le droit de déposer une plainte auprès de l'Autorité de protection des données.",
+    "privacypolicy_section10_title": "10. Modifications",
+    "privacypolicy_section10_content": "Nous nous réservons le droit de modifier cette politique de confidentialité. La dernière version est toujours disponible sur notre site web."
+  },
+  "footer": {
+    "footer_menu_title": "Menu",
+    "footer_menu_home": "Accueil",
+    "footer_menu_about": "Qui sommes-nous",
+    "footer_menu_services": "Nos Services",
+    "footer_menu_portfolio": "Projets",
+    "footer_menu_contact": "Contact",
+    "footer_services_title": "Services",
+    "footer_services_groendaken": "Toits verts",
+    "footer_services_daktimmers": "Charpente de toit",
+    "footer_services_gevelbekleding": "Revêtement de façade",
+    "footer_services_plattedaken": "Toits plats",
+    "footer_services_renovatie": "Rénovation",
+    "footer_services_isolatie": "Isolation",
+    "footer_policy_title": "Politique",
+    "footer_policy_dataprotection": "Protection des Données",
+    "footer_policy_conditions": "Conditions Générales",
+    "footer_policy_legal": "Mentions Légales",
+    "footer_policy_privacy": "Politique de Confidentialité",
+    "footer_copyright": "© 2025 - ",
+    "footer_developed": "Développé par",
+    "footer_email": "E-mail",
+    "footer_facebook": "Facebook",
+    "footer_whatsapp": "Whatsapp"
+  },
+  "cookieconsent": {
+    "cookieconsent_message": "Nous utilisons des cookies et des technologies similaires pour vous offrir une meilleure expérience, analyser le trafic du site web et personnaliser le contenu et les publicités. Vous pouvez accepter tous les cookies ou refuser les cookies non essentiels. Pour plus de détails, consultez notre ",
+    "cookieconsent_learnmore": "En savoir plus",
+    "cookieconsent_accept": "Tout accepter",
+    "cookieconsent_reject": "Tout refuser"
+  }
+}

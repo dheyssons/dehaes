@@ -9,20 +9,23 @@ import Bosscover from "@/public/images/brands/bosscover.webp";
 
 // CLIENT PART
 import BrandsCarouselMobile from "@/components/BrandsCarouselMobile";
+import { useTranslations } from "next-intl";
 
 export default function Brands() {
+  const t = useTranslations("brands");
   return (
     <section className="flex flex-col items-center gap-y-6">
       <h3 className="h4 !text-center text-balance">
-        Dakwerken De Haes,{" "}
-        <span className="text-[--primary-color]">deskundigen</span> in
-        dakwerken, gevelbekleding, groendaken en isolatie
+        {t("brands_title_part1")}{" "}
+        <span className="text-[--primary-color]">
+          {t("brands_title_part2")}
+        </span>
+        {t("brands_title_part3")}
       </h3>
 
       <p className="p !text-center !max-w-screen-lg">
-        Wij werken met de beste merken op de markt, van kwaliteitsleveranciers
-        met alle nodige certificeringen:
-        <i> Resitrix, Velux, Iko Enertherm, </i>enz.
+        {t("brands_description")}
+        <i>{t("brands_certifications")}</i>enz.
       </p>
 
       {/* DESKTOP — STATIC */}

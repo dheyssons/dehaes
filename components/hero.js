@@ -17,11 +17,15 @@ import { transition1_s } from "@/public/transitions/transition1_s";
 
 import RequestEvaluationForm from "@/components/RequestEvaluationForm";
 
+import { useTranslations } from "next-intl";
+
 // OTHERS
 import JsonLd from "@/components/jsonld";
 import Brands from "./marquee";
 
 export default function Hero() {
+  const t = useTranslations("hero");
+
   const jsonLdData = {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
@@ -60,23 +64,21 @@ export default function Hero() {
             className="flex flex-col gap-y-20"
           >
             {/* TITLE */}
-            <div className="space-y-6">
+            <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <div className="accent !bg-white" />
-                <p className="body !text-white">algemene dakwerken</p>
+                <p className="body !text-white">{t("eyebrow")}</p>
               </div>
 
               <motion.h1 variants={item} className="display-large !text-white">
-                Dakwerken De Haes
+                {t("title")}
               </motion.h1>
 
               <motion.p
                 variants={item}
-                className="p !text-[#ffffffed] lg:!text-[#f2f2f2ed] max-w-2xl"
+                className="body !text-[#ffffffed] lg:!text-[#f2f2f2ed] max-w-2xl"
               >
-                Traditie en kwaliteit die generaties overstijgen, met vakkundige
-                dakwerken in Sint-Katelijne-Waver en omgeving zoals Mechelen,
-                Lier en Bornem.
+                {t("description")}
               </motion.p>
 
               <JsonLd data={jsonLdData} />
@@ -85,14 +87,14 @@ export default function Hero() {
             {/* CTA */}
             <div className="flex flex-col md:flex-row gap-3">
               <a href="/contact" className="btn self-start uppercase">
-                Contact opnemen
+                {t("cta.contact")}
               </a>
 
               <a
                 href="#services"
                 className="btn-ghost self-start uppercase flex items-center"
               >
-                Onze diensten
+                {t("cta.services")}
                 <LuArrowUpRight className="ml-2" />
               </a>
             </div>
@@ -126,7 +128,7 @@ export default function Hero() {
         </a>
       </section>
 
-      <div className="flex flex-col items-center justify-center lg:hidden">
+      <div className="w-[90%] mx-auto flex flex-col items-center justify-center lg:hidden">
         <RequestEvaluationForm />
       </div>
 
