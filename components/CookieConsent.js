@@ -1,8 +1,10 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 export default function CookieConsent() {
+  const t = useTranslations("cookieconsent");
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {

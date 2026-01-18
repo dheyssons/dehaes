@@ -47,26 +47,6 @@ export default async function RootLayout({ children, params }: Props) {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-
-      (function(w,d,s,l,i){
-        var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true;
-        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-        f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-N5BNJGPF');
-    `,
-          }}
-        />
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('consent', 'default', {
@@ -92,6 +72,8 @@ export default async function RootLayout({ children, params }: Props) {
           name="keywords"
           content="Dakwerken, de haes, dakwerken, sd Dakwerken, Dakwerken mb, sbk Dakwerken, Belgique, carpentry"
         ></meta>
+        <script src="https://t.contentsquare.net/uxa/2e430bc3b81f7.js"></script>
+
         {/* <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -121,14 +103,6 @@ export default async function RootLayout({ children, params }: Props) {
         content="iJG9g6Q9U-v746a0tzQHDktkoMmmpHSIrWBU9EAjGus"
       />
       <body className={`${archivo.variable} antialiased`}>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-N5BNJGPF"
-            height="0"
-            width="0"
-            className="hidden"
-          ></iframe>
-        </noscript>
         <NextIntlClientProvider>
           <Header></Header>
           {children}
