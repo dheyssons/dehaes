@@ -23,7 +23,10 @@ const archivo = Archivo({
 });
 
 export const metadata = {
-  title: "Dakwerken De Haes | Dakwerken in Sint-Katelijne-Waver",
+  title: {
+    default: "Dakwerken De Haes",
+    template: "%s - Dakwerken De Haes",
+  },
   description:
     "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
 };

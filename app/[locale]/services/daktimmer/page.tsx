@@ -8,11 +8,24 @@ import Whyus from "@/components/whyus";
 import QuestionMark from "@/public/icons/questionmark.svg";
 import { useTranslations } from "next-intl";
 
-export const metadata = {
-  title: "Daktimmerwerk",
-  description:
-    "Vakkundig daktimmerwerk op maat voor nieuwbouw en renovatie. Met vier generaties ervaring realiseren wij sterke, duurzame dakconstructies die stabiliteit, veiligheid en een perfecte afwerking garanderen.",
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+type Props = {
+  params: { locale: string };
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const t = await getTranslations({
+    locale: params.locale,
+    namespace: "header",
+  });
+
+  return {
+    title: t("header_services_daktimmer"),
+    description: t("header_services_daktimmer_description"),
+  };
+}
 
 export default function Daktimmer() {
   const t = useTranslations("daktimmerservice");

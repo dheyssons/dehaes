@@ -8,11 +8,24 @@ import Whyus from "@/components/whyus";
 import QuestionMark from "@/public/icons/questionmark.svg";
 import { useTranslations } from "next-intl";
 
-export const metadata = {
-  title: "Gevelbekleding",
-  description:
-    "Professionele gevelbekleding die esthetiek en bescherming combineert. Met duurzame materialen zoals hout, composiet en metaal zorgen wij voor een perfecte afwerking, uitstekende isolatie en een gevel die bestand is tegen alle weersomstandigheden.",
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+type Props = {
+  params: { locale: string };
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const t = await getTranslations({
+    locale: params.locale,
+    namespace: "header",
+  });
+
+  return {
+    title: t("header_services_gevelbekleding"),
+    description: t("header_services_gevelbekleding_description"),
+  };
+}
 
 export default function Gevelbekleding() {
   const t = useTranslations("gevelbekledingservice");

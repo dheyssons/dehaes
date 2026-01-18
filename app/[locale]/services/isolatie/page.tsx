@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RenovatieImage from "@/public/images/services/renovation.webp";
+import IsolatieImage from "@/public/images/services/insulation.webp";
 
 import ContactForm from "@/components/contactform";
 import Testimonials from "@/components/testimonials";
@@ -8,35 +8,47 @@ import Whyus from "@/components/whyus";
 import QuestionMark from "@/public/icons/questionmark.svg";
 import { useTranslations } from "next-intl";
 
-export const metadata = {
-  title: "Renovatie",
-  description:
-    "Professionele renovaties die waarde, energie-efficiëntie en uitstraling verbeteren. Met vakmanschap, duurzame materialen en maatwerkoplossingen geven wij woningen en bedrijfspanden een kwalitatieve en toekomstgerichte vernieuwing.",
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+type Props = {
+  params: { locale: string };
 };
 
-export default function Renovatie() {
-  const t = useTranslations("renovatieservice");
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const t = await getTranslations({
+    locale: params.locale,
+    namespace: "header",
+  });
+
+  return {
+    title: t("header_services_isolatie"),
+    description: t("header_services_isolatie_description"),
+  };
+}
+
+export default function Isolatie() {
+  const t = useTranslations("isolatieservice");
   return (
     <div className="section_gap">
       {/* main */}
       <section className="pt-32">
-        <div className="py-12">
+        <div>
           <div>
             {/* Título */}
-            <h1 className="h1">{t("renovatie_title")}</h1>
+            <h1 className="h1">{t("isolatie_title")}</h1>
 
             {/* Conteúdo com Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mt-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mt-6">
               {/* Texto */}
               <div className="order-2 lg:order-none space-y-6">
-                <p className="p">{t("renovatie_paragraph1")}</p>
-                <p className="p">{t("renovatie_paragraph2")}</p>
-                <p className="p">{t("renovatie_paragraph3")}</p>
-                <p className="p">{t("renovatie_paragraph4")}</p>
+                <p className="p">{t("isolatie_paragraph1")}</p>
+                <p className="p">{t("isolatie_paragraph2")}</p>
+                <p className="p">{t("isolatie_paragraph3")}</p>
                 {/* Call-to-Action */}
                 <div className="mt-14">
                   <a className="btn max-w-max uppercase" href="/contact">
-                    {t("renovatie_cta")}
+                    {t("isolatie_cta")}
                   </a>
                 </div>
               </div>
@@ -44,10 +56,10 @@ export default function Renovatie() {
               {/* Imagem */}
               <div className="order-1 lg:order-none rounded-md max-w-lg overflow-hidden shadow-md">
                 <Image
-                  src={RenovatieImage}
-                  alt="Renovatie"
+                  src={IsolatieImage}
+                  alt="Isolatie"
                   className=""
-                  loading="eager"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -58,50 +70,49 @@ export default function Renovatie() {
       {/* frequent questions */}
       <section>
         <div className="flex flex-col lg:flex-row gap-4 w-full justify-between">
+          {/* Título */}
           <div className="order-2 lg:order-none">
-            {/* Título */}
-            <h2 className="h2 mb-8">{t("renovatie_faq_title")}</h2>
-
+            <h2 className="h2 mb-8">{t("isolatie_faq_title")}</h2>
             {/* Lista de Perguntas e Respostas */}
             <div className="space-y-10">
               {/* Pergunta 1 */}
               <div>
                 <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question1")}
+                  {t("isolatie_faq_question1")}
                 </h3>
-                <p className="p">{t("renovatie_faq_answer1")}</p>
+                <p className="p">{t("isolatie_faq_answer1")}</p>
               </div>
 
               {/* Pergunta 2 */}
               <div>
                 <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question2")}
+                  {t("isolatie_faq_question2")}
                 </h3>
-                <p className="p">{t("renovatie_faq_answer2")}</p>
+                <p className="p">{t("isolatie_faq_answer2")}</p>
               </div>
 
               {/* Pergunta 3 */}
               <div>
                 <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question3")}
+                  {t("isolatie_faq_question3")}
                 </h3>
-                <p className="p">{t("renovatie_faq_answer3")}</p>
+                <p className="p">{t("isolatie_faq_answer3")}</p>
               </div>
 
               {/* Pergunta 4 */}
               <div>
                 <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question4")}
+                  {t("isolatie_faq_question4")}
                 </h3>
-                <p className="p">{t("renovatie_faq_answer4")}</p>
+                <p className="p">{t("isolatie_faq_answer4")}</p>
               </div>
 
               {/* Pergunta 5 */}
               <div>
                 <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question5")}
+                  {t("isolatie_faq_question5")}
                 </h3>
-                <p className="p">{t("renovatie_faq_answer5")}</p>
+                <p className="p">{t("isolatie_faq_answer5")}</p>
               </div>
             </div>
           </div>

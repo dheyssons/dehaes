@@ -8,11 +8,25 @@ import Whyus from "@/components/whyus";
 import QuestionMark from "@/public/icons/questionmark.svg";
 import { useTranslations } from "next-intl";
 
-export const metadata = {
-  title: "Groendaken",
-  description:
-    "Een groendak biedt esthetische meerwaarde, verbetert de isolatie en reguleert de binnentemperatuur, wat zorgt voor lagere energiekosten en meer comfort. Daarnaast absorbeert het regenwater, zuivert het de lucht en bevordert het de biodiversiteit. Met een professionele plaatsing kiest u voor een duurzame en energiezuinige oplossing.",
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+type Props = {
+  params: { locale: string };
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const t = await getTranslations({
+    locale: params.locale,
+    namespace: "header",
+  });
+
+  return {
+    title: t("header_services_groendaken"),
+    description:
+      "Een groendak biedt esthetische meerwaarde, verbetert de isolatie en reguleert de binnentemperatuur, wat zorgt voor lagere energiekosten en meer comfort. Daarnaast absorbeert het regenwater, zuivert het de lucht en bevordert het de biodiversiteit. Met een professionele plaatsing kiest u voor een duurzame en energiezuinige oplossing.",
+  };
+}
 
 export default function Groendaken() {
   const t = useTranslations("groendakenservice");
