@@ -30,6 +30,7 @@ export const metadata = {
 
 import "./globals.css";
 import MetaPixel from "@/components/MetaPixel";
+import Script from "next/script";
 
 type Props = {
   children: React.ReactNode;
@@ -44,7 +45,8 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <html lang="nl" className="scroll-smooth">
       <head>
-        <script
+        <Script
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -60,10 +62,11 @@ export default async function RootLayout({ children, params }: Props) {
             `,
           }}
         />
-        <script
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-6QQ0LFS4H4"
-        ></script>
+          strategy="afterInteractive"
+        ></Script>
         <meta
           name="google-site-verification"
           content="BjIFUYGdtB0SCZnPm292PJEtnbnf9ndl3D-zqgsm0BA"
