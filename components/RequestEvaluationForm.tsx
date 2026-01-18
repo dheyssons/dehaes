@@ -38,7 +38,7 @@ export default function RequestEvaluationForm() {
 
       if (typeof window !== "undefined" && "gtag" in window) {
         // @ts-ignore
-        window.gtag("event", "generate_lead", {
+        window.gtag("event", "qualify_lead", {
           method: "request_evaluation_form",
           service_type: data.service_type,
           location: data.location,
