@@ -44,7 +44,7 @@ export default function ServicesMotion() {
         <div className="flex flex-col gap-y-32">
           {/* Daktimmer */}
           <a
-            href="/services/daktimmer"
+            href="/services/daktimmer-sint-katelijne-waver"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
             <Image
@@ -76,7 +76,7 @@ export default function ServicesMotion() {
 
           {/* Gevelbekleding */}
           <a
-            href="/services/gevelbekleding"
+            href="/services/gevelbekleding-sint-katelijne-waver"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
             <Image
@@ -108,7 +108,7 @@ export default function ServicesMotion() {
 
           {/* Plattedaken */}
           <a
-            href="/services/plattedaken"
+            href="/services/platdak-sint-katelijne-waver"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
             <Image
@@ -140,7 +140,7 @@ export default function ServicesMotion() {
 
           {/* Isolatie */}
           <a
-            href="/services/isolatie"
+            href="/services/isolatie-sint-katelijne-waver"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
             <Image
@@ -172,7 +172,7 @@ export default function ServicesMotion() {
 
           {/* Renovatie */}
           <a
-            href="/services/renovatie"
+            href="/services/dakrenovatie-sint-katelijne-waver"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
             <Image
@@ -204,7 +204,7 @@ export default function ServicesMotion() {
 
           {/* Groendaken */}
           <a
-            href="/services/groendaken"
+            href="/services/groendak-sint-katelijne-waver"
             className="group lg:overflow-hidden lg:h-[40rem] relative cursor-pointer transition-all duration-500"
           >
             <Image

@@ -5,16 +5,17 @@
     "header_home": "Accueil",
     "header_about": "Qui sommes-nous",
     "header_services": "Nos services",
-    "header_services_plattedaken": "Toits plats",
+    "header_services_plattedaken": "Toit plat",
     "header_services_plattedaken_description": "Les toitures plates allient esthétique et fonctionnalité. Grâce à une isolation performante, un système de drainage bien conçu et des matériaux de couverture durables comme l'EPDM ou le bitume, nous garantissons une toiture plate fiable, étanche et pérenne.",
     "header_services_daktimmer": "Charpente de toit",
     "header_services_daktimmer_description": "Charpenterie de toiture sur mesure, réalisée avec expertise pour les constructions neuves et les rénovations. Forts de quatre générations d'expérience, nous créons des structures de toiture robustes et durables qui garantissent stabilité, sécurité et une finition impeccable.",
-    "header_services_groendaken": "Toits verts",
+    "header_services_groendaken": "Toit vert",
+    "header_services_groendaken_description": "Les toitures végétalisées constituent une solution innovante et durable pour les bâtiments résidentiels et commerciaux.",
     "header_services_gevelbekleding": "Revêtement de façade",
     "header_services_gevelbekleding_description": "Un revêtement de façade professionnel alliant esthétique et protection. Grâce à l'utilisation de matériaux durables comme le bois, les composites et le métal, nous garantissons une finition impeccable, une excellente isolation et une façade résistante aux intempéries.",
     "header_services_isolatie": "Isolation",
     "header_services_isolatie_description": "Une isolation de toiture de haute qualité améliore l'efficacité énergétique et le confort de vie tout au long de l'année. Grâce à l'utilisation de matériaux haut de gamme, nous garantissons une réduction des pertes de chaleur, des coûts énergétiques moindres et une solution durable pour les constructions neuves comme pour les rénovations.",
-    "header_services_renovatie": "Rénovation",
+    "header_services_renovatie": "Rénovation de toiture",
     "header_services_renovatie_description": "Des rénovations professionnelles qui valorisent votre bien, optimisent son efficacité énergétique et embellissent votre propriété. Grâce à notre savoir-faire, nos matériaux durables et nos solutions sur mesure, nous offrons aux maisons et aux immeubles commerciaux une rénovation de haute qualité et pérenne.",
     "header_portfolio": "Projets",
     "header_portfolio_description": "Une sélection de nos projets",
@@ -126,7 +127,7 @@
     },
 
     "plattedaken": {
-      "title": "Toits plats",
+      "title": "Toit plat",
       "description": "Les toits plats offrent efficacité et fonctionnalité pour divers projets et excellent en étanchéité et isolation."
     },
 
@@ -136,12 +137,12 @@
     },
 
     "renovatie": {
-      "title": "Rénovation",
+      "title": "Rénovation de toiture",
       "description": "La rénovation est une étape essentielle pour améliorer, moderniser ou restaurer vos bâtiments et espaces."
     },
 
     "groendaken": {
-      "title": "Toits verts",
+      "title": "Toit vert",
       "description": "Les toits verts sont une solution innovante et durable pour les bâtiments résidentiels et commerciaux."
     }
   },
@@ -273,7 +274,7 @@
     "gevelbekleding_faq_answer4": "Le revêtement de façade offre une excellente isolation, une protection contre les intempéries et une longue durée de vie. De plus, il améliore l'esthétique de votre bâtiment."
   },
   "groendakenservice": {
-    "groendaken_title": "Toits verts",
+    "groendaken_title": "Toit vert",
     "groendaken_paragraph1": "Un toit vert offre non seulement une plus-value esthétique mais aussi de nombreux avantages fonctionnels. Grâce à la capacité d'isolation naturelle des plantes, il aide à réguler la température intérieure, réduisant le besoin de chauffage et de refroidissement. Cela peut conduire à des coûts énergétiques plus bas et un confort thermique accru toute l'année.",
     "groendaken_paragraph2": "De plus, les toits verts absorbent l'eau de pluie, contribuant à une meilleure gestion de l'eau et réduisant la pression sur le système d'égouts. Ils filtrent également les polluants de l'air et favorisent la biodiversité en créant un habitat pour les oiseaux et les insectes.",
     "groendaken_paragraph3": "Que ce soit un projet de construction neuve ou la rénovation d'un toit existant, nous assurons une installation professionnelle avec des matériaux de haute qualité. Avec un toit vert, vous investissez dans un environnement de vie plus durable, économe en énergie et plus sain.",
@@ -305,7 +306,7 @@
     "isolatie_faq_answer5": "Une isolation de toit professionnelle assure un environnement confortable, économise sur les coûts énergétiques et contribue à une maison plus durable et économique."
   },
   "plattedakenservice": {
-    "plattedaken_title": "Toits plats",
+    "plattedaken_title": "Toit plat",
     "plattedaken_paragraph1": "Les toits plats sont idéaux pour ceux qui cherchent un design simple et fonctionnel. Avec ce type de toit, l'isolation est appliquée directement sur le substrat et recouverte d'une membrane étanche, offrant une haute résistance à l'eau et aux températures extrêmes.",
     "plattedaken_paragraph2": "Un point important est le drainage de l'eau de pluie. Pour prévenir les fuites, nous créons une pente subtile invisible à l'œil nu et installons des évacuations d'eau adaptées pour diriger rapidement l'eau vers les gouttières et descentes.",
     "plattedaken_paragraph3": "Nous proposons deux options de couverture : EPDM, un caoutchouc synthétique résistant aux UV, et la couverture bitume, avec une durée de vie de plus de 30 ans. Les deux sont idéales pour assurer un toit durable bien protégé contre les conditions météorologiques.",
@@ -324,7 +325,7 @@
     "plattedaken_faq_answer5": "Les points d'attention importants incluent un bon drainage, une couverture de toit de haute qualité et un entretien régulier pour garantir la durée de vie du toit."
   },
   "renovatieservice": {
-    "renovatie_title": "Rénovation",
+    "renovatie_title": "Rénovation de toiture",
     "renovatie_paragraph1": "Une rénovation bien exécutée peut améliorer significativement la valeur, l'efficacité énergétique et la fonctionnalité d'un bâtiment. Chez Dakwerken De Haes, nous combinons savoir-faire traditionnel et techniques modernes pour redonner vie à votre maison ou local commercial.",
     "renovatie_paragraph2": "Nos services de rénovation incluent à la fois des ajustements structurels et des rénovations esthétiques. Nous prenons en charge tout, des rénovations de toit et restauration de façade aux améliorations intérieures et restauration de menuiserie. Qu'il s'agisse de préserver un bâtiment historique ou de moderniser une structure existante, nous assurons des résultats à la fois fonctionnels et visuellement attrayants.",
     "renovatie_paragraph3": "Grâce à l'utilisation de matériaux durables et de solutions écoénergétiques, nous garantissons une rénovation qui non seulement prolonge la durée de vie du bâtiment mais contribue aussi au confort et aux économies d'énergie. Nous travaillons en étroite collaboration avec nos clients pour fournir des solutions sur mesure correspondant à leurs souhaits et budget.",
@@ -343,6 +344,7 @@
     "renovatie_faq_answer5": "Avec notre expertise et engagement envers la qualité, vous êtes assuré d'une rénovation à la fois esthétiquement et structurellement excellente."
   },
   "dataprotection": {
+    "description": "Protection des Données",
     "dataprotection_title": "Protection des Données",
     "dataprotection_intro": "Dakwerken De Haes attache une grande importance à la protection de vos données personnelles. Nous traitons vos données conformément au Règlement Général sur la Protection des Données (RGPD) et à la législation applicable en matière de protection des données.",
     "dataprotection_section1_title": "1. Responsable du traitement",
@@ -386,6 +388,7 @@
     "dataprotection_section11_content": "Dakwerken De Haes se réserve le droit de modifier ces informations sur la protection des données. La dernière version est toujours disponible sur notre site web."
   },
   "generalconditions": {
+    "description": "Conditions Générales",
     "generalconditions_title": "Conditions Générales",
     "generalconditions_intro": "Ces conditions générales s'appliquent à tous les devis, accords et services de Dakwerken De Haes, sauf convention écrite contraire. En acceptant un devis ou en concluant un accord, le client déclare accepter ces conditions.",
     "generalconditions_section1_title": "1. Définitions",
@@ -410,6 +413,7 @@
     "generalconditions_section10_content": "Le droit belge s'applique à tous les accords. Les litiges sont de préférence résolus par consultation mutuelle. Si cela n'est pas possible, seuls les tribunaux compétents de Belgique sont compétents."
   },
   "legalnotices": {
+    "description": "Mentions Légales",
     "legalnotices_title": "Mentions Légales",
     "legalnotices_intro": "Ce site web est la propriété de et est exploité par Dakwerken De Haes. En visitant ou utilisant ce site web, vous acceptez les mentions légales ci-dessous.",
     "legalnotices_section1_title": "1. Identité de l'entreprise",
@@ -430,6 +434,7 @@
     "legalnotices_section8_content": "Dakwerken De Haes se réserve le droit de modifier ces mentions légales à tout moment. La dernière version est toujours disponible sur ce site web."
   },
   "privacypolicy": {
+    "description": "Politique de Confidentialité",
     "privacypolicy_title": "Politique de Confidentialité",
     "privacypolicy_intro": "Chez Schrijnwerkerij De Haes, nous attachons une grande importance à votre vie privée. Dans cette politique de confidentialité, nous expliquons comment nous collectons, utilisons, conservons et protégeons vos données personnelles conformément au Règlement Général sur la Protection des Données (RGPD).",
     "privacypolicy_section1_title": "1. Responsable du traitement",
@@ -476,11 +481,11 @@
     "footer_menu_portfolio": "Projets",
     "footer_menu_contact": "Contact",
     "footer_services_title": "Services",
-    "footer_services_groendaken": "Toits verts",
+    "footer_services_groendaken": "Toit vert",
     "footer_services_daktimmers": "Charpente de toit",
     "footer_services_gevelbekleding": "Revêtement de façade",
-    "footer_services_plattedaken": "Toits plats",
-    "footer_services_renovatie": "Rénovation",
+    "footer_services_plattedaken": "Toit plat",
+    "footer_services_renovatie": "Rénovation de toiture",
     "footer_services_isolatie": "Isolation",
     "footer_policy_title": "Politique",
     "footer_policy_dataprotection": "Protection des Données",

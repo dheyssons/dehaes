@@ -102,37 +102,37 @@ export default function Footer() {
               {t("footer_services_title")}
             </p>
             <a
-              href="/services/groendaken"
+              href="/services/groendak-sint-katelijne-waver"
               className={`p hover:text-[#000000a1] transition-all`}
             >
               {t("footer_services_groendaken")}
             </a>
             <a
-              href="/services/daktimmers"
+              href="/services/daktimmer-sint-katelijne-waver"
               className="p hover:text-[#000000a1] transition-all"
             >
               {t("footer_services_daktimmers")}
             </a>
             <a
-              href="/services/gevelbekleding"
+              href="/services/gevelbekleding-sint-katelijne-waver"
               className="p hover:text-[#000000a1] transition-all"
             >
               {t("footer_services_gevelbekleding")}
             </a>
             <a
-              href="/services/plattedaken"
+              href="/services/platdak-sint-katelijne-waver"
               className="p hover:text-[#000000a1] transition-all"
             >
               {t("footer_services_plattedaken")}
             </a>
             <a
-              href="/services/renovatie"
+              href="/services/dakrenovatie-sint-katelijne-waver"
               className={`p hover:text-[#000000a1] transition-all`}
             >
               {t("footer_services_renovatie")}
             </a>
             <a
-              href="/services/isolatie"
+              href="/services/isolatie-sint-katelijne-waver"
               className={`p hover:text-[#000000a1] transition-all`}
             >
               {t("footer_services_isolatie")}

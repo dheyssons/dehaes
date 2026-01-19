@@ -1,5 +1,25 @@
 import { useTranslations } from "next-intl";
 
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const t = await getTranslations({
+    locale: resolvedParams.locale,
+    namespace: "generalconditions",
+  });
+
+  return {
+    title: t("generalconditions_title"),
+    description: t("description"),
+  };
+}
+
 export default function GeneralConditions() {
   const t = useTranslations("generalconditions");
   return (

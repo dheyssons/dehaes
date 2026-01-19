@@ -124,7 +124,7 @@ export default function Header() {
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
-                            href="/services/plattedaken"
+                            href="/services/platdak-sint-katelijne-waver"
                           >
                             {t("header_services_plattedaken")}
                             <span className="absolute inset-0" />
@@ -136,7 +136,7 @@ export default function Header() {
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
-                            href="/services/daktimmer"
+                            href="/services/daktimmer-sint-katelijne-waver"
                           >
                             {t("header_services_daktimmer")}
                             <span className="absolute inset-0" />
@@ -148,7 +148,7 @@ export default function Header() {
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
-                            href="/services/groendaken"
+                            href="/services/groendak-sint-katelijne-waver"
                           >
                             {t("header_services_groendaken")}
                             <span className="absolute inset-0" />
@@ -160,7 +160,7 @@ export default function Header() {
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
-                            href="/services/gevelbekleding"
+                            href="/services/gevelbekleding-sint-katelijne-waver"
                           >
                             {t("header_services_gevelbekleding")}
                             <span className="absolute inset-0" />
@@ -172,7 +172,7 @@ export default function Header() {
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
-                            href="/services/isolatie"
+                            href="/services/isolatie-sint-katelijne-waver"
                           >
                             {t("header_services_isolatie")}
                             <span className="absolute inset-0" />
@@ -184,7 +184,7 @@ export default function Header() {
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
-                            href="/services/renovatie"
+                            href="/services/dakrenovatie-sint-katelijne-waver"
                           >
                             {t("header_services_renovatie")}
                             <span className="absolute inset-0" />
@@ -291,7 +291,7 @@ export default function Header() {
                     {/* plattedaken */}
                     <DisclosureButton
                       as="a"
-                      href="/services/plattedaken"
+                      href="/services/platdak-sint-katelijne-waver"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
@@ -301,7 +301,7 @@ export default function Header() {
                     {/* renovatie */}
                     <DisclosureButton
                       as="a"
-                      href="/services/renovatie"
+                      href="/services/dakrenovatie-sint-katelijne-waver"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
@@ -311,7 +311,7 @@ export default function Header() {
                     {/* isolatie */}
                     <DisclosureButton
                       as="a"
-                      href="/services/isolatie"
+                      href="/services/isolatie-sint-katelijne-waver"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
@@ -321,7 +321,7 @@ export default function Header() {
                     {/* groendaken */}
                     <DisclosureButton
                       as="a"
-                      href="/services/groendaken"
+                      href="/services/groendak-sint-katelijne-waver"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
@@ -331,7 +331,7 @@ export default function Header() {
                     {/* gevelbekleding */}
                     <DisclosureButton
                       as="a"
-                      href="/services/gevelbekleding"
+                      href="/services/gevelbekleding-sint-katelijne-waver"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
@@ -341,7 +341,7 @@ export default function Header() {
                     {/* Daktimmer */}
                     <DisclosureButton
                       as="a"
-                      href="/services/daktimmer"
+                      href="/services/daktimmer-sint-katelijne-waver"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">

@@ -1,6 +1,26 @@
 import { useTranslations } from "next-intl";
 import React from "react";
 
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const t = await getTranslations({
+    locale: resolvedParams.locale,
+    namespace: "dataprotection",
+  });
+
+  return {
+    title: t("dataprotection_title"),
+    description: t("description"),
+  };
+}
+
 export default function DataProtection() {
   const t = useTranslations("dataprotection");
   return (

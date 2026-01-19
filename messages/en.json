@@ -10,13 +10,14 @@
     "header_services_daktimmer": "Roof Carpentry",
     "header_services_daktimmer_description": "Expert, custom-made roof carpentry for new construction and renovation. With four generations of experience, we create strong, durable roof structures that guarantee stability, safety, and a perfect finish.",
     "header_services_groendaken": "Green Roofs",
+    "header_services_groendaken_description": "Green roofs are an innovative and sustainable solution for both residential and commercial buildings.",
     "header_services_gevelbekleding": "Facade Cladding",
     "header_services_gevelbekleding_description": "Professional facade cladding that combines aesthetics and protection. Using durable materials like wood, composite, and metal, we ensure a perfect finish, excellent insulation, and a facade that can withstand all weather conditions.",
     "header_services_isolatie": "Insulation",
     "header_services_isolatie_description": "High-quality roof insulation improves energy efficiency and living comfort year-round. Using high-quality materials, we ensure reduced heat loss, lower energy costs, and a sustainable solution for both new construction and renovation projects.",
     "header_services_renovatie": "Renovation",
     "header_services_renovatie_description": "Professional renovations that improve value, energy efficiency, and appearance. With craftsmanship, sustainable materials, and customized solutions, we give homes and commercial properties a high-quality, future-proof upgrade.",
-    "header_portfolio": "Projecs",
+    "header_portfolio": "Projects",
     "header_portfolio_description": "A selection of our projects",
 
     "header_contact": "Contact",
@@ -344,6 +345,7 @@
     "renovatie_faq_answer5": "With our expertise and commitment to quality, you are assured of a renovation that is both aesthetically and structurally excellent."
   },
   "dataprotection": {
+    "description": "Data Protection",
     "dataprotection_title": "Data Protection",
     "dataprotection_intro": "De Haes Roofing attaches great importance to protecting your personal data. We process your data in accordance with the General Data Protection Regulation (GDPR) and other applicable data protection legislation.",
     "dataprotection_section1_title": "1. Data Controller",
@@ -387,6 +389,7 @@
     "dataprotection_section11_content": "De Haes Roofing reserves the right to modify this data protection information. The latest version is always available on our website."
   },
   "generalconditions": {
+    "description": "General Terms and Conditions",
     "generalconditions_title": "General Terms and Conditions",
     "generalconditions_intro": "These general terms and conditions apply to all quotes, agreements and services of De Haes Roofing, unless otherwise agreed in writing. By accepting a quote or entering into an agreement, the customer agrees to these terms.",
     "generalconditions_section1_title": "1. Definitions",
@@ -411,6 +414,7 @@
     "generalconditions_section10_content": "Belgian law applies to all agreements. Disputes are preferably resolved through mutual consultation. If this is not possible, only the competent courts of Belgium have jurisdiction."
   },
   "legalnotices": {
+    "description": "Legal Notices",
     "legalnotices_title": "Legal Notices",
     "legalnotices_intro": "This website is owned and operated by De Haes Roofing. By visiting or using this website, you agree to the legal notices below.",
     "legalnotices_section1_title": "1. Company identity",
@@ -431,6 +435,7 @@
     "legalnotices_section8_content": "De Haes Roofing reserves the right to modify these legal notices at any time. The latest version is always available on this website."
   },
   "privacypolicy": {
+    "description": "Privacy Policy",
     "privacypolicy_title": "Privacy Policy",
     "privacypolicy_intro": "At De Haes Joinery, we value your privacy. In this privacy policy, we explain how we collect, use, store and protect your personal data in accordance with the General Data Protection Regulation (GDPR).",
     "privacypolicy_section1_title": "1. Data Controller",

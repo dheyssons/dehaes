@@ -5,16 +5,17 @@
     "header_home": "Home",
     "header_about": "Wie zijn we",
     "header_services": "Onze diensten",
-    "header_services_plattedaken": "Plattedaken",
+    "header_services_plattedaken": "Plat dak",
     "header_services_plattedaken_description": "Platte daken combineren een strak design met hoge functionaliteit. Met correcte isolatie, doordachte waterafvoer en duurzame dakbedekking zoals EPDM of bitumen zorgen wij voor een betrouwbaar, waterdicht en langdurig plat dak.",
     "header_services_daktimmer": "Daktimmer",
     "header_services_daktimmer_description": "Vakkundig daktimmerwerk op maat voor nieuwbouw en renovatie. Met vier generaties ervaring realiseren wij sterke, duurzame dakconstructies die stabiliteit, veiligheid en een perfecte afwerking garanderen.",
-    "header_services_groendaken": "Groendaken",
+    "header_services_groendaken": "Groendak",
+    "header_services_groendaken_description": "Groendaken zijn een innovatieve en duurzame oplossing voor zowel residentiële als commerciële gebouwen.",
     "header_services_gevelbekleding": "Gevelbekleding",
     "header_services_gevelbekleding_description": "Professionele gevelbekleding die esthetiek en bescherming combineert. Met duurzame materialen zoals hout, composiet en metaal zorgen wij voor een perfecte afwerking, uitstekende isolatie en een gevel die bestand is tegen alle weersomstandigheden.",
     "header_services_isolatie": "Isolatie",
     "header_services_isolatie_description": "Hoogwaardige dakisolatie verbetert de energie-efficiëntie en het wooncomfort het hele jaar door. Met kwaliteitsmaterialen zorgen wij voor minder warmteverlies, lagere energiekosten en een duurzame oplossing voor zowel nieuwbouw als renovatie.",
-    "header_services_renovatie": "Renovatie",
+    "header_services_renovatie": "Dakrenovatie",
     "header_services_renovatie_description": "Professionele renovaties die waarde, energie-efficiëntie en uitstraling verbeteren. Met vakmanschap, duurzame materialen en maatwerkoplossingen geven wij woningen en bedrijfspanden een kwalitatieve en toekomstgerichte vernieuwing.",
     "header_portfolio": "Projecten",
     "header_portfolio_description": "Een greep uit onze projecten",
@@ -126,7 +127,7 @@
     },
 
     "plattedaken": {
-      "title": "Platte daken",
+      "title": "Plat dak",
       "description": "Platte daken bieden efficiëntie en functionaliteit voor diverse projecten en excelleren in waterdichting en isolatie."
     },
 
@@ -136,12 +137,12 @@
     },
 
     "renovatie": {
-      "title": "Renovatie",
+      "title": "Dakrenovatie",
       "description": "Renovatie is een essentiële stap om uw gebouwen en ruimtes te verbeteren, moderniseren of herstellen."
     },
 
     "groendaken": {
-      "title": "Groendaken",
+      "title": "Groendak",
       "description": "Groendaken zijn een innovatieve en duurzame oplossing voor zowel residentiële als commerciële gebouwen."
     }
   },
@@ -273,7 +274,7 @@
     "gevelbekleding_faq_answer4": "Gevelbekleding biedt uitstekende isolatie, bescherming tegen weersinvloeden, en een lange levensduur. Bovendien verbetert het de esthetiek van uw gebouw."
   },
   "groendakenservice": {
-    "groendaken_title": "Groendaken",
+    "groendaken_title": "Groendak",
     "groendaken_paragraph1": "Een groendak biedt niet alleen een esthetische meerwaarde maar ook tal van functionele voordelen. Dankzij de natuurlijke isolatiecapaciteiten van planten helpt het de binnentemperatuur te reguleren, waardoor de behoefte aan verwarming en koeling wordt verminderd. Dit kan leiden tot lagere energiekosten en een verhoogd thermisch comfort gedurende het hele jaar.",
     "groendaken_paragraph2": "Bovendien absorberen groendaken regenwater, waardoor ze bijdragen aan een betere waterhuishouding en de druk op het rioolstelsel verminderen. Ze filteren ook vervuilende stoffen uit de lucht en bevorderen de biodiversiteit door een leefomgeving te creëren voor vogels en insecten.",
     "groendaken_paragraph3": "Of het nu gaat om een nieuwbouwproject of de renovatie van een bestaand dak, wij zorgen voor een professionele installatie met hoogwaardige materialen. Met een groendak investeert u in een duurzamer, energiezuiniger en gezonder leefklimaat.",
@@ -305,7 +306,7 @@
     "isolatie_faq_answer5": "Professionele dakisolatie zorgt voor een comfortabele omgeving, bespaart op energiekosten en draagt bij aan een duurzamer en economischer huis."
   },
   "plattedakenservice": {
-    "plattedaken_title": "Platte daken",
+    "plattedaken_title": "Plat dak",
     "plattedaken_paragraph1": "Platte daken zijn ideaal voor wie op zoek is naar een eenvoudig en functioneel ontwerp. Bij dit type dak wordt de isolatie direct op de ondergrond aangebracht en bedekt met een waterdicht membraan, wat zorgt voor een hoge weerstand tegen water en extreme temperaturen.",
     "plattedaken_paragraph2": "Een belangrijk aandachtspunt is de afwatering van regenwater. Om lekkage te voorkomen, zorgen wij voor een subtiele helling die met het blote oog niet zichtbaar is en installeren we geschikte waterafvoeren om het snel naar de afvoer en goten te leiden.",
     "plattedaken_paragraph3": "Wij bieden twee dakbedekkingsopties: EPDM, een synthetisch rubber dat bestand is tegen UV-straling, en bitumen dakbedekking, met een levensduur van meer dan 30 jaar. Beide zijn ideaal om een duurzaam dak te garanderen dat goed beschermd is tegen de weersomstandigheden.",
@@ -324,7 +325,7 @@
     "plattedaken_faq_answer5": "Belangrijke aandachtspunten zijn een goede afwatering, hoogwaardige dakbedekking en regelmatig onderhoud om de levensduur van het dak te garanderen."
   },
   "renovatieservice": {
-    "renovatie_title": "Renovatie",
+    "renovatie_title": "Dakrenovatie",
     "renovatie_paragraph1": "Een goed uitgevoerde renovatie kan de waarde, energie-efficiëntie en functionaliteit van een gebouw aanzienlijk verbeteren. Bij Dakwerken De Haes combineren we traditioneel vakmanschap met moderne technieken om uw woning of bedrijfspand nieuw leven in te blazen.",
     "renovatie_paragraph2": "Onze renovatiediensten omvatten zowel structurele aanpassingen als esthetische vernieuwingen. We verzorgen alles, van dakrenovaties en gevelherstel tot interieurverbeteringen en houtwerkrestauratie. Of het nu gaat om het behoud van een historisch pand of het moderniseren van een bestaande constructie, wij zorgen voor een resultaat dat zowel functioneel als visueel aantrekkelijk is.",
     "renovatie_paragraph3": "Door het gebruik van duurzame materialen en energie-efficiënte oplossingen garanderen we een renovatie die niet alleen de levensduur van het gebouw verlengt, maar ook bijdraagt aan comfort en besparingen op energiekosten. We werken nauw samen met onze klanten om op maat gemaakte oplossingen te bieden die aansluiten bij hun wensen en budget.",
@@ -343,6 +344,7 @@
     "renovatie_faq_answer5": "Met onze expertise en toewijding aan kwaliteit bent u verzekerd van een renovatie die zowel esthetisch als structureel uitmuntend is."
   },
   "dataprotection": {
+    "description": "Gegevensbescherming",
     "dataprotection_title": "Gegevensbescherming",
     "dataprotection_intro": "Dakwerken De Haes hecht groot belang aan de bescherming van uw persoonsgegevens. Wij verwerken uw gegevens in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG / GDPR) en andere toepasselijke wetgeving inzake gegevensbescherming.",
     "dataprotection_section1_title": "1. Verwerkingsverantwoordelijke",
@@ -386,6 +388,7 @@
     "dataprotection_section11_content": "Dakwerken De Haes behoudt zich het recht voor deze informatie over gegevensbescherming te wijzigen. De meest recente versie is steeds beschikbaar op onze website."
   },
   "generalconditions": {
+    "description": "Algemene Voorwaarden",
     "generalconditions_title": "Algemene Voorwaarden",
     "generalconditions_intro": "Deze algemene voorwaarden zijn van toepassing op alle offertes, overeenkomsten en diensten van Dakwerken De Haes, tenzij schriftelijk anders is overeengekomen. Door een offerte te aanvaarden of een overeenkomst aan te gaan, verklaart de klant zich akkoord met deze voorwaarden.",
     "generalconditions_section1_title": "1. Definities",
@@ -410,6 +413,7 @@
     "generalconditions_section10_content": "Op alle overeenkomsten is het Belgisch recht van toepassing. Geschillen worden bij voorkeur in onderling overleg opgelost. Indien dit niet mogelijk is, zijn uitsluitend de bevoegde rechtbanken van België bevoegd."
   },
   "legalnotices": {
+    "description": "Juridische Mededelingen",
     "legalnotices_title": "Juridische Mededelingen",
     "legalnotices_intro": "Deze website is eigendom van en wordt beheerd door Dakwerken De Haes. Door deze website te bezoeken of te gebruiken, verklaart u zich akkoord met onderstaande juridische mededelingen.",
     "legalnotices_section1_title": "1. Identiteit van de onderneming",
@@ -430,6 +434,7 @@
     "legalnotices_section8_content": "Dakwerken De Haes behoudt zich het recht voor deze juridische mededelingen op elk moment te wijzigen. De meest recente versie is steeds beschikbaar op deze website."
   },
   "privacypolicy": {
+    "description": "Privacybeleid",
     "privacypolicy_title": "Privacybeleid",
     "privacypolicy_intro": "Bij Schrijnwerkerij De Haes hechten wij veel waarde aan uw privacy. In dit privacybeleid leggen wij uit hoe wij uw persoonsgegevens verzamelen, gebruiken, bewaren en beschermen in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG / GDPR).",
     "privacypolicy_section1_title": "1. Verwerkingsverantwoordelijke",
@@ -476,11 +481,11 @@
     "footer_menu_portfolio": "Projecten",
     "footer_menu_contact": "Contact",
     "footer_services_title": "Diensten",
-    "footer_services_groendaken": "Groendaken",
-    "footer_services_daktimmers": "Daktimmers",
+    "footer_services_groendaken": "Groendak",
+    "footer_services_daktimmers": "Daktimmer",
     "footer_services_gevelbekleding": "Gevelbekleding",
-    "footer_services_plattedaken": "Platte daken",
-    "footer_services_renovatie": "Renovatie",
+    "footer_services_plattedaken": "Plat dak",
+    "footer_services_renovatie": "Dakrenovatie",
     "footer_services_isolatie": "Isolatie",
     "footer_policy_title": "Beleid",
     "footer_policy_dataprotection": "Gegevensbescherming",

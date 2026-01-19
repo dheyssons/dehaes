@@ -12,23 +12,23 @@ import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
   const t = await getTranslations({
-    locale: params.locale,
+    locale: resolvedParams.locale,
     namespace: "header",
   });
 
   return {
     title: t("header_services_groendaken"),
-    description:
-      "Een groendak biedt esthetische meerwaarde, verbetert de isolatie en reguleert de binnentemperatuur, wat zorgt voor lagere energiekosten en meer comfort. Daarnaast absorbeert het regenwater, zuivert het de lucht en bevordert het de biodiversiteit. Met een professionele plaatsing kiest u voor een duurzame en energiezuinige oplossing.",
+    description: t("header_services_groendaken_description"),
   };
 }
 
-export default function Groendaken() {
+export default function Groendak() {
   const t = useTranslations("groendakenservice");
   return (
     <div className="section_gap">
