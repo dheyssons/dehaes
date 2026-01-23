@@ -46,6 +46,7 @@ import Sint1 from "@/public/images/portfolio/sintkatelijnewaver/image1.webp";
 import Sint2 from "@/public/images/portfolio/sintkatelijnewaver/image2.webp";
 
 import { useTranslations } from "next-intl";
+import { SplitText } from "./scripts/SplitWords";
 
 const images = [
   "/images/portfolio/duffel/image1.webp",
@@ -84,7 +85,11 @@ export default function PortfolioPageMotion() {
           transition={transition1}
           className="h1"
         >
-          {t("portfolio_title")}
+          <SplitText
+            text={t("portfolio_title")}
+            wordClassName="word"
+            letterClassName="letter"
+          />
         </motion.h1>
         <div className="flex flex-col gap-y-4">
           <p className="p !max-w-screen-md">{t("portfolio_paragraph1")}</p>

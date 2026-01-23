@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Script from "next/script";
 import { MdStars } from "react-icons/md";
 
 export default function Testimonials() {
@@ -12,7 +13,7 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <script src="https://elfsightcdn.com/platform.js" async></script>
+      <Script src="https://elfsightcdn.com/platform.js" async></Script>
       <div
         className="elfsight-app-1f05ba1b-5e65-45fb-87a2-46f2dc818438"
         data-elfsight-app-lazy

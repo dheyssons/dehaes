@@ -15,6 +15,7 @@ import { transition1 } from "@/public/transitions/transition1";
 import { lefttoright } from "@/public/variants/lefttoright";
 
 import { useTranslations } from "next-intl";
+import { SplitText } from "./scripts/SplitWords";
 
 export default function ServicesMotion() {
   const t = useTranslations("services");
@@ -36,7 +37,7 @@ export default function ServicesMotion() {
             transition={transition1}
             className="h1"
           >
-            {t("mainTitle")}
+            <SplitText text={t("mainTitle")} />
           </motion.h2>
         </div>
 
@@ -56,7 +57,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    {t("daktimmer.title")}
+                    <SplitText text={t("daktimmer.title")} />
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("daktimmer.description")}
@@ -88,7 +89,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    {t("gevelbekleding.title")}
+                    <SplitText text={t("gevelbekleding.title")} />
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("gevelbekleding.description")}
@@ -120,7 +121,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    {t("plattedaken.title")}
+                    <SplitText text={t("plattedaken.title")} />
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("plattedaken.description")}
@@ -152,7 +153,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    {t("isolatie.title")}
+                    <SplitText text={t("isolatie.title")} />
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("isolatie.description")}
@@ -184,7 +185,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    {t("renovatie.title")}
+                    <SplitText text={t("renovatie.title")} />
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("renovatie.description")}
@@ -216,7 +217,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    {t("groendaken.title")}
+                    <SplitText text={t("groendaken.title")} />
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("groendaken.description")}

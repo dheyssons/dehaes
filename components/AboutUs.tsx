@@ -12,6 +12,7 @@ import { upward } from "@/public/variants/upward";
 import { EmblaCarousel } from "@/components/emblacarousel";
 
 import { useTranslations } from "next-intl";
+import { SplitText } from "./scripts/SplitWords";
 
 export default function AboutUs() {
   const t = useTranslations("about");
@@ -30,9 +31,12 @@ export default function AboutUs() {
             transition={transition1}
             className="h2"
           >
-            {t("title.prefix")}{" "}
+            <SplitText
+              text={t("title.prefix")}
+              letterClassName="letter"
+            ></SplitText>{" "}
             <span className="text-[--primary-color]">
-              {t("title.highlight")}
+              <SplitText text={t("title.highlight")}></SplitText>
             </span>
           </motion.h2>
 

@@ -10,6 +10,7 @@ import { useTranslations } from "next-intl";
 
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { SplitText } from "@/components/scripts/SplitWords";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -38,7 +39,9 @@ export default function Daktimmer() {
         <div>
           <div>
             {/* Título */}
-            <h1 className="h1">{t("daktimmer_title")}</h1>
+            <h1 className="h1">
+              <SplitText text={t("daktimmer_title")} />
+            </h1>
 
             {/* Conteúdo com Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mt-8">
