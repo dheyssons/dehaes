@@ -493,16 +493,528 @@
     "footer_policy_conditions": "General Terms",
     "footer_policy_legal": "Legal Notices",
     "footer_policy_privacy": "Privacy Policy",
-    "footer_copyright": "© 2025 - ",
+    "footer_copyright": "© 2026 - ",
     "footer_developed": "Developed by",
     "footer_email": "Email",
     "footer_facebook": "Facebook",
-    "footer_whatsapp": "Whatsapp"
+    "footer_whatsapp": "Whatsapp",
+    "footer_dakwerken_antwerpen": "Roofing Antwerpen",
+    "footer_dakwerken_brussel": "Roofing Brussel",
+    "footer_dakwerken_duffel": "Roofing Duffel",
+    "footer_dakwerken_lier": "Roofing Lier",
+    "footer_dakwerken_mechelen": "Roofing Mechelen"
   },
   "cookieconsent": {
     "cookieconsent_message": "We use cookies and similar technologies to provide you with a better experience, analyze website traffic and personalize content and advertisements. You can accept all cookies or reject non-essential cookies. For more details, consult our ",
     "cookieconsent_learnmore": "Learn more",
     "cookieconsent_accept": "Accept all",
     "cookieconsent_reject": "Reject all"
+  },
+  "cityPages": {
+    "antwerpen": {
+      "meta": {
+        "title": "Roofing Antwerp | De Haes Roofer",
+        "description": "Roofing in Antwerp by De Haes. Roof renovation, roof repairs, roof insulation and flat roofs. Request a free quote."
+      },
+      "hero": {
+        "eyebrow": "Roofing Antwerp",
+        "badge": "Based in Sint-Katelijne-Waver",
+        "title": "Your trusted roofer in Antwerp",
+        "description": "We carry out roofing works in Antwerp and nearby every day. From roof renovation to urgent repairs: craftsmanship, clear communication and quality come first.",
+        "cta": {
+          "quote": "Request a free quote",
+          "call": "Call us now",
+          "phone": "+32475759862"
+        },
+        "areas": "Active in Antwerp centre • Berchem • Deurne • Borgerhout • Wilrijk • Merksem",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1559508302-a9e10a6b2e83?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Roofing in Antwerp with a clear approach",
+        "intro": "You get a clear quote, reliable planning and a tidy handover. We think in long-lasting solutions—tailored to your home or building.",
+        "items": [
+          {
+            "title": "Fast service",
+            "text": "Often quickly on site in Antwerp and its districts—ideal for damage or leaks.",
+            "featured": true
+          },
+          {
+            "title": "Clear quotes",
+            "text": "Transparent, easy to read and with no surprises later."
+          },
+          {
+            "title": "Quality & details",
+            "text": "Finishing, waterproofing and durability are central to every project."
+          },
+          {
+            "title": "Local approach",
+            "text": "Based in Sint-Katelijne-Waver, active in Antwerp every day."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Our roofing services in Antwerp",
+        "intro": "A selection of the most requested roofing works in Antwerp. Have a specific question? Feel free to contact us.",
+        "cta": {
+          "label": "Request a quote",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Roof renovation",
+            "tag": "Renovation",
+            "text": "Full or partial roof renovation with durable materials and neat finishing."
+          },
+          {
+            "key": "repairs",
+            "title": "Roof repairs",
+            "tag": "Repairs",
+            "text": "Fast intervention for leaks, storm damage or wear—with a clear diagnosis."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Flat roofs",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM and roofing solutions for long-term waterproofing and correct detailing."
+          },
+          {
+            "key": "insulation",
+            "title": "Roof insulation",
+            "tag": "Energy",
+            "text": "More comfort and lower energy bills thanks to properly installed roof insulation."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Locally active in Antwerp",
+        "description": "We work regularly in Antwerp and the surrounding districts. Thanks to our base in Sint-Katelijne-Waver, we are easily reachable for inspections and repairs.",
+        "checklist": [
+          "Fast intervention for damage and leaks",
+          "Practical approach with focus on details",
+          "Clear communication & planning"
+        ],
+        "tip": {
+          "label": "Antwerp tip",
+          "text": "Leaks often start small (seams, joints, roof penetrations). A quick roof check can prevent bigger damage."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1541966890190-cde82668a4fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Roofing in Antwerp",
+          "label": "Antwerp region"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problems with your roof in Antwerp?",
+        "description": "Request a no-obligation quote. We respond quickly and schedule an inspection when needed."
+      }
+    },
+    "brussel": {
+      "meta": {
+        "title": "Roofing Brussels | De Haes Roofer",
+        "description": "Roofing in Brussels by De Haes. Roof renovation, roof repairs, roof insulation and flat roofs. Request a free quote."
+      },
+      "hero": {
+        "eyebrow": "Roofing Brussels",
+        "badge": "Based in Sint-Katelijne-Waver",
+        "title": "Your trusted roofer in Brussels",
+        "description": "We carry out roofing works in Brussels and nearby. From roof renovation to urgent repairs: craftsmanship, clear communication and quality come first.",
+        "cta": {
+          "quote": "Request a free quote",
+          "call": "Call us now",
+          "phone": "+32475759862"
+        },
+        "areas": "Active in Brussels • Schaerbeek • Ixelles • Uccle • Anderlecht • Saint-Gilles",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1548092304-e0205cb0031b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Roofing in Brussels with a clear approach",
+        "intro": "You get a clear quote, reliable planning and a tidy handover. We think in long-lasting solutions—tailored to your home or building.",
+        "items": [
+          {
+            "title": "Fast service",
+            "text": "Often quickly on site in Brussels—ideal for damage or leaks.",
+            "featured": true
+          },
+          {
+            "title": "Clear quotes",
+            "text": "Transparent, easy to read and with no surprises later."
+          },
+          {
+            "title": "Quality & details",
+            "text": "Finishing, waterproofing and durability are central to every project."
+          },
+          {
+            "title": "Local approach",
+            "text": "Based in Sint-Katelijne-Waver, active in Brussels and nearby."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Our roofing services in Brussels",
+        "intro": "A selection of the most requested roofing works in Brussels. Have a specific question? Feel free to contact us.",
+        "cta": {
+          "label": "Request a quote",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Roof renovation",
+            "tag": "Renovation",
+            "text": "Full or partial roof renovation with durable materials and neat finishing."
+          },
+          {
+            "key": "repairs",
+            "title": "Roof repairs",
+            "tag": "Repairs",
+            "text": "Fast intervention for leaks, storm damage or wear—with a clear diagnosis."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Flat roofs",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM and roofing solutions for long-term waterproofing and correct detailing."
+          },
+          {
+            "key": "insulation",
+            "title": "Roof insulation",
+            "tag": "Energy",
+            "text": "More comfort and lower energy bills thanks to properly installed roof insulation."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Locally active in Brussels",
+        "description": "We work regularly in Brussels and the surrounding municipalities. Thanks to our base in Sint-Katelijne-Waver, we are easily reachable for inspections and repairs.",
+        "checklist": [
+          "Fast intervention for damage and leaks",
+          "Practical approach with focus on details",
+          "Clear communication & planning"
+        ],
+        "tip": {
+          "label": "Brussels tip",
+          "text": "In urban areas, issues often appear around roof penetrations and joints. A quick roof check can prevent bigger damage."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1567031537734-32e3d6df4c4b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Roofing in Brussels",
+          "label": "Brussels region"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problems with your roof in Brussels?",
+        "description": "Request a no-obligation quote. We respond quickly and schedule an inspection when needed."
+      }
+    },
+    "duffel": {
+      "meta": {
+        "title": "Roofing Duffel | De Haes Roofer",
+        "description": "Roofing in Duffel by De Haes. Roof renovation, roof repairs, roof insulation and flat roofs. Request a free quote."
+      },
+      "hero": {
+        "eyebrow": "Roofing Duffel",
+        "badge": "Based in Sint-Katelijne-Waver",
+        "title": "Your trusted roofer in Duffel",
+        "description": "We carry out roofing works in Duffel and nearby every day. From roof renovation to urgent repairs: craftsmanship, clear communication and quality come first.",
+        "cta": {
+          "quote": "Request a free quote",
+          "call": "Call us now",
+          "phone": "+32475759862"
+        },
+        "areas": "Active in Duffel • Mechelen • Sint-Katelijne-Waver • Lier • Kontich",
+        "images": {
+          "background": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQdD68rHNmfOM3whvoNmxa_jup7sNS2mP6V3SrX_LLPdG6WHN9Y33q3YmjLNqzBqQ4hPdbi-wEEBf-Uwigr9HQVVcs&s=19"
+        }
+      },
+      "benefitsSection": {
+        "title": "Roofing in Duffel with a clear approach",
+        "intro": "You get a clear quote, reliable planning and a tidy handover. We think in long-lasting solutions—tailored to your home or building.",
+        "items": [
+          {
+            "title": "Fast service",
+            "text": "Often quickly on site in Duffel—ideal for damage or leaks.",
+            "featured": true
+          },
+          {
+            "title": "Clear quotes",
+            "text": "Transparent, easy to read and with no surprises later."
+          },
+          {
+            "title": "Quality & details",
+            "text": "Finishing, waterproofing and durability are central to every project."
+          },
+          {
+            "title": "Local approach",
+            "text": "Based in Sint-Katelijne-Waver, active in Duffel and nearby."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Our roofing services in Duffel",
+        "intro": "A selection of the most requested roofing works in Duffel. Have a specific question? Feel free to contact us.",
+        "cta": {
+          "label": "Request a quote",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Roof renovation",
+            "tag": "Renovation",
+            "text": "Full or partial roof renovation with durable materials and neat finishing."
+          },
+          {
+            "key": "repairs",
+            "title": "Roof repairs",
+            "tag": "Repairs",
+            "text": "Fast intervention for leaks, storm damage or wear—with a clear diagnosis."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Flat roofs",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM and roofing solutions for long-term waterproofing and correct detailing."
+          },
+          {
+            "key": "insulation",
+            "title": "Roof insulation",
+            "tag": "Energy",
+            "text": "More comfort and lower energy bills thanks to properly installed roof insulation."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Locally active in Duffel",
+        "description": "We work regularly in Duffel and the surrounding municipalities. Thanks to our base in Sint-Katelijne-Waver, we are easily reachable for inspections and repairs.",
+        "checklist": [
+          "Fast intervention for damage and leaks",
+          "Practical approach with focus on details",
+          "Clear communication & planning"
+        ],
+        "tip": {
+          "label": "Duffel tip",
+          "text": "In changeable weather, small issues can grow fast. Have joints and roof edges checked in time."
+        },
+        "image": {
+          "src": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQdD68rHNmfOM3whvoNmxa_jup7sNS2mP6V3SrX_LLPdG6WHN9Y33q3YmjLNqzBqQ4hPdbi-wEEBf-Uwigr9HQVVcs&s=19",
+          "alt": "Roofing in Duffel",
+          "label": "Duffel region"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problems with your roof in Duffel?",
+        "description": "Request a no-obligation quote. We respond quickly and schedule an inspection when needed."
+      }
+    },
+    "lier": {
+      "meta": {
+        "title": "Roofing Lier | De Haes Roofer",
+        "description": "Roofing in Lier by De Haes. Roof renovation, roof repairs, roof insulation and flat roofs. Request a free quote."
+      },
+      "hero": {
+        "eyebrow": "Roofing Lier",
+        "badge": "Based in Sint-Katelijne-Waver",
+        "title": "Your trusted roofer in Lier",
+        "description": "We carry out roofing works in Lier and nearby every day. From roof renovation to urgent repairs: craftsmanship, clear communication and quality come first.",
+        "cta": {
+          "quote": "Request a free quote",
+          "call": "Call us now",
+          "phone": "+32475759862"
+        },
+        "areas": "Active in Lier • Koningshooikt • Duffel • Boechout • Sint-Katelijne-Waver",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1661103940373-1e1a2e307fe0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Roofing in Lier with a clear approach",
+        "intro": "You get a clear quote, reliable planning and a tidy handover. We think in long-lasting solutions—tailored to your home or building.",
+        "items": [
+          {
+            "title": "Fast service",
+            "text": "Often quickly on site in Lier—ideal for damage or leaks.",
+            "featured": true
+          },
+          {
+            "title": "Clear quotes",
+            "text": "Transparent, easy to read and with no surprises later."
+          },
+          {
+            "title": "Quality & details",
+            "text": "Finishing, waterproofing and durability are central to every project."
+          },
+          {
+            "title": "Local approach",
+            "text": "Based in Sint-Katelijne-Waver, active in Lier and nearby."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Our roofing services in Lier",
+        "intro": "A selection of the most requested roofing works in Lier. Have a specific question? Feel free to contact us.",
+        "cta": {
+          "label": "Request a quote",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Roof renovation",
+            "tag": "Renovation",
+            "text": "Full or partial roof renovation with durable materials and neat finishing."
+          },
+          {
+            "key": "repairs",
+            "title": "Roof repairs",
+            "tag": "Repairs",
+            "text": "Fast intervention for leaks, storm damage or wear—with a clear diagnosis."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Flat roofs",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM and roofing solutions for long-term waterproofing and correct detailing."
+          },
+          {
+            "key": "insulation",
+            "title": "Roof insulation",
+            "tag": "Energy",
+            "text": "More comfort and lower energy bills thanks to properly installed roof insulation."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Locally active in Lier",
+        "description": "We work regularly in Lier and the surrounding municipalities. Thanks to our base in Sint-Katelijne-Waver, we are easily reachable for inspections and repairs.",
+        "checklist": [
+          "Fast intervention for damage and leaks",
+          "Practical approach with focus on details",
+          "Clear communication & planning"
+        ],
+        "tip": {
+          "label": "Lier tip",
+          "text": "After stormy weather, check roof edges and joints. Small loose parts can quickly cause leaks."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1661103940373-1e1a2e307fe0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Roofing in Lier",
+          "label": "Lier region"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problems with your roof in Lier?",
+        "description": "Request a no-obligation quote. We respond quickly and schedule an inspection when needed."
+      }
+    },
+    "mechelen": {
+      "meta": {
+        "title": "Roofing Mechelen | De Haes Roofer",
+        "description": "Roofing in Mechelen by De Haes. Roof renovation, roof repairs, roof insulation and flat roofs. Request a free quote."
+      },
+      "hero": {
+        "eyebrow": "Roofing Mechelen",
+        "badge": "Based in Sint-Katelijne-Waver",
+        "title": "Your trusted roofer in Mechelen",
+        "description": "We carry out roofing works in Mechelen and nearby every day. From roof renovation to urgent repairs: craftsmanship, clear communication and quality come first.",
+        "cta": {
+          "quote": "Request a free quote",
+          "call": "Call us now",
+          "phone": "+32475759862"
+        },
+        "areas": "Active in Mechelen • Nekkerspoel • Battel • Muizen • Duffel • Sint-Katelijne-Waver",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1695070785873-d83c240a8fee?q=80&w=2137&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Roofing in Mechelen with a clear approach",
+        "intro": "You get a clear quote, reliable planning and a tidy handover. We think in long-lasting solutions—tailored to your home or building.",
+        "items": [
+          {
+            "title": "Fast service",
+            "text": "Often quickly on site in Mechelen—ideal for damage or leaks.",
+            "featured": true
+          },
+          {
+            "title": "Clear quotes",
+            "text": "Transparent, easy to read and with no surprises later."
+          },
+          {
+            "title": "Quality & details",
+            "text": "Finishing, waterproofing and durability are central to every project."
+          },
+          {
+            "title": "Local approach",
+            "text": "Based in Sint-Katelijne-Waver, active in Mechelen and nearby."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Our roofing services in Mechelen",
+        "intro": "A selection of the most requested roofing works in Mechelen. Have a specific question? Feel free to contact us.",
+        "cta": {
+          "label": "Request a quote",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Roof renovation",
+            "tag": "Renovation",
+            "text": "Full or partial roof renovation with durable materials and neat finishing."
+          },
+          {
+            "key": "repairs",
+            "title": "Roof repairs",
+            "tag": "Repairs",
+            "text": "Fast intervention for leaks, storm damage or wear—with a clear diagnosis."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Flat roofs",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM and roofing solutions for long-term waterproofing and correct detailing."
+          },
+          {
+            "key": "insulation",
+            "title": "Roof insulation",
+            "tag": "Energy",
+            "text": "More comfort and lower energy bills thanks to properly installed roof insulation."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Locally active in Mechelen",
+        "description": "We work regularly in Mechelen and the surrounding municipalities. Thanks to our base in Sint-Katelijne-Waver, we are easily reachable for inspections and repairs.",
+        "checklist": [
+          "Fast intervention for damage and leaks",
+          "Practical approach with focus on details",
+          "Clear communication & planning"
+        ],
+        "tip": {
+          "label": "Mechelen tip",
+          "text": "For older homes, it pays to check gutters and joints regularly. Blockages can cause leaks."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1695070785873-d83c240a8fee?q=80&w=2137&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Roofing in Mechelen",
+          "label": "Mechelen region"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problems with your roof in Mechelen?",
+        "description": "Request a no-obligation quote. We respond quickly and schedule an inspection when needed."
+      }
+    }
   }
 }

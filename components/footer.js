@@ -138,6 +138,7 @@ export default function Footer() {
               {t("footer_services_isolatie")}
             </a>
           </div>
+
           {/* policy  */}
           <div className="flex flex-col items-start gap-y-3">
             <p
@@ -168,6 +169,39 @@ export default function Footer() {
               className="p hover:text-[#000000a1] transition-all"
             >
               {t("footer_policy_privacy")}
+            </a>
+          </div>
+          {/* areas  */}
+          <div className="flex flex-col items-start gap-y-3">
+            <a
+              href="/dakwerken-antwerpen"
+              className={`p hover:text-[#000000a1] transition-all`}
+            >
+              {t("footer_dakwerken_antwerpen")}
+            </a>
+            <a
+              href="/dakwerken-brussel"
+              className="p hover:text-[#000000a1] transition-all"
+            >
+              {t("footer_dakwerken_brussel")}
+            </a>
+            <a
+              href="/dakwerken-duffel"
+              className="p hover:text-[#000000a1] transition-all"
+            >
+              {t("footer_dakwerken_duffel")}
+            </a>
+            <a
+              href="/dakwerken-lier"
+              className="p hover:text-[#000000a1] transition-all"
+            >
+              {t("footer_dakwerken_lier")}
+            </a>
+            <a
+              href="dakwerken-mechelen"
+              className={`p hover:text-[#000000a1] transition-all`}
+            >
+              {t("footer_dakwerken_mechelen")}
             </a>
           </div>
         </div>

@@ -41,7 +41,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="z-10 fixed w-full bg-white">
+    <header className="z-20 fixed w-full bg-white">
       <nav className="w-[80%] mx-auto flex flex-row items-center justify-between">
         <motion.div
           variants={dropdown}

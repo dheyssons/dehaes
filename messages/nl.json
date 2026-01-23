@@ -492,16 +492,528 @@
     "footer_policy_conditions": "Algemene Voorwaarden",
     "footer_policy_legal": "Juridische Mededelingen",
     "footer_policy_privacy": "Privacybeleid",
-    "footer_copyright": "© 2025 - ",
+    "footer_copyright": "© 2026 - ",
     "footer_developed": "Ontwikkeld door",
     "footer_email": "Email",
     "footer_facebook": "Facebook",
-    "footer_whatsapp": "Whatsapp"
+    "footer_whatsapp": "Whatsapp",
+    "footer_dakwerken_antwerpen": "Dakwerken Antwerpen",
+    "footer_dakwerken_brussel": "Dakwerken Brussel",
+    "footer_dakwerken_duffel": "Dakwerken Duffel",
+    "footer_dakwerken_lier": "Dakwerken Lier",
+    "footer_dakwerken_mechelen": "Dakwerken Mechelen"
   },
   "cookieconsent": {
     "cookieconsent_message": "We gebruiken cookies en soortgelijke technologieën om je een betere ervaring te bieden, het websiteverkeer te analyseren en inhoud en advertenties te personaliseren. Je kunt alle cookies accepteren of niet-essentiële cookies weigeren. Voor meer details, raadpleeg ons ",
     "cookieconsent_learnmore": "Meer weten",
     "cookieconsent_accept": "Alles accepteren",
     "cookieconsent_reject": "Alles weigeren"
+  },
+  "cityPages": {
+    "antwerpen": {
+      "meta": {
+        "title": "Dakwerken Antwerpen | Dakwerker De Haes",
+        "description": "Dakwerken in Antwerpen door Dakwerker De Haes. Dakrenovatie, dakherstellingen, dakisolatie en platte daken. Vraag een gratis offerte aan."
+      },
+      "hero": {
+        "eyebrow": "Dakwerken Antwerpen",
+        "badge": "Gevestigd in Sint-Katelijne-Waver",
+        "title": "Uw Dakwerker in Antwerpen waarop u kunt vertrouwen",
+        "description": "Wij voeren dagelijks dakwerken uit in Antwerpen en omgeving. Van dakrenovatie tot dringende herstellingen: vakmanschap, duidelijke communicatie en kwaliteit staan centraal.",
+        "cta": {
+          "quote": "Gratis offerte aanvragen",
+          "call": "Bel ons direct",
+          "phone": "+32475759862"
+        },
+        "areas": "Actief in Antwerpen centrum • Berchem • Deurne • Borgerhout • Wilrijk • Merksem",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1559508302-a9e10a6b2e83?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Dakwerken in Antwerpen met een duidelijke aanpak",
+        "intro": "U krijgt een heldere offerte, correcte planning en een nette oplevering. We denken mee in oplossingen die lang meegaan — afgestemd op uw woning of gebouw.",
+        "items": [
+          {
+            "title": "Snelle service",
+            "text": "Vaak snel ter plaatse in Antwerpen en districten — ideaal bij schade of lekkage.",
+            "featured": true
+          },
+          {
+            "title": "Duidelijke offertes",
+            "text": "Transparant, overzichtelijk en zonder verrassingen achteraf."
+          },
+          {
+            "title": "Kwaliteit & details",
+            "text": "Afwerking, waterdichting en duurzaamheid staan centraal in elk project."
+          },
+          {
+            "title": "Lokale aanpak",
+            "text": "Gevestigd in Sint-Katelijne-Waver, dagelijks actief in Antwerpen."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Onze dakwerken in Antwerpen",
+        "intro": "Een selectie van de meest gevraagde dakwerken in Antwerpen. Heeft u een specifieke vraag? Contacteer ons gerust.",
+        "cta": {
+          "label": "Offerte aanvragen",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Dakrenovatie",
+            "tag": "Renovation",
+            "text": "Volledige of gedeeltelijke dakrenovatie met duurzame materialen en nette afwerking."
+          },
+          {
+            "key": "repairs",
+            "title": "Dakherstellingen",
+            "tag": "Repairs",
+            "text": "Snelle interventie bij lekkage, stormschade of slijtage — met duidelijke diagnose."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Platte daken",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM en roofing oplossingen voor langdurige waterdichting en correcte details."
+          },
+          {
+            "key": "insulation",
+            "title": "Dakisolatie",
+            "tag": "Energy",
+            "text": "Meer comfort en lagere energiekosten dankzij correct geplaatste dakisolatie."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Lokaal actief in Antwerpen",
+        "description": "Wij werken regelmatig in Antwerpen en de districten errond. Dankzij onze ligging in Sint-Katelijne-Waver zijn wij vlot bereikbaar voor inspecties en herstellingen.",
+        "checklist": [
+          "Snelle interventie bij schade en lekkage",
+          "Praktische aanpak met focus op details",
+          "Duidelijke communicatie & planning"
+        ],
+        "tip": {
+          "label": "Antwerpen tip",
+          "text": "Lekkage start vaak klein (naden, aansluitingen, dakdoorvoeren). Een snelle dakcheck kan grotere schade voorkomen."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1541966890190-cde82668a4fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Dakwerken in Antwerpen",
+          "label": "Regio Antwerpen"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problemen met uw dak in Antwerpen?",
+        "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    },
+    "brussel": {
+      "meta": {
+        "title": "Dakwerken Brussel | Dakwerker De Haes",
+        "description": "Dakwerken in Brussel door Dakwerker De Haes. Dakrenovatie, dakherstellingen, dakisolatie en platte daken. Vraag een gratis offerte aan."
+      },
+      "hero": {
+        "eyebrow": "Dakwerken Brussel",
+        "badge": "Gevestigd in Sint-Katelijne-Waver",
+        "title": "Uw Dakwerker in Brussel waarop u kunt vertrouwen",
+        "description": "Wij voeren dakwerken uit in Brussel en omgeving. Van dakrenovatie tot dringende herstellingen: vakmanschap, duidelijke communicatie en kwaliteit staan centraal.",
+        "cta": {
+          "quote": "Gratis offerte aanvragen",
+          "call": "Bel ons direct",
+          "phone": "+32475759862"
+        },
+        "areas": "Actief in Brussel • Schaarbeek • Elsene • Ukkel • Anderlecht • Sint-Gillis",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1548092304-e0205cb0031b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Dakwerken in Brussel met een duidelijke aanpak",
+        "intro": "U krijgt een heldere offerte, correcte planning en een nette oplevering. We denken mee in oplossingen die lang meegaan — afgestemd op uw woning of gebouw.",
+        "items": [
+          {
+            "title": "Snelle service",
+            "text": "Vaak snel ter plaatse in Brussel — ideaal bij schade of lekkage.",
+            "featured": true
+          },
+          {
+            "title": "Duidelijke offertes",
+            "text": "Transparant, overzichtelijk en zonder verrassingen achteraf."
+          },
+          {
+            "title": "Kwaliteit & details",
+            "text": "Afwerking, waterdichting en duurzaamheid staan centraal in elk project."
+          },
+          {
+            "title": "Lokale aanpak",
+            "text": "Gevestigd in Sint-Katelijne-Waver, actief in Brussel en omgeving."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Onze dakwerken in Brussel",
+        "intro": "Een selectie van de meest gevraagde dakwerken in Brussel. Heeft u een specifieke vraag? Contacteer ons gerust.",
+        "cta": {
+          "label": "Offerte aanvragen",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Dakrenovatie",
+            "tag": "Renovation",
+            "text": "Volledige of gedeeltelijke dakrenovatie met duurzame materialen en nette afwerking."
+          },
+          {
+            "key": "repairs",
+            "title": "Dakherstellingen",
+            "tag": "Repairs",
+            "text": "Snelle interventie bij lekkage, stormschade of slijtage — met duidelijke diagnose."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Platte daken",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM en roofing oplossingen voor langdurige waterdichting en correcte details."
+          },
+          {
+            "key": "insulation",
+            "title": "Dakisolatie",
+            "tag": "Energy",
+            "text": "Meer comfort en lagere energiekosten dankzij correct geplaatste dakisolatie."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Lokaal actief in Brussel",
+        "description": "Wij werken regelmatig in Brussel en de omliggende gemeenten. Dankzij onze ligging in Sint-Katelijne-Waver zijn wij vlot bereikbaar voor inspecties en herstellingen.",
+        "checklist": [
+          "Snelle interventie bij schade en lekkage",
+          "Praktische aanpak met focus op details",
+          "Duidelijke communicatie & planning"
+        ],
+        "tip": {
+          "label": "Brussel tip",
+          "text": "In stedelijke omgevingen ontstaan problemen vaak rond dakdoorvoeren en aansluitingen. Een snelle dakcheck kan grotere schade voorkomen."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1567031537734-32e3d6df4c4b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Dakwerken in Brussel",
+          "label": "Regio Brussel"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problemen met uw dak in Brussel?",
+        "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    },
+    "duffel": {
+      "meta": {
+        "title": "Dakwerken Duffel | Dakwerker De Haes",
+        "description": "Dakwerken in Duffel door Dakwerker De Haes. Dakrenovatie, dakherstellingen, dakisolatie en platte daken. Vraag een gratis offerte aan."
+      },
+      "hero": {
+        "eyebrow": "Dakwerken Duffel",
+        "badge": "Gevestigd in Sint-Katelijne-Waver",
+        "title": "Uw Dakwerker in Duffel waarop u kunt vertrouwen",
+        "description": "Wij voeren dagelijks dakwerken uit in Duffel en omgeving. Van dakrenovatie tot dringende herstellingen: vakmanschap, duidelijke communicatie en kwaliteit staan centraal.",
+        "cta": {
+          "quote": "Gratis offerte aanvragen",
+          "call": "Bel ons direct",
+          "phone": "+32475759862"
+        },
+        "areas": "Actief in Duffel • Mechelen • Sint-Katelijne-Waver • Lier • Kontich",
+        "images": {
+          "background": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQdD68rHNmfOM3whvoNmxa_jup7sNS2mP6V3SrX_LLPdG6WHN9Y33q3YmjLNqzBqQ4hPdbi-wEEBf-Uwigr9HQVVcs&s=19"
+        }
+      },
+      "benefitsSection": {
+        "title": "Dakwerken in Duffel met een duidelijke aanpak",
+        "intro": "U krijgt een heldere offerte, correcte planning en een nette oplevering. We denken mee in oplossingen die lang meegaan — afgestemd op uw woning of gebouw.",
+        "items": [
+          {
+            "title": "Snelle service",
+            "text": "Vaak snel ter plaatse in Duffel — ideaal bij schade of lekkage.",
+            "featured": true
+          },
+          {
+            "title": "Duidelijke offertes",
+            "text": "Transparant, overzichtelijk en zonder verrassingen achteraf."
+          },
+          {
+            "title": "Kwaliteit & details",
+            "text": "Afwerking, waterdichting en duurzaamheid staan centraal in elk project."
+          },
+          {
+            "title": "Lokale aanpak",
+            "text": "Gevestigd in Sint-Katelijne-Waver, actief in Duffel en omgeving."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Onze dakwerken in Duffel",
+        "intro": "Een selectie van de meest gevraagde dakwerken in Duffel. Heeft u een specifieke vraag? Contacteer ons gerust.",
+        "cta": {
+          "label": "Offerte aanvragen",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Dakrenovatie",
+            "tag": "Renovation",
+            "text": "Volledige of gedeeltelijke dakrenovatie met duurzame materialen en nette afwerking."
+          },
+          {
+            "key": "repairs",
+            "title": "Dakherstellingen",
+            "tag": "Repairs",
+            "text": "Snelle interventie bij lekkage, stormschade of slijtage — met duidelijke diagnose."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Platte daken",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM en roofing oplossingen voor langdurige waterdichting en correcte details."
+          },
+          {
+            "key": "insulation",
+            "title": "Dakisolatie",
+            "tag": "Energy",
+            "text": "Meer comfort en lagere energiekosten dankzij correct geplaatste dakisolatie."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Lokaal actief in Duffel",
+        "description": "Wij werken regelmatig in Duffel en de omliggende gemeenten. Dankzij onze ligging in Sint-Katelijne-Waver zijn wij vlot bereikbaar voor inspecties en herstellingen.",
+        "checklist": [
+          "Snelle interventie bij schade en lekkage",
+          "Praktische aanpak met focus op details",
+          "Duidelijke communicatie & planning"
+        ],
+        "tip": {
+          "label": "Duffel tip",
+          "text": "Bij wisselvallig weer kunnen kleine problemen snel groter worden. Laat aansluitingen en dakranden tijdig controleren."
+        },
+        "image": {
+          "src": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQdD68rHNmfOM3whvoNmxa_jup7sNS2mP6V3SrX_LLPdG6WHN9Y33q3YmjLNqzBqQ4hPdbi-wEEBf-Uwigr9HQVVcs&s=19",
+          "alt": "Dakwerken in Duffel",
+          "label": "Regio Duffel"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problemen met uw dak in Duffel?",
+        "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    },
+    "lier": {
+      "meta": {
+        "title": "Dakwerken Lier | Dakwerker De Haes",
+        "description": "Dakwerken in Lier door Dakwerker De Haes. Dakrenovatie, dakherstellingen, dakisolatie en platte daken. Vraag een gratis offerte aan."
+      },
+      "hero": {
+        "eyebrow": "Dakwerken Lier",
+        "badge": "Gevestigd in Sint-Katelijne-Waver",
+        "title": "Uw Dakwerker in Lier waarop u kunt vertrouwen",
+        "description": "Wij voeren dagelijks dakwerken uit in Lier en omgeving. Van dakrenovatie tot dringende herstellingen: vakmanschap, duidelijke communicatie en kwaliteit staan centraal.",
+        "cta": {
+          "quote": "Gratis offerte aanvragen",
+          "call": "Bel ons direct",
+          "phone": "+32475759862"
+        },
+        "areas": "Actief in Lier • Koningshooikt • Duffel • Boechout • Sint-Katelijne-Waver",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1661103940373-1e1a2e307fe0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Dakwerken in Lier met een duidelijke aanpak",
+        "intro": "U krijgt een heldere offerte, correcte planning en een nette oplevering. We denken mee in oplossingen die lang meegaan — afgestemd op uw woning of gebouw.",
+        "items": [
+          {
+            "title": "Snelle service",
+            "text": "Vaak snel ter plaatse in Lier — ideaal bij schade of lekkage.",
+            "featured": true
+          },
+          {
+            "title": "Duidelijke offertes",
+            "text": "Transparant, overzichtelijk en zonder verrassingen achteraf."
+          },
+          {
+            "title": "Kwaliteit & details",
+            "text": "Afwerking, waterdichting en duurzaamheid staan centraal in elk project."
+          },
+          {
+            "title": "Lokale aanpak",
+            "text": "Gevestigd in Sint-Katelijne-Waver, actief in Lier en omgeving."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Onze dakwerken in Lier",
+        "intro": "Een selectie van de meest gevraagde dakwerken in Lier. Heeft u een specifieke vraag? Contacteer ons gerust.",
+        "cta": {
+          "label": "Offerte aanvragen",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Dakrenovatie",
+            "tag": "Renovation",
+            "text": "Volledige of gedeeltelijke dakrenovatie met duurzame materialen en nette afwerking."
+          },
+          {
+            "key": "repairs",
+            "title": "Dakherstellingen",
+            "tag": "Repairs",
+            "text": "Snelle interventie bij lekkage, stormschade of slijtage — met duidelijke diagnose."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Platte daken",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM en roofing oplossingen voor langdurige waterdichting en correcte details."
+          },
+          {
+            "key": "insulation",
+            "title": "Dakisolatie",
+            "tag": "Energy",
+            "text": "Meer comfort en lagere energiekosten dankzij correct geplaatste dakisolatie."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Lokaal actief in Lier",
+        "description": "Wij werken regelmatig in Lier en de omliggende gemeenten. Dankzij onze ligging in Sint-Katelijne-Waver zijn wij vlot bereikbaar voor inspecties en herstellingen.",
+        "checklist": [
+          "Snelle interventie bij schade en lekkage",
+          "Praktische aanpak met focus op details",
+          "Duidelijke communicatie & planning"
+        ],
+        "tip": {
+          "label": "Lier tip",
+          "text": "Controleer na stormweer dakranden en aansluitingen. Kleine loszittende elementen kunnen snel lekkage veroorzaken."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1661103940373-1e1a2e307fe0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Dakwerken in Lier",
+          "label": "Regio Lier"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problemen met uw dak in Lier?",
+        "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    },
+    "mechelen": {
+      "meta": {
+        "title": "Dakwerken Mechelen | Dakwerker De Haes",
+        "description": "Dakwerken in Mechelen door Dakwerker De Haes. Dakrenovatie, dakherstellingen, dakisolatie en platte daken. Vraag een gratis offerte aan."
+      },
+      "hero": {
+        "eyebrow": "Dakwerken Mechelen",
+        "badge": "Gevestigd in Sint-Katelijne-Waver",
+        "title": "Uw Dakwerker in Mechelen waarop u kunt vertrouwen",
+        "description": "Wij voeren dagelijks dakwerken uit in Mechelen en omgeving. Van dakrenovatie tot dringende herstellingen: vakmanschap, duidelijke communicatie en kwaliteit staan centraal.",
+        "cta": {
+          "quote": "Gratis offerte aanvragen",
+          "call": "Bel ons direct",
+          "phone": "+32475759862"
+        },
+        "areas": "Actief in Mechelen • Nekkerspoel • Battel • Muizen • Duffel • Sint-Katelijne-Waver",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1695070785873-d83c240a8fee?q=80&w=2137&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Dakwerken in Mechelen met een duidelijke aanpak",
+        "intro": "U krijgt een heldere offerte, correcte planning en een nette oplevering. We denken mee in oplossingen die lang meegaan — afgestemd op uw woning of gebouw.",
+        "items": [
+          {
+            "title": "Snelle service",
+            "text": "Vaak snel ter plaatse in Mechelen — ideaal bij schade of lekkage.",
+            "featured": true
+          },
+          {
+            "title": "Duidelijke offertes",
+            "text": "Transparant, overzichtelijk en zonder verrassingen achteraf."
+          },
+          {
+            "title": "Kwaliteit & details",
+            "text": "Afwerking, waterdichting en duurzaamheid staan centraal in elk project."
+          },
+          {
+            "title": "Lokale aanpak",
+            "text": "Gevestigd in Sint-Katelijne-Waver, actief in Mechelen en omgeving."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Onze dakwerken in Mechelen",
+        "intro": "Een selectie van de meest gevraagde dakwerken in Mechelen. Heeft u een specifieke vraag? Contacteer ons gerust.",
+        "cta": {
+          "label": "Offerte aanvragen",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Dakrenovatie",
+            "tag": "Renovation",
+            "text": "Volledige of gedeeltelijke dakrenovatie met duurzame materialen en nette afwerking."
+          },
+          {
+            "key": "repairs",
+            "title": "Dakherstellingen",
+            "tag": "Repairs",
+            "text": "Snelle interventie bij lekkage, stormschade of slijtage — met duidelijke diagnose."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Platte daken",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM en roofing oplossingen voor langdurige waterdichting en correcte details."
+          },
+          {
+            "key": "insulation",
+            "title": "Dakisolatie",
+            "tag": "Energy",
+            "text": "Meer comfort en lagere energiekosten dankzij correct geplaatste dakisolatie."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Lokaal actief in Mechelen",
+        "description": "Wij werken regelmatig in Mechelen en de omliggende gemeenten. Dankzij onze ligging in Sint-Katelijne-Waver zijn wij vlot bereikbaar voor inspecties en herstellingen.",
+        "checklist": [
+          "Snelle interventie bij schade en lekkage",
+          "Praktische aanpak met focus op details",
+          "Duidelijke communicatie & planning"
+        ],
+        "tip": {
+          "label": "Mechelen tip",
+          "text": "Bij oudere woningen loont het om dakgoten en aansluitingen regelmatig te laten controleren. Verstoppingen kunnen lekkage veroorzaken."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1695070785873-d83c240a8fee?q=80&w=2137&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Dakwerken in Mechelen",
+          "label": "Regio Mechelen"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problemen met uw dak in Mechelen?",
+        "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    }
   }
 }

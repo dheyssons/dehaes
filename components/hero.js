@@ -100,7 +100,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          <div className="hidden lg:block">
+          <div className="hidden lg:block mt-24">
             <RequestEvaluationForm />
           </div>
         </div>

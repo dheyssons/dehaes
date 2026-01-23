@@ -492,16 +492,528 @@
     "footer_policy_conditions": "Conditions Générales",
     "footer_policy_legal": "Mentions Légales",
     "footer_policy_privacy": "Politique de Confidentialité",
-    "footer_copyright": "© 2025 - ",
+    "footer_copyright": "© 2026 - ",
     "footer_developed": "Développé par",
     "footer_email": "E-mail",
     "footer_facebook": "Facebook",
-    "footer_whatsapp": "Whatsapp"
+    "footer_whatsapp": "Whatsapp",
+    "footer_dakwerken_antwerpen": "Toiture Antwerpen",
+    "footer_dakwerken_brussel": "Toiture Brussel",
+    "footer_dakwerken_duffel": "Toiture Duffel",
+    "footer_dakwerken_lier": "Toiture Lier",
+    "footer_dakwerken_mechelen": "Toiture Mechelen"
   },
   "cookieconsent": {
     "cookieconsent_message": "Nous utilisons des cookies et des technologies similaires pour vous offrir une meilleure expérience, analyser le trafic du site web et personnaliser le contenu et les publicités. Vous pouvez accepter tous les cookies ou refuser les cookies non essentiels. Pour plus de détails, consultez notre ",
     "cookieconsent_learnmore": "En savoir plus",
     "cookieconsent_accept": "Tout accepter",
     "cookieconsent_reject": "Tout refuser"
+  },
+  "cityPages": {
+    "antwerpen": {
+      "meta": {
+        "title": "Travaux de toiture Anvers | De Haes",
+        "description": "Travaux de toiture à Anvers par De Haes. Rénovation, réparations, isolation et toits plats. Demandez un devis gratuit."
+      },
+      "hero": {
+        "eyebrow": "Travaux de toiture Anvers",
+        "badge": "Basé à Sint-Katelijne-Waver",
+        "title": "Votre couvreur à Anvers, en toute confiance",
+        "description": "Nous réalisons chaque jour des travaux de toiture à Anvers et alentours. De la rénovation aux réparations urgentes : savoir-faire, clarté et qualité avant tout.",
+        "cta": {
+          "quote": "Demander un devis gratuit",
+          "call": "Appelez-nous",
+          "phone": "+32475759862"
+        },
+        "areas": "Actif à Anvers centre • Berchem • Deurne • Borgerhout • Wilrijk • Merksem",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1559508302-a9e10a6b2e83?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Toiture à Anvers, une approche claire",
+        "intro": "Vous recevez un devis clair, une planification fiable et une livraison soignée. Des solutions durables, adaptées à votre maison ou bâtiment.",
+        "items": [
+          {
+            "title": "Service rapide",
+            "text": "Souvent sur place rapidement à Anvers et ses districts — idéal en cas de dégâts ou de fuite.",
+            "featured": true
+          },
+          {
+            "title": "Devis clairs",
+            "text": "Transparent, lisible et sans mauvaises surprises."
+          },
+          {
+            "title": "Qualité & détails",
+            "text": "Finitions, étanchéité et durabilité au cœur de chaque chantier."
+          },
+          {
+            "title": "Approche locale",
+            "text": "Basé à Sint-Katelijne-Waver, actif chaque jour à Anvers."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Nos travaux de toiture à Anvers",
+        "intro": "Une sélection des travaux les plus demandés à Anvers. Une question précise ? Contactez-nous.",
+        "cta": {
+          "label": "Demander un devis",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Rénovation de toiture",
+            "tag": "Renovation",
+            "text": "Rénovation totale ou partielle avec des matériaux durables et une finition soignée."
+          },
+          {
+            "key": "repairs",
+            "title": "Réparations de toiture",
+            "tag": "Repairs",
+            "text": "Intervention rapide en cas de fuite, dégâts de tempête ou usure — avec diagnostic clair."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Toits plats",
+            "tag": "EPDM / Roofing",
+            "text": "Solutions EPDM et roofing pour une étanchéité durable et des détails maîtrisés."
+          },
+          {
+            "key": "insulation",
+            "title": "Isolation de toiture",
+            "tag": "Energy",
+            "text": "Plus de confort et moins de dépenses grâce à une isolation de toiture bien posée."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Actif localement à Anvers",
+        "description": "Nous intervenons régulièrement à Anvers et dans les districts voisins. Grâce à notre base à Sint-Katelijne-Waver, nous sommes facilement disponibles pour inspections et réparations.",
+        "checklist": [
+          "Intervention rapide en cas de dégâts ou fuite",
+          "Approche pratique, focus sur les détails",
+          "Communication claire & planning"
+        ],
+        "tip": {
+          "label": "Conseil Anvers",
+          "text": "Une fuite commence souvent petit (joints, raccords, traversées). Un contrôle rapide évite de gros dégâts."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1541966890190-cde82668a4fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Travaux de toiture à Anvers",
+          "label": "Région Anvers"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Un souci de toiture à Anvers ?",
+        "description": "Demandez un devis sans engagement. Réponse rapide et inspection planifiée si nécessaire."
+      }
+    },
+    "brussel": {
+      "meta": {
+        "title": "Travaux de toiture Bruxelles | De Haes",
+        "description": "Travaux de toiture à Bruxelles par De Haes. Rénovation, réparations, isolation et toits plats. Demandez un devis gratuit."
+      },
+      "hero": {
+        "eyebrow": "Travaux de toiture Bruxelles",
+        "badge": "Basé à Sint-Katelijne-Waver",
+        "title": "Votre couvreur à Bruxelles, en toute confiance",
+        "description": "Nous intervenons à Bruxelles et alentours. De la rénovation aux réparations urgentes : savoir-faire, clarté et qualité avant tout.",
+        "cta": {
+          "quote": "Demander un devis gratuit",
+          "call": "Appelez-nous",
+          "phone": "+32475759862"
+        },
+        "areas": "Actif à Bruxelles • Schaerbeek • Ixelles • Uccle • Anderlecht • Saint-Gilles",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1548092304-e0205cb0031b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Toiture à Bruxelles, une approche claire",
+        "intro": "Vous recevez un devis clair, une planification fiable et une livraison soignée. Des solutions durables, adaptées à votre maison ou bâtiment.",
+        "items": [
+          {
+            "title": "Service rapide",
+            "text": "Souvent sur place rapidement à Bruxelles — idéal en cas de dégâts ou de fuite.",
+            "featured": true
+          },
+          {
+            "title": "Devis clairs",
+            "text": "Transparent, lisible et sans mauvaises surprises."
+          },
+          {
+            "title": "Qualité & détails",
+            "text": "Finitions, étanchéité et durabilité au cœur de chaque chantier."
+          },
+          {
+            "title": "Approche locale",
+            "text": "Basé à Sint-Katelijne-Waver, actif à Bruxelles et environs."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Nos travaux de toiture à Bruxelles",
+        "intro": "Une sélection des travaux les plus demandés à Bruxelles. Une question précise ? Contactez-nous.",
+        "cta": {
+          "label": "Demander un devis",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Rénovation de toiture",
+            "tag": "Renovation",
+            "text": "Rénovation totale ou partielle avec des matériaux durables et une finition soignée."
+          },
+          {
+            "key": "repairs",
+            "title": "Réparations de toiture",
+            "tag": "Repairs",
+            "text": "Intervention rapide en cas de fuite, dégâts de tempête ou usure — avec diagnostic clair."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Toits plats",
+            "tag": "EPDM / Roofing",
+            "text": "Solutions EPDM et roofing pour une étanchéité durable et des détails maîtrisés."
+          },
+          {
+            "key": "insulation",
+            "title": "Isolation de toiture",
+            "tag": "Energy",
+            "text": "Plus de confort et moins de dépenses grâce à une isolation de toiture bien posée."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Actif localement à Bruxelles",
+        "description": "Nous intervenons régulièrement à Bruxelles et dans les communes alentour. Grâce à notre base à Sint-Katelijne-Waver, nous sommes facilement disponibles pour inspections et réparations.",
+        "checklist": [
+          "Intervention rapide en cas de dégâts ou fuite",
+          "Approche pratique, focus sur les détails",
+          "Communication claire & planning"
+        ],
+        "tip": {
+          "label": "Conseil Bruxelles",
+          "text": "En ville, les soucis viennent souvent des traversées et raccords. Un contrôle rapide évite de gros dégâts."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1567031537734-32e3d6df4c4b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Travaux de toiture à Bruxelles",
+          "label": "Région Bruxelles"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Un souci de toiture à Bruxelles ?",
+        "description": "Demandez un devis sans engagement. Réponse rapide et inspection planifiée si nécessaire."
+      }
+    },
+    "duffel": {
+      "meta": {
+        "title": "Travaux de toiture Duffel | De Haes",
+        "description": "Travaux de toiture à Duffel par De Haes. Rénovation, réparations, isolation et toits plats. Demandez un devis gratuit."
+      },
+      "hero": {
+        "eyebrow": "Travaux de toiture Duffel",
+        "badge": "Basé à Sint-Katelijne-Waver",
+        "title": "Votre couvreur à Duffel, en toute confiance",
+        "description": "Nous réalisons chaque jour des travaux de toiture à Duffel et alentours. De la rénovation aux réparations urgentes : savoir-faire, clarté et qualité avant tout.",
+        "cta": {
+          "quote": "Demander un devis gratuit",
+          "call": "Appelez-nous",
+          "phone": "+32475759862"
+        },
+        "areas": "Actif à Duffel • Malines • Sint-Katelijne-Waver • Lierre • Kontich",
+        "images": {
+          "background": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQdD68rHNmfOM3whvoNmxa_jup7sNS2mP6V3SrX_LLPdG6WHN9Y33q3YmjLNqzBqQ4hPdbi-wEEBf-Uwigr9HQVVcs&s=19"
+        }
+      },
+      "benefitsSection": {
+        "title": "Toiture à Duffel, une approche claire",
+        "intro": "Vous recevez un devis clair, une planification fiable et une livraison soignée. Des solutions durables, adaptées à votre maison ou bâtiment.",
+        "items": [
+          {
+            "title": "Service rapide",
+            "text": "Souvent sur place rapidement à Duffel — idéal en cas de dégâts ou de fuite.",
+            "featured": true
+          },
+          {
+            "title": "Devis clairs",
+            "text": "Transparent, lisible et sans mauvaises surprises."
+          },
+          {
+            "title": "Qualité & détails",
+            "text": "Finitions, étanchéité et durabilité au cœur de chaque chantier."
+          },
+          {
+            "title": "Approche locale",
+            "text": "Basé à Sint-Katelijne-Waver, actif à Duffel et environs."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Nos travaux de toiture à Duffel",
+        "intro": "Une sélection des travaux les plus demandés à Duffel. Une question précise ? Contactez-nous.",
+        "cta": {
+          "label": "Demander un devis",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Rénovation de toiture",
+            "tag": "Renovation",
+            "text": "Rénovation totale ou partielle avec des matériaux durables et une finition soignée."
+          },
+          {
+            "key": "repairs",
+            "title": "Réparations de toiture",
+            "tag": "Repairs",
+            "text": "Intervention rapide en cas de fuite, dégâts de tempête ou usure — avec diagnostic clair."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Toits plats",
+            "tag": "EPDM / Roofing",
+            "text": "Solutions EPDM et roofing pour une étanchéité durable et des détails maîtrisés."
+          },
+          {
+            "key": "insulation",
+            "title": "Isolation de toiture",
+            "tag": "Energy",
+            "text": "Plus de confort et moins de dépenses grâce à une isolation de toiture bien posée."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Actif localement à Duffel",
+        "description": "Nous intervenons régulièrement à Duffel et dans les communes alentour. Grâce à notre base à Sint-Katelijne-Waver, nous sommes facilement disponibles pour inspections et réparations.",
+        "checklist": [
+          "Intervention rapide en cas de dégâts ou fuite",
+          "Approche pratique, focus sur les détails",
+          "Communication claire & planning"
+        ],
+        "tip": {
+          "label": "Conseil Duffel",
+          "text": "Par temps changeant, de petits soucis peuvent vite empirer. Faites vérifier rives et raccords à temps."
+        },
+        "image": {
+          "src": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQdD68rHNmfOM3whvoNmxa_jup7sNS2mP6V3SrX_LLPdG6WHN9Y33q3YmjLNqzBqQ4hPdbi-wEEBf-Uwigr9HQVVcs&s=19",
+          "alt": "Travaux de toiture à Duffel",
+          "label": "Région Duffel"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Un souci de toiture à Duffel ?",
+        "description": "Demandez un devis sans engagement. Réponse rapide et inspection planifiée si nécessaire."
+      }
+    },
+    "lier": {
+      "meta": {
+        "title": "Travaux de toiture Lierre | De Haes",
+        "description": "Travaux de toiture à Lierre par De Haes. Rénovation, réparations, isolation et toits plats. Demandez un devis gratuit."
+      },
+      "hero": {
+        "eyebrow": "Travaux de toiture Lierre",
+        "badge": "Basé à Sint-Katelijne-Waver",
+        "title": "Votre couvreur à Lierre, en toute confiance",
+        "description": "Nous réalisons chaque jour des travaux de toiture à Lierre et alentours. De la rénovation aux réparations urgentes : savoir-faire, clarté et qualité avant tout.",
+        "cta": {
+          "quote": "Demander un devis gratuit",
+          "call": "Appelez-nous",
+          "phone": "+32475759862"
+        },
+        "areas": "Actif à Lierre • Koningshooikt • Duffel • Boechout • Sint-Katelijne-Waver",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1661103940373-1e1a2e307fe0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Toiture à Lierre, une approche claire",
+        "intro": "Vous recevez un devis clair, une planification fiable et une livraison soignée. Des solutions durables, adaptées à votre maison ou bâtiment.",
+        "items": [
+          {
+            "title": "Service rapide",
+            "text": "Souvent sur place rapidement à Lierre — idéal en cas de dégâts ou de fuite.",
+            "featured": true
+          },
+          {
+            "title": "Devis clairs",
+            "text": "Transparent, lisible et sans mauvaises surprises."
+          },
+          {
+            "title": "Qualité & détails",
+            "text": "Finitions, étanchéité et durabilité au cœur de chaque chantier."
+          },
+          {
+            "title": "Approche locale",
+            "text": "Basé à Sint-Katelijne-Waver, actif à Lierre et environs."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Nos travaux de toiture à Lierre",
+        "intro": "Une sélection des travaux les plus demandés à Lierre. Une question précise ? Contactez-nous.",
+        "cta": {
+          "label": "Demander un devis",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Rénovation de toiture",
+            "tag": "Renovation",
+            "text": "Rénovation totale ou partielle avec des matériaux durables et une finition soignée."
+          },
+          {
+            "key": "repairs",
+            "title": "Réparations de toiture",
+            "tag": "Repairs",
+            "text": "Intervention rapide en cas de fuite, dégâts de tempête ou usure — avec diagnostic clair."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Toits plats",
+            "tag": "EPDM / Roofing",
+            "text": "Solutions EPDM et roofing pour une étanchéité durable et des détails maîtrisés."
+          },
+          {
+            "key": "insulation",
+            "title": "Isolation de toiture",
+            "tag": "Energy",
+            "text": "Plus de confort et moins de dépenses grâce à une isolation de toiture bien posée."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Actif localement à Lierre",
+        "description": "Nous intervenons régulièrement à Lierre et dans les communes alentour. Grâce à notre base à Sint-Katelijne-Waver, nous sommes facilement disponibles pour inspections et réparations.",
+        "checklist": [
+          "Intervention rapide en cas de dégâts ou fuite",
+          "Approche pratique, focus sur les détails",
+          "Communication claire & planning"
+        ],
+        "tip": {
+          "label": "Conseil Lierre",
+          "text": "Après une tempête, vérifiez rives et raccords. De petits éléments desserrés peuvent vite causer une fuite."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1661103940373-1e1a2e307fe0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Travaux de toiture à Lierre",
+          "label": "Région Lierre"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Un souci de toiture à Lierre ?",
+        "description": "Demandez un devis sans engagement. Réponse rapide et inspection planifiée si nécessaire."
+      }
+    },
+    "mechelen": {
+      "meta": {
+        "title": "Travaux de toiture Malines | De Haes",
+        "description": "Travaux de toiture à Malines par De Haes. Rénovation, réparations, isolation et toits plats. Demandez un devis gratuit."
+      },
+      "hero": {
+        "eyebrow": "Travaux de toiture Malines",
+        "badge": "Basé à Sint-Katelijne-Waver",
+        "title": "Votre couvreur à Malines, en toute confiance",
+        "description": "Nous réalisons chaque jour des travaux de toiture à Malines et alentours. De la rénovation aux réparations urgentes : savoir-faire, clarté et qualité avant tout.",
+        "cta": {
+          "quote": "Demander un devis gratuit",
+          "call": "Appelez-nous",
+          "phone": "+32475759862"
+        },
+        "areas": "Actif à Malines • Nekkerspoel • Battel • Muizen • Duffel • Sint-Katelijne-Waver",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1695070785873-d83c240a8fee?q=80&w=2137&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      },
+      "benefitsSection": {
+        "title": "Toiture à Malines, une approche claire",
+        "intro": "Vous recevez un devis clair, une planification fiable et une livraison soignée. Des solutions durables, adaptées à votre maison ou bâtiment.",
+        "items": [
+          {
+            "title": "Service rapide",
+            "text": "Souvent sur place rapidement à Malines — idéal en cas de dégâts ou de fuite.",
+            "featured": true
+          },
+          {
+            "title": "Devis clairs",
+            "text": "Transparent, lisible et sans mauvaises surprises."
+          },
+          {
+            "title": "Qualité & détails",
+            "text": "Finitions, étanchéité et durabilité au cœur de chaque chantier."
+          },
+          {
+            "title": "Approche locale",
+            "text": "Basé à Sint-Katelijne-Waver, actif à Malines et environs."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Nos travaux de toiture à Malines",
+        "intro": "Une sélection des travaux les plus demandés à Malines. Une question précise ? Contactez-nous.",
+        "cta": {
+          "label": "Demander un devis",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Rénovation de toiture",
+            "tag": "Renovation",
+            "text": "Rénovation totale ou partielle avec des matériaux durables et une finition soignée."
+          },
+          {
+            "key": "repairs",
+            "title": "Réparations de toiture",
+            "tag": "Repairs",
+            "text": "Intervention rapide en cas de fuite, dégâts de tempête ou usure — avec diagnostic clair."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Toits plats",
+            "tag": "EPDM / Roofing",
+            "text": "Solutions EPDM et roofing pour une étanchéité durable et des détails maîtrisés."
+          },
+          {
+            "key": "insulation",
+            "title": "Isolation de toiture",
+            "tag": "Energy",
+            "text": "Plus de confort et moins de dépenses grâce à une isolation de toiture bien posée."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Actif localement à Malines",
+        "description": "Nous intervenons régulièrement à Malines et dans les communes alentour. Grâce à notre base à Sint-Katelijne-Waver, nous sommes facilement disponibles pour inspections et réparations.",
+        "checklist": [
+          "Intervention rapide en cas de dégâts ou fuite",
+          "Approche pratique, focus sur les détails",
+          "Communication claire & planning"
+        ],
+        "tip": {
+          "label": "Conseil Malines",
+          "text": "Sur les maisons plus anciennes, faites contrôler gouttières et raccords. Un bouchon peut vite provoquer une fuite."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1695070785873-d83c240a8fee?q=80&w=2137&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt": "Travaux de toiture à Malines",
+          "label": "Région Malines"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Un souci de toiture à Malines ?",
+        "description": "Demandez un devis sans engagement. Réponse rapide et inspection planifiée si nécessaire."
+      }
+    }
   }
 }
