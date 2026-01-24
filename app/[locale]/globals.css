@@ -5,7 +5,9 @@
 :root {
   --primary-color: #0b3c5d;
 }
-
+html {
+  @apply overflow-x-hidden;
+}
 * {
   @apply font-sans;
 }

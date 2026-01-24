@@ -203,6 +203,12 @@ export default function Footer() {
             >
               {t("footer_dakwerken_mechelen")}
             </a>
+            <a
+              href="dakwerken-putte"
+              className={`p hover:text-[#000000a1] transition-all`}
+            >
+              {t("footer_dakwerken_putte")}
+            </a>
           </div>
         </div>
 

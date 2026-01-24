@@ -143,8 +143,8 @@ export default function DakwerkenMechelenPage() {
   return (
     <main className="flex flex-col gap-y-24 md:gap-y-32 lg:gap-y-36">
       {/* HERO */}
-      <section>
-        <div className=" mt-16 md:mt-20 overflow-hidden rounded-md border border-black/5">
+      <section className="w-full">
+        <div className="mt-16 md:mt-20 overflow-hidden rounded-md border border-black/5 relative">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url('${data.hero.images.background}')` }}
@@ -155,7 +155,7 @@ export default function DakwerkenMechelenPage() {
           <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 md:h-96 md:w-96 rounded-full bg-white/10 blur-3xl" />
           <div className="pointer-events-none absolute inset-0 opacity-[0.10] bg-[radial-gradient(circle_at_20%_30%,white,transparent_35%),radial-gradient(circle_at_85%_20%,white,transparent_40%),radial-gradient(circle_at_55%_90%,white,transparent_35%)]" />
 
-          <div className="relative z-10 py-20 sm:px-10 md:px-14 md:py-14 lg:px-16 lg:py-16 text-white">
+          <div className="w-[80%] mx-auto relative z-10 py-20 sm:px-10 md:px-14 md:py-14 lg:px-16 lg:py-16 text-white">
             <div className="grid gap-10 lg:grid-cols-12 items-end">
               <div className="lg:col-span-9 flex flex-col gap-y-7 md:gap-y-8">
                 <div className="flex flex-wrap items-center gap-3">

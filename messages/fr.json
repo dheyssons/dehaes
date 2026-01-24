@@ -501,7 +501,8 @@
     "footer_dakwerken_brussel": "Toiture Brussel",
     "footer_dakwerken_duffel": "Toiture Duffel",
     "footer_dakwerken_lier": "Toiture Lier",
-    "footer_dakwerken_mechelen": "Toiture Mechelen"
+    "footer_dakwerken_mechelen": "Toiture Mechelen",
+    "footer_dakwerken_putte": "Toiture Putte"
   },
   "cookieconsent": {
     "cookieconsent_message": "Nous utilisons des cookies et des technologies similaires pour vous offrir une meilleure expérience, analyser le trafic du site web et personnaliser le contenu et les publicités. Vous pouvez accepter tous les cookies ou refuser les cookies non essentiels. Pour plus de détails, consultez notre ",
@@ -1013,6 +1014,107 @@
         "id": "contact",
         "title": "Un souci de toiture à Malines ?",
         "description": "Demandez un devis sans engagement. Réponse rapide et inspection planifiée si nécessaire."
+      }
+    },
+    "putte": {
+      "meta": {
+        "title": "Dakwerken Putte | Dakwerker De Haes",
+        "description": "Dakwerken in Putte door Dakwerker De Haes. Dakrenovatie, dakherstellingen, dakisolatie en platte daken. Vraag een gratis offerte aan."
+      },
+      "hero": {
+        "eyebrow": "Dakwerken Putte",
+        "badge": "Gevestigd in Sint-Katelijne-Waver",
+        "title": "Uw Dakwerker in Putte waarop u kunt vertrouwen",
+        "description": "Wij voeren dagelijks dakwerken uit in Putte en omgeving. Van dakrenovatie tot dringende herstellingen: vakmanschap, duidelijke communicatie en kwaliteit staan centraal.",
+        "cta": {
+          "quote": "Gratis offerte aanvragen",
+          "call": "Bel ons direct",
+          "phone": "+32475759862"
+        },
+        "areas": "Actief in Putte • Beerzel • Grasheide • Peulis • Keerbergen • Sint-Katelijne-Waver",
+        "images": {
+          "background": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?q=80&w=2070&auto=format&fit=crop"
+        }
+      },
+      "benefitsSection": {
+        "title": "Dakwerken in Putte met een duidelijke aanpak",
+        "intro": "U krijgt een heldere offerte, correcte planning en een nette oplevering. We denken mee in oplossingen die lang meegaan — afgestemd op uw woning of gebouw.",
+        "items": [
+          {
+            "title": "Snelle service",
+            "text": "Vaak snel ter plaatse in Putte — ideaal bij schade of lekkage.",
+            "featured": true
+          },
+          {
+            "title": "Duidelijke offertes",
+            "text": "Transparant, overzichtelijk en zonder verrassingen achteraf."
+          },
+          {
+            "title": "Kwaliteit & details",
+            "text": "Afwerking, waterdichting en duurzaamheid staan centraal in elk project."
+          },
+          {
+            "title": "Lokale aanpak",
+            "text": "Gevestigd in Sint-Katelijne-Waver, actief in Putte en omgeving."
+          }
+        ]
+      },
+      "servicesSection": {
+        "title": "Onze dakwerken in Putte",
+        "intro": "Een selectie van de meest gevraagde dakwerken in Putte. Heeft u een specifieke vraag? Contacteer ons gerust.",
+        "cta": {
+          "label": "Offerte aanvragen",
+          "href": "#contact"
+        },
+        "items": [
+          {
+            "key": "renovation",
+            "title": "Dakrenovatie",
+            "tag": "Renovation",
+            "text": "Volledige of gedeeltelijke dakrenovatie met duurzame materialen en nette afwerking."
+          },
+          {
+            "key": "repairs",
+            "title": "Dakherstellingen",
+            "tag": "Repairs",
+            "text": "Snelle interventie bij lekkage, stormschade of slijtage — met duidelijke diagnose."
+          },
+          {
+            "key": "flatRoof",
+            "title": "Platte daken",
+            "tag": "EPDM / Roofing",
+            "text": "EPDM en roofing oplossingen voor langdurige waterdichting en correcte details."
+          },
+          {
+            "key": "insulation",
+            "title": "Dakisolatie",
+            "tag": "Energy",
+            "text": "Meer comfort en lagere energiekosten dankzij correct geplaatste dakisolatie."
+          }
+        ]
+      },
+      "localSection": {
+        "title": "Lokaal actief in Putte",
+        "description": "Wij werken regelmatig in Putte en de omliggende gemeenten. Dankzij onze ligging in Sint-Katelijne-Waver zijn wij vlot bereikbaar voor inspecties en herstellingen.",
+        "checklist": [
+          "Snelle interventie bij schade en lekkage",
+          "Praktische aanpak met focus op details",
+          "Duidelijke communicatie & planning"
+        ],
+        "tip": {
+          "label": "Putte tip",
+          "text": "Controleer tijdig dakgoten en afvoeren, zeker na bladval. Verstoppingen kunnen snel tot waterschade leiden."
+        },
+        "image": {
+          "src": "https://images.unsplash.com/photo-1509395283565-1f72a26c353b?q=80&w=2070&auto=format&fit=crop",
+          "alt": "Dakwerken in Putte",
+          "label": "Regio Putte"
+        }
+      },
+      "contactSection": {
+        "id": "contact",
+        "title": "Problemen met uw dak in Putte?",
+        "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
       }
     }
   }
