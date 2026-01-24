@@ -57,7 +57,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    <SplitText text={t("daktimmer.title")} />
+                    {t("daktimmer.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("daktimmer.description")}
@@ -89,7 +89,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    <SplitText text={t("gevelbekleding.title")} />
+                    {t("gevelbekleding.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("gevelbekleding.description")}
@@ -121,7 +121,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    <SplitText text={t("plattedaken.title")} />
+                    {t("plattedaken.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("plattedaken.description")}
@@ -153,7 +153,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    <SplitText text={t("isolatie.title")} />
+                    {t("isolatie.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("isolatie.description")}
@@ -185,7 +185,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    <SplitText text={t("renovatie.title")} />
+                    {t("renovatie.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("renovatie.description")}
@@ -217,7 +217,7 @@ export default function ServicesMotion() {
               <div className="flex flex-col justify-between h-full">
                 <div className="flex flex-col h-full gap-y-3 justify-evenly">
                   <h2 className="h3 group-hover:lg:text-white duration-500">
-                    <SplitText text={t("groendaken.title")} />
+                    {t("groendaken.title")}
                   </h2>
                   <p className="p line-clamp-3 group-hover:lg:text-white duration-500">
                     {t("groendaken.description")}

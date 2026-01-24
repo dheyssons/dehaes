@@ -4,7 +4,7 @@ export const blueishfade = {
   },
 
   blue: (i: number) => ({
-    color: "#075a87",
+    color: "#2075b0",
     transition: {
       delay: i * 0.03,
       duration: 0.38,

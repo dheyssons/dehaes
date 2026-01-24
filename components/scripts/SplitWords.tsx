@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
 import { blueishfade } from "@/public/variants/blueishFade";
 
 type SplitTextProps = {
@@ -16,17 +16,26 @@ export function SplitText({
   letterClassName,
 }: SplitTextProps) {
   const controls = useAnimation();
+  const ref = useRef<HTMLSpanElement>(null);
+
+  const isInView = useInView(ref, {
+    once: true, // anima apenas uma vez
+    margin: "-20% 0%", // começa um pouco antes de entrar totalmente
+  });
 
   useEffect(() => {
+    if (!isInView) return;
+
     async function run() {
-      await controls.start("blue"); // varredura azul completa
-      await controls.start("black"); // depois varredura preta
+      await controls.start("blue");
+      await controls.start("black");
     }
+
     run();
-  }, [controls]);
+  }, [isInView, controls]);
 
   return (
-    <span className={className} style={{ whiteSpace: "pre" }}>
+    <span ref={ref} className={className} style={{ whiteSpace: "pre" }}>
       {text.split("").map((letter, i) => (
         <motion.span
           key={i}
