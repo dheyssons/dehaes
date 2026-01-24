@@ -144,7 +144,7 @@ export default function DakwerkenMechelenPage() {
     <main className="flex flex-col gap-y-24 md:gap-y-32 lg:gap-y-36">
       {/* HERO */}
       <section>
-        <div className="relative mt-16 md:mt-20 overflow-hidden rounded-md border border-black/5">
+        <div className=" mt-16 md:mt-20 overflow-hidden rounded-md border border-black/5">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url('${data.hero.images.background}')` }}
