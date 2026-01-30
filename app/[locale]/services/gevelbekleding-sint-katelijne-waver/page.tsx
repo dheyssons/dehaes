@@ -123,7 +123,7 @@ export default function Gevelbekleding() {
 
       <Whyus />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <ContactForm />
     </div>

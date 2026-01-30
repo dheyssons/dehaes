@@ -34,8 +34,6 @@ export default function Home() {
 
         <ExtendedAbout />
 
-        <Testimonials />
-
         <ContactForm />
       </div>
     </main>

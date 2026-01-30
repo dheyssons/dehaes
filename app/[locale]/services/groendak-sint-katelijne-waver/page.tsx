@@ -108,7 +108,7 @@ export default function Groendak() {
 
       <Whyus />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <ContactForm />
     </div>

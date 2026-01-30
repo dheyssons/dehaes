@@ -132,7 +132,7 @@ export default function Platdak() {
 
       <Whyus />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <ContactForm />
     </div>

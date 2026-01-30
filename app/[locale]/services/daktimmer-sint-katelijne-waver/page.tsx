@@ -144,7 +144,7 @@ export default function Daktimmer() {
 
       <Whyus />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <ContactForm />
     </div>

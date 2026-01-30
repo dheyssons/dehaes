@@ -132,7 +132,7 @@ export default function Renovatie() {
 
       <Whyus />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <ContactForm />
     </div>

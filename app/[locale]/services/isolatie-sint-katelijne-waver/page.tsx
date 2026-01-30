@@ -130,7 +130,7 @@ export default function Isolatie() {
 
       <Whyus />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <ContactForm />
     </div>
