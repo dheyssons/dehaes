@@ -1,21 +1,16 @@
-// NEXT
-import Image from "next/image";
-
-// IMAGES
-import Velux from "@/public/images/brands/velux.webp";
-import Resitrix from "@/public/images/brands/resitrix.webp";
-import Iko from "@/public/images/brands/iko.webp";
-import Bosscover from "@/public/images/brands/bosscover.webp";
-
-// CLIENT PART
-import BrandsCarouselMobile from "@/components/BrandsCarouselMobile";
 import { useTranslations } from "next-intl";
+import Brands from "./marquee";
+import { SplitText } from "./scripts/SplitWords";
 
-export default function Brands() {
+export default function Certifications() {
   const t = useTranslations("brands");
   return (
-    <section className="flex flex-col items-center gap-y-6">
-      <h3 className="h4 !text-center text-balance">
+    <section className="flex flex-col items-start gap-y-4">
+      <div className="mt-5 inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-neutral-50 px-4 py-1.5 text-sm font-medium text-neutral-700">
+        <span className="h-1.5 w-1.5 rounded-full bg-[--primary-color]" />
+        {t("brands_badge")}
+      </div>
+      <h3 className="h3 text-balance">
         {t("brands_title_part1")}{" "}
         <span className="text-[--primary-color]">
           {t("brands_title_part2")}
@@ -23,25 +18,10 @@ export default function Brands() {
         {t("brands_title_part3")}
       </h3>
 
-      <p className="p !text-center !max-w-screen-lg">
+      <p className="p !max-w-screen-lg">
         {t("brands_description")}
         <i>{t("brands_certifications")}</i>enz.
       </p>
-
-      {/* DESKTOP — STATIC */}
-      <div className="hidden lg:flex flex-row gap-x-20">
-        <Image className="w-36" src={Velux} alt="Velux" />
-        <Image className="w-36" src={Iko} alt="Iko" />
-        <Image className="w-36" src={Resitrix} alt="Resitrix" />
-        <Image
-          className="w-36 h-36 object-scale-down"
-          src={Bosscover}
-          alt="Bosscover"
-        />
-      </div>
-
-      {/* MOBILE — CLIENT */}
-      <BrandsCarouselMobile />
     </section>
   );
 }

@@ -1,6 +1,6 @@
 // IMAGES
 import Image from "next/image";
-import HeroImage from "@/public/home.webp";
+import HeroImage from "@/public/home.jpg";
 
 import ContactForm from "@/components/contactform";
 import Whyus from "@/components/whyus";

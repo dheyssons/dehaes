@@ -34,7 +34,8 @@
     },
     "scroll": {
       "label": "Scroll down"
-    }
+    },
+    "rating": "4.2/5 ratings"
   },
   "requestForm": {
     "title": "Request a quote",
@@ -181,7 +182,8 @@
     "about_mobile_p2": "We are active in Brussels, Walloon Brabant and the surrounding area.",
     "about_mobile_p3": "With experience passed down through generations, we tackle everything: construction, finishing and accessories.",
     "about_mobile_p4": "For each project, we deliver a customized solution.",
-    "about_cta": "Contact us"
+    "about_cta": "Contact us",
+    "about_projects": "Projects"
   },
   "contactform": {
     "contact_title1": "Contact us",
@@ -196,7 +198,8 @@
     "form_submit_notification": "Form successfully submitted"
   },
   "brands": {
-    "brands_title_part1": "De Haes Roofing,",
+    "brands_badge": "Officially recognised public works contractor · Class 3D5 · No. 32342",
+    "brands_title_part1": "Dakwerken De Haes,",
     "brands_title_part2": "experts",
     "brands_title_part3": " in roofing, facade cladding, green roofs and insulation",
     "brands_description": "We work with the best brands on the market, from quality suppliers with all necessary certifications: ",

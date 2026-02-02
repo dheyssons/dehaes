@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #0b3c5d;
+  --primary-color: #0e507c;
+  --space-section: 6rem;
+  --space-section-lg: 18rem;
 }
 html {
   @apply overflow-x-hidden;
@@ -12,11 +14,11 @@ html {
   @apply font-sans;
 }
 section {
-  @apply w-[80%] mx-auto;
+  @apply w-[85%] mx-auto;
 }
 
 .section_gap {
-  @apply flex flex-col gap-y-40;
+  @apply flex flex-col;
 }
 
 .display-large {
@@ -43,7 +45,7 @@ section {
 }
 
 .p {
-  @apply font-normal text-pretty text-[0.875rem] leading-[160%] opacity-75 tracking-[0.04em] max-w-[68ch] text-start;
+  @apply font-normal text-pretty text-[1rem] leading-[160%] opacity-75 tracking-[0.04em] max-w-[68ch] text-start;
 }
 
 .body {
@@ -74,12 +76,18 @@ a {
 .btn:hover {
   @apply bg-[#064b6d] text-white;
 }
+.btn-secondary {
+  @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center text-[0.875rem] text-[#121212] rounded-md transition-all duration-500 bg-white;
+}
+.btn-secondary:hover {
+  @apply bg-[#064b6d] text-white;
+}
 
 .btn-ghost {
   @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center outline-1 outline-white outline text-[0.875rem] text-white rounded-md transition-all duration-500;
 }
 .btn-ghost:hover {
-  @apply bg-[#064b6d] outline-[#064b6d] text-white;
+  @apply bg-[--primary-color] outline-[--primary-color] text-white;
 }
 .grid-images {
   @apply grid grid-flow-col lg:grid-flow-row grid-cols-2 lg:grid-cols-4 grid-rows-2 lg:grid-rows-1 gap-2 lg:gap-4 justify-center;

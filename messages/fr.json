@@ -33,7 +33,8 @@
     },
     "scroll": {
       "label": "Défiler vers le bas"
-    }
+    },
+    "rating": "Note de 4,2/5"
   },
   "requestForm": {
     "title": "Demande de devis",
@@ -180,7 +181,8 @@
     "about_mobile_p2": "Nous sommes actifs à Bruxelles, Brabant wallon et environs.",
     "about_mobile_p3": "Avec une expérience de génération en génération, nous traitons tout : construction, finition et accessoires.",
     "about_mobile_p4": "Pour chaque projet, nous fournissons une solution sur mesure.",
-    "about_cta": "Nous contacter"
+    "about_cta": "Nous contacter",
+    "about_projects": "Projets"
   },
   "contactform": {
     "contact_title1": "Nous contacter",
@@ -195,6 +197,7 @@
     "form_submit_notification": "Formulaire soumis avec succès"
   },
   "brands": {
+    "brands_badge": "Entrepreneur de travaux officiellement agréé · Classe 3D5 · n° 32342",
     "brands_title_part1": "Dakwerken De Haes,",
     "brands_title_part2": "experts",
     "brands_title_part3": " en toiture, revêtement de façade, toits verts et isolation",

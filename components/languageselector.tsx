@@ -27,18 +27,17 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div className="relative w-56">
+    <div className="relative">
       {/* Trigger */}
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
         className="
           flex items-center gap-6
-          rounded-md border border-white/10
+          rounded-md 
           bg-[--primary-color]
           px-4 py-3
           text-sm text-white
-          shadow-inner
           transition
           hover:border-white/20
         "
@@ -57,7 +56,7 @@ export default function LanguageSwitcher() {
             overflow-hidden-md
             border border-white/10
             bg-[--primary-color]
-            shadow-xl
+            rounded-md
           "
         >
           {locales.map((locale) => (

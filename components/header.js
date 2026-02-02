@@ -19,11 +19,8 @@ import { motion } from "framer-motion";
 import { ImWhatsapp } from "react-icons/im";
 
 //ASSURANCE
-import { AiOutlineFileDone } from "react-icons/ai";
 //INTEGRITY
-import { BiCheckShield } from "react-icons/bi";
 //EXCELLENCE
-import { MdOutlineWorkspacePremium } from "react-icons/md";
 //CUSTOMER SERVICE
 import {
   ChevronDownIcon,
@@ -41,15 +38,15 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="z-20 fixed w-screen bg-white">
-      <nav className="w-[90%] md-[80%] mx-auto flex flex-row items-center justify-between">
+    <header className="z-20 fixed w-screen">
+      <nav className="w-[90%] md:w-[85%] mx-auto flex flex-row items-center justify-between my-2 p-2 bg-white rounded-md">
         <motion.div
           variants={dropdown}
           initial="variantInit"
           whileInView="variantAnim"
           viewport={{ once: true }}
           transition={transition1_s}
-          className="max-w-max lg:flex-1 flex flex-row items-center justify-center gap-x-8 py-4"
+          className="max-w-max lg:flex-1 flex flex-row items-center justify-center gap-x-8"
         >
           {/* LOGO */}
           <motion.a variants={dropdown} href="/" className="">
@@ -57,8 +54,8 @@ export default function Header() {
           </motion.a>
           {/* INFO */}
           <motion.div variants={dropdown} className="flex flex-col">
-            <p className="text-[#121212] p">{config.ivaNumber}</p>
-            <p className="text-[#121212] p hidden lg:flex">
+            <p className="text-[#121212] body">{config.ivaNumber}</p>
+            <p className="text-[#121212] body  hidden lg:flex">
               {config.localAddress}
             </p>
             <div className="flex flex-row items-center gap-x-1 lg:hidden">
@@ -88,16 +85,15 @@ export default function Header() {
         >
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
             <menu className="hidden lg:flex lg:gap-x-12 items-center">
-              {/* HOME */}
-              {/* <li>
-                <a href="/" title="Accueil" className="body">
+              <li>
+                <a href="/" title="Accueil" className="p">
                   {t("header_home")}
                 </a>
-              </li> */}
+              </li>
 
               {/* ABOUT US */}
               <li>
-                <a href="/about" title="Wie zijn we" className="body">
+                <a href="/about" title="Wie zijn we" className="p">
                   {t("header_about")}
                 </a>
               </li>
@@ -105,11 +101,11 @@ export default function Header() {
               <div>
                 <Popover className="relative">
                   <motion.div>
-                    <PopoverButton className="flex items-center gap-x-1 body">
+                    <PopoverButton className="flex items-center gap-x-1 p">
                       {t("header_services")}
                       <ChevronDownIcon
                         aria-hidden="true"
-                        className="size-5 flex-none text-gray-400"
+                        className="size-5 flex-none text-black"
                       />
                     </PopoverButton>
                   </motion.div>
@@ -224,7 +220,7 @@ export default function Header() {
 
               {/* PORTFOLIO */}
               <li>
-                <a title="Projecten" href="/portfolio" className="body">
+                <a title="Projecten" href="/portfolio" className="p">
                   {t("header_portfolio")}
                 </a>
               </li>

@@ -33,7 +33,8 @@
     },
     "scroll": {
       "label": "Scroll naar beneden"
-    }
+    },
+    "rating": "4,2/5 beoordeling"
   },
   "requestForm": {
     "title": "Vraag een offerte aan",
@@ -180,7 +181,8 @@
     "about_mobile_p2": "Wij zijn actief in Brussel, Waals-Brabant en omgeving.",
     "about_mobile_p3": "Met ervaring van generatie op generatie pakken wij alles aan: constructie, afwerking en accessoires.",
     "about_mobile_p4": "Voor elk project leveren wij een oplossing op maat.",
-    "about_cta": "Contact opnemen"
+    "about_cta": "Contact opnemen",
+    "about_projects": "Projecten"
   },
   "contactform": {
     "contact_title1": "Contact opnemen",
@@ -195,6 +197,7 @@
     "form_submit_notification": "Formulier succesvol verzonden"
   },
   "brands": {
+    "brands_badge": "Officieel erkend aannemer van werken · Klasse 3D5 · nr. 32342",
     "brands_title_part1": "Dakwerken De Haes,",
     "brands_title_part2": "deskundigen",
     "brands_title_part3": " in dakwerken, gevelbekleding, groendaken en isolatie",

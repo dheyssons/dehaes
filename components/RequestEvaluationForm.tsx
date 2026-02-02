@@ -73,7 +73,7 @@ export default function RequestEvaluationForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="max-w-xl rounded-xl border border-gray-200 bg-white p-6 shadow-sm space-y-6"
+      className="max-w-xl rounded-md border border-gray-200 bg-white p-6 shadow-sm space-y-6"
     >
       {/* HEADER */}
       <div className="space-y-1">
@@ -82,7 +82,7 @@ export default function RequestEvaluationForm() {
       </div>
 
       {/* STEPS CONTAINER (HEIGHT STABLE) */}
-      <div className="min-h-[480px] flex flex-col justify-between">
+      <div className="min-h-[460px] flex flex-col justify-between">
         {/* STEP 1 — PROJECT INFO */}
         {step === 1 && (
           <>

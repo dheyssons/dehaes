@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:flex gap-10 md:gap-36">
+        <div className="grid grid-cols-2 md:flex gap-10 md:gap-24 lg:gap-36">
           {/* menu  */}
           <div className="flex flex-col items-start gap-y-3">
             <p className="body after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block">

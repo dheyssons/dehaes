@@ -4,7 +4,7 @@
 import Image from "next/image";
 
 // IMAGES
-import HeroImage from "@/public/home.webp";
+import HeroImage from "@/public/home.jpg";
 
 // ICONS
 import { LuArrowUpRight } from "react-icons/lu";
@@ -21,7 +21,7 @@ import { useTranslations } from "next-intl";
 
 // OTHERS
 import JsonLd from "@/components/jsonld";
-import Brands from "./marquee";
+import RatingWithAvatars from "./RatingWithAvatars";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -49,7 +49,7 @@ export default function Hero() {
             alt=""
             priority
             fill
-            className="object-cover"
+            className="object-contain"
           />
         </div>
 
@@ -74,10 +74,7 @@ export default function Hero() {
                 {t("title")}
               </motion.h1>
 
-              <motion.p
-                variants={item}
-                className="body !text-[#ffffffed] lg:!text-[#f2f2f2ed] max-w-2xl"
-              >
+              <motion.p variants={item} className="p text-white max-w-2xl">
                 {t("description")}
               </motion.p>
 
@@ -85,22 +82,46 @@ export default function Hero() {
             </div>
 
             {/* CTA */}
-            <div className="flex flex-col md:flex-row gap-3">
-              <a href="/contact" className="btn self-start uppercase">
-                {t("cta.contact")}
-              </a>
+            <div className="flex flex-col gap-3">
+              <div className="flex flex-col md:flex-row gap-3">
+                <a href="/contact" className="btn self-start uppercase">
+                  {t("cta.contact")}
+                </a>
 
-              <a
-                href="#services"
-                className="btn-ghost self-start uppercase flex items-center"
-              >
-                {t("cta.services")}
-                <LuArrowUpRight className="ml-2" />
-              </a>
+                <a
+                  href="#services"
+                  className="btn-secondary self-start uppercase flex items-center"
+                >
+                  {t("cta.services")}
+                  <LuArrowUpRight className="ml-2" />
+                </a>
+              </div>
+
+              <RatingWithAvatars
+                rating={4.2}
+                avatars={[
+                  {
+                    kind: "letter",
+                    letter: "D",
+                    bg: "#522da8",
+                    fg: "#fff",
+                    alt: "De winter Kris",
+                  },
+
+                  {
+                    kind: "letter",
+                    letter: "J",
+                    bg: "#c2175b",
+                    fg: "#fff",
+                    alt: "Johan Marien",
+                  },
+                  { kind: "image", src: "/icons/rating.webp", alt: "Pessoa 1" },
+                ]}
+              />
             </div>
           </motion.div>
 
-          <div className="hidden lg:block mt-24">
+          <div className="hidden lg:block mt-20">
             <RequestEvaluationForm />
           </div>
         </div>
@@ -113,7 +134,7 @@ export default function Hero() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 animate-bounce"
+            className="w-10 h-10 animate-bounce"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -128,11 +149,9 @@ export default function Hero() {
         </a>
       </section>
 
-      <div className="w-[90%] mx-auto flex flex-col items-center justify-center lg:hidden">
+      <div className="w-[90%] mx-auto flex flex-col items-center justify-center lg:hidden mt-[--space-section]">
         <RequestEvaluationForm />
       </div>
-
-      <Brands />
     </div>
   );
 }
