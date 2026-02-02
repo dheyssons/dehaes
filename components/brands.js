@@ -10,7 +10,7 @@ export default function Certifications() {
         <span className="h-1.5 w-1.5 rounded-full bg-[--primary-color]" />
         {t("brands_badge")}
       </div>
-      <h3 className="h3 text-balance">
+      <h3 className="h4">
         {t("brands_title_part1")}{" "}
         <span className="text-[--primary-color]">
           {t("brands_title_part2")}
