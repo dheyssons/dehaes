@@ -94,11 +94,11 @@ export default function ContactForm() {
                   whileInView="variantAnim"
                   viewport={{ once: true }}
                   transition={transition1}
-                  className="h3 !text-[--primary-color]"
+                  className="h2"
                 >
                   {t("contact_title1")}
                 </motion.h2>
-                <h2 className="h3">{t("contact_title2")}</h2>
+                <h2 className="h2">{t("contact_title2")}</h2>
               </div>
 
               <div className="flex flex-row gap-x-12 w-full justify-evenly">

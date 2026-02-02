@@ -29,7 +29,7 @@ section {
   @apply text-[2.83rem] font-bold leading-[155%] tracking-[0.015em] uppercase;
 }
 .h2 {
-  @apply text-[#141414] font-semibold text-[clamp(2rem,4vw,2rem)] leading-[155%] tracking-[0.0325em] pb-2 text-start uppercase;
+  @apply text-[#141414] font-semibold text-[clamp(1.8rem,4vw,2rem)] leading-[155%] tracking-[0.0325em] pb-2 text-start uppercase;
 }
 .h3 {
   @apply text-[#141414] text-[1.68rem] font-semibold leading-[155%] tracking-[0.02em] pb-2 uppercase;

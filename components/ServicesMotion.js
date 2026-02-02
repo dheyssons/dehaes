@@ -38,7 +38,7 @@ export default function ServicesMotion() {
               transition={transition1}
               className="h2"
             >
-              <SplitText text={t("mainTitle")} />
+              {t("mainTitle")}
             </motion.h2>
           </div>
 
