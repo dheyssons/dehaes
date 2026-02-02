@@ -20,7 +20,7 @@ import { SplitText } from "./scripts/SplitWords";
 export default function ServicesMotion() {
   const t = useTranslations("services");
   return (
-    <div className="w-screen mb-[--space-section-lg]">
+    <div className="w-screen ">
       <section id="services" className="flex flex-col gap-y-2 py-4">
         <div className="overflow-hidden space-y-10 md:space-y-20">
           {/* title */}

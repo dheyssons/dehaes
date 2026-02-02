@@ -13,7 +13,7 @@ export default function ExtendedAbout() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="mb-[--space-section-lg]">
+    <div>
       <section className="flex flex-col lg:flex-row gap-12 xl:gap-16">
         {/* IMAGE */}
         <Image

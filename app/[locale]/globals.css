@@ -4,8 +4,6 @@
 
 :root {
   --primary-color: #0e507c;
-  --space-section: 6rem;
-  --space-section-lg: 18rem;
 }
 html {
   @apply overflow-x-hidden;
@@ -18,7 +16,7 @@ section {
 }
 
 .section_gap {
-  @apply flex flex-col;
+  @apply flex flex-col gap-y-56;
 }
 
 .display-large {

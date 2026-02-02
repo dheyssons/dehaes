@@ -21,7 +21,7 @@ export default function AboutUs() {
   const t = useTranslations("about");
 
   return (
-    <div className="w-screen mt-[--space-section] mb-[--space-section-lg] space-y-16">
+    <div className="w-screen space-y-16">
       <Certifications />
       <Brands />
 

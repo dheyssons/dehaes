@@ -10,7 +10,7 @@ export default function Whyus() {
   const t = useTranslations("whyUs");
 
   return (
-    <div className="w-screen mb-[--space-section-lg]">
+    <div className="w-screen">
       <section className="flex flex-col gap-y-10 items-center">
         <div className="flex flex-col md:flex-row gap-4 lg:flex-row items-start justify-between w-full">
           <div className="flex flex-row items-center gap-x-2 p-2 border border-[--primary-color] rounded-full">
