@@ -11,6 +11,7 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { SplitText } from "@/components/scripts/SplitWords";
+import { Decorated } from "@/components/ui/decoration";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -86,54 +87,183 @@ export default function Daktimmer() {
         <div className="flex flex-col lg:flex-row gap-4 w-full justify-between">
           <div className="order-2 lg:order-none">
             <h2 className="h2 mb-8">{t("daktimmer_faq_title")}</h2>
-            <div className="flex flex-col gap-y-10">
-              {/* Pergunta 1 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color] mb-1">
-                  {t("daktimmer_faq_question1")}
-                </h3>
-                <p className="p !text-start md:text-center">
-                  {t("daktimmer_faq_answer1")}
-                </p>
-              </div>
-              {/* Pergunta 2 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color] mb-1">
-                  {t("daktimmer_faq_question2")}
-                </h3>
-                <p className="p !text-start md:text-center">
-                  {t("daktimmer_faq_answer2")}
-                </p>
-              </div>
-              {/* Pergunta 3 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color] mb-1">
-                  {t("daktimmer_faq_question3")}
-                </h3>
-                <p className="p !text-start md:text-center">
-                  {t("daktimmer_faq_answer3")}
-                </p>
-              </div>
-              {/* Pergunta 4 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color] mb-1">
-                  {t("daktimmer_faq_question4")}
-                </h3>
-                <p className="p !text-start md:text-center">
-                  {t("daktimmer_faq_answer4")}
-                </p>
-              </div>
-              {/* Pergunta 5 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color] mb-1">
-                  {t("daktimmer_faq_question5")}
-                </h3>
-                <p className="p !text-start md:text-center">
-                  {t("daktimmer_faq_answer5")}
-                </p>
-              </div>
+
+            <div className="space-y-4">
+              <Decorated variant="default">
+                {/* Pergunta 1 */}
+                <details className="rounded_default border_white overflow-hidden group">
+                  <summary className="list-none cursor-pointer select-none p-5 flex items-center justify-between gap-4">
+                    <h3 className="h6 !text-[--primary-color]">
+                      {t("daktimmer_faq_question1")}
+                    </h3>
+
+                    <span
+                      className="shrink-0 transition-transform group-open:rotate-45"
+                      aria-hidden="true"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M12 5v14" />
+                        <path d="M5 12h14" />
+                      </svg>
+                    </span>
+                  </summary>
+
+                  <div className="px-5 pb-5">
+                    <p className="p !text-start md:text-center">
+                      {t("daktimmer_faq_answer1")}
+                    </p>
+                  </div>
+                </details>
+              </Decorated>
+
+              <Decorated variant="default">
+                {/* Pergunta 2 */}
+                <details className="rounded_default border_white overflow-hidden group">
+                  <summary className="list-none cursor-pointer select-none p-5 flex items-center justify-between gap-4">
+                    <h3 className="h6 !text-[--primary-color]">
+                      {t("daktimmer_faq_question2")}
+                    </h3>
+
+                    <span className="shrink-0 transition-transform group-open:rotate-45">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M12 5v14" />
+                        <path d="M5 12h14" />
+                      </svg>
+                    </span>
+                  </summary>
+
+                  <div className="px-5 pb-5">
+                    <p className="p !text-start md:text-center">
+                      {t("daktimmer_faq_answer2")}
+                    </p>
+                  </div>
+                </details>
+              </Decorated>
+
+              <Decorated variant="default">
+                {/* Pergunta 3 */}
+                <details className="rounded_default border_white overflow-hidden group">
+                  <summary className="list-none cursor-pointer select-none p-5 flex items-center justify-between gap-4">
+                    <h3 className="h6 !text-[--primary-color]">
+                      {t("daktimmer_faq_question3")}
+                    </h3>
+
+                    <span className="shrink-0 transition-transform group-open:rotate-45">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M12 5v14" />
+                        <path d="M5 12h14" />
+                      </svg>
+                    </span>
+                  </summary>
+
+                  <div className="px-5 pb-5">
+                    <p className="p !text-start md:text-center">
+                      {t("daktimmer_faq_answer3")}
+                    </p>
+                  </div>
+                </details>
+              </Decorated>
+
+              <Decorated variant="default">
+                {/* Pergunta 4 */}
+                <details className="rounded_default border_white overflow-hidden group">
+                  <summary className="list-none cursor-pointer select-none p-5 flex items-center justify-between gap-4">
+                    <h3 className="h6 !text-[--primary-color]">
+                      {t("daktimmer_faq_question4")}
+                    </h3>
+
+                    <span className="shrink-0 transition-transform group-open:rotate-45">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M12 5v14" />
+                        <path d="M5 12h14" />
+                      </svg>
+                    </span>
+                  </summary>
+
+                  <div className="px-5 pb-5">
+                    <p className="p !text-start md:text-center">
+                      {t("daktimmer_faq_answer4")}
+                    </p>
+                  </div>
+                </details>
+              </Decorated>
+
+              <Decorated variant="default">
+                {/* Pergunta 5 */}
+                <details className="rounded_default border_white overflow-hidden group">
+                  <summary className="list-none cursor-pointer select-none p-5 flex items-center justify-between gap-4">
+                    <h3 className="h6 !text-[--primary-color]">
+                      {t("daktimmer_faq_question5")}
+                    </h3>
+
+                    <span className="shrink-0 transition-transform group-open:rotate-45">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M12 5v14" />
+                        <path d="M5 12h14" />
+                      </svg>
+                    </span>
+                  </summary>
+
+                  <div className="px-5 pb-5">
+                    <p className="p !text-start md:text-center">
+                      {t("daktimmer_faq_answer5")}
+                    </p>
+                  </div>
+                </details>
+              </Decorated>
             </div>
           </div>
+
           <Image
             alt=""
             src={QuestionMark}

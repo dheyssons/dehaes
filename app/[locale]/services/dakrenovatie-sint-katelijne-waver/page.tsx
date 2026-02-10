@@ -11,6 +11,7 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { SplitText } from "@/components/scripts/SplitWords";
+import { Decorated } from "@/components/ui/decoration";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -30,6 +31,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function Renovatie() {
+  const items = [
+    { q: "renovatie_faq_question1", a: "renovatie_faq_answer1" },
+    { q: "renovatie_faq_question2", a: "renovatie_faq_answer2" },
+    { q: "renovatie_faq_question3", a: "renovatie_faq_answer3" },
+    { q: "renovatie_faq_question4", a: "renovatie_faq_answer4" },
+    { q: "renovatie_faq_question5", a: "renovatie_faq_answer5" },
+  ];
+
   const t = useTranslations("renovatieservice");
   return (
     <div className="section_gap">
@@ -80,46 +89,46 @@ export default function Renovatie() {
             <h2 className="h2 mb-8">{t("renovatie_faq_title")}</h2>
 
             {/* Lista de Perguntas e Respostas */}
-            <div className="space-y-10">
-              {/* Pergunta 1 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question1")}
-                </h3>
-                <p className="p">{t("renovatie_faq_answer1")}</p>
-              </div>
+            <div className="space-y-4">
+              {items.map((item, i) => (
+                <Decorated key={i} variant="default">
+                  <details
+                    key={item.q}
+                    className="rounded_default border_white overflow-hidden group"
+                    {...(i === 0 ? { open: false } : {})}
+                  >
+                    <summary className="list-none cursor-pointer select-none p-5 flex items-center justify-between gap-4">
+                      <h3 className="h6 !text-[--primary-color]">
+                        {t(item.q)}
+                      </h3>
 
-              {/* Pergunta 2 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question2")}
-                </h3>
-                <p className="p">{t("renovatie_faq_answer2")}</p>
-              </div>
+                      <span
+                        className="shrink-0 transition-transform group-open:rotate-45"
+                        aria-hidden="true"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="1.8"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M12 5v14" />
+                          <path d="M5 12h14" />
+                        </svg>
+                      </span>
+                    </summary>
 
-              {/* Pergunta 3 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question3")}
-                </h3>
-                <p className="p">{t("renovatie_faq_answer3")}</p>
-              </div>
-
-              {/* Pergunta 4 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question4")}
-                </h3>
-                <p className="p">{t("renovatie_faq_answer4")}</p>
-              </div>
-
-              {/* Pergunta 5 */}
-              <div>
-                <h3 className="h4 !text-[--primary-color]">
-                  {t("renovatie_faq_question5")}
-                </h3>
-                <p className="p">{t("renovatie_faq_answer5")}</p>
-              </div>
+                    <div className="px-5 pb-5">
+                      <p className="p">{t(item.a)}</p>
+                    </div>
+                  </details>
+                </Decorated>
+              ))}
             </div>
           </div>
           <Image

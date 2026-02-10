@@ -19,7 +19,7 @@
     "header_services_renovatie_description": "Des rénovations professionnelles qui valorisent votre bien, optimisent son efficacité énergétique et embellissent votre propriété. Grâce à notre savoir-faire, nos matériaux durables et nos solutions sur mesure, nous offrons aux maisons et aux immeubles commerciaux une rénovation de haute qualité et pérenne.",
     "header_portfolio": "Projets",
     "header_portfolio_description": "Une sélection de nos projets",
-    "header_contact": "Conac",
+    "header_contact": "Contact",
     "header_facebook": "Visitez notre Facebook",
     "header_quote": "Demander un devis"
   },
@@ -171,16 +171,16 @@
     }
   },
   "extendedabout": {
-    "about_title_part1": "Votre toit,",
-    "about_title_part2": " Notre engagement !",
-    "about_desktop_p1": "Votre toit mérite une isolation et une finition de qualité supérieure. Notre équipe combine fonctionnalité et esthétique pour exécuter parfaitement chaque projet.",
-    "about_desktop_p2": "Actifs à Bruxelles, Brabant wallon et régions avoisinantes, nous offrons des solutions complètes de toiture.",
-    "about_desktop_p3": "Avec des générations d'expérience, nous prenons en charge tout, de la construction à la finition du toit.",
-    "about_desktop_p4": "Chaque projet bénéficie d'une approche personnalisée pour un toit durable, sûr et parfaitement fini.",
-    "about_mobile_p1": "Votre toit mérite le meilleur en matière de qualité, d'isolation et de finition. Notre équipe travaille avec dévouement pour combiner fonctionnalité et esthétique.",
-    "about_mobile_p2": "Nous sommes actifs à Bruxelles, Brabant wallon et environs.",
-    "about_mobile_p3": "Avec une expérience de génération en génération, nous traitons tout : construction, finition et accessoires.",
-    "about_mobile_p4": "Pour chaque projet, nous fournissons une solution sur mesure.",
+    "about_title_part1": "Nous traitons votre toiture comme si c'était la nôtre",
+    "about_title_part2": "",
+    "about_desktop_p1": "Votre toiture mérite une finition irréprochable et une isolation performante. Nous allions esthétique et fonctionnalité à chaque étape — de la structure à la finition.",
+    "about_desktop_p2": "Actifs à Bruxelles, dans le Brabant wallon et les régions voisines, nous proposons des solutions complètes pour toitures.",
+    "about_desktop_p3": "Forts de plusieurs générations d’expérience, nous prenons en charge la construction, la rénovation et la finition des toits avec soin et des matériaux durables.",
+    "about_desktop_p4": "Chaque projet bénéficie d'une approche personnalisée, assurant un résultat sûr, durable et parfaitement exécuté.",
+    "about_mobile_p1": "Finition impeccable, isolation performante, matériaux durables : nous combinons savoir-faire et technique à chaque étape.",
+    "about_mobile_p2": "Actifs à Bruxelles, Brabant wallon et environs.",
+    "about_mobile_p3": "Notre équipe expérimentée prend en charge construction, rénovation et finitions.",
+    "about_mobile_p4": "Chaque chantier bénéficie d’une approche sur mesure et adaptée.",
     "about_cta": "Nous contacter",
     "about_projects": "Projets"
   },
@@ -202,7 +202,7 @@
     "brands_title_part2": "experts",
     "brands_title_part3": " en toiture, revêtement de façade, toits verts et isolation",
     "brands_description": "Nous travaillons avec les meilleures marques du marché, des fournisseurs de qualité avec toutes les certifications nécessaires : ",
-    "brands_certifications": "Resitrix, Velux, Iko Enertherm, "
+    "brands_certifications": "Resitrix, Velux, Iko Enertherm, BossCover, Derbigum"
   },
   "testimonials": {
     "title": "Ce que disent nos clients"

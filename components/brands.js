@@ -20,7 +20,7 @@ export default function Certifications() {
 
       <p className="p !max-w-screen-lg">
         {t("brands_description")}
-        <i>{t("brands_certifications")}</i>enz.
+        <i>{t("brands_certifications")}</i>
       </p>
     </section>
   );

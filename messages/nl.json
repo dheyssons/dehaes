@@ -171,17 +171,17 @@
     }
   },
   "extendedabout": {
-    "about_title_part1": "Uw dak,",
-    "about_title_part2": " Onze toewijding!",
-    "about_desktop_p1": "Uw dak verdient topkwaliteit in isolatie en afwerking. Ons team combineert functionaliteit en esthetiek om elk project perfect uit te voeren.",
-    "about_desktop_p2": "Actief in Brussel, Waals-Brabant en omliggende regio's bieden wij complete dakoplossingen.",
-    "about_desktop_p3": "Met generaties aan ervaring verzorgen wij alles van dakconstructie tot afwerking.",
-    "about_desktop_p4": "Elk project krijgt een persoonlijke aanpak voor een duurzaam, veilig en perfect afgewerkt dak.",
-    "about_mobile_p1": "Uw dak verdient het beste in kwaliteit, isolatie en afwerking. Ons team werkt met toewijding om functionaliteit en esthetiek te combineren.",
-    "about_mobile_p2": "Wij zijn actief in Brussel, Waals-Brabant en omgeving.",
-    "about_mobile_p3": "Met ervaring van generatie op generatie pakken wij alles aan: constructie, afwerking en accessoires.",
-    "about_mobile_p4": "Voor elk project leveren wij een oplossing op maat.",
-    "about_cta": "Contact opnemen",
+    "about_title_part1": "Wij behandelen uw dak alsof het ons eigen is",
+    "about_title_part2": "",
+    "about_desktop_p1": "Uw dak verdient een perfecte afwerking en hoogwaardige isolatie. We combineren functionaliteit en esthetiek in elke fase — van structuur tot afwerking.",
+    "about_desktop_p2": "Actief in Brussel, Waals-Brabant en omliggende regio’s bieden wij volledige dakoplossingen aan.",
+    "about_desktop_p3": "Met generaties ervaring zorgen wij voor alles: van dakconstructie tot afwerking, steeds met oog voor detail en duurzame materialen.",
+    "about_desktop_p4": "Elk project krijgt een persoonlijke aanpak, met een duurzaam, veilig en vakkundig afgewerkt resultaat als einddoel.",
+    "about_mobile_p1": "Afwerking, isolatie en duurzaamheid in één aanpak. Wij combineren vakmanschap met moderne technieken.",
+    "about_mobile_p2": "Actief in Brussel, Waals-Brabant en omgeving.",
+    "about_mobile_p3": "Wij verzorgen dakconstructies, renovaties en afwerking met jarenlange expertise.",
+    "about_mobile_p4": "Voor elk project bieden we een oplossing op maat.",
+    "about_cta": "Contacteer ons",
     "about_projects": "Projecten"
   },
   "contactform": {
@@ -202,7 +202,7 @@
     "brands_title_part2": "deskundigen",
     "brands_title_part3": " in dakwerken, gevelbekleding, groendaken en isolatie",
     "brands_description": "Wij werken met de beste merken op de markt, van kwaliteitsleveranciers met alle nodige certificeringen: ",
-    "brands_certifications": "Resitrix, Velux, Iko Enertherm, "
+    "brands_certifications": "Resitrix, Velux, Iko Enertherm, BossCover, Derbigum"
   },
   "testimonials": {
     "title": "Wat onze klanten zeggen"
