@@ -230,6 +230,9 @@ export default function Footer() {
           >
             Doon Digital
           </a>
+          <a className="opacity-0" href="https://seojuice.com">
+            SEOJuice
+          </a>
         </p>
       </div>
     </footer>
