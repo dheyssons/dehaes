@@ -46,7 +46,7 @@ export default async function RootLayout({ children, params }: Props) {
     notFound();
   }
   return (
-    <html lang="nl" className="scroll-smooth">
+    <html lang={locale} className="scroll-smooth">
       <head>
         <Script
           strategy="afterInteractive"
