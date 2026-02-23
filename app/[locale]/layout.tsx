@@ -1,3 +1,5 @@
+import "./globals.css";
+
 import CookieConsent from "../../components/CookieConsent";
 import { NextIntlClientProvider } from "next-intl";
 
@@ -28,11 +30,9 @@ export const metadata = {
     template: "%s - Dakwerken De Haes",
   },
   description:
-    "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
+    "Algemene dakwerken - Daktimmerwerk, dakrenovatie, gevelbekleding en isolatiewerk",
 };
 
-import "./globals.css";
-import MetaPixel from "@/components/MetaPixel";
 import Script from "next/script";
 
 type Props = {
@@ -76,32 +76,8 @@ export default async function RootLayout({ children, params }: Props) {
         />
         <meta
           name="keywords"
-          content="Dakwerken, de haes, dakwerken, sd Dakwerken, Dakwerken mb, sbk Dakwerken, Belgique, carpentry"
+          content="Daktimmerwerk, dakherstelling, algemene dakwerken sint-katelijne-waver, gevelrenovatie sint-katelijne-waver, dakwerken sint-katelijne-waver, de haes, daktimmer, dakwerken sint katelijne waver, schrijnwerkers brussels, schrijnwerker sint-niklaas, dehaes, isolatiewerken sint-katelijne-waver, carpentry"
         ></meta>
-        <script src="https://t.contentsquare.net/uxa/2e430bc3b81f7.js"></script>
-
-        {/* <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1406701764156938');
-            fbq('track', 'PageView');
-            `,
-          }}
-        ></script> */}
-        {/* <noscript>
-          <img
-            style={{ height: 1, width: 1, display: "none" }}
-            src="https://www.facebook.com/tr?id=1406701764156938&ev=PageView&noscript=1"
-          />
-        </noscript> */}
       </head>
 
       <meta
@@ -114,7 +90,6 @@ export default async function RootLayout({ children, params }: Props) {
           {children}
           <CookieConsent />
 
-          {/* <MetaPixel /> */}
           <Analytics />
           <Footer></Footer>
         </NextIntlClientProvider>

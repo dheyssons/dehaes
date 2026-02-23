@@ -4,7 +4,6 @@ import HeroImage from "@/public/home.jpg";
 
 import ContactForm from "@/components/contactform";
 import Whyus from "@/components/whyus";
-import Testimonials from "@/components/testimonials";
 
 import Hero from "@/components/hero";
 import ExtendedAbout from "@/components/ExtendedAbout";
