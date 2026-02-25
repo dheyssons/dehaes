@@ -5,6 +5,7 @@
     "header_home": "Home",
     "header_about": "Wie zijn we",
     "header_services": "Onze diensten",
+    "header_articles": "Artikelen",
     "header_services_plattedaken": "Plat dak",
     "header_services_plattedaken_description": "Platte daken combineren een strak design met hoge functionaliteit. Met correcte isolatie, doordachte waterafvoer en duurzame dakbedekking zoals EPDM of bitumen zorgen wij voor een betrouwbaar, waterdicht en langdurig plat dak.",
     "header_services_daktimmer": "Daktimmer",
@@ -1118,6 +1119,70 @@
         "id": "contact",
         "title": "Problemen met uw dak in Putte?",
         "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    }
+  },
+  "Blog": {
+    "breadcrumb": "Blog",
+    "meta": {
+      "title": "Artikelen",
+      "description": "Ontdek onze artikelen over dakrenovatie, EPDM, dakisolatie en premies in de regio Mechelen."
+    },
+    "title": "Artikelen",
+    "subtitle": "Tips, prijzen en informatie over dakwerken in Mechelen, Lier en omgeving.",
+    "readMore": "Lees meer",
+    "backToBlog": "Terug naar blog",
+    "cta": {
+      "label": "Dakwerken De Haes",
+      "sub": "Gratis plaatsbezoek · Offerte binnen 24u · Geen verplichtingen",
+      "text": "Vraag vandaag nog een gratis offerte aan.",
+      "button": "Offerte aanvragen"
+    },
+    "articles": {
+      "prijs-dakrenovatie-mechelen-2026": {
+        "title": "Prijs dakrenovatie in Mechelen: wat kost het in 2026?",
+        "excerpt": "Wat kost een dakrenovatie per m² in Mechelen in 2026? Ontdek de actuele prijzen, de Mijn VerbouwPremie en hoe u tot 50% kunt besparen.",
+        "meta": {
+          "title": "Prijs dakrenovatie Mechelen 2026 | Dakwerken De Haes",
+          "description": "Actuele prijzen per m² voor dakrenovatie in Mechelen. Inclusief Mijn VerbouwPremie 2026. Vraag een gratis offerte aan bij Dakwerken De Haes."
+        },
+        "content": {
+          "intro": "<h2>Wat kost een dakrenovatie per m² in Mechelen in 2026?</h2><p>De prijs van dakwerken in Mechelen schommelt in 2026 tussen <strong>€50 en €150 per m²</strong>, afhankelijk van het type ingreep. Een eenvoudige herstelling kost minder, terwijl een volledige renovatie inclusief isolatie aan de bovenkant van dat bereik zit. Als <serviceLink>erkend dakwerker in de regio Mechelen</serviceLink> geven wij u altijd een transparante offerte op maat.</p>",
+          "section1": "<h2>Overzicht van de prijzen per type dakwerk</h2><p>Voor het <strong>vervangen van dakpannen</strong> rekent u gemiddeld €50–€80/m². Een volledige dakrenovatie met nieuwe onderdakfolie en isolatie loopt op tot €100–€150/m². Bij platdaken met EPDM-membraan liggen de kosten tussen €60–€100/m². De dakoppervlakte, helling, en bereikbaarheid van uw woning in Mechelen of omgeving bepalen mee de eindprijs.</p><p>Goed om weten: woningen ouder dan <strong>10 jaar</strong> komen in aanmerking voor het verlaagde btw-tarief van <strong>6% in plaats van 21%</strong> op arbeidskosten. Dit kan een aanzienlijke besparing opleveren op uw totale factuur.</p>",
+          "section2": "<h2>Mijn VerbouwPremie 2026: bespaar op uw dakrenovatie</h2><p>Via de <strong>Mijn VerbouwPremie</strong> van de Vlaamse overheid kunt u een aanzienlijk deel van uw dakrenovatiekosten recupereren. De premie werkt met 4 inkomenscategorieën: de laagste inkomens krijgen tot <strong>50%</strong> terug, de middeninkomens tot <strong>35%</strong>. Voor de hoogste inkomenscategorieën geldt een vast bedrag per m². Wij begeleiden u in het volledige premietraject.</p>",
+          "section3": "<h2>Dakwerker offerte aanvragen in Mechelen</h2><p>De beste manier om een correcte prijs te kennen is een bezoek ter plaatse. Dakwerken De Haes is actief in Mechelen, Duffel, Lier, Sint-Katelijne-Waver en de ruime omgeving. Onze offertes zijn gratis, vrijblijvend en inclusief advies over beschikbare premies. <link>Vraag vandaag uw offerte aan</link> en wij contacteren u binnen 24 uur.</p>",
+          "conclusion": "<p>Wilt u weten wat een dakrenovatie concreet kost voor uw woning? <link>Contacteer Dakwerken De Haes</link> voor een gratis plaatsbezoek en een offerte op maat in de regio Mechelen.</p>"
+        }
+      },
+      "plat-dak-renovatie-epdm": {
+        "title": "Plat dak renovatie met EPDM: voordelen, prijs en levensduur",
+        "excerpt": "EPDM is de gouden standaard voor platdaken in 2026. Ontdek waarom, wat het kost en waar u op moet letten bij de renovatie van uw plat dak.",
+        "meta": {
+          "title": "Plat dak renovatie EPDM 2026 | Dakwerken De Haes Mechelen",
+          "description": "Alles over plat dak renovatie met EPDM in 2026: prijs, levensduur en onderhoud. Dakwerken De Haes, erkend dakwerker in de buurt."
+        },
+        "content": {
+          "intro": "<h2>Waarom EPDM de beste keuze is voor uw plat dak in 2026</h2><p><strong>EPDM (synthetisch rubber)</strong> is uitgegroeid tot de meest gevraagde oplossing voor platdakrenovatie. Het materiaal gaat 30 tot 50 jaar mee, is volledig waterdicht en vereist nauwelijks onderhoud. Of u nu een dakwerker in de buurt zoekt voor een kleine renovatie of een volledig nieuw platdak, EPDM biedt de beste prijs-kwaliteitsverhouding.</p>",
+          "section1": "<h2>Prijs van een plat dak renovatie met EPDM</h2><p>De installatieprijs van een EPDM-membraan bedraagt gemiddeld <strong>€60–€100 per m²</strong>, inclusief plaatsing en afwerking. Bij een combinatie met dakisolatie loopt dit op tot €100–€150/m², maar dan profiteert u ook van de Mijn VerbouwPremie. In vergelijking met bitumen of PVC heeft EPDM een langere levensduur en lagere onderhoudskosten op termijn.</p>",
+          "section2": "<h2>Zonnepanelen op plat dak: waar moet u op letten?</h2><p>Een platdakrenovatie is het ideale moment om <strong>rekening te houden met toekomstige zonnepanelen</strong>. De dakdichting en de bevestigingspunten moeten correct zijn voordat een zonnepanelen-installateur aan de slag gaat. Wij zorgen voor een solide en waterdichte basis zodat de installatie van zonnepanelen nadien probleemloos kan verlopen.</p>",
+          "section3": "<h2>Hoe lang gaat een EPDM-dak mee?</h2><p>Een correct geplaatst EPDM-membraan gaat <strong>30 tot 50 jaar</strong> mee zonder grote tussenkomsten. Regelmatige visuele controle en het schoonhouden van de afvoeren volstaan als onderhoud.</p>",
+          "conclusion": "<p>Heeft u een plat dak dat aan renovatie toe is? <link>Contacteer onze dakwerkers in de buurt</link> voor een gratis plaatsbezoek. Wij adviseren u over de beste oplossing voor uw situatie in Mechelen en omgeving.</p>"
+        }
+      },
+      "dakisolatie-premie-2026": {
+        "title": "Dakisolatie premie 2026: alles over de Mijn VerbouwPremie in Sint-Katelijne-Waver",
+        "excerpt": "Vanaf maart 2026 wijzigt de Mijn VerbouwPremie. Ontdek de nieuwe bedragen per inkomenscategorie en hoe Dakwerken De Haes u begeleidt in Sint-Katelijne-Waver.",
+        "meta": {
+          "title": "Dakisolatie premie 2026 Sint-Katelijne-Waver | Dakwerken De Haes",
+          "description": "Correcte info over de Mijn VerbouwPremie 2026 voor dakisolatie in Sint-Katelijne-Waver. Nieuwe bedragen per inkomenscategorie. Gratis advies bij Dakwerken De Haes."
+        },
+        "content": {
+          "intro": "<h2>Dakisolatie premie 2026: wat verandert er vanaf maart?</h2><p>Vanaf <strong>1 maart 2026</strong> wijzigt de Mijn VerbouwPremie ingrijpend. De hervorming heeft vooral impact op eigenaar-bewoners uit de hogere inkomenscategorieën. Als <serviceLink>erkend dakwerker in Sint-Katelijne-Waver</serviceLink> met klasse 3D5-erkenning begeleiden wij u door de nieuwe regels zodat u maximaal kunt profiteren van de beschikbare premies.</p>",
+          "section1": "<h2>Hoeveel bedraagt de Mijn VerbouwPremie voor dakisolatie in 2026?</h2><p>De premie werkt met <strong>4 inkomenscategorieën</strong>. Categorie 4 (laagste inkomens) ontvangt tot <strong>50%</strong> van de kosten, met een maximum van €5.750. Categorie 3 krijgt tot <strong>35%</strong>, max. €4.025. Voor categorieën 1 en 2 (de 30% hoogste inkomens) geldt vanaf 1 maart 2026 een vast bedrag van respectievelijk <strong>€8/m²</strong> en <strong>€16/m²</strong> (max. 100 m²). Weet u niet in welke categorie u valt? Gebruik de officiële simulator op vlaanderen.be of vraag het ons tijdens het plaatsbezoek.</p>",
+          "section2": "<h2>Voorwaarden om de premie te ontvangen</h2><p>Om recht te hebben op de dakisolatiepremie moet het werk worden uitgevoerd door een <strong>erkend aannemer</strong>, moet de isolatie voldoen aan de minimale R-waarde (R ≥ 4,5 m²K/W voor hellende daken), en moet de aanvraag worden ingediend <strong>binnen 2 jaar na de factuur</strong>. Dakwerken De Haes begeleidt u van a tot z: van de technische uitvoering tot de volledige premieaanvraag via Mijn VerbouwLoket.</p>",
+          "section3": "<h2>Dakisolatie in Sint-Katelijne-Waver en omgeving</h2><p>Wij zijn actief in Sint-Katelijne-Waver, Mechelen, Duffel, Lier en Bornem. Als familiebedrijf met vier generaties ervaring kennen wij de lokale regelgeving en premies door en door. Na het plaatsbezoek ontvangt u een duidelijke offerte op maat.</p>",
+          "conclusion": "<p>De nieuwe regels gelden vanaf 1 maart 2026 — wacht niet te lang. <link>Vraag vandaag uw gratis offerte aan</link> en wij begeleiden u door het volledige premietraject in Sint-Katelijne-Waver en omgeving.</p>"
+        }
       }
     }
   }

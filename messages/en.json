@@ -5,6 +5,7 @@
     "header_home": "Home",
     "header_about": "About us",
     "header_services": "Our services",
+    "header_articles": "Articles",
     "header_services_plattedaken": "Flat Roofs",
     "header_services_plattedaken_description": "Flat roofs combine sleek design with high functionality. With proper insulation, well-designed drainage, and durable roofing materials like EPDM or bitumen, we ensure a reliable, waterproof, and long-lasting flat roof.",
     "header_services_daktimmer": "Roof Carpentry",
@@ -1119,6 +1120,70 @@
         "id": "contact",
         "title": "Problemen met uw dak in Putte?",
         "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    }
+  },
+  "Blog": {
+    "breadcrumb": "Blog",
+    "meta": {
+      "title": "Blog | Dakwerken De Haes",
+      "description": "Articles on roof renovation, EPDM flat roofs, insulation grants and roofing prices in the Mechelen region."
+    },
+    "title": "Blog",
+    "subtitle": "Tips, prices and information on roofing in Mechelen, Lier and surroundings.",
+    "readMore": "Read more",
+    "backToBlog": "Back to blog",
+    "cta": {
+      "label": "Dakwerken De Haes",
+      "sub": "Free site visit · Quote within 24h · No obligation",
+      "text": "Request a free quote today.",
+      "button": "Request a quote"
+    },
+    "articles": {
+      "prijs-dakrenovatie-mechelen-2026": {
+        "title": "Roof renovation price in Mechelen: what does it cost in 2026?",
+        "excerpt": "What is the price per m² for roof renovation in Mechelen in 2026? Current rates, Mijn VerbouwPremie and how to save up to 50%.",
+        "meta": {
+          "title": "Roof renovation price Mechelen 2026 | Dakwerken De Haes",
+          "description": "Current prices per m² for roof renovation in Mechelen. Including Mijn VerbouwPremie 2026. Free quote from Dakwerken De Haes."
+        },
+        "content": {
+          "intro": "<h2>What does roof renovation cost per m² in Mechelen in 2026?</h2><p>Roofing prices in Mechelen in 2026 range between <strong>€50 and €150 per m²</strong>, depending on the type of work. As a <serviceLink>certified roofer in the Mechelen region</serviceLink>, we always provide a transparent, personalised quote.</p>",
+          "section1": "<h2>Price overview by type of roofing work</h2><p><strong>Replacing roof tiles</strong> averages €50–€80/m². A full renovation with insulation goes up to €100–€150/m². Flat roofs with EPDM membrane cost €60–€100/m². Roof area, pitch and accessibility all influence the final price.</p><p>Good to know: homes older than <strong>10 years</strong> qualify for the reduced VAT rate of <strong>6% instead of 21%</strong> on labour costs — a significant saving on your total bill.</p>",
+          "section2": "<h2>Mijn VerbouwPremie 2026: save on your roof renovation</h2><p>Through the Flemish government's <strong>Mijn VerbouwPremie</strong>, you can recover a significant part of your renovation costs. The grant works with 4 income categories: the lowest incomes get back up to <strong>50%</strong>, middle incomes up to <strong>35%</strong>. For the higher income categories, a fixed amount per m² applies. We guide you through the entire process.</p>",
+          "section3": "<h2>Request a roofer quote in Mechelen</h2><p>The best way to get an accurate price is an on-site visit. Dakwerken De Haes is active in Mechelen, Duffel, Lier, Sint-Katelijne-Waver and surrounding areas. <link>Request your quote today</link> and we will contact you within 24 hours.</p>",
+          "conclusion": "<p>Want to know the exact cost for your home? <link>Contact Dakwerken De Haes</link> for a free site visit and a tailored quote in the Mechelen region.</p>"
+        }
+      },
+      "plat-dak-renovatie-epdm": {
+        "title": "Flat roof renovation with EPDM: benefits, price and lifespan",
+        "excerpt": "EPDM is the gold standard for flat roofs in 2026. Find out why, what it costs and what to look out for when renovating your flat roof.",
+        "meta": {
+          "title": "Flat roof renovation EPDM 2026 | Dakwerken De Haes Mechelen",
+          "description": "Everything about flat roof renovation with EPDM in 2026: price, lifespan and maintenance. Dakwerken De Haes, certified roofer near you."
+        },
+        "content": {
+          "intro": "<h2>Why EPDM is the best choice for your flat roof in 2026</h2><p><strong>EPDM (synthetic rubber)</strong> has become the most popular solution for flat roof renovation. The material lasts 30 to 50 years, is fully waterproof and requires minimal maintenance. EPDM offers the best value for a durable renovation.</p>",
+          "section1": "<h2>Price of a flat roof renovation with EPDM</h2><p>The installation price of an EPDM membrane averages <strong>€60–€100 per m²</strong>, including fitting and finishing. Combined with insulation, this rises to €100–€150/m², but you then qualify for the Mijn VerbouwPremie. Compared to bitumen or PVC, EPDM has a longer lifespan and lower long-term maintenance costs.</p>",
+          "section2": "<h2>Solar panels on a flat roof: what to consider</h2><p>A flat roof renovation is the ideal time to <strong>prepare for future solar panels</strong>. The waterproofing and fixing points must be correct before a solar installer gets to work. We ensure a solid, watertight base so that the solar panel installation can proceed without issues.</p>",
+          "section3": "<h2>How long does an EPDM roof last?</h2><p>A correctly installed EPDM membrane lasts <strong>30 to 50 years</strong> without major intervention. Regular visual checks and keeping drains clear are all the maintenance needed.</p>",
+          "conclusion": "<p>Does your flat roof need renovation? <link>Contact our roofers near you</link> for a free site visit. We advise you on the best solution for your situation in Mechelen and surroundings.</p>"
+        }
+      },
+      "dakisolatie-premie-2026": {
+        "title": "Roof insulation grant 2026: everything about Mijn VerbouwPremie in Sint-Katelijne-Waver",
+        "excerpt": "From March 2026, the Mijn VerbouwPremie changes significantly. Discover the new amounts per income category and how Dakwerken De Haes guides you.",
+        "meta": {
+          "title": "Roof insulation grant 2026 Sint-Katelijne-Waver | Dakwerken De Haes",
+          "description": "Accurate info on the Mijn VerbouwPremie 2026 for roof insulation. New amounts per income category. Free advice from Dakwerken De Haes."
+        },
+        "content": {
+          "intro": "<h2>Roof insulation grant 2026: what changes from March onwards?</h2><p>From <strong>1 March 2026</strong>, the Mijn VerbouwPremie changes significantly. The reform mainly affects owner-occupiers in the higher income categories. As a <serviceLink>certified roofer in Sint-Katelijne-Waver</serviceLink> with class 3D5 accreditation, we guide you through the new rules to maximise your grants.</p>",
+          "section1": "<h2>How much is the Mijn VerbouwPremie for roof insulation in 2026?</h2><p>The grant works with <strong>4 income categories</strong>. Category 4 (lowest incomes) receives up to <strong>50%</strong> of costs, with a maximum of €5,750. Category 3 gets up to <strong>35%</strong>, max. €4,025. For categories 1 and 2 (the top 30% of incomes), from 1 March 2026, a fixed amount of <strong>€8/m²</strong> and <strong>€16/m²</strong> respectively applies (max. 100 m²). Use the official simulator at vlaanderen.be or ask us during the site visit.</p>",
+          "section2": "<h2>Conditions to receive the grant</h2><p>Work must be carried out by a <strong>certified contractor</strong>, the insulation must meet the minimum R-value (R ≥ 4.5 m²K/W), and the application must be submitted <strong>within 2 years of the invoice</strong>. Dakwerken De Haes guides you from start to finish: from technical execution to the full grant application via Mijn VerbouwLoket.</p>",
+          "section3": "<h2>Roof insulation in Sint-Katelijne-Waver and surroundings</h2><p>We are active in Sint-Katelijne-Waver, Mechelen, Duffel, Lier and Bornem. As a family business with four generations of experience, we know the local regulations and grants inside out. After the site visit, you will receive a clear, personalised quote.</p>",
+          "conclusion": "<p>The new rules apply from 1 March 2026 — don't wait too long. <link>Request your free quote today</link> and we will guide you through the full grant process in Sint-Katelijne-Waver.</p>"
+        }
       }
     }
   }

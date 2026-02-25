@@ -4,10 +4,9 @@ import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
-const locales = ["en", "nl", "fr"] as const;
+const locales = ["nl", "fr"] as const;
 
 const labels: Record<(typeof locales)[number], string> = {
-  en: "English",
   nl: "Nederlands",
   fr: "Français",
 };

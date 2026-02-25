@@ -15,13 +15,18 @@ import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/react";
 
 //FONT IMPORT
-import { Archivo } from "next/font/google";
+import { Archivo, IBM_Plex_Sans } from "next/font/google";
 import React from "react";
 
 const archivo = Archivo({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--font-archivo",
+});
+const ibmPlexSans = IBM_Plex_Sans({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-ibm",
 });
 
 export const metadata = {
@@ -84,7 +89,9 @@ export default async function RootLayout({ children, params }: Props) {
         name="google-site-verification"
         content="iJG9g6Q9U-v746a0tzQHDktkoMmmpHSIrWBU9EAjGus"
       />
-      <body className={`${archivo.variable} antialiased`}>
+      <body
+        className={`${archivo.variable} ${ibmPlexSans.variable} antialiased`}
+      >
         <NextIntlClientProvider>
           <Header></Header>
           {children}

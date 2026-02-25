@@ -224,6 +224,11 @@ export default function Header() {
                   {t("header_portfolio")}
                 </a>
               </li>
+              <li>
+                <a title="Articles" href="/blog" className="p">
+                  {t("header_articles")}
+                </a>
+              </li>
 
               {/* CONTACT */}
               {/* <li>
@@ -359,6 +364,13 @@ export default function Header() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   {t("header_portfolio")}
+                </a>
+                <a
+                  title="articles"
+                  href="/blog"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  {t("header_articles")}
                 </a>
                 <a
                   title="contact"

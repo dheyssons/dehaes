@@ -5,6 +5,7 @@
     "header_home": "Accueil",
     "header_about": "Qui sommes-nous",
     "header_services": "Nos services",
+    "header_articles": "Articles",
     "header_services_plattedaken": "Toit plat",
     "header_services_plattedaken_description": "Les toitures plates allient esthétique et fonctionnalité. Grâce à une isolation performante, un système de drainage bien conçu et des matériaux de couverture durables comme l'EPDM ou le bitume, nous garantissons une toiture plate fiable, étanche et pérenne.",
     "header_services_daktimmer": "Charpente de toit",
@@ -1118,6 +1119,70 @@
         "id": "contact",
         "title": "Problemen met uw dak in Putte?",
         "description": "Vraag een vrijblijvende offerte aan. We reageren snel en plannen een inspectie wanneer nodig."
+      }
+    }
+  },
+  "Blog": {
+    "breadcrumb": "Blog",
+    "meta": {
+      "title": "Articles",
+      "description": "Découvrez nos articles sur la rénovation de toiture, l'EPDM, l'isolation et les primes dans la région de Malines."
+    },
+    "title": "Articles",
+    "subtitle": "Conseils, prix et informations sur les travaux de toiture à Malines, Lierre et environs.",
+    "readMore": "Lire la suite",
+    "backToBlog": "Retour au blog",
+    "cta": {
+      "label": "Dakwerken De Haes",
+      "sub": "Visite gratuite · Devis en 24h · Sans engagement",
+      "text": "Demandez un devis gratuit dès aujourd'hui.",
+      "button": "Demander un devis"
+    },
+    "articles": {
+      "prijs-dakrenovatie-mechelen-2026": {
+        "title": "Prix rénovation toiture à Malines : combien ça coûte en 2026 ?",
+        "excerpt": "Quel est le prix par m² d'une rénovation de toiture à Malines en 2026 ? Découvrez les tarifs actuels, la Mijn VerbouwPremie et comment économiser jusqu'à 50%.",
+        "meta": {
+          "title": "Prix rénovation toiture Malines 2026 | Dakwerken De Haes",
+          "description": "Prix actuels par m² pour la rénovation de toiture à Malines. Incluant la Mijn VerbouwPremie 2026. Devis gratuit chez Dakwerken De Haes."
+        },
+        "content": {
+          "intro": "<h2>Quel est le prix par m² d'une rénovation de toiture à Malines en 2026 ?</h2><p>Le prix des travaux de toiture à Malines oscille en 2026 entre <strong>50 € et 150 € par m²</strong>, selon le type d'intervention. En tant que <serviceLink>couvreur reconnu dans la région de Malines</serviceLink>, nous vous offrons toujours un devis transparent et personnalisé.</p>",
+          "section1": "<h2>Aperçu des prix par type de travaux</h2><p>Le <strong>remplacement de tuiles</strong> coûte en moyenne 50–80 €/m². Une rénovation complète avec isolation va jusqu'à 100–150 €/m². Pour les toits plats avec membrane EPDM, les coûts se situent entre 60–100 €/m². La superficie, la pente et l'accessibilité de votre maison à Malines influencent également le prix final.</p><p>À savoir : les habitations de plus de <strong>10 ans</strong> bénéficient du taux de TVA réduit de <strong>6% au lieu de 21%</strong> sur les frais de main-d'œuvre. Une économie non négligeable sur votre facture totale.</p>",
+          "section2": "<h2>Mijn VerbouwPremie 2026 : économisez sur votre rénovation de toiture</h2><p>Via la <strong>Mijn VerbouwPremie</strong> du gouvernement flamand, vous pouvez récupérer une part significative de vos frais de rénovation. La prime fonctionne avec 4 catégories de revenus : les revenus les plus faibles récupèrent jusqu'à <strong>50%</strong>, les revenus moyens jusqu'à <strong>35%</strong>. Pour les catégories supérieures, un montant fixe par m² s'applique. Nous vous accompagnons dans toutes les démarches.</p>",
+          "section3": "<h2>Demander un devis de couvreur à Malines</h2><p>La meilleure façon d'obtenir un prix précis est une visite sur place. Dakwerken De Haes est actif à Malines, Duffel, Lierre, Sint-Katelijne-Waver et les environs. <link>Demandez votre devis aujourd'hui</link> et nous vous contacterons dans les 24 heures.</p>",
+          "conclusion": "<p>Vous souhaitez connaître le coût concret d'une rénovation pour votre maison ? <link>Contactez Dakwerken De Haes</link> pour une visite gratuite et un devis sur mesure dans la région de Malines.</p>"
+        }
+      },
+      "plat-dak-renovatie-epdm": {
+        "title": "Rénovation toit plat en EPDM : avantages, prix et durée de vie",
+        "excerpt": "L'EPDM est la référence pour les toits plats en 2026. Découvrez pourquoi, combien ça coûte et ce qu'il faut savoir avant de rénover votre toit plat.",
+        "meta": {
+          "title": "Rénovation toit plat EPDM 2026 | Dakwerken De Haes Malines",
+          "description": "Tout sur la rénovation toit plat EPDM en 2026 : prix, durée de vie et entretien. Dakwerken De Haes, couvreur reconnu près de chez vous."
+        },
+        "content": {
+          "intro": "<h2>Pourquoi l'EPDM est le meilleur choix pour votre toit plat en 2026</h2><p><strong>L'EPDM (caoutchouc synthétique)</strong> est devenu la solution la plus demandée pour la rénovation de toits plats. Le matériau dure 30 à 50 ans, est entièrement étanche et nécessite peu d'entretien. L'EPDM offre le meilleur rapport qualité-prix pour une rénovation durable.</p>",
+          "section1": "<h2>Prix d'une rénovation toit plat en EPDM</h2><p>Le prix d'installation d'une membrane EPDM est en moyenne de <strong>60–100 €/m²</strong>, installation et finition comprises. Combiné à l'isolation, cela monte à 100–150 €/m², mais vous bénéficiez alors de la Mijn VerbouwPremie. Par rapport au bitume ou au PVC, l'EPDM a une durée de vie plus longue et des coûts d'entretien inférieurs.</p>",
+          "section2": "<h2>Panneaux solaires sur toit plat : ce qu'il faut savoir</h2><p>La rénovation d'un toit plat est le moment idéal pour <strong>anticiper l'installation de panneaux solaires</strong>. L'étanchéité et les points de fixation doivent être corrects avant qu'un installateur de panneaux solaires intervienne. Nous vous assurons une base solide et étanche pour que l'installation ultérieure se déroule sans problème.</p>",
+          "section3": "<h2>Quelle est la durée de vie d'un toit EPDM ?</h2><p>Une membrane EPDM correctement posée dure <strong>30 à 50 ans</strong> sans intervention majeure. Un contrôle visuel régulier et le nettoyage des évacuations suffisent comme entretien.</p>",
+          "conclusion": "<p>Votre toit plat nécessite une rénovation ? <link>Contactez nos couvreurs proches de chez vous</link> pour une visite gratuite. Nous vous conseillons sur la meilleure solution pour votre situation à Malines et environs.</p>"
+        }
+      },
+      "dakisolatie-premie-2026": {
+        "title": "Prime isolation toiture 2026 : tout sur la Mijn VerbouwPremie à Sint-Katelijne-Waver",
+        "excerpt": "À partir de mars 2026, la Mijn VerbouwPremie change. Découvrez les nouveaux montants par catégorie de revenus et l'accompagnement de Dakwerken De Haes.",
+        "meta": {
+          "title": "Prime isolation toiture 2026 Sint-Katelijne-Waver | Dakwerken De Haes",
+          "description": "Informations correctes sur la Mijn VerbouwPremie 2026 pour l'isolation de toiture. Nouveaux montants par catégorie. Conseil gratuit chez Dakwerken De Haes."
+        },
+        "content": {
+          "intro": "<h2>Prime isolation toiture 2026 : quelles nouveautés à partir de mars ?</h2><p>À partir du <strong>1er mars 2026</strong>, la Mijn VerbouwPremie change considérablement. La réforme touche surtout les propriétaires-occupants des catégories de revenus supérieures. En tant que <serviceLink>couvreur reconnu à Sint-Katelijne-Waver</serviceLink> avec l'agrément classe 3D5, nous vous guidons à travers les nouvelles règles pour maximiser vos primes.</p>",
+          "section1": "<h2>Quel est le montant de la Mijn VerbouwPremie pour l'isolation en 2026 ?</h2><p>La prime fonctionne avec <strong>4 catégories de revenus</strong>. La catégorie 4 (revenus les plus faibles) reçoit jusqu'à <strong>50%</strong> des coûts, avec un maximum de 5.750 €. La catégorie 3 obtient jusqu'à <strong>35%</strong>, max. 4.025 €. Pour les catégories 1 et 2 (les 30% de revenus les plus élevés), à partir du 1er mars 2026, un montant fixe de respectivement <strong>8 €/m²</strong> et <strong>16 €/m²</strong> s'applique (max. 100 m²). Utilisez le simulateur officiel sur vlaanderen.be ou demandez-nous lors de la visite.</p>",
+          "section2": "<h2>Conditions pour bénéficier de la prime</h2><p>Les travaux doivent être réalisés par un <strong>entrepreneur agréé</strong>, l'isolation doit respecter la valeur R minimale (R ≥ 4,5 m²K/W), et la demande doit être introduite <strong>dans les 2 ans suivant la facture</strong>. Dakwerken De Haes vous accompagne de A à Z : de l'exécution technique à la demande complète via Mijn VerbouwLoket.</p>",
+          "section3": "<h2>Isolation de toiture à Sint-Katelijne-Waver et environs</h2><p>Nous sommes actifs à Sint-Katelijne-Waver, Malines, Duffel, Lierre et Bornem. En tant que famille d'entreprise avec quatre générations d'expérience, nous connaissons parfaitement la réglementation locale et les primes. Après la visite, vous recevez un devis clair et personnalisé.</p>",
+          "conclusion": "<p>Les nouvelles règles s'appliquent à partir du 1er mars 2026 — n'attendez pas trop longtemps. <link>Demandez votre devis gratuit aujourd'hui</link> et nous vous guidons dans toutes les démarches à Sint-Katelijne-Waver.</p>"
+        }
       }
     }
   }

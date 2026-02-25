@@ -9,7 +9,7 @@ export default function Footer() {
   const t = useTranslations("footer");
   return (
     <footer>
-      <div className="container w-[80%] mx-auto flex flex-col gap-y-10 py-10">
+      <div className="container w-[85%] mx-auto flex flex-col gap-y-10 py-10">
         <div className="flex flex-row items-center gap-2 justify-between">
           {/* icon & text  */}
           <div className="flex flex-col items-center md:items-start gap-y-2">
@@ -229,9 +229,6 @@ export default function Footer() {
             target="_blank"
           >
             Doon Digital
-          </a>
-          <a className="opacity-0" href="https://seojuice.com">
-            SEOJuice
           </a>
         </p>
       </div>
