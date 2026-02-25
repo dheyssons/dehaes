@@ -53,6 +53,21 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <html lang={locale} className="scroll-smooth">
       <head>
+        <link
+          rel="alternate"
+          hrefLang="nl"
+          href="https://schrijnwerkerij-dehaes.be/nl/"
+        />
+        <link
+          rel="alternate"
+          hrefLang="fr"
+          href="https://schrijnwerkerij-dehaes.be/fr/"
+        />
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://schrijnwerkerij-dehaes.be/nl/"
+        />
         <Script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
