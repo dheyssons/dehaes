@@ -95,7 +95,7 @@ export async function getAllSlugs() {
   const entries = await contentfulClient.getEntries<BlogArticleSkeleton>({
     content_type: "blogArticle",
     select: ["fields.slug"],
-    // no locale needed — slug is the same across all locales
+    // no locale needed — slug is the same across all locale
   });
 
   return entries.items.map((item) => item.fields.slug as string);
