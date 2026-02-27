@@ -98,18 +98,6 @@ export default async function RootLayout({ children, params }: Props) {
           name="keywords"
           content="Daktimmerwerk, dakherstelling, algemene dakwerken sint-katelijne-waver, gevelrenovatie sint-katelijne-waver, dakwerken sint-katelijne-waver, de haes, daktimmer, dakwerken sint katelijne waver, schrijnwerkers brussels, schrijnwerker sint-niklaas, dehaes, isolatiewerken sint-katelijne-waver, carpentry"
         ></meta>
-
-        <script
-          type="module"
-          defer
-          id="alttextify-js"
-          src="https://cdn3.alttextify.net/alttextify-altedge.min.js?site-key=lqztprlf69a1b336u54ulgrvamie7ng8&replace-short-alt=true"
-        ></script>
-        <noscript>
-          Please enable javascript to ensure auto{" "}
-          <a href="https://alttextify.net">alt text generation</a> works
-          properly
-        </noscript>
       </head>
 
       <meta
