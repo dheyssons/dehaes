@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: t("header_services_renovatie"),
+    title: t("renovatie_metatitle"),
     description: t("header_services_renovatie_description"),
   };
 }
@@ -40,14 +40,14 @@ export default function Renovatie() {
   ];
 
   const t = useTranslations("renovatieservice");
+
   return (
     <div className="section_gap">
       {/* main */}
       <section className="pt-32">
         <div className="py-12">
           <div>
-            {/* Título */}
-            <h1 className="h1">
+            <h1 className="h1 flex">
               <SplitText text={t("renovatie_title")} />
             </h1>
 
@@ -59,6 +59,7 @@ export default function Renovatie() {
                 <p className="p">{t("renovatie_paragraph2")}</p>
                 <p className="p">{t("renovatie_paragraph3")}</p>
                 <p className="p">{t("renovatie_paragraph4")}</p>
+
                 {/* Call-to-Action */}
                 <div className="mt-14">
                   <a className="btn max-w-max uppercase" href="/contact">
@@ -71,8 +72,7 @@ export default function Renovatie() {
               <div className="order-1 lg:order-none rounded-md max-w-lg overflow-hidden shadow-md">
                 <Image
                   src={RenovatieImage}
-                  alt="Renovatie"
-                  className=""
+                  alt={t("renovatie_image_alt")}
                   loading="eager"
                 />
               </div>
@@ -94,11 +94,10 @@ export default function Renovatie() {
                 <Decorated key={i} variant="default">
                   <details
                     key={item.q}
-                    className="rounded_default border_white overflow-hidden group"
-                    {...(i === 0 ? { open: false } : {})}
+                    className="rounded_default border_white overflow-hidden group p-2"
                   >
-                    <summary className="list-none cursor-pointer select-none p-5 flex items-center justify-between gap-4">
-                      <h3 className="h6 !text-[--primary-color]">
+                    <summary className="list-none cursor-pointer select-none flex items-center justify-between gap-4">
+                      <h3 className="h6 !text-[--primary-color] mb-2">
                         {t(item.q)}
                       </h3>
 
@@ -123,7 +122,7 @@ export default function Renovatie() {
                       </span>
                     </summary>
 
-                    <div className="px-5 pb-5">
+                    <div className="pb-5">
                       <p className="p">{t(item.a)}</p>
                     </div>
                   </details>
@@ -131,19 +130,73 @@ export default function Renovatie() {
               ))}
             </div>
           </div>
+
           <Image
             alt=""
             src={QuestionMark}
             className="order-1 lg:order-none lg:w-[34rem]"
+            aria-hidden="true"
           />
         </div>
       </section>
 
       <Whyus />
 
-      {/* <Testimonials /> */}
+      <Testimonials />
 
       <ContactForm />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Wat kost een dakrenovatie in Mechelen of Sint-Katelijne-Waver?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "De kostprijs van een dakrenovatie hangt af van de oppervlakte, het type dak en de gekozen materialen. Voor een hellend dak rekent u gemiddeld tussen €80 en €150 per m². Een plat dak in EPDM of PVC kost doorgaans €60 tot €120 per m². Wij maken altijd een gratis en vrijblijvende offerte op maat na een inspectie ter plaatse.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Wanneer is een dakrenovatie nodig?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Signalen dat uw dak aan renovatie toe is: vochtplekken op zolderplafonds, gebarsten of verschoven dakpannen, beschadigde dakgoten, een dak ouder dan 25 jaar, of zichtbaar mos en algengroei. Hoe vroeger u ingrijpt, hoe beperkter de schade en de kosten. Twijfelt u? Wij doen een gratis dakcontrole.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Hoe lang duurt een dakrenovatie?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Een gedeeltelijke dakrenovatie of herstelling duurt doorgaans 1 tot 3 dagen. Een volledige dakrenovatie van een gemiddelde woning neemt 3 tot 7 werkdagen in beslag, afhankelijk van de complexiteit en de weersomstandigheden.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Welke materialen gebruiken jullie bij dakrenovatie?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Voor hellende daken werken wij met keramische dakpannen, leien en betonpannen van A-merken. Voor platte daken bieden wij EPDM (rubber), PVC, TPO en bitumineuze dakbedekking aan.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Bieden jullie garantie op dakrenovatiewerken?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Ja. Alle dakrenovatiewerken uitgevoerd door Dakwerken De Haes zijn gedekt door een werkgarantie. Bovendien bieden de meeste materialen die wij gebruiken een fabrieksgarantie van 10 tot 20 jaar.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

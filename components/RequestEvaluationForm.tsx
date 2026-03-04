@@ -73,11 +73,11 @@ export default function RequestEvaluationForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="max-w-xl rounded-md border border-gray-200 bg-white p-6 shadow-sm space-y-6"
+      className="max-w-2xl rounded-md border border-gray-200 p-10 shadow-sm space-y-6"
     >
       {/* HEADER */}
       <div className="space-y-1">
-        <h2 className="h4 !text-[--primary-color]">{t("title")}</h2>
+        <h2 className="h3">{t("title")}</h2>
         <p className="p">{t("intro")}</p>
       </div>
 
@@ -108,6 +108,9 @@ export default function RequestEvaluationForm() {
                   </option>
                   <option value="facade">
                     {t("fields.serviceType.options.facade")}
+                  </option>
+                  <option value="greenRoof">
+                    {t("fields.serviceType.options.greenRoof")}
                   </option>
                 </select>
                 {errors.service_type && (

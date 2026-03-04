@@ -4,11 +4,17 @@ import HeroImage from "@/public/home.jpg";
 
 import ContactForm from "@/components/contactform";
 import Whyus from "@/components/whyus";
+import Testimonials from "@/components/testimonials";
 
 import Hero from "@/components/hero";
-import ExtendedAbout from "@/components/ExtendedAbout";
 import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
+
+export const metadata = {
+  title: "Dakwerken in Sint-Katelijne-Waver",
+  description:
+    "Erkend dakwerker in Sint-Katelijne-Waver gespecialiseerd in dakrenovatie, platte daken, hellende daken, gevelbekleding en zinkwerken. Vraag vrijblijvend uw offerte aan.",
+};
 
 export default function Home() {
   return (
@@ -25,13 +31,13 @@ export default function Home() {
       <div className="section_gap relative">
         <Hero />
 
-        <AboutUs />
-
         <Services />
 
         <Whyus />
 
-        <ExtendedAbout />
+        <Testimonials />
+
+        <AboutUs />
 
         <ContactForm />
       </div>

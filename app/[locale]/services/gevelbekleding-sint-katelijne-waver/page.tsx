@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: t("header_services_gevelbekleding"),
+    title: t("gevelbekleding_metatitle"),
     description: t("header_services_gevelbekleding_description"),
   };
 }

@@ -50,7 +50,8 @@
           "renovation": "Rénovation",
           "isolation": "Isolation",
           "flatRoof": "Toit plat",
-          "facade": "Façade"
+          "facade": "Façade",
+          "greenRoof": "Toit vert"
         },
         "error": "Champ obligatoire"
       },

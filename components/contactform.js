@@ -19,6 +19,7 @@ import Notification from "./notification";
 import { LuSend } from "react-icons/lu";
 
 import { useTranslations } from "next-intl";
+import RequestEvaluationForm from "./RequestEvaluationForm";
 
 export default function ContactForm() {
   const t = useTranslations("contactform");
@@ -86,119 +87,7 @@ export default function ContactForm() {
         >
           <div className="flex flex-col gap-14 lg:flex-row justify-between w-full">
             {/* FORMULAIRE */}
-            <div className="flex flex-col gap-y-14 lg:pt-10 lg:w-[40%]">
-              <div>
-                <motion.h2
-                  variants={upward}
-                  initial="variantInit"
-                  whileInView="variantAnim"
-                  viewport={{ once: true }}
-                  transition={transition1}
-                  className="h2"
-                >
-                  {t("contact_title1")}
-                </motion.h2>
-                <h2 className="h2">{t("contact_title2")}</h2>
-              </div>
-
-              <div className="flex flex-row gap-x-12 w-full justify-evenly">
-                {/* FORM */}
-                <motion.form
-                  variants={upward}
-                  initial="variantInit"
-                  whileInView="variantAnim"
-                  viewport={{ once: true }}
-                  transition={transition1_s}
-                  onSubmit={handleSubmit}
-                  className="w-full flex flex-col"
-                >
-                  <motion.div
-                    variants={item}
-                    className="relative z-0 w-full mb-5 group"
-                  >
-                    <input
-                      type="text"
-                      onBlur={(e) => handleChange(e)}
-                      name="name"
-                      id="name"
-                      className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
-                      placeholder=" "
-                      required
-                    />
-                    <label
-                      htmlFor="name"
-                      className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                    >
-                      {t("form_name_label")}
-                    </label>
-                  </motion.div>
-                  <motion.div
-                    variants={item}
-                    className="relative z-0 w-full mb-5 group"
-                  >
-                    <input
-                      type="email"
-                      onBlur={(e) => handleChange(e)}
-                      name="email"
-                      id="email"
-                      className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
-                      placeholder=" "
-                      required
-                    />
-                    <label
-                      htmlFor="email"
-                      className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                    >
-                      {t("form_email_label")}
-                    </label>
-                  </motion.div>
-                  <motion.div
-                    variants={item}
-                    className="relative z-0 w-full mb-5 group"
-                  >
-                    <input
-                      type="text"
-                      onBlur={(e) => handleChange(e)}
-                      name="subject"
-                      id="subject"
-                      className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
-                      placeholder=" "
-                      required
-                    />
-                    <label
-                      htmlFor="subject"
-                      className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                    >
-                      {t("form_subject_label")}
-                    </label>
-                  </motion.div>
-                  <motion.div variants={item} className="grid md:gap-6 w-full">
-                    <div className="relative z-0 w-full mb-5 group">
-                      <textarea
-                        type="message"
-                        onBlur={(e) => handleChange(e)}
-                        rows="8"
-                        name="message"
-                        id="message"
-                        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-500 appearance-none focus:outline-none focus:ring-0 focus:border-gray-900 peer"
-                        placeholder=" "
-                        required
-                      ></textarea>
-                      <label
-                        htmlFor="message"
-                        className="peer-focus:font-medium absolute text-sm text-gray-700 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                      >
-                        {t("form_message_label")}
-                      </label>
-                    </div>
-                  </motion.div>
-                  <button type="submit" className="btn self-start uppercase">
-                    {t("form_submit_button")}
-                    <LuSend className="ml-2" />
-                  </button>
-                </motion.form>
-              </div>
-            </div>
+            <RequestEvaluationForm />
 
             {/* OTHER INFOS */}
             <motion.div
@@ -207,7 +96,7 @@ export default function ContactForm() {
               whileInView="variantAnim"
               viewport={{ once: true }}
               transition={transition1}
-              className="flex flex-col gap-y-16 lg:px-24 py-10 border-[1px] border-black/20 shadow-sm lg:rounded-md"
+              className="flex flex-col gap-y-16 lg:px-24 py-10 border-[1px] border-gray-200  shadow-sm lg:rounded-md"
             >
               <div className="flex flex-col justify-center items-start px-8">
                 <h2 className="h3">{t("contact_info_title")}</h2>

@@ -50,7 +50,11 @@ export default function Header() {
         >
           {/* LOGO */}
           <motion.a variants={dropdown} href="/" className="">
-            <img alt="home" src={config.companyIconPath} className="w-28" />
+            <img
+              alt="Dakwerken de Haes logo"
+              src={config.companyIconPath}
+              className="w-28"
+            />
           </motion.a>
           {/* INFO */}
           <motion.div variants={dropdown} className="flex flex-col">
@@ -84,16 +88,16 @@ export default function Header() {
           className="hidden lg:flex"
         >
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
-            <menu className="hidden lg:flex lg:gap-x-12 items-center">
+            <menu className="hidden lg:flex lg:gap-x-8 items-center">
               <li>
-                <a href="/" title="Accueil" className="p">
+                <a href="/" title="Accueil" className="a">
                   {t("header_home")}
                 </a>
               </li>
 
               {/* ABOUT US */}
               <li>
-                <a href="/about" title="Wie zijn we" className="p">
+                <a href="/about" title="Wie zijn we" className="a">
                   {t("header_about")}
                 </a>
               </li>
@@ -101,7 +105,7 @@ export default function Header() {
               <div>
                 <Popover className="relative">
                   <motion.div>
-                    <PopoverButton className="flex items-center gap-x-1 p">
+                    <PopoverButton className="flex items-center gap-x-1 a">
                       {t("header_services")}
                       <ChevronDownIcon
                         aria-hidden="true"
@@ -112,11 +116,11 @@ export default function Header() {
 
                   <PopoverPanel
                     transition
-                    className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                    className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
                   >
                     <div className="p-4">
                       {/* plattedaken */}
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6">
+                      <div className="group relative flex items-center gap-x-6 rounded-md p-4 text-md/6">
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
@@ -128,7 +132,7 @@ export default function Header() {
                         </div>
                       </div>
                       {/* daktimmer */}
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6">
+                      <div className="group relative flex items-center gap-x-6 rounded-md p-4 text-md/6">
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
@@ -140,7 +144,7 @@ export default function Header() {
                         </div>
                       </div>
                       {/* groendaken */}
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6">
+                      <div className="group relative flex items-center gap-x-6 rounded-md p-4 text-md/6">
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
@@ -152,7 +156,7 @@ export default function Header() {
                         </div>
                       </div>
                       {/* gevelbekleding */}
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6">
+                      <div className="group relative flex items-center gap-x-6 rounded-md p-4 text-md/6">
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
@@ -164,7 +168,7 @@ export default function Header() {
                         </div>
                       </div>
                       {/* isolatie */}
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6">
+                      <div className="group relative flex items-center gap-x-6 rounded-md p-4 text-md/6">
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
@@ -176,7 +180,7 @@ export default function Header() {
                         </div>
                       </div>
                       {/* renovatie */}
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6">
+                      <div className="group relative flex items-center gap-x-6 rounded-md p-4 text-md/6">
                         <div className="flex-auto">
                           <a
                             className="block hover:text-[--primary-color]"
@@ -220,12 +224,14 @@ export default function Header() {
 
               {/* PORTFOLIO */}
               <li>
-                <a title="Projecten" href="/portfolio" className="p">
+                <a title="Projecten" href="/portfolio" className="a">
                   {t("header_portfolio")}
                 </a>
               </li>
+
+              {/* ARTICLES */}
               <li>
-                <a title="Articles" href="/blog" className="p">
+                <a title="Articles" href="/blog" className="a">
                   {t("header_articles")}
                 </a>
               </li>
@@ -275,13 +281,13 @@ export default function Header() {
                 <a
                   title="home"
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   {t("header_home")}
                 </a>
 
                 <Disclosure as="div" className="-mx-3">
-                  <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                  <DisclosureButton className="group flex w-full items-center justify-between rounded-md py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     {t("header_services")}
                     <ChevronDownIcon
                       aria-hidden="true"
@@ -293,7 +299,7 @@ export default function Header() {
                     <DisclosureButton
                       as="a"
                       href="/services/platdak-sint-katelijne-waver"
-                      className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block rounded-md py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
                         {t("header_services_plattedaken")}
@@ -303,7 +309,7 @@ export default function Header() {
                     <DisclosureButton
                       as="a"
                       href="/services/dakrenovatie-sint-katelijne-waver"
-                      className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block rounded-md py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
                         {t("header_services_renovatie")}
@@ -313,7 +319,7 @@ export default function Header() {
                     <DisclosureButton
                       as="a"
                       href="/services/isolatie-sint-katelijne-waver"
-                      className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block rounded-md py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
                         {t("header_services_isolatie")}
@@ -323,7 +329,7 @@ export default function Header() {
                     <DisclosureButton
                       as="a"
                       href="/services/groendak-sint-katelijne-waver"
-                      className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block rounded-md py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
                         {t("header_services_groendaken")}
@@ -333,7 +339,7 @@ export default function Header() {
                     <DisclosureButton
                       as="a"
                       href="/services/gevelbekleding-sint-katelijne-waver"
-                      className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block rounded-md py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
                         {t("header_services_gevelbekleding")}
@@ -343,7 +349,7 @@ export default function Header() {
                     <DisclosureButton
                       as="a"
                       href="/services/daktimmer-sint-katelijne-waver"
-                      className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block rounded-md py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       <div className="flex flex-row gap-x-2">
                         {t("header_services_daktimmer")}
@@ -354,28 +360,28 @@ export default function Header() {
                 <a
                   title="aboutus"
                   href="/about"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   {t("header_about")}
                 </a>
                 <a
                   title="portfolio"
                   href="/portfolio"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   {t("header_portfolio")}
                 </a>
                 <a
                   title="articles"
                   href="/blog"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   {t("header_articles")}
                 </a>
                 <a
                   title="contact"
                   href="/contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   {t("header_contact")}
                 </a>

@@ -1,5 +1,9 @@
 "use client";
 
+import Image from "next/image";
+import FranceFlagImage from "@/public/icons/france.png";
+import NetherlandsFlagImage from "@/public/icons/netherlands.png";
+
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
@@ -7,8 +11,8 @@ import { FaChevronDown } from "react-icons/fa";
 const locales = ["nl", "fr"] as const;
 
 const labels: Record<(typeof locales)[number], string> = {
-  nl: "Nederlands",
-  fr: "Français",
+  nl: "NL",
+  fr: "FR",
 };
 
 export default function LanguageSwitcher() {
@@ -41,7 +45,18 @@ export default function LanguageSwitcher() {
           hover:border-white/20
         "
       >
-        <span>{labels[currentLocale]}</span>
+        <span className="flex gap-x-2">
+          {currentLocale == "fr" ? (
+            <Image src={FranceFlagImage} width={16} alt="France flag" />
+          ) : (
+            <Image
+              src={NetherlandsFlagImage}
+              width={16}
+              alt="Netherlands flag"
+            />
+          )}
+          {labels[currentLocale]}
+        </span>
         <FaChevronDown
           className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`}
         />
@@ -54,7 +69,7 @@ export default function LanguageSwitcher() {
             absolute z-50 mt-2 w-full
             overflow-hidden-md
             border border-white/10
-            bg-[--primary-color]
+            bg-white
             rounded-md
           "
         >
@@ -63,15 +78,25 @@ export default function LanguageSwitcher() {
               key={locale}
               onClick={() => handleChange(locale)}
               className={`
-                w-full px-4 py-3 text-left text-sm
+                w-full px-8 py-3 text-left text-sm
+                flex gap-x-2
                 transition
                 ${
                   locale === currentLocale
-                    ? "bg-white/5 text-white"
-                    : "text-white/90 hover:bg-white/5"
+                    ? "bg-white/5 text-black"
+                    : "text-black/90 hover:bg-white/5"
                 }
               `}
             >
+              {locale === "fr" ? (
+                <Image src={FranceFlagImage} width={16} alt="France flag" />
+              ) : (
+                <Image
+                  src={NetherlandsFlagImage}
+                  width={16}
+                  alt="Netherlands flag"
+                />
+              )}
               {labels[locale]}
             </button>
           ))}

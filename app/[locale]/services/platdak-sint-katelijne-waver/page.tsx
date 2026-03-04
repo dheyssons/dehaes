@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: t("header_services_plattedaken"),
+    title: t("plattedaken_metatitle"),
     description: t("header_services_plattedaken_description"),
   };
 }
@@ -264,7 +264,7 @@ export default function Platdak() {
 
       <Whyus />
 
-      {/* <Testimonials /> */}
+      <Testimonials />
 
       <ContactForm />
     </div>

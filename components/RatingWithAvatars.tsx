@@ -20,7 +20,7 @@ function Star({ filled }: { filled: boolean }) {
       aria-hidden="true"
       fill={filled ? "currentColor" : "none"}
       stroke="currentColor"
-      strokeWidth="1.8"
+      strokeWidth="1.2"
     >
       <path
         strokeLinecap="round"
@@ -40,7 +40,7 @@ function AvatarCircle({ a, i }: { a: Avatar; i: number }) {
           alt={a.alt ?? `Avatar ${i + 1}`}
           fill
           className="object-cover"
-          sizes="48px"
+          sizes="36px"
           priority={i === 0}
         />
       ) : (
@@ -84,9 +84,9 @@ export default function RatingWithAvatars({
       target="_blank"
       rel="noopener"
     >
-      <div className={`flex items-center gap-4 ${className}`}>
+      <div className={`flex items-center gap-2 ${className}`}>
         {/* Avatares sobrepostos */}
-        <div className="flex -space-x-3">
+        <div className="flex -space-x-4">
           {avatars.slice(0, maxAvatars).map((a, i) => (
             <AvatarCircle key={i} a={a} i={i} />
           ))}

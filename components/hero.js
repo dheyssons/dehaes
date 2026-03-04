@@ -2,8 +2,6 @@
 
 // NEXT
 import Image from "next/image";
-
-// IMAGES
 import HeroImage from "@/public/home.jpg";
 
 // ICONS
@@ -14,8 +12,6 @@ import { motion } from "framer-motion";
 import { upward } from "@/public/variants/upward";
 import { item } from "@/public/variants/item";
 import { transition1_s } from "@/public/transitions/transition1_s";
-
-import RequestEvaluationForm from "@/components/RequestEvaluationForm";
 
 import { useTranslations } from "next-intl";
 
@@ -40,13 +36,15 @@ export default function Hero() {
 
   return (
     <div className="w-screen">
+      <JsonLd data={jsonLdData} />
+
       <section className="relative h-screen">
         {/* BACKGROUND IMAGE */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent" />
           <Image
             src={HeroImage}
-            alt=""
+            alt="Dakwerker in Sint-Katelijne-Waver plaatst keramische dakpannen op hellend dak"
             priority
             fill
             className="object-contain"
@@ -54,7 +52,7 @@ export default function Hero() {
         </div>
 
         {/* CONTENT */}
-        <div className="w-full flex flex-row items-center justify-between h-full lg:h-auto">
+        <div className="w-full flex flex-row items-center h-full">
           <motion.div
             variants={upward}
             initial="variantInit"
@@ -65,24 +63,22 @@ export default function Hero() {
           >
             {/* TITLE */}
             <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <div className="accent !bg-white" />
-                <p className="body !text-white">{t("eyebrow")}</p>
+              <div className="mt-5 inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-neutral-50 px-4 py-1.5 text-sm font-medium text-neutral-700">
+                <span className="h-1.5 w-1.5 rounded-full bg-[--primary-color]" />
+                {t("brands_badge")}
               </div>
 
-              <motion.h1 variants={item} className="display-large !text-white">
+              <motion.h1 variants={item} className="h1 !text-white">
                 {t("title")}
               </motion.h1>
 
               <motion.p variants={item} className="p text-white max-w-2xl">
                 {t("description")}
               </motion.p>
-
-              <JsonLd data={jsonLdData} />
             </div>
 
             {/* CTA */}
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-6">
               <div className="flex flex-col md:flex-row gap-3">
                 <a href="/contact" className="btn self-start uppercase">
                   {t("cta.contact")}
@@ -120,10 +116,6 @@ export default function Hero() {
               />
             </div>
           </motion.div>
-
-          <div className="hidden lg:block mt-20">
-            <RequestEvaluationForm />
-          </div>
         </div>
 
         {/* SCROLL INDICATOR */}
@@ -148,10 +140,6 @@ export default function Hero() {
           </svg>
         </a>
       </section>
-
-      <div className="w-[90%] mx-auto flex flex-col items-center justify-center lg:hidden mt-[--space-section]">
-        <RequestEvaluationForm />
-      </div>
     </div>
   );
 }

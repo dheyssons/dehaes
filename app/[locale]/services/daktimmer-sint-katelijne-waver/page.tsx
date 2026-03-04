@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: t("header_services_daktimmer"),
+    title: t("daktimmer_metatitle"),
     description: t("header_services_daktimmer_description"),
   };
 }

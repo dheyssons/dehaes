@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #0e507c;
+  --primary-color: #0455bf;
 }
 html {
   @apply overflow-x-hidden;
@@ -55,7 +55,7 @@ a {
 }
 
 .a {
-  @apply text-[#000000] text-[1.4rem];
+  @apply text-[1rem] opacity-85 tracking-[0.04em] hover:opacity-50 transition-opacity ease-in-out duration-300;
 }
 .accent {
   @apply bg-[--primary-color] w-4 h-px mx-2;
@@ -69,16 +69,16 @@ a {
 }
 
 .btn {
-  @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center text-[0.875rem] text-white rounded-md transition-all duration-500 bg-[--primary-color];
+  @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center text-[0.875rem] text-white rounded-sm transition-all duration-500 bg-[--primary-color];
 }
 .btn:hover {
-  @apply bg-[#064b6d] text-white;
+  @apply bg-[#034ba8] text-white;
 }
 .btn-secondary {
-  @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center text-[0.875rem] text-[#121212] rounded-md transition-all duration-500 bg-white;
+  @apply py-[0.625rem] px-[1.25rem] min-w-52 flex items-center justify-center text-[0.875rem] text-[#121212] rounded-sm transition-all duration-500 bg-white;
 }
 .btn-secondary:hover {
-  @apply bg-[#064b6d] text-white;
+  @apply bg-[--primary-color] text-white;
 }
 
 .btn-ghost {

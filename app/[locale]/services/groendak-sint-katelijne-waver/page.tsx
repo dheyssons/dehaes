@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: t("header_services_groendaken"),
+    title: t("groendaken_metatitle"),
     description: t("header_services_groendaken_description"),
   };
 }

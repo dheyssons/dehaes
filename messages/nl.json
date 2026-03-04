@@ -17,19 +17,26 @@
     "header_services_isolatie": "Isolatie",
     "header_services_isolatie_description": "Hoogwaardige dakisolatie verbetert de energie-efficiëntie en het wooncomfort het hele jaar door. Met kwaliteitsmaterialen zorgen wij voor minder warmteverlies, lagere energiekosten en een duurzame oplossing voor zowel nieuwbouw als renovatie.",
     "header_services_renovatie": "Dakrenovatie",
-    "header_services_renovatie_description": "Professionele renovaties die waarde, energie-efficiëntie en uitstraling verbeteren. Met vakmanschap, duurzame materialen en maatwerkoplossingen geven wij woningen en bedrijfspanden een kwalitatieve en toekomstgerichte vernieuwing.",
+    "header_services_renovatie_description": "Professionele dakrenovatie in Sint-Katelijne-Waver, Mechelen en omgeving. Erkend dakwerker met 100+ projecten. Vraag gratis offerte aan — snel ter plaatse.",
     "header_portfolio": "Projecten",
     "header_portfolio_description": "Een greep uit onze projecten",
     "header_contact": "Contact",
     "header_facebook": "Bezoek onze Facebook",
-    "header_quote": "Vraag een offerte aan"
+    "header_quote": "Vraag een offerte aan",
+    "renovatie_metatitle": "Dakrenovatie Sint-Katelijne-Waver & Mechelen",
+    "plattedaken_metatitle": "Plat dak in Sint-Katelijne-Waver, Mechelen en omgeving",
+    "isolatie_metatitle": "Dakisolatie in Sint-Katelijne-Waver, Mechelen en omgeving",
+    "groendaken_metatitle": "Groendak in Sint-Katelijne-Waver, Mechelen en omgeving",
+    "gevelbekleding_metatitle": "Gevelbekleding in Sint-Katelijne-Waver, Mechelen en omgeving",
+    "daktimmer_metatitle": "Daktimmer in Sint-Katelijne-Waver, Mechelen en omgeving"
   },
   "hero": {
-    "eyebrow": "algemene dakwerken",
-    "title": "Dakwerken De Haes",
-    "description": "Traditie en kwaliteit die generaties overstijgen, met vakkundige dakwerken in Sint-Katelijne-Waver en omgeving zoals Mechelen, Lier en Bornem.",
+    "brands_badge": "Officieel erkend · Klasse 3D5 · nr. 32342",
+
+    "title": "Dakwerken in Sint-Katelijne-Waver",
+    "description": "Specialist in dakrenovatie, platte en hellende daken in Sint-Katelijne-Waver en regio Mechelen.",
     "cta": {
-      "contact": "Contact opnemen",
+      "contact": "Offerte aanvragen",
       "services": "Onze diensten"
     },
     "scroll": {
@@ -50,7 +57,8 @@
           "renovation": "Renovatie",
           "isolation": "Isolatie",
           "flatRoof": "Plat dak",
-          "facade": "Gevel"
+          "facade": "Gevel",
+          "greenRoof": "Groendak"
         },
         "error": "Verplicht veld"
       },
@@ -120,31 +128,37 @@
 
     "daktimmer": {
       "title": "Daktimmer",
+      "alt": "houten dakspanten met metalen verbindingsplaten daktimmerwerk Sint-Katelijne-Waver regio Mechelen",
       "description": "Daktimmers vormen de ruggengraat van een stevig en goed gebouwd dak. Met meer dan een eeuw ervaring werken wij met hoogwaardige houtsoorten en verfijnde technieken om duurzaamheid, veiligheid en een onberispelijke afwerking te garanderen, zowel bij nieuwbouw als renovaties."
     },
 
     "gevelbekleding": {
       "title": "Gevelbekleding",
+      "alt": "gevelbekleding in hout Sint-Katelijne-Waver regio Mechelen",
       "description": "Gevelbekleding zorgt voor de esthetische uitstraling en bescherming van uw gebouw. Wij bieden een breed scala aan gevelbekledingdiensten, van installatie tot renovatie, met materialen die zowel visueel aantrekkelijk als functioneel zijn."
     },
 
-    "plattedaken": {
+    "platdak": {
       "title": "Plat dak",
+      "alt": "afgewerkt EPDM plat dak met aluminium randafwerking dakwerken Sint-Katelijne-Waver regio Mechelen",
       "description": "Platte daken bieden efficiëntie en functionaliteit voor diverse projecten en excelleren in waterdichting en isolatie."
     },
 
     "isolatie": {
       "title": "Isolatie",
+      "alt": "vakman plaatst glaswol isolatie in binnenwand isolatiewerken Sint-Katelijne-Waver regio Mechelen",
       "description": "Wij bieden thermische isolatie-oplossingen voor daken die zorgen voor meer comfort en een aanzienlijke vermindering van energiekosten."
     },
 
-    "renovatie": {
+    "dakrenovatie": {
       "title": "Dakrenovatie",
+      "alt": "dakwerker plaatst dakpannen tijdens dakrenovatie op steiger Sint-Katelijne-Waver regio Mechelen",
       "description": "Renovatie is een essentiële stap om uw gebouwen en ruimtes te verbeteren, moderniseren of herstellen."
     },
 
-    "groendaken": {
+    "groendak": {
       "title": "Groendak",
+      "alt": "groendak met begroeiing en daklichten op plat dak van gebouw Sint-Katelijne-Waver regio Mechelen",
       "description": "Groendaken zijn een innovatieve en duurzame oplossing voor zowel residentiële als commerciële gebouwen."
     }
   },
@@ -262,6 +276,7 @@
   },
   "gevelbekledingservice": {
     "gevelbekleding_title": "Gevelbekleding",
+
     "gevelbekleding_paragraph1": "De gevel van een gebouw speelt een cruciale rol in zowel het uiterlijk als de bescherming tegen externe factoren. Bij Dakwerken De Haes specialiseren wij ons in het aanbrengen van gevelbekleding die niet alleen de esthetiek van uw woning of bedrijfspand verbetert, maar ook een sterke barrière biedt tegen de elementen.",
     "gevelbekleding_paragraph2": "We bieden een uitgebreide keuze aan materialen voor gevelbekleding, zoals hout, composiet en metalen panelen, afhankelijk van uw voorkeur en de vereisten van het gebouw. Of het nu gaat om het creëren van een moderne uitstraling of het behouden van een traditioneel karakter, wij zorgen voor een perfecte afwerking die bij de stijl van uw pand past.",
     "gevelbekleding_paragraph3": "Onze gevelbekleding zorgt voor uitstekende isolatie, bescherming tegen regen, wind en zon, en biedt een lange levensduur. We werken nauw samen met u om te zorgen dat uw gevel niet alleen functioneel is, maar ook visueel aantrekkelijk en duurzaam blijft, ongeacht de weersomstandigheden.",
@@ -279,6 +294,7 @@
   },
   "groendakenservice": {
     "groendaken_title": "Groendak",
+
     "groendaken_paragraph1": "Een groendak biedt niet alleen een esthetische meerwaarde maar ook tal van functionele voordelen. Dankzij de natuurlijke isolatiecapaciteiten van planten helpt het de binnentemperatuur te reguleren, waardoor de behoefte aan verwarming en koeling wordt verminderd. Dit kan leiden tot lagere energiekosten en een verhoogd thermisch comfort gedurende het hele jaar.",
     "groendaken_paragraph2": "Bovendien absorberen groendaken regenwater, waardoor ze bijdragen aan een betere waterhuishouding en de druk op het rioolstelsel verminderen. Ze filteren ook vervuilende stoffen uit de lucht en bevorderen de biodiversiteit door een leefomgeving te creëren voor vogels en insecten.",
     "groendaken_paragraph3": "Of het nu gaat om een nieuwbouwproject of de renovatie van een bestaand dak, wij zorgen voor een professionele installatie met hoogwaardige materialen. Met een groendak investeert u in een duurzamer, energiezuiniger en gezonder leefklimaat.",
@@ -292,7 +308,8 @@
     "groendaken_faq_answer3": "De kosten variëren afhankelijk van de grootte en complexiteit van het project. Neem contact op voor een vrijblijvende offerte."
   },
   "isolatieservice": {
-    "isolatie_title": "Isolatie",
+    "isolatie_title": "Dakisolatie",
+
     "isolatie_paragraph1": "De juiste isolatie van uw dak is essentieel om de energie-efficiëntie te optimaliseren en het hele jaar door een comfortabele omgeving te garanderen. We gebruiken alleen materialen van hoge kwaliteit, zoals minerale wol en ecologische opties, om de beste bescherming tegen klimaatveranderingen te bieden, waardoor warmteverlies in de winter wordt voorkomen en de ruimte in de zomer koel blijft.",
     "isolatie_paragraph2": "Naast het comfort kan de installatie van een goede isolatie aanzienlijke besparingen opleveren op uw energiekosten, waardoor het een investering is die zichzelf in de loop van de tijd terugbetaalt. Deze service is ideaal voor zowel nieuwbouwprojecten als renovaties, en ons gespecialiseerde team zorgt voor een snelle, efficiënte installatie met uitstekende afwerking.",
     "isolatie_paragraph3": "Met onze toewijding aan kwaliteit en efficiëntie, zorgt u voor een dak dat de ideale temperatuur behoudt in elk seizoen, wat resulteert in een duurzamer en economischer huis.",
@@ -311,6 +328,7 @@
   },
   "plattedakenservice": {
     "plattedaken_title": "Plat dak",
+
     "plattedaken_paragraph1": "Platte daken zijn ideaal voor wie op zoek is naar een eenvoudig en functioneel ontwerp. Bij dit type dak wordt de isolatie direct op de ondergrond aangebracht en bedekt met een waterdicht membraan, wat zorgt voor een hoge weerstand tegen water en extreme temperaturen.",
     "plattedaken_paragraph2": "Een belangrijk aandachtspunt is de afwatering van regenwater. Om lekkage te voorkomen, zorgen wij voor een subtiele helling die met het blote oog niet zichtbaar is en installeren we geschikte waterafvoeren om het snel naar de afvoer en goten te leiden.",
     "plattedaken_paragraph3": "Wij bieden twee dakbedekkingsopties: EPDM, een synthetisch rubber dat bestand is tegen UV-straling, en bitumen dakbedekking, met een levensduur van meer dan 30 jaar. Beide zijn ideaal om een duurzaam dak te garanderen dat goed beschermd is tegen de weersomstandigheden.",
@@ -330,22 +348,23 @@
   },
   "renovatieservice": {
     "renovatie_title": "Dakrenovatie",
-    "renovatie_paragraph1": "Een goed uitgevoerde renovatie kan de waarde, energie-efficiëntie en functionaliteit van een gebouw aanzienlijk verbeteren. Bij Dakwerken De Haes combineren we traditioneel vakmanschap met moderne technieken om uw woning of bedrijfspand nieuw leven in te blazen.",
-    "renovatie_paragraph2": "Onze renovatiediensten omvatten zowel structurele aanpassingen als esthetische vernieuwingen. We verzorgen alles, van dakrenovaties en gevelherstel tot interieurverbeteringen en houtwerkrestauratie. Of het nu gaat om het behoud van een historisch pand of het moderniseren van een bestaande constructie, wij zorgen voor een resultaat dat zowel functioneel als visueel aantrekkelijk is.",
-    "renovatie_paragraph3": "Door het gebruik van duurzame materialen en energie-efficiënte oplossingen garanderen we een renovatie die niet alleen de levensduur van het gebouw verlengt, maar ook bijdraagt aan comfort en besparingen op energiekosten. We werken nauw samen met onze klanten om op maat gemaakte oplossingen te bieden die aansluiten bij hun wensen en budget.",
-    "renovatie_paragraph4": "Met onze expertise en toewijding aan kwaliteit bent u verzekerd van een renovatie die zowel esthetisch als structureel uitmuntend is.",
-    "renovatie_cta": "offerte aanvragen",
-    "renovatie_faq_title": "Veelgestelde Vragen over Renovatie",
-    "renovatie_faq_question1": "Wat zijn de voordelen van een renovatie?",
-    "renovatie_faq_answer1": "Een renovatie kan de waarde, energie-efficiëntie en functionaliteit van een gebouw aanzienlijk verbeteren. Het brengt nieuw leven in uw woning of bedrijfspand.",
-    "renovatie_faq_question2": "Welke diensten biedt u aan bij een renovatie?",
-    "renovatie_faq_answer2": "Onze renovatiediensten omvatten structurele aanpassingen, esthetische vernieuwingen, dakrenovaties, gevelherstel, interieurverbeteringen en houtwerkrestauratie.",
-    "renovatie_faq_question3": "Kunt u ook historische panden renoveren?",
-    "renovatie_faq_answer3": "Ja, wij hebben ervaring met het behoud en de renovatie van historische panden, waarbij we traditioneel vakmanschap combineren met moderne technieken.",
-    "renovatie_faq_question4": "Hoe draagt een renovatie bij aan energie-efficiëntie?",
-    "renovatie_faq_answer4": "Door het gebruik van duurzame materialen en energie-efficiënte oplossingen verbeteren we de isolatie en verminderen we de energiekosten.",
-    "renovatie_faq_question5": "Waarom kiezen voor Dakwerken De Haes?",
-    "renovatie_faq_answer5": "Met onze expertise en toewijding aan kwaliteit bent u verzekerd van een renovatie die zowel esthetisch als structureel uitmuntend is."
+    "renovatie_paragraph1": "Een verouderd of beschadigd dak is meer dan een esthetisch probleem — het vormt een risico voor de volledige structuur van uw woning of bedrijfspand. Bij Dakwerken De Haes verzorgen wij professionele dakrenovaties in Sint-Katelijne-Waver, Mechelen en de ruime omgeving. Met meer dan 100 afgewerkte projecten weten we precies wat uw dak nodig heeft.",
+    "renovatie_paragraph2": "Of het nu gaat om het vervangen van versleten dakpannen, het vernieuwen van de dakbedekking, het herstellen van lekkages of een volledige dakrenovatie — wij werken met kwalitatieve materialen en beproefde technieken. We renoveren zowel hellende daken als platte daken, in bitumen, EPDM, PVC of andere moderne dakbedekkingen.",
+    "renovatie_paragraph3": "Wij zijn actief in de regio Mechelen, Antwerpen en de gemeenten rondom Sint-Katelijne-Waver, waaronder Duffel, Lier, Bonheiden en Putte. Onze dakspecialisten komen snel ter plaatse voor een vrijblijvende inspectie en een gedetailleerde offerte op maat.",
+    "renovatie_paragraph4": "Kies voor zekerheid: Dakwerken De Haes werkt uitsluitend met erkende vaklieden en biedt garantie op alle uitgevoerde dakrenovatiewerken. Van kleine herstellingen tot volledige dakrenovaties — we zorgen ervoor dat uw dak weer jaren meegaat.",
+    "renovatie_cta": "Offerte aanvragen",
+    "renovatie_image_alt": "Dakrenovatie uitgevoerd door Dakwerken De Haes in Sint-Katelijne-Waver",
+    "renovatie_faq_title": "Veelgestelde vragen over dakrenovatie",
+    "renovatie_faq_question1": "Wat kost een dakrenovatie in Mechelen of Sint-Katelijne-Waver?",
+    "renovatie_faq_answer1": "De kostprijs van een dakrenovatie hangt af van de oppervlakte, het type dak en de gekozen materialen. Voor een hellend dak rekent u gemiddeld tussen €80 en €150 per m². Een plat dak in EPDM of PVC kost doorgaans €60 tot €120 per m². Wij maken altijd een gratis en vrijblijvende offerte op maat na een inspectie ter plaatse.",
+    "renovatie_faq_question2": "Wanneer is een dakrenovatie nodig?",
+    "renovatie_faq_answer2": "Signalen dat uw dak aan renovatie toe is: vochtplekken op zolderplafonds, gebarsten of verschoven dakpannen, beschadigde dakgoten, een dak ouder dan 25 jaar, of zichtbaar mos en algengroei. Hoe vroeger u ingrijpt, hoe beperkter de schade en de kosten. Twijfelt u? Wij doen een gratis dakcontrole.",
+    "renovatie_faq_question3": "Hoe lang duurt een dakrenovatie?",
+    "renovatie_faq_answer3": "Een gedeeltelijke dakrenovatie of herstelling duurt doorgaans 1 tot 3 dagen. Een volledige dakrenovatie van een gemiddelde woning neemt 3 tot 7 werkdagen in beslag, afhankelijk van de complexiteit en de weersomstandigheden. Wij plannen de werken zo dat u zo min mogelijk hinder ondervindt.",
+    "renovatie_faq_question4": "Welke materialen gebruiken jullie bij dakrenovatie?",
+    "renovatie_faq_answer4": "Voor hellende daken werken wij met keramische dakpannen, leien en betonpannen van A-merken. Voor platte daken bieden wij EPDM (rubber), PVC, TPO en bitumineuze dakbedekking aan. Elk materiaal heeft zijn voordelen qua prijs, levensduur en isolatie. Onze dakspecialist adviseert u graag over de beste keuze voor uw situatie.",
+    "renovatie_faq_question5": "Bieden jullie garantie op dakrenovatiewerken?",
+    "renovatie_faq_answer5": "Ja. Alle dakrenovatiewerken uitgevoerd door Dakwerken De Haes zijn gedekt door een werkgarantie. Bovendien bieden de meeste materialen die wij gebruiken een fabrieksgarantie van 10 tot 20 jaar. U bent dus volledig gedekt, zowel op het werk als op de gebruikte materialen."
   },
   "dataprotection": {
     "description": "Gegevensbescherming",

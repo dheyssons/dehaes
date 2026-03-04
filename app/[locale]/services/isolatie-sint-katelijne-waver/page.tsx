@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 
   return {
-    title: t("header_services_isolatie"),
+    title: t("isolatie_metatitle"),
     description: t("header_services_isolatie_description"),
   };
 }
